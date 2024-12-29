@@ -7,18 +7,527 @@
 	id: "5F90DDF43BAE564C"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["0DC64B82C71F8FB1"]
-		id: "5268EF69DB9A3298"
-		shape: "hexagon"
-		size: 1.5d
-		tasks: [{
-			id: "36F4F30579B76E39"
-			title: "The next Step"
-			type: "checkmark"
-		}]
-		x: -5.0d
-		y: -0.5d
-	}]
+	quests: [
+		{
+			dependencies: ["0DC64B82C71F8FB1"]
+			id: "5268EF69DB9A3298"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "36F4F30579B76E39"
+				title: "The next Step"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5268EF69DB9A3298"]
+			id: "30747A8C69D4B633"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3F2869E96597F0B2"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "3A92A416ACD0ED29"
+					item: { Count: 27, id: "mekanism:thermal_evaporation_block" }
+					type: "item"
+				}
+			]
+			title: "Thermal Evaporation Plant"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30747A8C69D4B633"]
+			id: "01569E744CDE608E"
+			tasks: [{
+				id: "6C84F2AD9A25AA4E"
+				title: "Lithium"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01569E744CDE608E"]
+			id: "1D163DA6A4BCB734"
+			tasks: [{
+				id: "422B74943AFB868F"
+				item: "mekanism:dust_lithium"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1D163DA6A4BCB734"]
+			id: "61FD2FD5F126C2CF"
+			shape: "hexagon"
+			tasks: [{
+				id: "6568DA8AC352B30A"
+				item: "mekanism:basic_induction_provider"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1D163DA6A4BCB734"]
+			id: "336239EF18E65F92"
+			shape: "hexagon"
+			tasks: [{
+				id: "2D8C5BCE56D0557E"
+				item: "mekanism:basic_induction_cell"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"336239EF18E65F92"
+				"61FD2FD5F126C2CF"
+				"7E8B2E6B06B454F2"
+				"76B90CA550EF53FD"
+			]
+			id: "7D5D71D4AFCA190E"
+			shape: "gear"
+			tasks: [{
+				id: "2D6D0693E1F9803C"
+				title: "Induction Cell"
+				type: "checkmark"
+			}]
+			title: "Now you'll become ONE with the Cell"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1D163DA6A4BCB734"]
+			hide_dependency_lines: true
+			id: "7E8B2E6B06B454F2"
+			shape: "hexagon"
+			tasks: [{
+				id: "19F3BAD206A83039"
+				item: "mekanism:induction_casing"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1D163DA6A4BCB734"]
+			hide_dependency_lines: true
+			id: "76B90CA550EF53FD"
+			shape: "hexagon"
+			tasks: [{
+				id: "1452972ABF590B6A"
+				item: "mekanism:induction_port"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["61FD2FD5F126C2CF"]
+			hide_dependency_lines: true
+			id: "1489E6DEBF707C38"
+			shape: "hexagon"
+			tasks: [{
+				id: "7D22E8DD9971543A"
+				item: "mekanism:advanced_induction_provider"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1489E6DEBF707C38"]
+			id: "6E8C3B7786535C14"
+			shape: "hexagon"
+			tasks: [{
+				id: "4353E12BC97318C6"
+				item: "mekanism:elite_induction_provider"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6E8C3B7786535C14"]
+			id: "30C15F2A1E0C87BE"
+			shape: "hexagon"
+			tasks: [{
+				id: "3AF683E56B14526A"
+				item: "mekanism:ultimate_induction_provider"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["336239EF18E65F92"]
+			hide_dependency_lines: true
+			id: "3C364BAB402E46DC"
+			shape: "hexagon"
+			tasks: [{
+				id: "5EEC8D98C3CEF09F"
+				item: "mekanism:advanced_induction_cell"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3C364BAB402E46DC"]
+			id: "2575E51E2D876F84"
+			shape: "hexagon"
+			tasks: [{
+				id: "1BB1317CB1708E0D"
+				item: "mekanism:elite_induction_cell"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2575E51E2D876F84"]
+			id: "0A5FFE0EE19DF7C8"
+			shape: "hexagon"
+			tasks: [{
+				id: "32462CCD74DAED5F"
+				item: "mekanism:ultimate_induction_cell"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["336239EF18E65F92"]
+			id: "6B76D3203FD17E91"
+			shape: "hexagon"
+			tasks: [{
+				id: "2082FD95276EFF7C"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6B76D3203FD17E91"
+				"73C8C05F647E373A"
+			]
+			id: "64E6ED2C5E76E71B"
+			shape: "hexagon"
+			tasks: [{
+				id: "47121769BA8FDD63"
+				item: "mekanism:meka_tool"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["01569E744CDE608E"]
+			id: "724BF155D5E5D094"
+			shape: "hexagon"
+			tasks: [{
+				id: "36E3C74F763E4436"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["724BF155D5E5D094"]
+			id: "08BF696D74013030"
+			tasks: [{
+				id: "37DE2F91B6F78DA6"
+				title: "Tritium"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["234BC02207AB1BE6"]
+			id: "2994D6C9C54D18A3"
+			tasks: [{
+				id: "303EF38379CC9F5D"
+				title: "Deuterium"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30747A8C69D4B633"]
+			hide_dependency_lines: true
+			id: "234BC02207AB1BE6"
+			shape: "hexagon"
+			tasks: [{
+				id: "1BB2BBF64C1D7BBA"
+				item: "mekanism:upgrade_filter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"08BF696D74013030"
+				"2994D6C9C54D18A3"
+			]
+			id: "3CE9E2A0C38FE948"
+			tasks: [{
+				id: "608D10C492AE75C9"
+				title: "Fusion Fuel"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE9E2A0C38FE948"]
+			id: "34B73A8E99D0570C"
+			shape: "gear"
+			tasks: [{
+				id: "72EFA5BD5BB32DBA"
+				title: "DT-Fuel"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["30747A8C69D4B633"]
+			hide_dependency_lines: true
+			id: "7B94CFE673D3756E"
+			shape: "hexagon"
+			tasks: [{
+				id: "0B317DCA83B72B52"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30747A8C69D4B633"]
+			hide_dependency_lines: true
+			id: "511B38236CA44DE8"
+			shape: "hexagon"
+			tasks: [{
+				id: "6146D3A2E7EB5996"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["30747A8C69D4B633"]
+			hide_dependency_lines: true
+			id: "2FC11E9EA3362D4F"
+			shape: "hexagon"
+			tasks: [{
+				id: "238A0E9C617EAA2F"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["30747A8C69D4B633"]
+			hide_dependency_lines: true
+			id: "0E7A855E33D03D7B"
+			shape: "hexagon"
+			tasks: [{
+				id: "4940B03E3AB3020A"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["30747A8C69D4B633"]
+			hide_dependency_lines: true
+			id: "7CB90D6FB0D384AB"
+			shape: "hexagon"
+			tasks: [{
+				id: "49A60E90E7DED3AF"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0E7A855E33D03D7B"
+				"2FC11E9EA3362D4F"
+				"7B94CFE673D3756E"
+				"7CB90D6FB0D384AB"
+				"511B38236CA44DE8"
+			]
+			id: "4245635C156BBECC"
+			tasks: [{
+				id: "17D3E72034A08362"
+				title: "Fissile Fuel"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4245635C156BBECC"]
+			id: "7820A37A834A4680"
+			shape: "hexagon"
+			tasks: [{
+				id: "05D596CE8F3E70FB"
+				item: "mekanismgenerators:fission_reactor_casing"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7820A37A834A4680"]
+			id: "099F27EC7F665AFA"
+			shape: "hexagon"
+			tasks: [{
+				id: "65B38261A3804386"
+				item: "mekanismgenerators:fission_fuel_assembly"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7820A37A834A4680"]
+			id: "481997A51B2B9653"
+			shape: "hexagon"
+			tasks: [{
+				id: "7CEF043737042D66"
+				item: "mekanismgenerators:fission_reactor_logic_adapter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7820A37A834A4680"]
+			id: "19B2E34EF44853AE"
+			shape: "hexagon"
+			tasks: [{
+				id: "74304FD43F663686"
+				item: "mekanismgenerators:fission_reactor_port"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4245635C156BBECC"]
+			hide_dependency_lines: true
+			id: "1D2CB916185B6C32"
+			shape: "hexagon"
+			tasks: [{
+				id: "26D06ABA8FBBDFED"
+				item: "mekanism:radioactive_waste_barrel"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1D2CB916185B6C32"
+				"481997A51B2B9653"
+				"19B2E34EF44853AE"
+				"099F27EC7F665AFA"
+			]
+			id: "1EEC768FB70D9D35"
+			tasks: [{
+				id: "4E19B83246B044DD"
+				title: "Fission Reactor"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1EEC768FB70D9D35"
+				"0903C49878F9FA0D"
+			]
+			id: "757AFFFC9D3E1561"
+			shape: "gear"
+			tasks: [{
+				id: "5229B72DD9BB96B1"
+				title: "Fissile Energy"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			id: "0903C49878F9FA0D"
+			tasks: [{
+				id: "703EDECD4E437A94"
+				title: "Turbine"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["71CACEBA889EBDF9"]
+			hide_dependency_lines: true
+			id: "1E2904AEFB650FF5"
+			shape: "hexagon"
+			tasks: [{
+				id: "0335A7871EFE057E"
+				item: "mekanismgenerators:electromagnetic_coil"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["71CACEBA889EBDF9"]
+			id: "7FC040FC4CBBBA02"
+			shape: "hexagon"
+			tasks: [{
+				id: "74E0067A3C1E627E"
+				item: "mekanismgenerators:turbine_vent"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5268EF69DB9A3298"]
+			hide_dependency_lines: true
+			id: "71CACEBA889EBDF9"
+			shape: "hexagon"
+			tasks: [{
+				id: "1723973C93107454"
+				item: "mekanismgenerators:turbine_casing"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.5d
+		}
+	]
 	title: "Mekanism: NEXT GENERATIONS"
 }
