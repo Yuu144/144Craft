@@ -1,0 +1,62 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": []
+  },
+  "crafting_items": {
+    "main": {
+      "item": "cataclysm:witherite_ingot"
+    }
+  },
+  "name": {
+    "translate": "Witherite"
+  },
+  "stats": {
+    "main": {
+      "durability": 750.0,
+      "melee_damage": 6.0,
+      "attack_speed": 0.2
+    },
+    "tip": {
+    }
+  },
+  "traits": {
+    "main": [
+
+    ],
+    "rod": [
+
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#554945"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_hc",
+        "color": "#554945"
+      }
+    ],
+
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#554945"
+      }
+    ]
+  }
+}

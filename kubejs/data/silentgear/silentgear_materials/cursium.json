@@ -1,0 +1,68 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": []
+  },
+  "crafting_items": {
+    "main": {
+      "item": "cataclysm:cursium_ingot"
+    }
+  },
+  "name": {
+    "translate": "Cursium"
+  },
+  "stats": {
+    "main": {
+      "durability": 950.0,
+      "melee_damage": 9.0,
+      "attack_speed": -0.2
+    },
+    "rod": {
+      "melee_damage": {
+        "add": 3.0
+      },
+      "attack_speed": {
+        "add": -0.2
+      }
+    }
+  },
+  "traits": {
+    "main": [
+
+    ],
+    "rod": [
+
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#41c1a9"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_hc",
+        "color": "#41c1a9"
+      }
+    ],
+
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#41bfc1"
+      }
+    ]
+  }
+}

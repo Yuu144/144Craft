@@ -1,0 +1,149 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "3A1F6C6A74F82D7E"
+	icon: "create:water_wheel"
+	id: "1343E1B2C0206494"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "16B5E7B44A54B37B"
+			size: 2.0d
+			tasks: [{
+				id: "3FD34EADD25BA038"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:water_wheel"
+							}
+							{
+								Count: 1b
+								id: "create:large_water_wheel"
+							}
+						]
+					}
+				}
+				title: "Water Wheels"
+				type: "item"
+			}]
+			title: "Rotational Power"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68CB36409087049C"]
+			id: "0106BF784DF1495D"
+			tasks: [{
+				id: "6AB4346181946DD9"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68CB36409087049C"]
+			id: "4E5221CA59521527"
+			tasks: [{
+				id: "3EBF1A5D7F8ED9EF"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68CB36409087049C"]
+			id: "734FA71CCAD8ECFA"
+			tasks: [{
+				id: "50B3E5298C14ED8C"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["68CB36409087049C"]
+			hide_dependency_lines: false
+			id: "0DAD1D01FE013E9A"
+			tasks: [{
+				id: "6F075EDAF5F61153"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6074347FA2081F1C"]
+			hide_dependency_lines: false
+			id: "68CB36409087049C"
+			tasks: [
+				{
+					id: "39819B5ACE9823FE"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "3EA141E007DE96FB"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["16B5E7B44A54B37B"]
+			id: "01CB886287030E91"
+			tasks: [{
+				id: "2CC510B1D2B44627"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["01CB886287030E91"]
+			id: "6074347FA2081F1C"
+			tasks: [{
+				id: "389CE8D3FDCD8A50"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["01CB886287030E91"]
+			id: "55D31B54D40755CA"
+			tasks: [{
+				id: "70FFBEE49D384F35"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["55D31B54D40755CA"]
+			id: "5555B0AAC3F13F72"
+			tasks: [{
+				id: "7150080EC9EE9515"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+	]
+	title: "Rotational Power"
+}

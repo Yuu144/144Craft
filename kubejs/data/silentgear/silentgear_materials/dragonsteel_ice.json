@@ -1,0 +1,101 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 5,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": []
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/dragonsteel_ice"
+    }
+  },
+  "name": {
+    "translate": "Dragonsteel Ice"
+  },
+  "stats": {
+    "main": {
+      "durability": 2500.0,
+      "enchantability": 85.0,
+      "harvest_level": 5.0,
+      "harvest_speed": 18.0,
+      "melee_damage": 18.0,
+      "attack_speed": 0.4,
+      "rarity": 90.0,
+      "silentgems:chargeability": 1.2
+    },
+    "rod": {
+      "attack_speed": {
+        "add": 0.3
+      },
+      "melee_damage": {
+        "add": 2.0
+      }
+    },
+    "tip": {
+      "melee_damage": {
+        "add": 4.0
+      },
+      "attack_speed": {
+        "add": 0.2
+      }
+    }
+  },
+  "traits": {
+    "main": [
+    ],
+    "rod": [
+    ],
+    "tip": [
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#538eb0"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_hc",
+        "color": "#538eb0"
+      }
+    ],
+
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#538eb0"
+      }
+    ],
+
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_sharp",
+        "color": "#538eb0"
+      }
+    ],
+
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#538eb0"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ]
+  }
+}

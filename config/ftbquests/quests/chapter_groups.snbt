@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "1C14EC978C050AC9", title: "Main Questline" }
+		{ id: "6DACF28BC637DE2F", title: "Resource Generation" }
+		{ id: "3A1F6C6A74F82D7E", title: "Tech" }
+		{ id: "4B39A5C93699FF2E", title: "Mobs" }
+	]
+}

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bosses"
+	group: "4B39A5C93699FF2E"
+	id: "24E011DE840B8D71"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Bosses"
+}

@@ -1,0 +1,113 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beginning"
+	group: "1C14EC978C050AC9"
+	icon: {
+		Count: 1
+		id: "minecraft:stone_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "2B908905CB1FD336"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "05C44872E324E695"
+			tasks: [{
+				id: "0A85EB5B1EC6B492"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				match_nbt: true
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Wood"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05C44872E324E695"]
+			id: "180EF00CC7BD84A4"
+			tasks: [{
+				id: "5D8554D84EF7B198"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["05C44872E324E695"]
+			id: "20967F3CA7A8A65A"
+			tasks: [{
+				id: "27A05873393E2EFD"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["05C44872E324E695"]
+			id: "31A88A80FFB6A794"
+			tasks: [{
+				id: "41EFB4862E0359FF"
+				item: "mysticalagriculture:inferium_essence"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			id: "3778B31D0880F5AB"
+			tasks: [{
+				id: "6435A0E40FDFCD7E"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "3F3F1E1782496504"
+			tasks: [{
+				id: "2E0A911AA85E8FDE"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "3B184E48E00F016A"
+			tasks: [{
+				id: "759A9C0CD656C734"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+	]
+	title: "Beginning"
+}
