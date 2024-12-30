@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = F:/Modded MC/Instances/144Craft/saves/New World (1)
+}
+
