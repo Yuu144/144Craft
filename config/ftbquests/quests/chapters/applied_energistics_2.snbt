@@ -7,6 +7,263 @@
 	id: "64A61DBB7F39B8E0"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["4C22F527260FE090"]
+			hide_dependency_lines: true
+			id: "7FEA13E43EFD22FD"
+			shape: "square"
+			tasks: [{
+				id: "12C15BB6C23C6CA7"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7FEA13E43EFD22FD"
+				"3C6E61483C4C7D55"
+				"6DC145D174D4649E"
+			]
+			id: "5A3BB702951CA844"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4286F44E565D9D2C"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					id: "11D7FCB3A493585A"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+				{
+					id: "4115A98174A62458"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+				{
+					id: "3C6902646AF7518F"
+					item: "ae2:printed_silicon"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C22F527260FE090"]
+			id: "3C6E61483C4C7D55"
+			shape: "square"
+			tasks: [
+				{
+					id: "1762C4E13206FC5D"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+				{
+					id: "5E884A8839269726"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "354FC523D37788FC"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "41655711803101D6"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4C22F527260FE090"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5C8F4586B576BA4B"
+				structure: "ae2:meteorite"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A3BB702951CA844"]
+			id: "4AD352B7058817A4"
+			shape: "hexagon"
+			tasks: [{
+				id: "155910297785D6E1"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A3BB702951CA844"]
+			id: "1C1C0D1FB6DADF15"
+			shape: "hexagon"
+			tasks: [{
+				id: "6CB6641072405F4E"
+				item: "ae2:calculation_processor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A3BB702951CA844"]
+			id: "27284A672A3D8AA4"
+			shape: "hexagon"
+			tasks: [{
+				id: "0F405DF25C3BD7A8"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "6DC145D174D4649E"
+			tasks: [{
+				id: "29F6F901596654E5"
+				item: "ae2:silicon"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4AD352B7058817A4"]
+			hide_dependency_lines: true
+			id: "4A53FD394A66F689"
+			shape: "hexagon"
+			tasks: [{
+				id: "3FFD10EA81792C91"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4A53FD394A66F689"]
+			id: "5FEAEBBFA43C861B"
+			shape: "hexagon"
+			tasks: [{
+				id: "608E8FD6EDCDB07B"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5FEAEBBFA43C861B"]
+			id: "52A69B2082F566AD"
+			shape: "hexagon"
+			tasks: [{
+				id: "1B30A92672290574"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["52A69B2082F566AD"]
+			id: "0DB7A4669116E051"
+			shape: "hexagon"
+			tasks: [{
+				id: "563B12CA2070C588"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0DB7A4669116E051"]
+			hide_dependency_lines: true
+			id: "35512699A65F5482"
+			shape: "hexagon"
+			tasks: [{
+				id: "4CA49CC0A49AE9D6"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["35512699A65F5482"]
+			id: "7780AF97145318C0"
+			shape: "hexagon"
+			tasks: [{
+				id: "2A496650B04C5B0F"
+				item: "megacells:cell_component_1m"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7780AF97145318C0"]
+			id: "6336FCB704A0871F"
+			shape: "hexagon"
+			tasks: [{
+				id: "4C95ED84289CF248"
+				item: "megacells:cell_component_4m"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6336FCB704A0871F"]
+			id: "66739EE20EC7AAB0"
+			shape: "hexagon"
+			tasks: [{
+				id: "438BF49A17AE111F"
+				item: "megacells:cell_component_16m"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["66739EE20EC7AAB0"]
+			hide_dependency_lines: true
+			id: "4F79842174AFC662"
+			shape: "hexagon"
+			tasks: [{
+				id: "668AF980CFAEE988"
+				item: "megacells:cell_component_64m"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4F79842174AFC662"]
+			id: "5E263B5AAD4C5369"
+			shape: "hexagon"
+			tasks: [{
+				id: "47472913FFD9F655"
+				item: "megacells:cell_component_256m"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+	]
 	title: "Applied Energistics 2"
 }
