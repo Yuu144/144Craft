@@ -14,6 +14,6 @@ StartupEvents.registry('item', event => {
   event.create('element_144-ium')
   event.create('pure_element_144-ium')
   event.create('-null-')
-  event.create('core')
   event.create('improbable_relativity_distorter')
+  event.create('starforge_core')
 })
