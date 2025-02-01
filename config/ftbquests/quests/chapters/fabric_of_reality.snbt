@@ -2,57 +2,21 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "fabric_of_reality"
-	group: ""
-	icon: "draconicevolution:chaotic_core"
+	group: "1C14EC978C050AC9"
+	icon: "kubejs:-null-"
 	id: "340E53E0D497817D"
 	order_index: 2
 	quest_links: [ ]
-	quests: [
-		{
-			id: "49F180AD73C1C52F"
-			size: 3.0d
-			tasks: [{
-				id: "667BEDE857076E2E"
-				title: "Fabric Of Reality"
-				type: "custom"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["49F180AD73C1C52F"]
-			id: "53560F0E4FF9B15B"
-			tasks: [{
-				id: "0BBF808AFA19C222"
-				title: "Unstable Core"
-				type: "custom"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["53560F0E4FF9B15B"]
-			id: "4470A4BEBE0E3301"
-			tasks: [{
-				count: 4L
-				id: "5845E19A139B0F4E"
-				item: { Count: 4, id: "draconicevolution:chaotic_core" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["53560F0E4FF9B15B"]
-			id: "47C17DF0AA807009"
-			tasks: [{
-				id: "34AC4116B086A19E"
-				item: "mekanism:pellet_antimatter"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 1.0d
-		}
-	]
-	title: "Fabric Of Reality"
+	quests: [{
+		id: "49F180AD73C1C52F"
+		size: 3.0d
+		tasks: [{
+			id: "43687FC736011C7D"
+			item: "kubejs:-null-"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "-null-"
 }

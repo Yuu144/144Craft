@@ -6,6 +6,15 @@
 	id: "04F893F82225A75D"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "2EDBA5ADF9D8C135"
+		tasks: [{
+			id: "501896EC41D21D86"
+			title: "Nigga"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Getting Advanced"
 }
