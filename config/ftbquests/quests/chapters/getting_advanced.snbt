@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
@@ -6,6 +7,37 @@
 	id: "04F893F82225A75D"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "2EDBA5ADF9D8C135"
+		tasks: [{
+			id: "501896EC41D21D86"
+			title: "Nigga"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Getting Advanced"
 }
+=======
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_advanced"
+	group: "1C14EC978C050AC9"
+	id: "04F893F82225A75D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "2EDBA5ADF9D8C135"
+		tasks: [{
+			id: "501896EC41D21D86"
+			title: "Nigga"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Getting Advanced"
+}
+>>>>>>> 3bafc2e6b0ad46d01eb50abf0d829d0f04c38487

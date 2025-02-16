@@ -1,0 +1,27 @@
+<<<<<<< HEAD
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spellbooks"
+	group: "5DCE72C8D759671E"
+	icon: "irons_spellbooks:ender_upgrade_orb"
+	id: "46AEBA03CEA765B1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Iron's Spellbooks"
+}
+=======
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spellbooks"
+	group: "5DCE72C8D759671E"
+	icon: "irons_spellbooks:ender_upgrade_orb"
+	id: "46AEBA03CEA765B1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Iron's Spellbooks"
+}
+>>>>>>> 3bafc2e6b0ad46d01eb50abf0d829d0f04c38487
