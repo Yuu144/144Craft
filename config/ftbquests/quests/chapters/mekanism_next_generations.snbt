@@ -5,48 +5,6 @@
 	group: "3A1F6C6A74F82D7E"
 	icon: "mekanism:pellet_antimatter"
 	id: "5F90DDF43BAE564C"
-	images: [
-		{
-			height: 10.0d
-			image: "144craft:textures/induction_cutout.png"
-			rotation: 0.0d
-			width: 9.6d
-			x: -1.5d
-			y: -10.0d
-		}
-		{
-			height: 10.0d
-			image: "144craft:textures/fusion_cutout.png"
-			rotation: 0.0d
-			width: 9.6d
-			x: 6.5d
-			y: -10.0d
-		}
-		{
-			height: 10.0d
-			image: "144craft:textures/sps_cutout.png"
-			rotation: 0.0d
-			width: 12.6d
-			x: 16.0d
-			y: -4.0d
-		}
-		{
-			height: 10.0d
-			image: "144craft:textures/turbine_cutout.png"
-			rotation: 0.0d
-			width: 8.7d
-			x: 16.0d
-			y: 4.0d
-		}
-		{
-			height: 10.0d
-			image: "144craft:textures/fission_cutout.png"
-			rotation: 0.0d
-			width: 9.6d
-			x: -5.0d
-			y: 4.0d
-		}
-	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
