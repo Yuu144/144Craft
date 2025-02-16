@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
@@ -20,3 +21,27 @@
 	}]
 	title: "-null-"
 }
+=======
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fabric_of_reality"
+	group: "1C14EC978C050AC9"
+	icon: "kubejs:-null-"
+	id: "340E53E0D497817D"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "49F180AD73C1C52F"
+		size: 3.0d
+		tasks: [{
+			id: "43687FC736011C7D"
+			item: "kubejs:-null-"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "-null-"
+}
+>>>>>>> 3bafc2e6b0ad46d01eb50abf0d829d0f04c38487

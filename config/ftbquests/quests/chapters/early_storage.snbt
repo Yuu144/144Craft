@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
@@ -160,3 +161,167 @@
 	]
 	title: "Early Chest \\& Drawer Storage"
 }
+=======
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "early_storage"
+	group: "758D7AC855C595EA"
+	icon: "minecraft:chest"
+	id: "423FA411AECD7962"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["23F7F25256A981BE"]
+			id: "4303BB2C613BF038"
+			tasks: [{
+				id: "4FC004315D612B78"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				title: "Any #storagedrawers:drawers"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "23F7F25256A981BE"
+			size: 2.0d
+			tasks: [{
+				id: "054FA9FF4B91222F"
+				title: "Storage"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23F7F25256A981BE"]
+			id: "03ED57F8841A5CBA"
+			tasks: [
+				{
+					id: "76E0A7EB29D8B2AD"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "66E3286C49B4B71D"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03ED57F8841A5CBA"]
+			id: "3442A996077D985D"
+			tasks: [{
+				id: "41D93D1AE84DEF01"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3442A996077D985D"]
+			id: "40C195B4F4DBC7B5"
+			tasks: [{
+				id: "6688432053304EF0"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:gold_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["40C195B4F4DBC7B5"]
+			id: "76670D8F8DC9F64E"
+			tasks: [{
+				id: "629298150F0E4331"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:diamond_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["03ED57F8841A5CBA"]
+			id: "582FBA84E091E53D"
+			tasks: [{
+				id: "159D092E1E9C635E"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["582FBA84E091E53D"]
+			id: "756C616437FE85C7"
+			tasks: [{
+				id: "2E176F64C310A354"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:gold_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["756C616437FE85C7"]
+			id: "79F3CF08FB56EA65"
+			tasks: [{
+				id: "2960380E3724F033"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:diamond_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+	]
+	title: "Early Chest \\& Drawer Storage"
+}
+>>>>>>> 3bafc2e6b0ad46d01eb50abf0d829d0f04c38487
