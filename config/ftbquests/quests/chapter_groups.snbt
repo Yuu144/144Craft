@@ -4,5 +4,7 @@
 		{ id: "6DACF28BC637DE2F", title: "Resource Generation" }
 		{ id: "3A1F6C6A74F82D7E", title: "Tech" }
 		{ id: "4B39A5C93699FF2E", title: "Mobs" }
+		{ id: "758D7AC855C595EA", title: "Storage" }
+		{ id: "5DCE72C8D759671E", title: "Magic" }
 	]
 }
