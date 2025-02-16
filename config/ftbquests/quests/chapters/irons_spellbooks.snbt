@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spellbooks"
+	group: "5DCE72C8D759671E"
+	icon: "irons_spellbooks:ender_upgrade_orb"
+	id: "46AEBA03CEA765B1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Iron's Spellbooks"
+}
