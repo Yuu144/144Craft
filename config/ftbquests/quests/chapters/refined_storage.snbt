@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
@@ -11,17 +10,3 @@
 	quests: [ ]
 	title: "Refined Storage"
 }
-=======
-{
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
-	filename: "refined_storage"
-	group: "758D7AC855C595EA"
-	icon: "refinedstorage:controller"
-	id: "7A868743C40CF05D"
-	order_index: 1
-	quest_links: [ ]
-	quests: [ ]
-	title: "Refined Storage"
-}
->>>>>>> 3bafc2e6b0ad46d01eb50abf0d829d0f04c38487

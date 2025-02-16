@@ -1,0 +1,21 @@
+{
+	version: 1
+	uuid: "0fffc02a5c5649299daea19b9ee969a0"
+	name: "Yuu144Y#0fffc02a"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: {
+		0F998B5ABA5A3DE8: 1738425453214L
+		0496E8E786262464: 1738425453214L
+		0000000000000001: 1738425453214L
+		59395B6806F2A98A: 1738425453214L
+	}
+	completed: { }
+	claimed_rewards: { }
+	player_data: {
+		0fffc02a5c5649299daea19b9ee969a0: {
+			can_edit: 1b
+		}
+	}
+}

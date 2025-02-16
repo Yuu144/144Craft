@@ -439,7 +439,7 @@
 	"Maledictus's Shock Wave Hp Damage" = 0.06
 	#Maledictus's AOE Hp Damage
 	#Range: 0.0 ~ 1.0
-	"Maledictus's AOE Hp Damage" = 0.30
+	"Maledictus's AOE Hp Damage" = 0.3
 	#Maledictus's flying Smash Hp Damage
 	#Range: 0.0 ~ 1.0
 	"Maledictus's Flying Smash Hp Damage" = 0.2
