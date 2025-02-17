@@ -1,7 +1,6 @@
 StartupEvents.registry('item', event => {
   event.create('pure_element_144-ium')
   event.create('-null-')
-  event.create('starforge_core')
   event.create('orb_of_eternity')
   event.create('void_crystal')
   event.create('neutron_star_shard')
