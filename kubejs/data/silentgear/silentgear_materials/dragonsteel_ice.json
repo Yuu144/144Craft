@@ -23,7 +23,7 @@
       "enchantability": 85.0,
       "harvest_level": 5.0,
       "harvest_speed": 18.0,
-      "melee_damage": 18.0,
+      "melee_damage": 12.0,
       "attack_speed": 0.4,
       "rarity": 90.0,
       "silentgems:chargeability": 1.2

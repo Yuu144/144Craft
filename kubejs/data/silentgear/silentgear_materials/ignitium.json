@@ -20,8 +20,7 @@
   "stats": {
     "main": {
       "durability": 2500.0,
-      "melee_damage": 30.0,
-      "attack_speed": 0.2
+      "melee_damage": 20.0
     }
   },
   "traits": {
