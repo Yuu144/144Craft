@@ -8,6 +8,36 @@ StartupEvents.registry('item', event => {
   event.create('ethereal_capacitor')
 })
 
+ItemEvents.modification(event => {
+  event.modify('kubejs:pure_element_144_ium', item => {
+    item.rarity = 'EPIC'
+  })
+
+  event.modify('kubejs:-null-', item => {
+    item.rarity = 'EPIC'
+  })
+
+  event.modify('kubejs:orb_of_eternity', item => {
+    item.rarity = 'EPIC'
+  })
+
+  event.modify('kubejs:void_crystal', item => {
+    item.rarity = 'EPIC'
+  })
+
+  event.modify('kubejs:neutron_star_shard', item => {
+    item.rarity = 'EPIC'
+  })
+
+  event.modify('kubejs:time_manipulator', item => {
+    item.rarity = 'EPIC'
+  })
+  
+  event.modify('kubejs:ethereal_capacitor', item => {
+    item.rarity = 'EPIC'
+  })
+})
+
 StartupEvents.modifyCreativeTab('ores144craft:ores144craft_tab', event => {
 	event.addAfter('', 'kubejs:pure_element_144_ium')
   event.addAfter('', 'kubejs:-null-')

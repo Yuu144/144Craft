@@ -17,7 +17,7 @@ ServerEvents.recipes(hscraft => {
         O: Ingredient.of('create:cogwheel').toJson(),
         A: Ingredient.of('draconicevolution:chaos_shard').toJson(),
         B: Ingredient.of('draconicevolution:large_chaos_frag').toJson(),
-        C: Ingredient.of('kubejs:pure_element_144-ium').toJson(),
+        C: Ingredient.of('kubejs:pure_element_144_ium').toJson(),
         D: Ingredient.of('cataclysm:ignitium_block').toJson(),
         E: Ingredient.of('draconicevolution:awakened_draconium_block').toJson(),
         F: Ingredient.of('mekanism:pellet_antimatter').toJson()
@@ -33,7 +33,7 @@ ServerEvents.recipes(hscraft => {
       "itemInput": {
         "amount": 1,
         "ingredient": {
-          "item": "kubejs:element_144-ium"
+          "item": "ores144craft:element_144_ium"
         }
       },
       "gasInput": {
@@ -42,8 +42,21 @@ ServerEvents.recipes(hscraft => {
       },
       "output": {
         "count": 1,
-        "item": "kubejs:pure_element_144-ium"
+        "item": "kubejs:pure_element_144_ium"
       },
       "duration": 5000
-    }).id('144craft:nucleosynthesizing/pure_144-ium')
+    }).id('144craft:nucleosynthesizing/pure_144_ium')
+
+    hscraft.shaped(
+      Item.of('kubejs:orb_of_eternity', 1),
+      [
+        'AAA',
+        'ABA',
+        'AAA'
+      ],
+      {
+        A: 'minecraft:stone',
+        B: 'tiab:time_in_a_bottle'
+      }
+    )
 })

@@ -1,0 +1,177 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "silent_gear_weapons"
+	group: ""
+	id: "523F4B28C11BCDF2"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["053B6A72B1E14A80"]
+			id: "75E421A47F92B919"
+			tasks: [{
+				id: "42D942F0ADF653CF"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["211FE517A9392661"]
+			id: "22C1ED67FFE07873"
+			tasks: [{
+				id: "23D4368A79D662A6"
+				item: "silentgear:tyrian_steel_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6959CFC5B89F826A"]
+			id: "211FE517A9392661"
+			tasks: [{
+				id: "28F7CC062CAE546E"
+				item: "silentgear:azure_electrum_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5510608851429EEF"]
+			id: "6959CFC5B89F826A"
+			tasks: [
+				{
+					id: "50B597364D62ADD4"
+					item: "silentgear:crimson_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "21EA3E35B33E1C10"
+					item: "thermal:enderium_ingot"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0486134C82950CDD"]
+			id: "1740AB71A9839DEB"
+			tasks: [{
+				id: "099AABE50C8843F2"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3729578E0429B707"]
+			id: "5510608851429EEF"
+			tasks: [
+				{
+					id: "2FC0A0D147B8B287"
+					item: "silentgear:azure_silver_ingot"
+					type: "item"
+				}
+				{
+					id: "1E36A3D6FF2C8EA5"
+					item: "mekanism:ingot_refined_glowstone"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10068FB7B34EFBCC"]
+			id: "3729578E0429B707"
+			tasks: [
+				{
+					id: "718CBDE3727D10DC"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+				{
+					id: "40CC7FFC68231F3F"
+					item: "iceandfire:dragonbone"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75E421A47F92B919"]
+			id: "0486134C82950CDD"
+			tasks: [
+				{
+					id: "1BD3C29F917B1E2F"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					id: "5FBA0A95B3FCE6C6"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					id: "6E9B00168E0B0A6F"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "10068FB7B34EFBCC"
+			size: 1.5d
+			tasks: [{
+				id: "39E817B4FB92FA7C"
+				title: "Weapon Damage Materials"
+				type: "checkmark"
+			}]
+			x: -6.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22C1ED67FFE07873"]
+			id: "053B6A72B1E14A80"
+			tasks: [{
+				id: "54647900FA3E0C22"
+				item: "mekanism:ingot_refined_obsidian"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6971153FB8B6FA3F"
+			size: 1.5d
+			tasks: [{
+				id: "2D9B2C81E7EE77B1"
+				title: "Weapon Damage Tips"
+				type: "checkmark"
+			}]
+			x: -6.75d
+			y: 1.5d
+		}
+		{
+			id: "654799A707B6B7AE"
+			size: 1.5d
+			tasks: [{
+				id: "6B317ECFD1675829"
+				title: "Weapon Damage Rods"
+				type: "checkmark"
+			}]
+			x: -6.75d
+			y: 3.0d
+		}
+	]
+	title: "Silent Gear Weapons"
+}
