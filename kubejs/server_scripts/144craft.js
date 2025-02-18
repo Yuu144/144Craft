@@ -47,6 +47,24 @@ ServerEvents.recipes(hscraft => {
       "duration": 5000
     }).id('144craft:nucleosynthesizing/pure_144_ium')
 
+    //Time in a bottle
+    hscraft.shaped(
+      Item.of('tiab:time_in_a_bottle', 1),
+      [
+        'AAA',
+        'BCB',
+        'DED'
+      ],
+      {
+        A: 'minecraft:gold_ingot',
+        B: 'minecraft:diamond',
+        C: 'ores144craft:element_144_ium',
+        D: 'minecraft:lapis_lazuli',
+        E: 'minecraft:glass_bottle'
+      }
+    )
+
+    //Orb of eternity
     hscraft.shaped(
       Item.of('kubejs:orb_of_eternity', 1),
       [
