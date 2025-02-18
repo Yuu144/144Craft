@@ -48,6 +48,8 @@ ServerEvents.recipes(hscraft => {
     }).id('144craft:nucleosynthesizing/pure_144_ium')
 
     //Time in a bottle
+    hscraft.remove({ output: 'tiab:time_in_a_bottle' })
+
     hscraft.shaped(
       Item.of('tiab:time_in_a_bottle', 1),
       [
