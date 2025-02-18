@@ -98,4 +98,20 @@ ServerEvents.recipes(hscraft => {
         F: 'mekanism:pellet_antimatter'
       }
     )
+
+    //Neutron star shard
+    hscraft.custom({
+      type: 'pneumaticcraft:pressure_chamber',
+      inputs: [
+        { 'type': 'pneumaticcraft:stacked_item', 'item': 'ae2:quantum_ring', 'count': 1 },
+        { 'type': 'pneumaticcraft:stacked_item', 'item': 'occultism:stable_wormhole', 'count': 1 },
+        { 'type': 'pneumaticcraft:stacked_item', 'item': 'apotheosis:sigil_of_withdrawal', 'count': 1 }
+      ],
+      pressure: 4.9,
+      results: [
+        {
+          'item': 'kubejs:neutron_star_shard'
+        }
+      ]
+    }).id('144craft:pressure/kubejs/neutron_star_shard')
 })

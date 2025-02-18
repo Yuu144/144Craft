@@ -7,16 +7,28 @@
 	id: "340E53E0D497817D"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		id: "49F180AD73C1C52F"
-		size: 3.0d
-		tasks: [{
-			id: "43687FC736011C7D"
-			item: "kubejs:-null-"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "49F180AD73C1C52F"
+			size: 3.0d
+			tasks: [{
+				id: "43687FC736011C7D"
+				item: "kubejs:-null-"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "42273DEB37880E54"
+			tasks: [{
+				id: "420D811376BA2B2E"
+				item: "kubejs:orb_of_eternity"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
 	title: "-null-"
 }

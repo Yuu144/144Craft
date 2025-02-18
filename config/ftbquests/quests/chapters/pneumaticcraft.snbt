@@ -13,22 +13,6 @@
 	id: "5E31DF282998B992"
 	images: [
 		{
-			height: 0.3d
-			image: "allthetweaks:item/atm_star"
-			rotation: 0.0d
-			width: 0.3d
-			x: 3.5d
-			y: 3.5d
-		}
-		{
-			height: 0.3d
-			image: "allthetweaks:item/atm_star"
-			rotation: 0.0d
-			width: 0.3d
-			x: 24.0d
-			y: 3.4000000000000004d
-		}
-		{
 			height: 1.0d
 			image: "pneumaticcraft:item/pneumatic_helmet"
 			rotation: 0.0d
