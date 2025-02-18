@@ -68,13 +68,32 @@ ServerEvents.recipes(hscraft => {
     hscraft.shaped(
       Item.of('kubejs:orb_of_eternity', 1),
       [
-        'AAA',
-        'ABA',
-        'AAA'
+        'ACA',
+        'CBC',
+        'ACA'
       ],
       {
-        A: 'minecraft:stone',
-        B: 'tiab:time_in_a_bottle'
+        A: 'forbidden_arcanus:eternal_stella',
+        B: 'tiab:time_in_a_bottle',
+        C: 'ad_astra:calorite_ingot'
+      }
+    )
+
+    //Void crystal
+    hscraft.shaped(
+      Item.of('kubejs:void_crystal', 1),
+      [
+        'ABA',
+        'DCE',
+        'AFA'
+      ],
+      {
+        A: 'cataclysm:void_eye',
+        B: 'minecraft:dragon_egg',
+        C: 'cataclysm:void_core',
+        D: 'bigreactors:insanite_ingot',
+        E: 'mekanismexplosives:explosive_polonium',
+        F: 'mekanism:pellet_antimatter'
       }
     )
 })
