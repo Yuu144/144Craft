@@ -28,17 +28,9 @@
       "rarity": 90.0,
       "silentgems:chargeability": 1.2
     },
-    "rod": {
-      "attack_speed": {
-        "add": 0.3
-      },
-      "melee_damage": {
-        "add": 2.0
-      }
-    },
     "tip": {
       "melee_damage": {
-        "add": 4.0
+        "add": 5.0
       },
       "attack_speed": {
         "add": 0.2

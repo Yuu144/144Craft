@@ -20,7 +20,7 @@
   "stats": {
     "tip": {
       "melee_damage": {
-        "add": 10
+        "add": 8
       },
       "attack_speed": {
         "add": -0.2
