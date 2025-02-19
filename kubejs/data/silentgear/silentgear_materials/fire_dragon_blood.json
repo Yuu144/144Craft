@@ -17,6 +17,9 @@
   "name": {
     "translate": "Fire Dragon Blood"
   },
+  "layer_colors": {
+    "coating": "#F29987"
+  },
   "stats": {
     "coating": {
       "melee_damage": {
@@ -37,13 +40,19 @@
     ]
   },
   "model": {
-    "main/all": [
+    "coating/all": [
       {
-        "texture": "silentgear:main_generic_hc",
-        "color": "#ff6131"
+        "texture": "silentgear:coating_generic_hc",
+        "color": "#F29987"
       },
       {
         "texture": "silentgear:_highlight"
+      }
+    ],
+    "coating/part": [
+      {
+        "texture": "silentgear:coating",
+        "color": "#F29987"
       }
     ]
   }

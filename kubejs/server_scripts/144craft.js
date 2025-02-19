@@ -128,3 +128,7 @@ ServerEvents.recipes(hscraft => {
       ]
     }).id('144craft:pressure/kubejs/neutron_star_shard')
 })
+
+ServerEvents.tags('item', event => {
+  event.add('forge:elements/144-ium', 'ores144craft:element_144_ium')
+})
