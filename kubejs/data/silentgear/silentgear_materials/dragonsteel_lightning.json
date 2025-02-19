@@ -20,13 +20,9 @@
   "stats": {
     "main": {
       "durability": 2500.0,
-      "enchantability": 85.0,
-      "harvest_level": 5.0,
-      "harvest_speed": 18.0,
-      "melee_damage": 17.0,
-      "attack_speed": -0.2,
-      "rarity": 90.0,
-      "silentgems:chargeability": 1.2
+      "melee_damage": 16.0,
+      "attack_speed": -0.1,
+      "rarity": 90.0
     },
     "tip": {
       "melee_damage": {
