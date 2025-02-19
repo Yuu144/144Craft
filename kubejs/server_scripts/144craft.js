@@ -99,6 +99,19 @@ ServerEvents.recipes(hscraft => {
       }
     )
 
+    //Time Manipulator
+    hscraft.shaped(
+      Item.of('kubejs:time_manipulator', 1),
+      [
+        '   ',
+        ' A ',
+        '   '
+      ],
+      {
+        A: 'tiab:time_in_a_bottle',
+      }
+    )
+
     //Neutron star shard
     hscraft.custom({
       type: 'pneumaticcraft:pressure_chamber',
