@@ -15,8 +15,9 @@
 				item: "cataclysm:cursium_ingot"
 				type: "item"
 			}]
+			title: "+12 Attack Damage"
 			x: 1.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["211FE517A9392661"]
@@ -26,8 +27,9 @@
 				item: "silentgear:tyrian_steel_ingot"
 				type: "item"
 			}]
+			title: "+8 Attack Damage"
 			x: -1.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6959CFC5B89F826A"]
@@ -37,8 +39,9 @@
 				item: "silentgear:azure_electrum_ingot"
 				type: "item"
 			}]
+			title: "+7 Attack Damage"
 			x: -2.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5510608851429EEF"]
@@ -55,8 +58,9 @@
 					type: "item"
 				}
 			]
+			title: "+6 Attack Damage"
 			x: -3.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0486134C82950CDD"]
@@ -66,6 +70,7 @@
 				item: "cataclysm:ignitium_ingot"
 				type: "item"
 			}]
+			title: "The best"
 			x: 3.0d
 			y: 0.0d
 		}
@@ -84,11 +89,20 @@
 					type: "item"
 				}
 			]
+			title: "+5 Attack Damage"
 			x: -4.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["10068FB7B34EFBCC"]
+			dependencies: [
+				"1CBE2DD253A7DD3C"
+				"7F7CAF165992A9C1"
+				"01FD4FDFE8C12C5D"
+				"63135B289DAC4630"
+				"35EC475CAE7D0FAF"
+				"0162D25D2BD6E57E"
+			]
+			dependency_requirement: "one_completed"
 			id: "3729578E0429B707"
 			tasks: [
 				{
@@ -102,11 +116,17 @@
 					type: "item"
 				}
 			]
+			title: "+4 Attack Damage"
 			x: -5.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["75E421A47F92B919"]
+			description: [
+				"Dragonsteel Lighting: +24 Attack Damage"
+				"Dragonsteel Fire: +22 Attack Damage"
+				"Dragonsteel Ice: +18 Attack Damage"
+			]
 			id: "0486134C82950CDD"
 			tasks: [
 				{
@@ -125,19 +145,9 @@
 					type: "item"
 				}
 			]
+			title: "Nearly the best"
 			x: 2.0d
-			y: 0.0d
-		}
-		{
-			id: "10068FB7B34EFBCC"
-			size: 1.5d
-			tasks: [{
-				id: "39E817B4FB92FA7C"
-				title: "Weapon Damage Materials"
-				type: "checkmark"
-			}]
-			x: -6.75d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["22C1ED67FFE07873"]
@@ -147,30 +157,238 @@
 				item: "mekanism:ingot_refined_obsidian"
 				type: "item"
 			}]
+			title: "+10 Attack Damage"
 			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1173F4F7A0DFBFC5"]
+			description: [
+				"+2 Attack Damage"
+				"+0.2 Attack Speed"
+				"Good for longer damage weapons"
+			]
+			id: "2EF15A0282033D38"
+			tasks: [{
+				id: "6037ABBDE1C35A78"
+				item: "iceandfire:dragonbone"
+				type: "item"
+			}]
+			title: "+2 Attack Damage"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79737E295C8ADAF4"]
+			description: [
+				"*1.2 Attack Damage Multiplier"
+				"+0.5 Reach"
+				"Good for high damage weapons"
+			]
+			id: "564340C36A3BAFDE"
+			tasks: [{
+				id: "1CF0E153F4DDD254"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			title: "*1.2 Attack Damage"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EF15A0282033D38"]
+			description: [
+				"*1.2 Attack Damage Multiplier"
+				"A little worse than blaze rod"
+			]
+			id: "79737E295C8ADAF4"
+			tasks: [{
+				id: "47D520D4DF8D7875"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			title: "*1.2 Attack Damage"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "7F7CAF165992A9C1"
+			tasks: [{
+				id: "4885EDEA5587C80D"
+				item: "silentgear:sword_blueprint"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			id: "1CBE2DD253A7DD3C"
+			tasks: [{
+				id: "422B52846778B115"
+				item: "silentgear:katana_blueprint"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			id: "0162D25D2BD6E57E"
+			tasks: [{
+				id: "4D1F68E8F9E7FA27"
+				item: "silentgear:machete_blueprint"
+				type: "item"
+			}]
+			x: -6.5d
 			y: 0.0d
 		}
 		{
-			id: "6971153FB8B6FA3F"
-			size: 1.5d
+			id: "63135B289DAC4630"
 			tasks: [{
-				id: "2D9B2C81E7EE77B1"
-				title: "Weapon Damage Tips"
-				type: "checkmark"
+				id: "7045A2E982B39DBD"
+				item: "silentgear:dagger_blueprint"
+				type: "item"
 			}]
-			x: -6.75d
-			y: 1.5d
+			x: -7.5d
+			y: 1.0d
 		}
 		{
-			id: "654799A707B6B7AE"
-			size: 1.5d
+			id: "35EC475CAE7D0FAF"
 			tasks: [{
-				id: "6B317ECFD1675829"
-				title: "Weapon Damage Rods"
-				type: "checkmark"
+				id: "37ACA8424C977D1A"
+				item: "silentgear:knife_blueprint"
+				type: "item"
 			}]
-			x: -6.75d
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			id: "01FD4FDFE8C12C5D"
+			tasks: [{
+				id: "5AF7F7C1E522E865"
+				item: "silentgear:spear_blueprint"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			id: "1173F4F7A0DFBFC5"
+			tasks: [{
+				id: "555AE22F60309257"
+				item: "silentgear:rod_blueprint"
+				type: "item"
+			}]
+			x: -7.0d
 			y: 3.0d
+		}
+		{
+			id: "0FEAC49195AEEEEF"
+			tasks: [{
+				id: "7A57662885C471DF"
+				item: "silentgear:tip_blueprint"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0FEAC49195AEEEEF"]
+			id: "6DB70F78988226F3"
+			tasks: [{
+				id: "4A13372E2B601D37"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6DB70F78988226F3"]
+			id: "05A282EE71B319C6"
+			tasks: [{
+				id: "3631E6256EC73D71"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["05A282EE71B319C6"]
+			id: "376A5D30FE4166B2"
+			tasks: [{
+				id: "66802B92F8143D4F"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["376A5D30FE4166B2"]
+			id: "3821371914498C41"
+			tasks: [
+				{
+					id: "1344FC2EF68218B0"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					id: "2196D964DA723B39"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					id: "64B1A031CE2B0E3F"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3821371914498C41"]
+			id: "512A3713FD94E2A3"
+			tasks: [{
+				id: "3FD695F1C711D97A"
+				item: "ores144craft:element_144_ium"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			id: "3ECC1C61498D0004"
+			tasks: [{
+				id: "4BC498C259F109B5"
+				item: "silentgear:coating_blueprint"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3ECC1C61498D0004"]
+			id: "4EBAC6B39802BB7A"
+			tasks: [{
+				id: "2E6E8B701142EDA2"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4EBAC6B39802BB7A"]
+			id: "6C0CC3AEFB1CB4D1"
+			tasks: [{
+				id: "4F84E5D43B4E1FEF"
+				item: "iceandfire:fire_dragon_blood"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
 		}
 	]
 	title: "Silent Gear Weapons"
