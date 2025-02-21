@@ -116,9 +116,11 @@ ServerEvents.recipes(hscraft => {
     hscraft.custom({
       type: 'pneumaticcraft:pressure_chamber',
       inputs: [
-        { 'type': 'pneumaticcraft:stacked_item', 'item': 'ae2:quantum_ring', 'count': 1 },
-        { 'type': 'pneumaticcraft:stacked_item', 'item': 'occultism:stable_wormhole', 'count': 1 },
-        { 'type': 'pneumaticcraft:stacked_item', 'item': 'apotheosis:sigil_of_withdrawal', 'count': 1 }
+        { 'type': 'pneumaticcraft:stacked_item', 'item': 'allthecompressed:steel_block_7x', 'count': 1 },
+        { 'type': 'pneumaticcraft:stacked_item', 'item': 'allthecompressed:enderium_block_7x', 'count': 1 },
+        { 'type': 'pneumaticcraft:stacked_item', 'item': 'allthecompressed:signalum_block_7x', 'count': 1 },
+        { 'type': 'pneumaticcraft:stacked_item', 'item': 'allthecompressed:nether_star_block_7x', 'count': 1 },
+        { 'type': 'pneumaticcraft:stacked_item', 'item': 'occultism:stable_wormhole', 'count': 1 }
       ],
       pressure: 4.9,
       results: [
