@@ -65,12 +65,37 @@ ServerEvents.recipes(event => {
         E:'mekanism:pellet_polonium'
     })
 
+    //Mekatana
+    event.shaped('mekaweapons:mekatana',[
+        'ABA',
+        'CDC',
+        'EFE'
+    ],{
+        A:'mekanism:ultimate_control_circuit',
+        B:'mekaweapons:katana_blade',
+        C:'mekanism:hdpe_sheet',
+        D:'cataclysm:abyssal_egg',
+        E:'mekanism:pellet_polonium',
+        F:'mekanism:basic_induction_cell'
+    })
+
+    //Katana Blade
+    event.shaped('mekaweapons:katana_blade',[
+        '  A',
+        'BA ',
+        'CB '
+    ],{
+        A:'draconicevolution:draconium_ingot',
+        B:'mekanism:alloy_atomic',
+        C:'mekanism:ingot_refined_obsidian'
+    })
+
 })
 
 //Mekanism start delete
 ServerEvents.recipes(event => {
     [
-        'mekanismgenerators:generator/gas_burning'
+        'mekanismgenerators:generator/gas_burning',
     ]
     .forEach((recipeID) => event.remove({id: recipeID}));
 })
@@ -81,7 +106,9 @@ ServerEvents.recipes(event => {
         'mekanism:atomic_disassembler',
         'mekanismgenerators:reactor/controller',
         'mekanismgenerators:fission_reactor/fuel_assembly',
-        'mekanism:supercharged_coil'
+        'mekanism:supercharged_coil',
+        'mekaweapons:katana_blade',
+        'mekaweapons:mekatana'
     ]
     .forEach((recipeID) => event.remove({id: recipeID}));
 })
