@@ -219,6 +219,24 @@
 		{ item: "mysticalagriculture:uraninite_seeds", weight: 4.0f }
 		{ item: "mysticalagriculture:diamond_seeds", weight: 4.0f }
 		{ item: "mysticalagriculture:nether_star_seeds" }
+		{ item: "ae2:cell_component_64k", weight: 2.5f }
+		{ item: "ae2:cell_component_16k", weight: 3.5f }
+		{ item: "refinedstorage:64k_storage_part", weight: 2.5f }
+		{ item: "refinedstorage:16k_storage_part", weight: 3.5f }
+		{ count: 10, item: "powah:crystal_spirited", weight: 4.0f }
+		{ count: 4, item: "powah:crystal_nitro", weight: 2.0f }
+		{ item: "create:precision_mechanism", weight: 8.0f }
+		{ item: "artifacts:eternal_steak", weight: 2.0f }
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "forbidden_arcanus:eternal_stella"
+				tag: { }
+			}
+			weight: 3.0f
+		}
+		{ item: "mysticalagriculture:master_infusion_crystal", weight: 2.0f }
 	]
 	title: "Legendary loot"
 	use_title: true
