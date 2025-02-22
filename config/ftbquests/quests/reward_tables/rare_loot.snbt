@@ -143,6 +143,9 @@
 		{ item: "mysticalagriculture:aluminum_seeds", weight: 4.0f }
 		{ item: "mysticalagriculture:nature_seeds", weight: 4.0f }
 		{ item: "mysticalagriculture:iron_seeds", weight: 4.0f }
+		{ count: 4, item: "powah:crystal_niotic", weight: 2.0f }
+		{ count: 10, item: "powah:crystal_blazing", weight: 4.0f }
+		{ count: 4, item: "create:gearbox", weight: 5.0f }
 	]
 	title: "Rare loot"
 	use_title: true

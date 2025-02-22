@@ -192,6 +192,9 @@
 		{ count: 2, item: "mysticalagriculture:iron_seeds", weight: 6.0f }
 		{ item: "mysticalagriculture:gold_seeds", weight: 4.0f }
 		{ item: "mysticalagriculture:osmium_seeds", weight: 4.0f }
+		{ count: 4, item: "powah:crystal_spirited", weight: 2.0f }
+		{ count: 10, item: "powah:crystal_niotic", weight: 4.0f }
+		{ item: "create:blaze_burner", weight: 6.0f }
 	]
 	title: "Epic loot"
 	use_title: true
