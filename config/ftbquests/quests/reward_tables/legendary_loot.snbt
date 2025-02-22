@@ -1,0 +1,225 @@
+{
+	icon: "lootr:lootr_chest"
+	id: "33C79AB7CB5FB91B"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			type: "xp_levels"
+			xp_levels: 10
+		}
+		{ count: 4, item: "mekanism:alloy_reinforced", weight: 3.0f }
+		{ count: 2, item: "mekanism:alloy_atomic", weight: 2.0f }
+		{ count: 3, item: "mekanism:elite_control_circuit", weight: 3.0f }
+		{ item: "mekanism:ultimate_control_circuit", weight: 2.0f }
+		{
+			item: {
+				Count: 1
+				id: "enderchests:ender_chest"
+				tag: {
+					code: "000"
+					owner: "all"
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "endertanks:ender_tank"
+				tag: {
+					code: "000"
+					owner: "all"
+				}
+			}
+			weight: 2.0f
+		}
+		{ item: "productivebees:upgrade_productivity", weight: 1.5f }
+		{ count: 2, item: "productivebees:upgrade_base", weight: 4.0f }
+		{ count: 20, item: "mysticalagriculture:tertium_essence", weight: 10.0f }
+		{ count: 12, item: "mysticalagriculture:imperium_essence", weight: 5.0f }
+		{ item: "mysticalagriculture:supremium_essence" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 4s
+					}]
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:feather_falling"
+						lvl: 4s
+					}]
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:aqua_affinity"
+						lvl: 1s
+					}]
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 4s
+					}]
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 5s
+					}]
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 6s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:looting"
+						lvl: 3s
+					}]
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:looting"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 4s
+					}]
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 5s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 4s
+					}]
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 3s
+					}]
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 15961002
+					clothColor: 15961002
+				}
+			}
+			weight: 4.0f
+		}
+		{ item: "mysticalagriculture:wither_skeleton_seeds", weight: 4.0f }
+		{ item: "mysticalagriculture:uraninite_seeds", weight: 4.0f }
+		{ item: "mysticalagriculture:diamond_seeds", weight: 4.0f }
+		{ item: "mysticalagriculture:nether_star_seeds" }
+	]
+	title: "Legendary loot"
+	use_title: true
+}

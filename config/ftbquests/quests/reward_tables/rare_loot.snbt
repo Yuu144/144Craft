@@ -106,6 +106,43 @@
 			}
 		}
 		{ count: 10, item: "create:andesite_alloy", weight: 10.0f }
+		{ count: 8, item: "mysticalagriculture:inferium_essence", weight: 10.0f }
+		{ count: 16, item: "minecraft:redstone", weight: 9.0f }
+		{ count: 6, item: "minecraft:iron_ingot", weight: 10.0f }
+		{ count: 3, item: "mekanism:ingot_osmium", weight: 8.0f }
+		{ count: 2, item: "minecraft:golden_apple", weight: 2.0f }
+		{ count: 2, item: "ars_nouveau:source_gem", weight: 8.0f }
+		{ count: 2, item: "productivebees:honey_treat", weight: 2.0f }
+		{ count: 4, item: "minecraft:honeycomb", weight: 5.0f }
+		{ item: "productivebees:upgrade_base", weight: 2.0f }
+		{ count: 2, item: "productivebees:bee_cage", weight: 5.0f }
+		{ count: 6, item: "mysticalagriculture:prudentium_essence", weight: 6.0f }
+		{ count: 2, item: "mysticalagriculture:tertium_essence", weight: 2.0f }
+		{ count: 6, item: "mysticalagriculture:prosperity_shard", weight: 7.0f }
+		{ count: 4, item: "pneumaticcraft:ingot_iron_compressed", weight: 5.0f }
+		{ count: 4, item: "mekanism:alloy_infused", weight: 4.0f }
+		{ count: 2, item: "mekanism:basic_control_circuit", weight: 4.0f }
+		{ item: "mekanism:advanced_control_circuit", weight: 3.0f }
+		{ count: 40, item: "powah:dielectric_paste", weight: 4.0f }
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 15961002
+					clothColor: 15961002
+				}
+			}
+		}
+		{ item: "sophisticatedstorage:basic_to_iron_tier_upgrade", weight: 1.5f }
+		{ item: "sophisticatedstorage:basic_to_copper_tier_upgrade", weight: 2.5f }
+		{ count: 8, item: "ae2:certus_quartz_crystal", weight: 6.0f }
+		{ count: 12, item: "refinedstorage:quartz_enriched_iron", weight: 8.0f }
+		{ item: "waystones:waystone", weight: 3.0f }
+		{ item: "mysticalagriculture:coal_seeds", weight: 4.0f }
+		{ item: "mysticalagriculture:aluminum_seeds", weight: 4.0f }
+		{ item: "mysticalagriculture:nature_seeds", weight: 4.0f }
+		{ item: "mysticalagriculture:iron_seeds", weight: 4.0f }
 	]
 	title: "Rare loot"
 	use_title: true

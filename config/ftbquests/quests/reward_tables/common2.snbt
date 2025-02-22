@@ -122,6 +122,21 @@
 		{ count: 3, item: "mekanism:alloy_infused", weight: 3.0f }
 		{ count: 2, item: "mekanism:basic_control_circuit", weight: 3.0f }
 		{ count: 8, item: "create:andesite_alloy", weight: 10.0f }
+		{ item: "waystones:waystone", weight: 3.0f }
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 16383998
+					clothColor: 16383998
+				}
+			}
+		}
+		{ item: "mysticalagriculture:stone_seeds", weight: 4.0f }
+		{ item: "mysticalagriculture:wood_seeds", weight: 4.0f }
+		{ item: "mysticalagriculture:inferium_seeds", weight: 4.0f }
+		{ item: "mysticalagriculture:dye_seeds", weight: 4.0f }
 	]
 	title: "Common loot"
 	use_title: true
