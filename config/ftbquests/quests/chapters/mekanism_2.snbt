@@ -65,6 +65,12 @@
 					item: "mekanism:alloy_infused"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "3F505A3BEACB8EC3"
+					table_id: 8201500416179545694L
+					type: "loot"
+				}
 			]
 			shape: "square"
 			size: 1.0d
@@ -371,7 +377,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["304F2342DDF83DF6"]
@@ -584,7 +590,7 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["15C009397C21FC0F"]
@@ -608,7 +614,7 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7650DEF3B2AF419E"]
@@ -909,6 +915,54 @@
 			}]
 			x: 2.5d
 			y: -4.0d
+		}
+		{
+			dependencies: ["1520436FDC40E56A"]
+			id: "0B59E2242234F2D0"
+			shape: "hexagon"
+			tasks: [{
+				id: "3EBDFF77D7BB8E9F"
+				item: "mekanism:basic_smelting_factory"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0B59E2242234F2D0"]
+			id: "2897FA1755385ABB"
+			shape: "hexagon"
+			tasks: [{
+				id: "4D5B279210BDC97D"
+				item: "mekanism:advanced_smelting_factory"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2897FA1755385ABB"]
+			id: "41D9ACD0E91B8E00"
+			shape: "hexagon"
+			tasks: [{
+				id: "259C0B86631072B1"
+				item: "mekanism:elite_smelting_factory"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["41D9ACD0E91B8E00"]
+			id: "0AF395EA2755DAA6"
+			shape: "hexagon"
+			tasks: [{
+				id: "542D34252357E9C8"
+				item: "mekanism:ultimate_smelting_factory"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
 		}
 	]
 	title: "Mekanism"

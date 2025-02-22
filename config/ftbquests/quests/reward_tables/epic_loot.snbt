@@ -1,0 +1,198 @@
+{
+	icon: "lootr:lootr_chest"
+	id: "70681EC58D97803A"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 16, item: "mysticalagriculture:inferium_essence", weight: 10.0f }
+		{ count: 10, item: "mysticalagriculture:prudentium_essence", weight: 7.0f }
+		{ count: 4, item: "mysticalagriculture:tertium_essence", weight: 5.0f }
+		{ item: "mysticalagriculture:imperium_essence", weight: 2.0f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:feather_falling"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:aqua_affinity"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 3s
+					}]
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:looting"
+						lvl: 2s
+					}]
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:looting"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 2s
+					}]
+				}
+			}
+		}
+		{ count: 8, item: "mysticalagriculture:prosperity_shard", weight: 7.0f }
+		{ count: 16, item: "create:andesite_alloy", weight: 10.0f }
+		{ count: 20, item: "minecraft:redstone", weight: 9.0f }
+		{ count: 8, item: "minecraft:iron_ingot", weight: 10.0f }
+		{ count: 6, item: "mekanism:ingot_osmium", weight: 8.0f }
+		{ count: 3, item: "minecraft:golden_apple", weight: 2.0f }
+		{ count: 4, item: "ars_nouveau:source_gem", weight: 8.0f }
+		{ count: 2, item: "productivebees:honey_treat", weight: 2.0f }
+		{ count: 4, item: "minecraft:honeycomb", weight: 5.0f }
+		{ count: 2, item: "productivebees:upgrade_base", weight: 2.0f }
+		{ count: 8, item: "pneumaticcraft:ingot_iron_compressed", weight: 5.0f }
+		{ count: 6, item: "mekanism:alloy_infused", weight: 4.0f }
+		{ count: 2, item: "mekanism:alloy_reinforced", weight: 2.0f }
+		{ count: 3, item: "mekanism:basic_control_circuit", weight: 4.0f }
+		{ count: 2, item: "mekanism:advanced_control_circuit", weight: 3.0f }
+		{ item: "mekanism:elite_control_circuit", weight: 2.0f }
+		{
+			type: "xp_levels"
+			xp_levels: 5
+		}
+		{ item: "create_new_age:reinforced_motor" }
+		{
+			item: {
+				Count: 1
+				id: "enderchests:ender_chest"
+				tag: {
+					code: "000"
+					owner: "all"
+				}
+			}
+			weight: 1.5f
+		}
+		{
+			item: {
+				Count: 1
+				id: "endertanks:ender_tank"
+				tag: {
+					code: "000"
+					owner: "all"
+				}
+			}
+			weight: 1.5f
+		}
+		{ count: 24, item: "refinedstorage:quartz_enriched_iron", weight: 8.0f }
+		{ item: "paraglider:heart_container" }
+		{ item: "paraglider:stamina_vessel" }
+		{ count: 64, item: "fluxnetworks:flux_dust", weight: 5.0f }
+		{ count: 64, item: "hostilenetworks:prediction_matrix", weight: 5.0f }
+		{ item: "waystones:waystone", weight: 3.0f }
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 15961002
+					clothColor: 15961002
+				}
+			}
+		}
+		{ count: 2, item: "mysticalagriculture:iron_seeds", weight: 6.0f }
+		{ item: "mysticalagriculture:gold_seeds", weight: 4.0f }
+		{ item: "mysticalagriculture:osmium_seeds", weight: 4.0f }
+	]
+	title: "Epic loot"
+	use_title: true
+}
