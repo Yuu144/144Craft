@@ -1,0 +1,128 @@
+{
+	icon: "lootr:lootr_chest"
+	id: "7B9524942236ABBE"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "reliquary:fertile_lily_pad" }
+		{ count: 8, item: "mysticalagriculture:inferium_essence", weight: 10.0f }
+		{ count: 16, item: "minecraft:redstone", weight: 9.0f }
+		{ count: 8, item: "minecraft:raw_iron", weight: 10.0f }
+		{ count: 4, item: "mekanism:raw_osmium", weight: 8.0f }
+		{ item: "ironfurnaces:upgrade_iron", weight: 4.0f }
+		{ item: "ironfurnaces:upgrade_gold", weight: 3.0f }
+		{ count: 2, item: "minecraft:golden_apple", weight: 2.0f }
+		{ item: "mysticalagriculture:tertium_essence", weight: 2.0f }
+		{ count: 6, item: "minecraft:slime_ball", weight: 7.0f }
+		{ count: 4, item: "minecraft:lapis_lazuli", weight: 9.0f }
+		{ count: 6, item: "ae2:certus_quartz_crystal", weight: 6.0f }
+		{ count: 8, item: "minecraft:raw_gold", weight: 9.0f }
+		{ count: 2, item: "minecraft:ender_pearl", weight: 9.0f }
+		{ count: 4, item: "mysticalagriculture:tertium_essence", weight: 5.0f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:feather_falling"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:aqua_affinity"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:looting"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			type: "xp_levels"
+			xp_levels: 5
+		}
+		{ count: 3, item: "mekanism:alloy_infused", weight: 3.0f }
+		{ count: 2, item: "mekanism:basic_control_circuit", weight: 3.0f }
+		{ count: 8, item: "create:andesite_alloy", weight: 10.0f }
+	]
+	title: "Common loot"
+	use_title: true
+}

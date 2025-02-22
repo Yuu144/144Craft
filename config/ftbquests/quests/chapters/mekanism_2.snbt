@@ -28,6 +28,19 @@
 		{
 			dependencies: ["75E600FC98B65B67"]
 			id: "304F2342DDF83DF6"
+			rewards: [
+				{
+					id: "26EED353DCA3BEAD"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28900F2D3D5F85D1"
+					table_id: 8905064056842791870L
+					type: "loot"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -40,6 +53,19 @@
 		}
 		{
 			id: "75E600FC98B65B67"
+			rewards: [
+				{
+					id: "5BB66616963A1F02"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "251C87764D5075CB"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 1.0d
 			tasks: [{
@@ -66,6 +92,18 @@
 		{
 			dependencies: ["304F2342DDF83DF6"]
 			id: "0286BBFDC5B5D344"
+			rewards: [
+				{
+					id: "27264E39E862D7B7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "06F82B6FE999EFAF"
+					item: "mekanism:basic_control_circuit"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "56F1AA9CCDFED219"
@@ -120,6 +158,24 @@
 		{
 			dependencies: ["7B05687DF76A3D0F"]
 			id: "4CD174BFB7ADF423"
+			rewards: [
+				{
+					id: "7F927AA530E1534B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AEEE99AF76C1114"
+					table_id: 8905064056842791870L
+					type: "loot"
+				}
+				{
+					id: "008B5469E0FB0919"
+					item: "mekanismgenerators:wind_generator"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "12C1C8B807FC28CC"
@@ -143,6 +199,11 @@
 		{
 			dependencies: ["7B05687DF76A3D0F"]
 			id: "37FC215D7A77A770"
+			rewards: [{
+				id: "706825A296332E5A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6B2EE521D23140C2"
 				item: "mekanismgenerators:solar_generator"
@@ -154,6 +215,24 @@
 		{
 			dependencies: ["37FC215D7A77A770"]
 			id: "477C263E31C78AB0"
+			rewards: [
+				{
+					id: "09741FC2EE527548"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A281428367453A4"
+					table_id: 8905064056842791870L
+					type: "loot"
+				}
+				{
+					id: "70D92F3858CBAC9D"
+					item: "mekanismgenerators:solar_generator"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "5BEA1000FF0079B8"
@@ -197,6 +276,24 @@
 			dependencies: ["304F2342DDF83DF6"]
 			hide_dependency_lines: true
 			id: "74EB15F27F2DFFBE"
+			rewards: [
+				{
+					id: "2145C480C886FF14"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "249E3CC91C78BE13"
+					table_id: 8905064056842791870L
+					type: "loot"
+				}
+				{
+					id: "220ECC82D34FEA18"
+					item: "mekanism:steel_casing"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "589D6D070A4FA585"
@@ -209,6 +306,11 @@
 		{
 			dependencies: ["74EB15F27F2DFFBE"]
 			id: "4B159928890BEED9"
+			rewards: [{
+				id: "1FA845D6FAE7E652"
+				type: "xp"
+				xp: 250
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "4806D2F93C1F5926"
@@ -221,6 +323,11 @@
 		{
 			dependencies: ["4B159928890BEED9"]
 			id: "3FF0F692BFF1DFD5"
+			rewards: [{
+				id: "3F3D06B842BA8BB2"
+				type: "xp"
+				xp: 250
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "2C56E8299D8F0E5D"
@@ -638,6 +745,11 @@
 		{
 			dependencies: ["304F2342DDF83DF6"]
 			id: "73C8C05F647E373A"
+			rewards: [{
+				id: "6F061AFF26E190B0"
+				type: "xp"
+				xp: 500
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "6FAC8367635AC46B"
