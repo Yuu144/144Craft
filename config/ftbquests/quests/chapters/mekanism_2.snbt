@@ -40,6 +40,11 @@
 					table_id: 8905064056842791870L
 					type: "loot"
 				}
+				{
+					id: "046B5D901B0C5AB2"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
 			]
 			shape: "gear"
 			size: 1.5d
@@ -67,8 +72,8 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "3F505A3BEACB8EC3"
-					table_id: 8201500416179545694L
+					id: "4F93E64796D67CD6"
+					table_id: 8905064056842791870L
 					type: "loot"
 				}
 			]
@@ -86,12 +91,26 @@
 			dependencies: ["3E29130A97523B5D"]
 			hide_dependency_lines: true
 			id: "4966767AD45E59E9"
+			rewards: [
+				{
+					id: "483C5A78033F18AC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0B3141B8CD33D6FA"
+					item: "mekanism:alloy_reinforced"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
+				count: 4L
 				id: "3E29130A97523B5D"
 				item: "mekanism:alloy_reinforced"
 				type: "item"
 			}]
+			title: "Reinforced Alloy"
 			x: -5.5d
 			y: -2.0d
 		}
@@ -125,6 +144,18 @@
 				"4966767AD45E59E9"
 			]
 			id: "451A2F08C7F8AAD1"
+			rewards: [
+				{
+					id: "5AEFDB84C49A427F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "138C34A80FED337B"
+					item: "mekanism:advanced_control_circuit"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "7028E2CFEE7EEBD4"
@@ -137,12 +168,26 @@
 		{
 			dependencies: ["4966767AD45E59E9"]
 			id: "770421C740C88EDD"
+			rewards: [
+				{
+					id: "17BF5707501374C1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "424DDEDBA6B0CB0B"
+					item: "mekanism:alloy_atomic"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
+				count: 4L
 				id: "5107F12BCA4A3237"
 				item: "mekanism:alloy_atomic"
 				type: "item"
 			}]
+			title: "Atomic Alloy"
 			x: -5.5d
 			y: -3.0d
 		}
@@ -152,6 +197,24 @@
 				"770421C740C88EDD"
 			]
 			id: "3275EF00BC03D9B9"
+			rewards: [
+				{
+					id: "4160CBD3629661B5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5A40CC1879EBBFD3"
+					item: "mekanism:elite_control_circuit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "645E8B647B2804B8"
+					table_id: 8099757763658743866L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "73BEEB9FE73943DD"
@@ -251,6 +314,25 @@
 		{
 			dependencies: ["304F2342DDF83DF6"]
 			id: "582C6E84C39274CE"
+			rewards: [
+				{
+					id: "580CD3C2084C93C4"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 4
+					id: "3C9930F6CD6D98A0"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24E1F16F154FB5E5"
+					table_id: 7191082874467169753L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "5AC779BD59FEEE36"
@@ -263,6 +345,11 @@
 		{
 			dependencies: ["582C6E84C39274CE"]
 			id: "415F7C9FD91F8FCE"
+			rewards: [{
+				id: "74D7AE4DA75539FB"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "016863354094745F"
@@ -346,6 +433,19 @@
 		{
 			dependencies: ["3FF0F692BFF1DFD5"]
 			id: "1B5857A082E5E40F"
+			rewards: [
+				{
+					id: "6233A68B493CEF34"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BDEC348EB147ACC"
+					table_id: 8099757763658743866L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "757FBA2F3ADF6C5C"
@@ -358,6 +458,19 @@
 		{
 			dependencies: ["304F2342DDF83DF6"]
 			id: "70887217591E7E4C"
+			rewards: [
+				{
+					id: "48471CA6C5B5B8AA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "700E640C732C3B0E"
+					table_id: 8905064056842791870L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "3A09E709738636D5"
@@ -370,6 +483,11 @@
 		{
 			dependencies: ["304F2342DDF83DF6"]
 			id: "1520436FDC40E56A"
+			rewards: [{
+				id: "29C9B4EF0A1B72F6"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "0A8BCEBABC221127"
@@ -382,6 +500,19 @@
 		{
 			dependencies: ["304F2342DDF83DF6"]
 			id: "5E02FDAAF5302091"
+			rewards: [
+				{
+					id: "44D3704EDB89097A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4362B138A9140218"
+					table_id: 8905064056842791870L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "2D2D0BA884471D2D"
@@ -397,6 +528,19 @@
 				"70887217591E7E4C"
 			]
 			id: "1DF67637B192D7A0"
+			rewards: [
+				{
+					id: "7D78F5C6DA13E9A4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EDE925E9C2B0D1C"
+					table_id: 7191082874467169753L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "09B179D8E0E6481C"
@@ -409,9 +553,24 @@
 		{
 			dependencies: ["5E02FDAAF5302091"]
 			id: "086ACDADCB7780FC"
+			rewards: [
+				{
+					id: "04D6051FB6B39540"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "116CD866585F12DA"
+					item: "mekanism:bio_fuel"
+					type: "item"
+				}
+			]
 			tasks: [{
+				count: 16L
 				id: "2374926746945985"
 				item: "mekanism:bio_fuel"
+				title: "Bio Fuel"
 				type: "item"
 			}]
 			x: 0.0d
@@ -420,6 +579,19 @@
 		{
 			dependencies: ["086ACDADCB7780FC"]
 			id: "2EC7EC4E16D4E16C"
+			rewards: [
+				{
+					id: "3F1D101E0A741D30"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EA9005503428F2E"
+					table_id: 8905064056842791870L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "05B181AFFC8F2CE4"
@@ -436,6 +608,19 @@
 				"0EB02F4C74FFBCDF"
 			]
 			id: "7DF9E406B61B7C24"
+			rewards: [
+				{
+					id: "68AD2F63C785D95C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E329F5B172D3861"
+					table_id: 7191082874467169753L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "40BB336327C9811F"
@@ -448,6 +633,11 @@
 		{
 			dependencies: ["70887217591E7E4C"]
 			id: "0EB02F4C74FFBCDF"
+			rewards: [{
+				id: "190B830D41105122"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "40F959AF5EC5A741"
@@ -474,19 +664,39 @@
 			dependencies: ["304F2342DDF83DF6"]
 			hide_dependency_lines: true
 			id: "0E304A303952855C"
+			rewards: [
+				{
+					id: "1D928329CCDF9A11"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "21F424E4E7431372"
+					item: "thermal:steel_ingot"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
+				count: 8L
 				id: "746ABB462D605A64"
 				item: "mekanism:ingot_steel"
 				type: "item"
 			}]
+			title: "Steel Ingot"
 			x: -10.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0E304A303952855C"]
 			id: "0E432FAE0018971F"
+			rewards: [{
+				id: "36AE6A6499D0E774"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1E6214A02E95336B"
@@ -499,6 +709,11 @@
 		{
 			dependencies: ["0E432FAE0018971F"]
 			id: "4312D7F33B52E5A6"
+			rewards: [{
+				id: "471D2620FDAA176A"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "5B99DCDE0BCC2C5A"
@@ -511,6 +726,11 @@
 		{
 			dependencies: ["4312D7F33B52E5A6"]
 			id: "1B0A4887C72DC307"
+			rewards: [{
+				id: "4C78B3AC41D3F5BE"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1366F792F3BC8FD3"
@@ -523,6 +743,19 @@
 		{
 			dependencies: ["1B0A4887C72DC307"]
 			id: "48A7F8183860B6A5"
+			rewards: [
+				{
+					id: "0C83B32B5E593201"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E261D0C195219BA"
+					table_id: 7191082874467169753L
+					type: "loot"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "788B7A71B4091F9A"
@@ -535,6 +768,11 @@
 		{
 			dependencies: ["0E304A303952855C"]
 			id: "15CA9362E57769FA"
+			rewards: [{
+				id: "7845566E4A3A035E"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "24B9BB9B146A0DF1"
@@ -547,6 +785,11 @@
 		{
 			dependencies: ["15CA9362E57769FA"]
 			id: "044D0E2C4B3886DE"
+			rewards: [{
+				id: "625BAF910A0020ED"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "067B9F0ACF500041"
@@ -559,6 +802,11 @@
 		{
 			dependencies: ["044D0E2C4B3886DE"]
 			id: "3D94C011BE2B6B26"
+			rewards: [{
+				id: "488A18EF9169F098"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "02A3FEF3A47DCE84"
@@ -571,6 +819,19 @@
 		{
 			dependencies: ["3D94C011BE2B6B26"]
 			id: "00CE5347558E8FF6"
+			rewards: [
+				{
+					id: "49CBBC73F681FBFE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A0EF45DC0B77D5A"
+					table_id: 7191082874467169753L
+					type: "loot"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "4CCDA6D17ED11818"
@@ -583,6 +844,11 @@
 		{
 			dependencies: ["0E304A303952855C"]
 			id: "15C009397C21FC0F"
+			rewards: [{
+				id: "6736396233421C87"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4607A77B79DEEFC3"
@@ -595,6 +861,11 @@
 		{
 			dependencies: ["15C009397C21FC0F"]
 			id: "0713A30F038D5AEF"
+			rewards: [{
+				id: "71B0C6378863D898"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1EC7F0184127581A"
@@ -607,6 +878,11 @@
 		{
 			dependencies: ["0713A30F038D5AEF"]
 			id: "7650DEF3B2AF419E"
+			rewards: [{
+				id: "62E3238328C592FA"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7BEC3F82041E8542"
@@ -619,6 +895,19 @@
 		{
 			dependencies: ["7650DEF3B2AF419E"]
 			id: "2B4B7C8D7D2C7F9D"
+			rewards: [
+				{
+					id: "2F797459F5F2F069"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CABFA28548851DA"
+					table_id: 7191082874467169753L
+					type: "loot"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "33CE9C7C218321AF"
@@ -631,6 +920,11 @@
 		{
 			dependencies: ["0E304A303952855C"]
 			id: "26ACD93EE6407A96"
+			rewards: [{
+				id: "212ADAD89F280CD9"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "69DCF752660F4335"
@@ -643,6 +937,11 @@
 		{
 			dependencies: ["26ACD93EE6407A96"]
 			id: "529B0B228844028A"
+			rewards: [{
+				id: "36C7F51AEF6A6A65"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "756ECC2034345842"
@@ -655,6 +954,11 @@
 		{
 			dependencies: ["529B0B228844028A"]
 			id: "103A7AA76DD32352"
+			rewards: [{
+				id: "2167FB25E6FBEFF3"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "3D83315C0D6B2FBD"
@@ -667,6 +971,19 @@
 		{
 			dependencies: ["103A7AA76DD32352"]
 			id: "14B11DBC1A996CA7"
+			rewards: [
+				{
+					id: "3C46A9144D56092B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25AC761E31305C02"
+					table_id: 7191082874467169753L
+					type: "loot"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "6BF804ADAAC78026"
@@ -679,6 +996,11 @@
 		{
 			dependencies: ["0E304A303952855C"]
 			id: "424F31517721BA9F"
+			rewards: [{
+				id: "367876953F004B58"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "565EBA4F1C208CB7"
@@ -691,6 +1013,11 @@
 		{
 			dependencies: ["424F31517721BA9F"]
 			id: "3D9E3663568DDE86"
+			rewards: [{
+				id: "08E9C92968D69EF5"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4869A96DE17BDA03"
@@ -703,6 +1030,11 @@
 		{
 			dependencies: ["3D9E3663568DDE86"]
 			id: "0D042AB4762558BC"
+			rewards: [{
+				id: "3EFD11036106FF81"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "5C789664666BAF2B"
@@ -715,6 +1047,19 @@
 		{
 			dependencies: ["0D042AB4762558BC"]
 			id: "5DDD618C7AB4083A"
+			rewards: [
+				{
+					id: "27145BC5F17FA537"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75170AAFBF92BA22"
+					table_id: 7191082874467169753L
+					type: "loot"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "61CAB46607525ED6"
@@ -727,6 +1072,24 @@
 		{
 			dependencies: ["415F7C9FD91F8FCE"]
 			id: "18EABB8503D8949E"
+			rewards: [
+				{
+					id: "5AC0D4CB7FE068BC"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C884E793F489896"
+					table_id: 7191082874467169753L
+					type: "loot"
+				}
+				{
+					id: "3A045DC04DF9F813"
+					item: "mekanism:robit"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "0EE39B27B4496B68"
@@ -739,6 +1102,19 @@
 		{
 			dependencies: ["18EABB8503D8949E"]
 			id: "39AEEB2E23303E04"
+			rewards: [
+				{
+					id: "7FA0572351C4C0B0"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "459AE8FE61244741"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "792B6B177D851A48"
@@ -769,19 +1145,43 @@
 			dependencies: ["304F2342DDF83DF6"]
 			hide_dependency_lines: true
 			id: "065369DD76238A69"
+			rewards: [
+				{
+					id: "220DB179FDD6B11F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5D9F4B400632D056"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "7CF9E010D5124B03"
 				item: "mekanism:upgrade_speed"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 2.0d
+			x: -8.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["304F2342DDF83DF6"]
 			hide_dependency_lines: true
 			id: "07F714664BD4E30B"
+			rewards: [
+				{
+					id: "534A085FB4DA6C22"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6B5EA0166308EE01"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "686B5CC96CC2AF84"
@@ -794,20 +1194,19 @@
 		{
 			dependencies: ["304F2342DDF83DF6"]
 			hide_dependency_lines: true
-			id: "2D50B827E015FDED"
-			shape: "diamond"
-			tasks: [{
-				id: "097BC268E5201BCA"
-				item: "mekanism:upgrade_filter"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["304F2342DDF83DF6"]
-			hide_dependency_lines: true
 			id: "3925254964A2F083"
+			rewards: [
+				{
+					id: "4826A60EDDCCE330"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3E44A0262641C8B7"
+					item: "mekanism:upgrade_muffling"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "46616A6F9B899797"
@@ -821,6 +1220,18 @@
 			dependencies: ["304F2342DDF83DF6"]
 			hide_dependency_lines: true
 			id: "1DA6AF2939D8E2DC"
+			rewards: [
+				{
+					id: "49252EC570632CC3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5689C625D8A90EEA"
+					item: "mekanism:upgrade_gas"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "1ACE8801D6E1F5CC"
@@ -834,6 +1245,18 @@
 			dependencies: ["304F2342DDF83DF6"]
 			hide_dependency_lines: true
 			id: "3A34DB1D23CA678A"
+			rewards: [
+				{
+					id: "7C0F65B02AC3C124"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0321527E8F5AC20E"
+					item: "mekanism:upgrade_stone_generator"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "2CC6C6E2DE65A5FD"
@@ -847,6 +1270,18 @@
 			dependencies: ["304F2342DDF83DF6"]
 			hide_dependency_lines: true
 			id: "132E2368449A220E"
+			rewards: [
+				{
+					id: "57C9CA32427B35EC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7FE2377FABD3A86E"
+					item: "mekanism:basic_tier_installer"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "7AAEF295EB8E21A6"
@@ -859,6 +1294,18 @@
 		{
 			dependencies: ["132E2368449A220E"]
 			id: "07CD3E86CBAB6BC8"
+			rewards: [
+				{
+					id: "2435234706813F3A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2E73D2FAA5A0EDBA"
+					item: "mekanism:advanced_tier_installer"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "1BEB330A038B05F6"
@@ -871,6 +1318,18 @@
 		{
 			dependencies: ["07CD3E86CBAB6BC8"]
 			id: "2D69B73C67D06423"
+			rewards: [
+				{
+					id: "64BE382511ABACEC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3F180915529F5C65"
+					item: "mekanism:elite_tier_installer"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "7A45BE5520A248A3"
@@ -883,6 +1342,18 @@
 		{
 			dependencies: ["2D69B73C67D06423"]
 			id: "57BBD27FA5780132"
+			rewards: [
+				{
+					id: "6DE9FF564FBDA71A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "426BFDF7D76B4CD0"
+					item: "mekanism:ultimate_tier_installer"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "1421B99F7C68C77A"
@@ -895,6 +1366,11 @@
 		{
 			dependencies: ["1DF67637B192D7A0"]
 			id: "4D1733CE069FA3DB"
+			rewards: [{
+				id: "7D83923486F98566"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "7761F49FA2ABD2E6"
@@ -907,6 +1383,19 @@
 		{
 			dependencies: ["4D1733CE069FA3DB"]
 			id: "6B7CFDCD0E283148"
+			rewards: [
+				{
+					id: "6A131E4640AAEDA3"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3222E13762A04787"
+					table_id: 7191082874467169753L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "79283C8AEEBDD3F1"
@@ -919,6 +1408,11 @@
 		{
 			dependencies: ["1520436FDC40E56A"]
 			id: "0B59E2242234F2D0"
+			rewards: [{
+				id: "5C347AB2EA52225B"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "3EBDFF77D7BB8E9F"
@@ -931,6 +1425,11 @@
 		{
 			dependencies: ["0B59E2242234F2D0"]
 			id: "2897FA1755385ABB"
+			rewards: [{
+				id: "53CBE469DF751ECA"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "4D5B279210BDC97D"
@@ -943,6 +1442,11 @@
 		{
 			dependencies: ["2897FA1755385ABB"]
 			id: "41D9ACD0E91B8E00"
+			rewards: [{
+				id: "0326E6648C412B5B"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "259C0B86631072B1"
@@ -955,6 +1459,19 @@
 		{
 			dependencies: ["41D9ACD0E91B8E00"]
 			id: "0AF395EA2755DAA6"
+			rewards: [
+				{
+					id: "254DC057C2F17D30"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "663BE507917A2465"
+					table_id: 8099757763658743866L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "542D34252357E9C8"

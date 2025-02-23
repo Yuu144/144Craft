@@ -584,9 +584,9 @@
 			icon: "allthetweaks:mini_end"
 			id: "45EE60207C466D6C"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "20A35C6F29F30427"
-				type: "random"
+				id: "241FDDF93694D67B"
+				type: "xp"
+				xp: 100
 			}]
 			shape: "rsquare"
 			size: 1.5d
