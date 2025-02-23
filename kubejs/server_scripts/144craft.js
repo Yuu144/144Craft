@@ -112,6 +112,23 @@ ServerEvents.recipes(hscraft => {
       }
     )
 
+    //Ethereal Capacitor
+    hscraft.shaped(
+      Item.of('kubejs:ethereal_capacitor', 1),
+      [
+        'ECE',
+        'DAD',
+        'EBE'
+      ],
+      {
+        A: 'enderio:sentient_ender',
+        B: 'enderio:frank_n_zombie',
+        C: 'enderio:octadic_capacitor',
+        D: 'draconicevolution:chaotic_capacitor',
+        E: 'bigreactors:inanite_ingot'
+      }
+    )
+
     //Neutron star shard
     hscraft.custom({
       type: 'pneumaticcraft:pressure_chamber',

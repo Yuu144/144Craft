@@ -6,6 +6,9 @@ StartupEvents.registry('item', event => {
   event.create('neutron_star_shard')
   event.create('time_manipulator')
   event.create('ethereal_capacitor')
+  event.create('dark_matter')
+  event.create('quasar')
+  event.create('sick_twig')
 })
 
 ItemEvents.modification(event => {
@@ -36,6 +39,18 @@ ItemEvents.modification(event => {
   event.modify('kubejs:ethereal_capacitor', item => {
     item.rarity = 'EPIC'
   })
+
+  event.modify('kubejs:sick_twig', item => {
+    item.rarity = 'EPIC'
+  })
+
+  event.modify('kubejs:quasar', item => {
+    item.rarity = 'EPIC'
+  })
+
+  event.modify('kubejs:dark_matter', item => {
+    item.rarity = 'EPIC'
+  })
 })
 
 StartupEvents.modifyCreativeTab('ores144craft:ores144craft_tab', event => {
@@ -46,4 +61,7 @@ StartupEvents.modifyCreativeTab('ores144craft:ores144craft_tab', event => {
   event.addAfter('', 'kubejs:neutron_star_shard')
   event.addAfter('', 'kubejs:time_manipulator')
   event.addAfter('', 'kubejs:ethereal_capacitor')
+  event.addAfter('', 'kubejs:sick_twig')
+  event.addAfter('', 'kubejs:dark_matter')
+  event.addAfter('', 'kubejs:quasar')
 })
