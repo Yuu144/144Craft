@@ -26,8 +26,78 @@
 				item: "kubejs:orb_of_eternity"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 0.0d
+		}
+		{
+			id: "62F13FB0C02B74DA"
+			tasks: [{
+				id: "5E07D7E9C3CC0ECC"
+				item: "kubejs:void_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "21FDAF5B368B60C6"
+			tasks: [{
+				id: "2D423D5609A5FD8C"
+				item: "kubejs:ethereal_capacitor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "7AEC6E96F6F71028"
+			tasks: [{
+				id: "75906256045A3D72"
+				item: "kubejs:time_manipulator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "5DD155E332E8AA35"
+			tasks: [{
+				id: "50CE204BD99C7748"
+				item: "kubejs:neutron_star_shard"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "5178340F673F34EE"
+			tasks: [{
+				id: "0D58F598D8930413"
+				title: "Quasar"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "44811B87295B3DB2"
+			tasks: [{
+				id: "6D52E1A6073DB38C"
+				item: "kubejs:dark_matter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "4925DBDCD2E023AE"
+			tasks: [{
+				id: "07FB91F64E26AFAC"
+				item: "kubejs:sick_twig"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
 		}
 	]
 	title: "-null-"
