@@ -3,31 +3,38 @@ ServerEvents.recipes(hscraft => {
     hscraft.custom({
       type: "create:mechanical_crafting",
       pattern: [
-      '    O    ',
-      '   FEF   ',
-      '   EBE   ',
-      ' FEADAEF ',
-      'OEBDCDBEO',
-      ' FEADAEF ',
-      '   EBE   ',
-      '   FEF   ',
-      '    O    '
-      ],
-      key: {
-        O: Ingredient.of('create:cogwheel').toJson(),
-        A: Ingredient.of('draconicevolution:chaos_shard').toJson(),
-        B: Ingredient.of('draconicevolution:large_chaos_frag').toJson(),
-        C: Ingredient.of('kubejs:pure_element_144_ium').toJson(),
-        D: Ingredient.of('cataclysm:ignitium_block').toJson(),
-        E: Ingredient.of('draconicevolution:awakened_draconium_block').toJson(),
-        F: Ingredient.of('mekanism:pellet_antimatter').toJson()
-        
+        '    M    ',
+        '   MLM   ',
+        '   EJE   ',
+        ' MKABCKM ',
+        'MLJDNFJLM',
+        ' MKGHIKM ',
+        '   EJE   ',
+        '   MLM   ',
+        '    M    '
+        ],
+        key: {
+          A: Ingredient.of('kubejs:orb_of_eternity').toJson(),
+          B: Ingredient.of('kubejs:void_crystal').toJson(),
+          C: Ingredient.of('kubejs:dark_matter').toJson(),
+          D: Ingredient.of('kubejs:time_manipulator').toJson(),
+          E: Ingredient.of('mekanism:pellet_antimatter').toJson(),
+          F: Ingredient.of('kubejs:neutron_star_shard').toJson(),
+          G: Ingredient.of('kubejs:quasar').toJson(),
+          H: Ingredient.of('kubejs:sick_twig').toJson(),
+          I: Ingredient.of('kubejs:ethereal_capacitor').toJson(),
+          J: Ingredient.of('cataclysm:ignitium_block').toJson(),
+          K: Ingredient.of('draconicevolution:chaos_shard').toJson(),
+          L: Ingredient.of('draconicevolution:awakened_draconium_block').toJson(),
+          M: Ingredient.of('kubejs:energized_pure_element_144_ium_block').toJson(),
+          N: Ingredient.of('draconicevolution:reactor_core').toJson()
+
       },
       result: Ingredient.of('kubejs:-null-').toJson(),
       acceptMirrored: false
     }).id('144craft:kubejs/-null-')
 
-    //pure 144ium
+    //Pure Element 144-Ium
     hscraft.custom({
       "type": "mekanism:nucleosynthesizing",
       "itemInput": {
@@ -47,8 +54,53 @@ ServerEvents.recipes(hscraft => {
       "duration": 5000
     }).id('144craft:nucleosynthesizing/pure_144_ium')
 
+    //Energized Pure Element 144-Ium
+    hscraft.custom({
+      type: 'powah:energizing',
+      ingredients: [
+        Ingredient.of('kubejs:pure_element_144_ium').toJson()
+      ],
+      energy: '1000000000',
+    result: Item.of('kubejs:energized_pure_element_144_ium').toJson()
+    }).id('144craft:energizing/energized_pure_element_144_ium')
+
+    //Energized Pure Element 144-Ium Block
+    hscraft.custom({
+      type: 'powah:energizing',
+      ingredients: [
+        Ingredient.of('kubejs:pure_element_144_ium_block').toJson()
+      ],
+      energy: '9000000000',
+    result: Item.of('kubejs:energized_pure_element_144_ium_block').toJson()
+    }).id('144craft:energizing/energized_pure_element_144_ium_block')
+
     //Time in a bottle
     hscraft.remove({ output: 'tiab:time_in_a_bottle' })
+
+    //Element 144 Ium Blocks
+    hscraft.shaped(
+      Item.of('kubejs:element_144_ium_block', 1),
+      [
+        'AAA',
+        'AAA',
+        'AAA'
+      ],
+      {
+        A: 'ores144craft:element_144_ium'
+      }
+    )
+
+    hscraft.shaped(
+      Item.of('kubejs:pure_element_144_ium_block', 1),
+      [
+        'AAA',
+        'AAA',
+        'AAA'
+      ],
+      {
+        A: 'kubejs:pure_element_144_ium'
+      }
+    )
 
     hscraft.shaped(
       Item.of('tiab:time_in_a_bottle', 1),
@@ -85,9 +137,9 @@ ServerEvents.recipes(hscraft => {
     hscraft.shaped(
       Item.of('kubejs:void_crystal', 1),
       [
-        'ABA',
+        'GBH',
         'DCE',
-        'AFA'
+        'AFI'
       ],
       {
         A: 'cataclysm:void_eye',
@@ -95,7 +147,10 @@ ServerEvents.recipes(hscraft => {
         C: 'cataclysm:void_core',
         D: 'bigreactors:insanite_ingot',
         E: 'mekanismexplosives:explosive_polonium',
-        F: 'mekanism:pellet_antimatter'
+        F: 'mekanism:pellet_antimatter',
+        G: 'cyclic:charm_void',
+        H: 'cataclysm:void_forge',
+        I: 'alexsmobs:void_worm_eye'
       }
     )
 
