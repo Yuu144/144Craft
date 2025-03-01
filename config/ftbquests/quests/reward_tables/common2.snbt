@@ -139,6 +139,8 @@
 		{ item: "mysticalagriculture:dye_seeds", weight: 4.0f }
 		{ count: 4, item: "powah:crystal_blazing", weight: 2.0f }
 		{ count: 10, item: "powah:steel_energized", weight: 4.0f }
+		{ item: "minecraft:bucket", weight: 7.0f }
+		{ count: 4, item: "ars_nouveau:blue_archwood_log", weight: 8.0f }
 	]
 	title: "Common loot"
 	use_title: true

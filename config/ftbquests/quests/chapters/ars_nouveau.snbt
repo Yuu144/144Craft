@@ -19,11 +19,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"{atm9.quest.arsNouveau.welcome}"
-				""
-				"{atm9.quest.arsNouveau.desc.magicModIntro}"
-			]
+			description: [""]
 			id: "6E0E13806F388D7E"
 			rewards: [{
 				id: "24AA489F2E015748"
@@ -38,6 +34,7 @@
 				title: "{atm9.quest.arsNouveau.arsNouveau}"
 				type: "checkmark"
 			}]
+			title: "Arsch Novo"
 			x: -6.25d
 			y: 0.0d
 		}

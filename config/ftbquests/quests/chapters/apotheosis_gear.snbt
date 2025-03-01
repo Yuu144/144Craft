@@ -53,7 +53,7 @@
 	quests: [
 		{
 			dependencies: ["5A0305BB1F8EA932"]
-			description: ["{atm9.quest.affixes.desc.dust}"]
+			description: [""]
 			id: "40926361B5A17F74"
 			rewards: [{
 				count: 5
@@ -67,7 +67,7 @@
 				item: "apotheosis:gem_dust"
 				type: "item"
 			}]
-			title: "{atm9.quest.affixes.dust}"
+			title: "Gem Dust"
 			x: 0.0d
 			y: 1.0d
 		}
