@@ -5,7 +5,7 @@
 	group: "5DCE72C8D759671E"
 	icon: "irons_spellbooks:ender_upgrade_orb"
 	id: "46AEBA03CEA765B1"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [ ]
 	title: "Iron's Spellbooks"

@@ -209,6 +209,106 @@ ServerEvents.recipes(hscraft => {
         }
       ]
     }).id('144craft:pressure/kubejs/neutron_star_shard')
+
+    //Sick Twig path ---------------------------------------------------------
+    hscraft.shaped(
+      Item.of('kubejs:stick_x2', 1),
+      [
+        'AAA',
+        'AAA',
+        'AAA'
+      ],{
+        A: 'minecraft:stick'
+      }
+    )
+
+    hscraft.shaped(
+      Item.of('kubejs:stick_x3', 1),
+      [
+        'AAA',
+        'AAA',
+        'AAA'
+      ],{
+        A: 'kubejs:stick_x2'
+      }
+    )
+
+    hscraft.shaped(
+      Item.of('kubejs:stick_x4', 1),
+      [
+        'AAA',
+        'AAA',
+        'AAA'
+      ],{
+        A: 'kubejs:stick_x3'
+      }
+    )
+
+    hscraft.shaped(
+      Item.of('kubejs:stick_x5', 1),
+      [
+        'AAA',
+        'AAA',
+        'AAA'
+      ],{
+        A: 'kubejs:stick_x4'
+      }
+    )
+
+    hscraft.shaped(
+      Item.of('kubejs:stick_x6', 1),
+      [
+        'AAA',
+        'AAA',
+        'AAA'
+      ],{
+        A: 'kubejs:stick_x5'
+      }
+    )
+
+    hscraft.shaped(
+      Item.of('kubejs:stick_x7', 1),
+      [
+        'AAA',
+        'AAA',
+        'AAA'
+      ],{
+        A: 'kubejs:stick_x6'
+      }
+    )
+
+    hscraft.shaped(
+      Item.of('kubejs:stick_x8', 1),
+      [
+        'AAA',
+        'AAA',
+        'AAA'
+      ],{
+        A: 'kubejs:stick_x7'
+      }
+    )
+
+    hscraft.shaped(
+      Item.of('kubejs:stick_x9', 1),
+      [
+        'AAA',
+        'AAA',
+        'AAA'
+      ],{
+        A: 'kubejs:stick_x8'
+      }
+    )
+
+    hscraft.custom({
+      type: 'powah:energizing',
+      ingredients: [
+        Ingredient.of('kubejs:stick_x9').toJson(),
+        Ingredient.of('kubejs:pure_element_144_ium_block').toJson()
+      ],
+      energy: '1000000000000',
+    result: Item.of('kubejs:sick_twig').toJson()
+    }).id('144craft:energizing/sick_twig')
+    //--------------------------------------------------------------------------
 })
 
 ServerEvents.tags('item', event => {
