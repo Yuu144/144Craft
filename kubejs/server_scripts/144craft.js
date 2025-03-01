@@ -158,12 +158,19 @@ ServerEvents.recipes(hscraft => {
     hscraft.shaped(
       Item.of('kubejs:time_manipulator', 1),
       [
-        '   ',
-        ' A ',
-        '   '
+        'BCD',
+        'EAE',
+        'FGH'
       ],
       {
         A: 'tiab:time_in_a_bottle',
+        B: 'ars_nouveau:glyph_accelerate',
+        C: 'soulsweapons:withered_demon_heart',
+        D: 'ars_nouveau:glyph_decelerate',
+        E: 'minecraft:echo_shard',
+        F: 'ars_nouveau:glyph_duration_down',
+        G: Item.of('mahoutsukai:attuned_diamond', '{MAHOUTSUKAI_GEM_STORED_MANA:10000}'),
+        H: 'ars_nouveau:glyph_extend_time'
       }
     )
 

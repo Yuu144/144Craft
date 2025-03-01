@@ -2,17 +2,33 @@
 	id: "71D1952CD399A65E"
 	loot_size: 1
 	order_index: 4
-	rewards: [{
-		item: {
-			Count: 1
-			id: "minecraft:enchanted_book"
-			tag: {
-				StoredEnchantments: [{
-					id: "minecraft:sharpness"
-					lvl: 6s
-				}]
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 6s
+					}]
+				}
 			}
 		}
-	}]
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_GEM_STORED_MANA: 10000
+					}
+				}
+				id: "mahoutsukai:attuned_diamond"
+				tag: {
+					MAHOUTSUKAI_GEM_STORED_MANA: 10000
+				}
+			}
+		}
+	]
 	title: "test"
 }
