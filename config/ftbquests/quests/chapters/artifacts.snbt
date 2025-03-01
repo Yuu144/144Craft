@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{atm9.quest.artifacts.desc.rootedboots.1}"]
+			description: ["Rooted Boots"]
 			id: "010607466D565B53"
 			rewards: [{
 				id: "6D6B518024477701"
@@ -17,18 +17,18 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.artifacts.subt.feet}"
+			subtitle: "Rooted Boots"
 			tasks: [{
 				id: "7D3BB67D10EA5245"
 				item: "artifacts:rooted_boots"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.rootedboots}"
+			title: "Rooted Boots"
 			x: 1.5d
 			y: 3.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.flippers.1}"]
+			description: ["Flippers"]
 			id: "3EC8A0B89788D079"
 			rewards: [{
 				id: "3DBB1369A1072D6F"
@@ -36,18 +36,18 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.artifacts.subt.feet}"
+			subtitle: "Flippers"
 			tasks: [{
 				id: "302D0A2C7FE07D17"
 				item: "artifacts:flippers"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.flippers}"
+			title: "Flippers"
 			x: 1.5d
 			y: 2.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.steadfastboots.1}"]
+			description: ["Steadfast Boots"]
 			hide_details_until_startable: false
 			id: "2215FB0777D7029D"
 			rewards: [{
@@ -56,18 +56,18 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.artifacts.subt.feet}"
+			subtitle: "Steadfast Boots"
 			tasks: [{
 				id: "4323420D7FF4F583"
 				item: "artifacts:steadfast_spikes"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.steadfastboots}"
+			title: "Steadfast Boots"
 			x: 0.5d
 			y: 3.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.snowshoes.1}"]
+			description: ["Snow Shoes"]
 			id: "74B352457BF1541B"
 			rewards: [{
 				id: "69C1A25CAD2D3CCD"
@@ -75,7 +75,7 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.artifacts.subt.feet}"
+			subtitle: "Snow Shoes"
 			tasks: [{
 				id: "268319B4D86AF1FA"
 				item: "artifacts:snowshoes"
@@ -85,7 +85,7 @@
 			y: 3.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.runningshoes.1}"]
+			description: ["Running Shoes"]
 			id: "4A7AEBEB87CEC274"
 			rewards: [{
 				id: "69F5A7BBB1BB1E8D"
@@ -93,18 +93,18 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.artifacts.subt.feet}"
+			subtitle: "Running Shoes"
 			tasks: [{
 				id: "7DABA35BECFBE1E2"
 				item: "artifacts:running_shoes"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.runningshoes}"
+			title: "Running Shoes"
 			x: 3.5d
 			y: 2.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.kittyslippers.1}"]
+			description: ["Kitty Slippers"]
 			id: "122E6E7CABCB17E7"
 			rewards: [{
 				id: "3A58636456616D1C"
@@ -112,18 +112,18 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.artifacts.subt.feet}"
+			subtitle: "Kitty Slippers"
 			tasks: [{
 				id: "294D97F3514A382B"
 				item: "artifacts:kitty_slippers"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.kittyslippers}"
+			title: "Kitty Slippers"
 			x: 4.5d
 			y: 2.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.bunnyhoppers.1}"]
+			description: ["Bunny Hoppers"]
 			id: "5040B3D29F238BC0"
 			rewards: [{
 				id: "1E6151B989D869C6"
@@ -131,18 +131,18 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.artifacts.subt.feet}"
+			subtitle: "Bunny Hoppers"
 			tasks: [{
 				id: "42875442667F74F9"
 				item: "artifacts:bunny_hoppers"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.bunnyhoppers}"
+			title: "Bunny Hoppers"
 			x: 3.5d
 			y: 3.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.aquadashers.1}"]
+			description: ["Aqua Dashers"]
 			id: "4D3379D38237F830"
 			rewards: [{
 				id: "4510DA55C581FEC0"
@@ -150,18 +150,18 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.artifacts.subt.feet}"
+			subtitle: "Aqua Dashers"
 			tasks: [{
 				id: "61C6CFA5DB18E2DC"
 				item: "artifacts:aqua_dashers"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.aquadashers}"
+			title: "Aqua Dashers"
 			x: 0.5d
 			y: 2.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.pickaxeheater.1}"]
+			description: ["Pickaxe Heater"]
 			id: "62622137648A4F56"
 			rewards: [{
 				id: "18456401DB9D3025"
@@ -169,72 +169,72 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "{atm9.quest.artifacts.subt.hands}"
+			subtitle: "Pickaxe Heater"
 			tasks: [{
 				id: "3324A34D10894F27"
 				item: "artifacts:pickaxe_heater"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.pickaxeheater}"
+			title: "Pickaxe Heater"
 			x: -4.0d
 			y: -4.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.onionring.1}"]
+			description: ["Onion Ring"]
 			id: "50A32AC6EDBC5854"
 			rewards: [{
 				id: "59745674479F06CA"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.artifacts.subt.hands}"
+			subtitle: "Onion Ring"
 			tasks: [{
 				id: "749900AF5B497E65"
 				item: "artifacts:onion_ring"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.onionring}"
+			title: "Onion Ring"
 			x: 9.0d
 			y: -3.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.goldenhook.1}"]
+			description: ["Golden Hook"]
 			id: "7188DC06A28AE30E"
 			rewards: [{
 				id: "2FBB621508A8CEF0"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.artifacts.subt.hands}"
+			subtitle: "Golden Hook"
 			tasks: [{
 				id: "2F5269ABA03B3701"
 				item: "artifacts:golden_hook"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.goldenhook}"
+			title: "Golden Hook"
 			x: 8.5d
 			y: -5.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.vampiricglove.1}"]
+			description: ["Vampiric Glove"]
 			id: "73FC51144FC2DA52"
 			rewards: [{
 				id: "781ED9999B2D7532"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.artifacts.subt.hands}"
+			subtitle: "Vampiric Glove"
 			tasks: [{
 				id: "308C57B7ACB795F0"
 				item: "artifacts:vampiric_glove"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.vampiricglove}"
+			title: "Vampiric Glove"
 			x: 8.0d
 			y: -3.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.pocketpiston.1}"]
+			description: ["Pocket Piston"]
 			id: "3B3BD39BA02DCA13"
 			rewards: [{
 				id: "4D40E063E2F9390D"
@@ -242,36 +242,36 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "{atm9.quest.artifacts.subt.hands}"
+			subtitle: "Pocket Piston"
 			tasks: [{
 				id: "078D36F0A6A3F09C"
 				item: "artifacts:pocket_piston"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.pocketpiston}"
+			title: "Pocket Piston"
 			x: -3.5d
 			y: -5.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.firegauntlet.1}"]
+			description: ["Fire Gauntlet"]
 			id: "427014BDE06DE631"
 			rewards: [{
 				id: "2BF8794A6D7F9115"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.artifacts.subt.hands}"
+			subtitle: "Fire Gauntlet"
 			tasks: [{
 				id: "2C689F171E77768E"
 				item: "artifacts:fire_gauntlet"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.firegauntlet}"
+			title: "Fire Gauntlet"
 			x: 9.0d
 			y: -4.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.powerglove.1}"]
+			description: ["Power Glove"]
 			id: "3705D303CF423804"
 			rewards: [{
 				id: "6F62F8697F0A4955"
@@ -279,18 +279,18 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "{atm9.quest.artifacts.subt.hands}"
+			subtitle: "Power Glove"
 			tasks: [{
 				id: "58EBE55746C50688"
 				item: "artifacts:power_glove"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.powerglove}"
+			title: "Power Glove"
 			x: -3.0d
 			y: -3.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.feralclaws.1}"]
+			description: ["Feral Claws"]
 			id: "6A452BFC8A967C39"
 			rewards: [{
 				id: "20016E77FF31BCAC"
@@ -298,36 +298,36 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "{atm9.quest.artifacts.subt.hands}"
+			subtitle: "Feral Claws"
 			tasks: [{
 				id: "01D07B21B85FB2B8"
 				item: "artifacts:feral_claws"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.feralclaws}"
+			title: "Feral Claws"
 			x: -2.5d
 			y: -5.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.diggingclaws.1}"]
+			description: ["Digging Claws"]
 			id: "3525D5DCC3A534D9"
 			rewards: [{
 				id: "4BFDFF2C6BA31B48"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.artifacts.subt.hands}"
+			subtitle: "Digging Claws"
 			tasks: [{
 				id: "29454B0A459EAA52"
 				item: "artifacts:digging_claws"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.diggingclaws}"
+			title: "Digging Claws"
 			x: 7.5d
 			y: -5.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.chorusbelt.1}"]
+			description: ["Chorus Totem"]
 			id: "5DE7C4FD5FA29236"
 			rewards: [{
 				id: "0380882824DC8E99"
@@ -335,18 +335,18 @@
 				xp: 100
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.artifacts.subt.belt}"
+			subtitle: "Chorus Totem"
 			tasks: [{
 				id: "47974C878B90D0DC"
 				item: "artifacts:chorus_totem"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.chorusbelt}"
+			title: "Chorus Totem"
 			x: 2.0d
 			y: -1.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.heliumflamingo.1}"]
+			description: ["Helium Flamingo"]
 			id: "589F1D502F680075"
 			rewards: [{
 				id: "00D2E9494C734CA6"
@@ -354,18 +354,18 @@
 				xp: 100
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.artifacts.subt.belt}"
+			subtitle: "Helium Flamingo"
 			tasks: [{
 				id: "744D283E79F6357A"
 				item: "artifacts:helium_flamingo"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.heliumflamingo}"
+			title: "Helium Flamingo"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.crystalheart.1}"]
+			description: ["Crystal Heart"]
 			id: "623796B1D7981E59"
 			rewards: [{
 				id: "3027186FA88FABC9"
@@ -373,18 +373,18 @@
 				xp: 100
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.artifacts.subt.belt}"
+			subtitle: "Crystal Heart"
 			tasks: [{
 				id: "54E784C8438E430A"
 				item: "artifacts:crystal_heart"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.crystalheart}"
+			title: "Crystal Heart"
 			x: 1.5d
 			y: 0.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.antidotevessel.1}"]
+			description: ["Antidote Vessel"]
 			id: "1E40ACF3E69A4100"
 			rewards: [{
 				id: "578EFA09A59C3A5D"
@@ -392,18 +392,18 @@
 				xp: 100
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.artifacts.subt.belt}"
+			subtitle: "Antidote Vessel"
 			tasks: [{
 				id: "6D34B89C0FD0BA2B"
 				item: "artifacts:antidote_vessel"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.antidotevessel}"
+			title: "Antidote Vessel"
 			x: 2.5d
 			y: 0.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.universalattractor.1}"]
+			description: ["Universal Attractor"]
 			id: "5EB7CE3A1DCD3E9B"
 			rewards: [{
 				id: "1817838D24DCDA78"
@@ -411,18 +411,18 @@
 				xp: 100
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.artifacts.subt.belt}"
+			subtitle: "Universal Attractor"
 			tasks: [{
 				id: "1762FBFEF8647F60"
 				item: "artifacts:universal_attractor"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.universalattractor}"
+			title: "Universal Attractor"
 			x: 3.5d
 			y: 0.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.obsidianskull.1}"]
+			description: ["Obsidian Skull"]
 			id: "4933CF4675E77D50"
 			rewards: [{
 				id: "02568992CBF08933"
@@ -430,18 +430,18 @@
 				xp: 100
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.artifacts.subt.belt}"
+			subtitle: "Obsidian Skull"
 			tasks: [{
 				id: "32245E61C3910041"
 				item: "artifacts:obsidian_skull"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.obsidianskull}"
+			title: "Obsidian Skull"
 			x: 1.0d
 			y: -0.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.cloudinabottle.1}"]
+			description: ["Cloud in a Bottle"]
 			id: "436E4E3515BCCDE9"
 			rewards: [{
 				id: "5F5218AF7DDA4A5E"
@@ -449,18 +449,18 @@
 				xp: 100
 			}]
 			shape: "rsquare"
-			subtitle: "{atm9.quest.artifacts.subt.belt}"
+			subtitle: "Cloud in a Bottle"
 			tasks: [{
 				id: "3FF51BD0B49B2F93"
 				item: "artifacts:cloud_in_a_bottle"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.cloudinabottle}"
+			title: "Cloud in a Bottle"
 			x: 4.0d
 			y: -0.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.charmofsinking.1}"]
+			description: ["Charm of Sinking"]
 			id: "221C9EDA651144BA"
 			rewards: [{
 				id: "55AA38EE9ED49639"
@@ -468,18 +468,18 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "{atm9.quest.artifacts.subt.necklace}"
+			subtitle: "Charm of Sinking"
 			tasks: [{
 				id: "28FC7C19E2A3E1B9"
 				item: "artifacts:charm_of_sinking"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.charmofsinking}"
+			title: "Charm of Sinking"
 			x: 2.0d
 			y: -6.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.thornpendant.1}"]
+			description: ["Thorn Pendant"]
 			id: "3446803FB59D8875"
 			rewards: [{
 				id: "5EF9D42C4CBE3023"
@@ -487,18 +487,18 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "{atm9.quest.artifacts.subt.necklace}"
+			subtitle: "Thorn Pendant"
 			tasks: [{
 				id: "0562A0A5A57E8DD8"
 				item: "artifacts:thorn_pendant"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.thornpendant}"
+			title: "Thorn Pendant"
 			x: 3.0d
 			y: -6.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.flamependant.1}"]
+			description: ["Flame Pendant"]
 			id: "27E951F4F4F6F847"
 			rewards: [{
 				id: "273EA262F2D7DECB"
@@ -506,18 +506,18 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "{atm9.quest.artifacts.subt.necklace}"
+			subtitle: "Flame Pendant"
 			tasks: [{
 				id: "609310B07E907A4F"
 				item: "artifacts:flame_pendant"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.flamependant}"
+			title: "Flame Pendant"
 			x: 1.0d
 			y: -4.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.shockpendant.1}"]
+			description: ["Shock Pendant"]
 			id: "70C7D92844089DEB"
 			rewards: [{
 				id: "217B91C6A932A4BB"
@@ -525,18 +525,18 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "{atm9.quest.artifacts.subt.necklace}"
+			subtitle: "Shock Pendant"
 			tasks: [{
 				id: "62EB681EEB76FCDB"
 				item: "artifacts:shock_pendant"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.shockpendant}"
+			title: "Shock Pendant"
 			x: 2.0d
 			y: -3.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.panicpendant.1}"]
+			description: ["Panic Necklace"]
 			id: "0E716B90E60C486B"
 			rewards: [{
 				id: "22C524CB13F399AF"
@@ -544,18 +544,18 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "{atm9.quest.artifacts.subt.necklace}"
+			subtitle: "Panic Necklace"
 			tasks: [{
 				id: "7CC5ED6BF577834C"
 				item: "artifacts:panic_necklace"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.panicpendant}"
+			title: "Panic Necklace"
 			x: 3.0d
 			y: -3.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.crossnecklace.1}"]
+			description: ["Cross Necklace"]
 			id: "72D6265E35814927"
 			rewards: [{
 				id: "39385ECA2FB24EB2"
@@ -563,18 +563,18 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "{atm9.quest.artifacts.subt.necklace}"
+			subtitle: "Cross Necklace"
 			tasks: [{
 				id: "5AA765DFA49DA1C9"
 				item: "artifacts:cross_necklace"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.crossnecklace}"
+			title: "Cross Necklace"
 			x: 0.5d
 			y: -5.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.luckyscarf.1}"]
+			description: ["Lucky Scarf"]
 			id: "7503823ACDDB0491"
 			rewards: [{
 				id: "4539536E7B821D61"
@@ -582,18 +582,18 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "{atm9.quest.artifacts.subt.scarf}"
+			subtitle: "Lucky Scarf"
 			tasks: [{
 				id: "07DB486C6CAF2E13"
 				item: "artifacts:lucky_scarf"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.luckyscarf}"
+			title: "Lucky Scarf"
 			x: 4.0d
 			y: -4.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.scarfofinvisibility.1}"]
+			description: ["Scarf of Invisibility"]
 			id: "145E7D1A88B83DDD"
 			rewards: [{
 				id: "05D654079C1B9F5C"
@@ -601,18 +601,18 @@
 				xp: 100
 			}]
 			shape: "circle"
-			subtitle: "{atm9.quest.artifacts.subt.scarf}"
+			subtitle: "Scarf of Invisibility"
 			tasks: [{
 				id: "3244560CD2EE978D"
 				item: "artifacts:scarf_of_invisibility"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.scarfofinvisibility}"
+			title: "Scarf of Invisibility"
 			x: 4.5d
 			y: -5.5d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.anglerhat.1}"]
+			description: ["Angler's Hat"]
 			id: "29448D08C8777425"
 			rewards: [{
 				id: "08D5119D4D25F06B"
@@ -620,18 +620,18 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "{atm9.quest.artifacts.subt.head}"
+			subtitle: "Angler's Hat"
 			tasks: [{
 				id: "7E2317305BD5F842"
 				item: "artifacts:anglers_hat"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.anglerhat}"
+			title: "Angler's Hat"
 			x: 1.0d
 			y: -10.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.cowboyhat.1}"]
+			description: ["Cowboy Hat"]
 			id: "6FBE5B5D5027B32C"
 			rewards: [{
 				id: "77D71AB2874AB8F9"
@@ -639,18 +639,18 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "{atm9.quest.artifacts.subt.head}"
+			subtitle: "Cowboy Hat"
 			tasks: [{
 				id: "7EC988A7F600F860"
 				item: "artifacts:cowboy_hat"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.cowboyhat}"
+			title: "Cowboy Hat"
 			x: 4.0d
 			y: -10.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.superstitioushat.1}"]
+			description: ["Superstitious Hat"]
 			id: "5F5E43B3F51CAE9E"
 			rewards: [{
 				id: "48522341AACBFC58"
@@ -658,18 +658,18 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "{atm9.quest.artifacts.subt.head}"
+			subtitle: "Superstitious Hat"
 			tasks: [{
 				id: "1F1665E13DA82D42"
 				item: "artifacts:superstitious_hat"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.superstitioushat}"
+			title: "Superstitious Hat"
 			x: 2.0d
 			y: -10.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.villagerhat.1}"]
+			description: ["Villager Hat"]
 			id: "73B73870B29DFAD9"
 			rewards: [{
 				id: "6EB5F3C9CF92E388"
@@ -677,18 +677,18 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "{atm9.quest.artifacts.subt.head}"
+			subtitle: "Villager Hat"
 			tasks: [{
 				id: "6B7D97464175DAD6"
 				item: "artifacts:villager_hat"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.villagerhat}"
+			title: "Villager Hat"
 			x: 3.0d
 			y: -10.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.nightvisiongoggles.1}"]
+			description: ["Night Vision Goggles"]
 			id: "2AD78E22988A92D3"
 			rewards: [{
 				id: "7C67BEBBE04DD801"
@@ -696,18 +696,18 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "{atm9.quest.artifacts.subt.head}"
+			subtitle: "Night Vision Goggles"
 			tasks: [{
 				id: "187EE75FF4C074B4"
 				item: "artifacts:night_vision_goggles"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.nightvisiongoggles}"
+			title: "Night Vision Goggles"
 			x: 2.0d
 			y: -12.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.snorkel.1}"]
+			description: ["Snorkel"]
 			id: "16255FB20F35A9D9"
 			rewards: [{
 				id: "7C177C45CE7EF70A"
@@ -715,18 +715,18 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "{atm9.quest.artifacts.subt.head}"
+			subtitle: "Snorkel"
 			tasks: [{
 				id: "4E77B753AADEF6A8"
 				item: "artifacts:snorkel"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.snorkel}"
+			title: "Snorkel"
 			x: 2.0d
 			y: -11.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.noveltydrinkinghat.1}"]
+			description: ["Novelty Drinking Hat"]
 			id: "3E0643EA9183CDAE"
 			rewards: [{
 				id: "62951CA67B5891DC"
@@ -734,18 +734,18 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "{atm9.quest.artifacts.subt.head}"
+			subtitle: "Novelty Drinking Hat"
 			tasks: [{
 				id: "485807A0B369A8F7"
 				item: "artifacts:novelty_drinking_hat"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.noveltydrinkinghat}"
+			title: "Novelty Drinking Hat"
 			x: 3.0d
 			y: -12.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.plasticdrinkinghat.1}"]
+			description: ["Plastic Drinking Hat"]
 			id: "2607F3DC07049785"
 			rewards: [{
 				id: "4BE1052205794E92"
@@ -753,18 +753,18 @@
 				xp: 100
 			}]
 			shape: "square"
-			subtitle: "{atm9.quest.artifacts.subt.head}"
+			subtitle: "Plastic Drinking Hat"
 			tasks: [{
 				id: "5D461DEF3DEDCA4A"
 				item: "artifacts:plastic_drinking_hat"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.plasticdrinkinghat}"
+			title: "Plastic Drinking Hat"
 			x: 3.0d
 			y: -11.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.whoopiecushion.1}"]
+			description: ["Whoopee Cushion"]
 			id: "789AF6D0A6321945"
 			rewards: [{
 				id: "182AD6DED1A3AD09"
@@ -772,19 +772,19 @@
 				xp: 100
 			}]
 			shape: "gear"
-			subtitle: "{atm9.quest.artifacts.subt.unique}"
+			subtitle: "Whoopee Cushion"
 			tasks: [{
 				id: "1572258C18AF7CED"
 				item: "artifacts:whoopee_cushion"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.whoopiecushion}"
+			title: "Whoopee Cushion"
 			x: 7.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["4564B577CB4EC046"]
-			description: ["{atm9.quest.artifacts.desc.everlastingsteak.1}"]
+			description: ["Eternal Steak"]
 			id: "161A90E134592D0E"
 			rewards: [{
 				id: "052B82F5AF8D6071"
@@ -792,18 +792,18 @@
 				xp: 100
 			}]
 			shape: "gear"
-			subtitle: "{atm9.quest.artifacts.subt.unique}"
+			subtitle: "Eternal Steak"
 			tasks: [{
 				id: "312B1C048832A594"
 				item: "artifacts:eternal_steak"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.everlastingsteak}"
+			title: "Eternal Steak"
 			x: -3.0d
 			y: -4.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.everlastingbeef.1}"]
+			description: ["Everlasting Beef"]
 			id: "4564B577CB4EC046"
 			rewards: [{
 				id: "11871674D7964023"
@@ -811,18 +811,18 @@
 				xp: 100
 			}]
 			shape: "gear"
-			subtitle: "{atm9.quest.artifacts.subt.unique}"
+			subtitle: "Everlasting Beef"
 			tasks: [{
 				id: "5DF60B934B5F3EBB"
 				item: "artifacts:everlasting_beef"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.everlastingbeef}"
+			title: "Everlasting Beef"
 			x: -2.0d
 			y: -4.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.umbrella.1}"]
+			description: ["Umbrella"]
 			id: "3E1A3BC8642390B3"
 			rewards: [{
 				id: "758FA82E41A36862"
@@ -830,18 +830,18 @@
 				xp: 100
 			}]
 			shape: "gear"
-			subtitle: "{atm9.quest.artifacts.subt.unique}"
+			subtitle: "Umbrella"
 			tasks: [{
 				id: "17A1084B7A6C0540"
 				item: "artifacts:umbrella"
 				type: "item"
 			}]
-			title: "{atm9.quest.artifacts.title.umbrella}"
+			title: "Umbrella"
 			x: 8.0d
 			y: -4.0d
 		}
 		{
-			description: ["{atm9.quest.artifacts.desc.artifacts.1}"]
+			description: ["Mimic"]
 			id: "5CE44C58A470E48E"
 			rewards: [{
 				id: "2E1F8B18F7C92706"
@@ -856,7 +856,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "{atm9.quest.artifacts.title.artifacts}"
+			title: "Kill Mimics"
 			x: 2.5d
 			y: -7.75d
 		}
