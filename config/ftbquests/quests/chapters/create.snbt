@@ -37,6 +37,7 @@
 					type: "item"
 				}
 			]
+			shape: "hexagon"
 			tasks: [{
 				count: 16L
 				id: "54D391F299E10480"
@@ -422,6 +423,7 @@
 					type: "loot"
 				}
 			]
+			shape: "hexagon"
 			tasks: [{
 				id: "07EEB39981597EE8"
 				item: "create:andesite_casing"
@@ -768,6 +770,7 @@
 					type: "loot"
 				}
 			]
+			shape: "hexagon"
 			tasks: [{
 				id: "7A1DC8206912ABC2"
 				item: "create:mechanical_press"
@@ -958,6 +961,7 @@
 					type: "loot"
 				}
 			]
+			shape: "hexagon"
 			tasks: [{
 				count: 8L
 				id: "6693011159B18B21"
@@ -1070,6 +1074,7 @@
 					type: "loot"
 				}
 			]
+			shape: "hexagon"
 			tasks: [{
 				count: 16L
 				id: "1E8C5E02B563D0A0"
@@ -1210,6 +1215,89 @@
 			}]
 			x: 15.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["1E4DFE75DE3ABD13"]
+			id: "667F3B294E62CA36"
+			rewards: [
+				{
+					id: "2FFDEDF3B515ED1B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "05731ADC8F3CDC82"
+					item: "create:sturdy_sheet"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "6DFB2DB6FB920DA0"
+				item: { Count: 8, id: "create:sturdy_sheet" }
+				type: "item"
+			}]
+			title: "Sturdy Sheet"
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["667F3B294E62CA36"]
+			id: "51363CD2644743FB"
+			rewards: [
+				{
+					id: "7FD11970FE86522C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44A0B4D5A09D6931"
+					table_id: 7191082874467169753L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "239CBCEC4A6E7C3F"
+				item: { Count: 8, id: "create:railway_casing" }
+				type: "item"
+			}]
+			title: "Train Casing"
+			x: 15.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2C9EA69BBBD6395D"]
+			id: "24BBDBCF110AC88F"
+			rewards: [
+				{
+					id: "404D7BC488D9E308"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "05AC96609ABBD5B2"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59A46EAB49646FB6"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6115EBFAD12C9B12"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
 		}
 	]
 	title: "Create"

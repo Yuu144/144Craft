@@ -676,6 +676,12 @@
 					item: "thermal:steel_ingot"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "47370AACED611035"
+					table_id: 8905064056842791870L
+					type: "loot"
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
