@@ -9,6 +9,19 @@
 	quests: [
 		{
 			id: "46AA08F46567D5D7"
+			rewards: [
+				{
+					id: "2F0F6E8DE032E305"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 2
+					id: "2A15757CB44DEB4E"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -29,321 +42,27 @@
 		}
 		{
 			dependencies: ["46AA08F46567D5D7"]
-			id: "69AA0A552CF41CD3"
-			shape: "square"
+			id: "6F0BF5DD1EDF208F"
+			rewards: [
+				{
+					count: 4
+					id: "4A4108DBEB571D57"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "3453A594EA2E6FEB"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [{
-				id: "0508BA1BAA93149D"
-				item: "minecraft:crafting_table"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["69AA0A552CF41CD3"]
-			id: "3345F8C5B7C8C4FF"
-			shape: "hexagon"
-			size: 1.5d
-			tasks: [{
-				id: "0C0306A5D088E42A"
-				title: "Explore"
-				type: "custom"
-			}]
-			x: 4.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["69AA0A552CF41CD3"]
-			id: "59084072F182303C"
-			tasks: [{
-				id: "0F943DB056607AD4"
+				id: "1F20A340AE72F816"
 				item: "minecraft:furnace"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["59084072F182303C"]
-			id: "1DDEE6CEB8AA5E99"
-			shape: "pentagon"
-			size: 1.5d
-			tasks: [{
-				id: "498C1E4E0D07A28C"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
-			x: 8.25d
+			x: 4.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["59084072F182303C"]
-			hide_until_deps_complete: true
-			icon: "ironfurnaces:netherite_furnace"
-			id: "6DD39E580A4AF269"
-			shape: "square"
-			size: 1.5d
-			tasks: [{
-				id: "56BFDD9A767A0664"
-				title: "Furnace"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["3345F8C5B7C8C4FF"]
-			id: "75AD935A0CCF8392"
-			tasks: [{
-				id: "6F1A170FA1C10CDE"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "waystones:waystones"
-					}
-				}
-				title: "Any #waystones:waystones"
-				type: "item"
-			}]
-			title: "Waystones"
-			x: 3.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["3345F8C5B7C8C4FF"]
-			id: "6A622EA1BF5A67C4"
-			title: "Structures"
-			x: 5.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["3345F8C5B7C8C4FF"]
-			id: "4082D0AD60B7910D"
-			tasks: [{
-				id: "16A4E3CCA7059E5F"
-				item: "apotheosis:gem_dust"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["3345F8C5B7C8C4FF"]
-			id: "65C92038B70471E1"
-			tasks: [{
-				block: "lootr:lootr_chest"
-				block_type: 0
-				checkItem: false
-				id: "55257D91FCBC0C7E"
-				isItemInteraction: false
-				title: "LOOTr"
-				type: "questsadditions:use"
-				value: 1000L
-			}]
-			x: 5.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1DDEE6CEB8AA5E99"]
-			id: "4CC899586235D50E"
-			tasks: [{
-				id: "06A667C7622454FF"
-				item: {
-					Count: 1
-					id: "minecraft:iron_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 10.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4CC899586235D50E"]
-			id: "439965B32DAF7A5C"
-			tasks: [{
-				id: "34E61B06EA92864E"
-				item: "minecraft:redstone"
-				type: "item"
-			}]
-			x: 10.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["439965B32DAF7A5C"]
-			id: "70C99B8AB040FAA1"
-			shape: "square"
-			size: 1.5d
-			tasks: [{
-				id: "4D28E1BBE3DCE4F6"
-				item: "mekanismgenerators:heat_generator"
-				type: "item"
-			}]
-			title: "Tech"
-			x: 12.75d
-			y: 3.0d
-		}
-		{
-			dependencies: ["70C99B8AB040FAA1"]
-			id: "69CC7C538D066BEF"
-			tasks: [{
-				id: "0A305E6ADE245CBB"
-				item: "fluxnetworks:flux_core"
-				type: "item"
-			}]
-			x: 14.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["70C99B8AB040FAA1"]
-			id: "3BD4278461A53F62"
-			tasks: [{
-				id: "69B0CC19CAB58A67"
-				item: "powah:energy_cable_starter"
-				type: "item"
-			}]
-			x: 11.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["70C99B8AB040FAA1"]
-			id: "69DD8D2554BA74E3"
-			tasks: [{
-				id: "56B06DB8AA7F4C26"
-				item: {
-					Count: 1
-					id: "ironjetpacks:jetpack"
-					tag: {
-						Id: "ironjetpacks:wood"
-						Throttle: 1.0d
-					}
-				}
-				type: "item"
-			}]
-			x: 14.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["70C99B8AB040FAA1"]
-			id: "09179FF7AA7DB27E"
-			tasks: [{
-				id: "4DE15D832C8D0074"
-				item: "refinedstorage:controller"
-				type: "item"
-			}]
-			x: 11.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["4CC899586235D50E"]
-			id: "363C1D0152A763BA"
-			tasks: [{
-				id: "5A36118266FF3EAB"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			x: 13.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["363C1D0152A763BA"]
-			id: "180BDA88780C4BC9"
-			shape: "square"
-			size: 1.0d
-			tasks: [{
-				dimension: "twilightforest:twilight_forest"
-				id: "6EA0749D5FDA8E88"
-				title: "The Forest"
-				type: "dimension"
-			}]
-			x: 13.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["363C1D0152A763BA"]
-			id: "0587C900CE8E199D"
-			shape: "square"
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				id: "3CCC76886EF11A06"
-				title: "The Netherlands"
-				type: "dimension"
-			}]
-			x: 15.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["0587C900CE8E199D"]
-			icon: "minecraft:end_portal_frame"
-			id: "4AB9E4F230A26D93"
-			shape: "hexagon"
-			tasks: [{
-				id: "22DE133953FCF023"
-				structure: "minecraft:stronghold"
-				title: "Stronghold"
-				type: "structure"
-			}]
-			x: 16.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["4AB9E4F230A26D93"]
-			icon: "minecraft:dragon_head"
-			id: "40FE86FA4B864A00"
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				entity: "minecraft:ender_dragon"
-				id: "225E4AF68DEE3564"
-				title: "Dragon deeznuts"
-				type: "kill"
-				value: 1L
-			}]
-			x: 17.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["59C465398D4E5AB9"]
-			icon: "minecraft:wither_skeleton_skull"
-			id: "09315BB4929003FA"
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				entity: "minecraft:wither"
-				id: "654AD15EEEA770EB"
-				type: "kill"
-				value: 1L
-			}]
-			x: 19.5d
-			y: -2.25d
-		}
-		{
-			dependencies: ["0587C900CE8E199D"]
-			id: "59C465398D4E5AB9"
-			tasks: [{
-				entity: "minecraft:wither_skeleton"
-				id: "1DED45B64AB1ED19"
-				type: "kill"
-				value: 1L
-			}]
-			x: 17.0d
-			y: -1.0d
-		}
-		{
-			id: "1969D68F66F2DBAB"
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				entity: "minecraft:warden"
-				id: "744C852C40CC0DA8"
-				type: "kill"
-				value: 1L
-			}]
-			x: 19.0d
-			y: 0.5d
 		}
 	]
 	title: "Getting started"

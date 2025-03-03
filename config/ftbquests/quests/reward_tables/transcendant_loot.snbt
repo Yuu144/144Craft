@@ -1,0 +1,11 @@
+{
+	icon: "lootr:lootr_chest"
+	id: "1CF1D053BB155A07"
+	loot_size: 1
+	order_index: 5
+	rewards: [{
+		type: "xp_levels"
+		xp_levels: 25
+	}]
+	title: "Transcendant Loot"
+}

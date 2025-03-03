@@ -50,16 +50,16 @@
 			image: "144craft:textures/ancient_remnant.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 34.0d
-			y: -6.0d
+			x: 6.5d
+			y: -16.0d
 		}
 		{
 			height: 10.0d
 			image: "144craft:textures/ignis.png"
 			rotation: 0.0d
 			width: 16.0d
-			x: 47.0d
-			y: 1.5d
+			x: -5.0d
+			y: -10.5d
 		}
 	]
 	order_index: 0
@@ -117,6 +117,19 @@
 			dependencies: ["7999A3177A478208"]
 			icon: "cataclysm:gauntlet_of_guard"
 			id: "035E78540BFBF37B"
+			rewards: [
+				{
+					id: "2197C30892EAF10E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64412E7B67B1F2CA"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -133,6 +146,19 @@
 			dependencies: ["035E78540BFBF37B"]
 			icon: "cataclysm:witherite_ingot"
 			id: "46DDCCEF4F693126"
+			rewards: [
+				{
+					id: "7D5A021B9C79E7C8"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BDDD9CA59777A98"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -149,6 +175,19 @@
 			dependencies: ["46DDCCEF4F693126"]
 			icon: "cataclysm:cursium_ingot"
 			id: "754A30E41D7D1C87"
+			rewards: [
+				{
+					id: "0045C72A17A49EFC"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0918AB8A5F62C92A"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -165,6 +204,19 @@
 			dependencies: ["754A30E41D7D1C87"]
 			icon: "iceandfire:dragon_skull_lightning"
 			id: "59BA9579A4FB1DAF"
+			rewards: [
+				{
+					id: "6F7180BB9A82FF39"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12CA2056702A3F27"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -236,6 +288,19 @@
 			dependencies: ["59BA9579A4FB1DAF"]
 			icon: "cataclysm:tidal_claws"
 			id: "2675E72CE566F34C"
+			rewards: [
+				{
+					id: "5C76C181A2CA717A"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+				{
+					exclude_from_claim_all: true
+					id: "668FE7E455AB478E"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -245,13 +310,32 @@
 				value: 1L
 			}]
 			title: "&dKill the&r &1&kT&r&1Leviathan&kT&r"
-			x: 26.0d
-			y: 0.0d
+			x: 15.75d
+			y: -12.0d
 		}
 		{
 			dependencies: ["2675E72CE566F34C"]
 			icon: "cataclysm:ancient_metal_ingot"
 			id: "196B286D10D5DCF6"
+			rewards: [
+				{
+					id: "4B113BC950A1CC62"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "025C92B5B7CC454C"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DD7AC0DCD6CEA01"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
@@ -261,13 +345,33 @@
 				value: 1L
 			}]
 			title: "&dKill the&r &e&kT&r&eAncient Remnant&kT&r"
-			x: 34.0d
-			y: -4.5d
+			x: 5.25d
+			y: -14.25d
 		}
 		{
 			dependencies: ["196B286D10D5DCF6"]
 			icon: "cataclysm:ignitium_ingot"
 			id: "289477253DF732AC"
+			rewards: [
+				{
+					id: "673DA6A7635EED65"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B06B98FFE820697"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A9C4709E934D178"
+					table_id: 2085677160488851975L
+					title: "Transcendant Loot"
+					type: "loot"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -277,8 +381,8 @@
 				value: 1L
 			}]
 			title: "&dKill the&r &4&kT&r&4Ignis&kT&r"
-			x: 45.0d
-			y: 1.5d
+			x: -4.5d
+			y: -10.5d
 		}
 	]
 	title: "Bosses"
