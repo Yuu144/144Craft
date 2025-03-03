@@ -10,6 +10,11 @@
 		{
 			dependencies: ["053B6A72B1E14A80"]
 			id: "75E421A47F92B919"
+			rewards: [{
+				id: "0810BDC74C481DC2"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "42D942F0ADF653CF"
 				item: "cataclysm:cursium_ingot"
@@ -22,6 +27,11 @@
 		{
 			dependencies: ["211FE517A9392661"]
 			id: "22C1ED67FFE07873"
+			rewards: [{
+				id: "121CDA5CD0908D6A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "23D4368A79D662A6"
 				item: "silentgear:tyrian_steel_ingot"
@@ -34,6 +44,11 @@
 		{
 			dependencies: ["6959CFC5B89F826A"]
 			id: "211FE517A9392661"
+			rewards: [{
+				id: "1E973D854B8FE51C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "28F7CC062CAE546E"
 				item: "silentgear:azure_electrum_ingot"
@@ -46,6 +61,11 @@
 		{
 			dependencies: ["5510608851429EEF"]
 			id: "6959CFC5B89F826A"
+			rewards: [{
+				id: "3F2A690F8E1EF57D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "50B597364D62ADD4"
@@ -65,6 +85,11 @@
 		{
 			dependencies: ["0486134C82950CDD"]
 			id: "1740AB71A9839DEB"
+			rewards: [{
+				id: "13FBB623A6019576"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "099AABE50C8843F2"
 				item: "cataclysm:ignitium_ingot"
@@ -77,6 +102,11 @@
 		{
 			dependencies: ["3729578E0429B707"]
 			id: "5510608851429EEF"
+			rewards: [{
+				id: "0379D93318A7E75B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "2FC0A0D147B8B287"
@@ -104,6 +134,11 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "3729578E0429B707"
+			rewards: [{
+				id: "42A6C47ACA878EC9"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "718CBDE3727D10DC"
@@ -128,6 +163,11 @@
 				"Dragonsteel Ice: +18 Attack Damage"
 			]
 			id: "0486134C82950CDD"
+			rewards: [{
+				id: "45ED602921DDCA61"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "1BD3C29F917B1E2F"
@@ -152,6 +192,11 @@
 		{
 			dependencies: ["22C1ED67FFE07873"]
 			id: "053B6A72B1E14A80"
+			rewards: [{
+				id: "1D1DAC9784779AEA"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "54647900FA3E0C22"
 				item: "mekanism:ingot_refined_obsidian"
@@ -169,6 +214,11 @@
 				"Good for longer damage weapons"
 			]
 			id: "2EF15A0282033D38"
+			rewards: [{
+				id: "2F49BD54523A3D84"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "6037ABBDE1C35A78"
 				item: "iceandfire:dragonbone"
@@ -186,6 +236,11 @@
 				"Good for high damage weapons"
 			]
 			id: "564340C36A3BAFDE"
+			rewards: [{
+				id: "6203CBFFEE02F9C1"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1CF0E153F4DDD254"
 				item: "minecraft:blaze_rod"
@@ -202,6 +257,11 @@
 				"A little worse than blaze rod"
 			]
 			id: "79737E295C8ADAF4"
+			rewards: [{
+				id: "0A68C904CCB21A7F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "47D520D4DF8D7875"
 				item: "minecraft:bone"
@@ -213,6 +273,11 @@
 		}
 		{
 			id: "7F7CAF165992A9C1"
+			rewards: [{
+				id: "6DE261C0627009C6"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4885EDEA5587C80D"
 				item: "silentgear:sword_blueprint"
@@ -223,6 +288,11 @@
 		}
 		{
 			id: "1CBE2DD253A7DD3C"
+			rewards: [{
+				id: "683DF157DC6F6411"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "422B52846778B115"
 				item: "silentgear:katana_blueprint"
@@ -233,6 +303,11 @@
 		}
 		{
 			id: "0162D25D2BD6E57E"
+			rewards: [{
+				id: "2ED51AE21EDDF623"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4D1F68E8F9E7FA27"
 				item: "silentgear:machete_blueprint"
@@ -243,6 +318,11 @@
 		}
 		{
 			id: "63135B289DAC4630"
+			rewards: [{
+				id: "5EC17647AEDA519A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7045A2E982B39DBD"
 				item: "silentgear:dagger_blueprint"
@@ -253,6 +333,11 @@
 		}
 		{
 			id: "35EC475CAE7D0FAF"
+			rewards: [{
+				id: "7F1860277A4FAF39"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "37ACA8424C977D1A"
 				item: "silentgear:knife_blueprint"
@@ -263,6 +348,11 @@
 		}
 		{
 			id: "01FD4FDFE8C12C5D"
+			rewards: [{
+				id: "5223EE06F0FAC765"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "5AF7F7C1E522E865"
 				item: "silentgear:spear_blueprint"
@@ -273,6 +363,11 @@
 		}
 		{
 			id: "1173F4F7A0DFBFC5"
+			rewards: [{
+				id: "39A4D3C0F184A950"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "555AE22F60309257"
 				item: "silentgear:rod_blueprint"
@@ -283,6 +378,11 @@
 		}
 		{
 			id: "0FEAC49195AEEEEF"
+			rewards: [{
+				id: "38FEB475A7904BD8"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "7A57662885C471DF"
 				item: "silentgear:tip_blueprint"
@@ -294,6 +394,11 @@
 		{
 			dependencies: ["0FEAC49195AEEEEF"]
 			id: "6DB70F78988226F3"
+			rewards: [{
+				id: "474D512673992E5E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4A13372E2B601D37"
 				item: "minecraft:iron_ingot"
@@ -305,6 +410,11 @@
 		{
 			dependencies: ["6DB70F78988226F3"]
 			id: "05A282EE71B319C6"
+			rewards: [{
+				id: "3D2E27DFA936A267"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3631E6256EC73D71"
 				item: "minecraft:redstone"
@@ -316,6 +426,11 @@
 		{
 			dependencies: ["05A282EE71B319C6"]
 			id: "376A5D30FE4166B2"
+			rewards: [{
+				id: "10C5AADB910A532A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "66802B92F8143D4F"
 				item: "minecraft:quartz"
@@ -327,6 +442,11 @@
 		{
 			dependencies: ["376A5D30FE4166B2"]
 			id: "3821371914498C41"
+			rewards: [{
+				id: "749412EAB326CB1F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "1344FC2EF68218B0"
@@ -350,6 +470,11 @@
 		{
 			dependencies: ["3821371914498C41"]
 			id: "512A3713FD94E2A3"
+			rewards: [{
+				id: "2CE9AAB8D5EDDB61"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3FD695F1C711D97A"
 				item: "ores144craft:element_144_ium"
@@ -360,6 +485,11 @@
 		}
 		{
 			id: "3ECC1C61498D0004"
+			rewards: [{
+				id: "708B48974E04C3F6"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4BC498C259F109B5"
 				item: "silentgear:coating_blueprint"
@@ -371,6 +501,11 @@
 		{
 			dependencies: ["3ECC1C61498D0004"]
 			id: "4EBAC6B39802BB7A"
+			rewards: [{
+				id: "408367E7AF747D80"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2E6E8B701142EDA2"
 				item: "minecraft:netherite_ingot"
@@ -382,6 +517,11 @@
 		{
 			dependencies: ["4EBAC6B39802BB7A"]
 			id: "6C0CC3AEFB1CB4D1"
+			rewards: [{
+				id: "5D35CF3336A72357"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4F84E5D43B4E1FEF"
 				item: "iceandfire:fire_dragon_blood"
