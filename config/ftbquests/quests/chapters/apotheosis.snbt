@@ -5,22 +5,85 @@
 	group: ""
 	icon: "minecraft:enchanting_table"
 	id: "282448C70744895F"
-	images: [{
-		click: "https://allthemods.github.io/alltheguides/atm9/apotheosis/"
-		height: 1.0d
-		hover: ["atm9.quest.enchant.img.guide"]
-		image: "minecraft:block/enchanting_table_side"
-		rotation: 0.0d
-		width: 1.0d
-		x: -5.5d
-		y: 3.5d
-	}]
+	images: [
+		{
+			height: 1.7d
+			image: "144craft:textures/apotheosis/enchant_hell.png"
+			rotation: 0.0d
+			width: 2.78d
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 1.375d
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			height: 1.7d
+			image: "144craft:textures/apotheosis/enchant_helldeep.png"
+			rotation: 0.0d
+			width: 2.17d
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			height: 1.7d
+			image: "144craft:textures/apotheosis/enchant_sea.png"
+			rotation: 0.0d
+			width: 2.96d
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 1.375d
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			height: 1.7d
+			image: "144craft:textures/apotheosis/enchant_seadeep.png"
+			rotation: 0.0d
+			width: 2.88d
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			height: 1.7d
+			image: "144craft:textures/apotheosis/enchant_end.png"
+			rotation: 0.0d
+			width: 2.73d
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/recipe_arrow_filled.png"
+			rotation: 0.0d
+			width: 1.375d
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			height: 1.7d
+			image: "144craft:textures/apotheosis/enchant_perfect.png"
+			rotation: 0.0d
+			width: 3.65d
+			x: 15.5d
+			y: 1.5d
+		}
+	]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{atm9.quest.enchant.desc.enchant}"]
 			id: "0EB5B926E1FBAF0E"
 			rewards: [
 				{
@@ -48,13 +111,13 @@
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			title: "{atm9.quest.enchant.enchant}"
+			title: "Enchanting Table"
 			x: -3.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["0EB5B926E1FBAF0E"]
-			description: ["{atm9.quest.enchant.desc.book}"]
+			description: [""]
 			icon: "minecraft:bookshelf"
 			id: "7F042DED357DEF3C"
 			rewards: [{
@@ -76,13 +139,13 @@
 				title: "Any #forge:bookshelves"
 				type: "item"
 			}]
-			title: "{atm9.quest.enchant.book}"
+			title: "Craft any bookshelf"
 			x: -1.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["1D06097B6206BA60"]
-			description: ["{atm9.quest.enchant.desc.hellshelf}"]
+			description: [""]
 			id: "50EEDDDE129D2742"
 			rewards: [
 				{
@@ -104,13 +167,13 @@
 				item: "apotheosis:hellshelf"
 				type: "item"
 			}]
-			title: "{atm9.quest.enchant.hellshelf}"
+			title: "Hellshelf"
 			x: 2.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1D06097B6206BA60"]
-			description: ["{atm9.quest.enchant.desc.seashelf}"]
+			description: [""]
 			id: "5B3CC3F66F2C3DE5"
 			rewards: [
 				{
@@ -132,13 +195,13 @@
 				item: "apotheosis:seashelf"
 				type: "item"
 			}]
-			title: "{atm9.quest.enchant.seashelf}"
+			title: "Seashelf"
 			x: 2.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["1D06097B6206BA60"]
-			description: ["{atm9.quest.enchant.desc.arcana}"]
+			description: [""]
 			id: "4F4B2A6997F25A5A"
 			rewards: [
 				{
@@ -158,13 +221,13 @@
 				item: "apotheosis:seashelf"
 				type: "item"
 			}]
-			title: "{atm9.quest.enchant.arcana}"
+			title: "Arcana gain"
 			x: 1.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["1D06097B6206BA60"]
-			description: ["{atm9.quest.enchant.desc.eterna}"]
+			description: [""]
 			id: "353C7440B32F0A5E"
 			rewards: [
 				{
@@ -184,13 +247,13 @@
 				item: "apotheosis:dormant_deepshelf"
 				type: "item"
 			}]
-			title: "{atm9.quest.enchant.eterna}"
+			title: "Eterna gain"
 			x: 1.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["1D06097B6206BA60"]
-			description: ["{atm9.quest.enchant.desc.quanta}"]
+			description: [""]
 			id: "7234CB42AEF6C941"
 			rewards: [
 				{
@@ -210,16 +273,13 @@
 				item: "apotheosis:hellshelf"
 				type: "item"
 			}]
-			title: "{atm9.quest.enchant.quanta}"
+			title: "Quanta gain"
 			x: 1.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["50EEDDDE129D2742"]
-			description: [
-				"{atm9.quest.enchant.desc.infused_hellshelf}"
-				"{image:atm:textures/questpics/apotheosis/enchant_hell.png width:100 height:100 align:1}"
-			]
+			description: [""]
 			id: "218803812A9C332B"
 			rewards: [
 				{
@@ -241,16 +301,13 @@
 				item: "apotheosis:infused_hellshelf"
 				type: "item"
 			}]
-			title: "{atm9.quest.enchant.infused_hellshelf}"
+			title: "Infused Hellshelf"
 			x: 4.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5B3CC3F66F2C3DE5"]
-			description: [
-				"{atm9.quest.enchant.desc.infused_seashelf}"
-				"{image:atm:textures/questpics/apotheosis/enchant_sea.png width:100 height:100 align:1}"
-			]
+			description: [""]
 			id: "076DFB0B39A4259F"
 			rewards: [
 				{
@@ -272,13 +329,13 @@
 				item: "apotheosis:infused_seashelf"
 				type: "item"
 			}]
-			title: "{atm9.quest.enchant.infused_seashelf}"
+			title: "Infused Seashelf"
 			x: 4.0d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7F042DED357DEF3C"]
-			description: ["{atm9.quest.enchant.desc.infusion}"]
+			description: [""]
 			icon: "minecraft:enchanting_table"
 			id: "1D06097B6206BA60"
 			rewards: [{
@@ -292,13 +349,16 @@
 				title: "Infusion"
 				type: "checkmark"
 			}]
-			title: "{atm9.quest.enchant.infusion}"
+			title: "Enchanting Infusion"
 			x: 1.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["076DFB0B39A4259F"]
-			description: ["{atm9.quest.enchant.desc.retification}"]
+			description: [
+				"&eRetrification&r is a quantity that works with &4Quanta&r, it determines if the enchantments will be good or bad."
+				"More &eRetrification&r = &5better Enchantments&r"
+			]
 			id: "001B11C3773022DE"
 			rewards: [{
 				id: "39226132585B50DF"
@@ -323,13 +383,12 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.enchant.retification}"
-			x: 3.5d
+			title: "Retrification"
+			x: 4.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["218803812A9C332B"]
-			description: ["{atm9.quest.enchant.desc.sight}"]
 			id: "12F4980CB3BFCE0D"
 			rewards: [{
 				id: "0F9B9AC5B4AB3949"
@@ -349,16 +408,12 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.enchant.sight}"
+			title: "Enchanting Clues"
 			x: 3.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["076DFB0B39A4259F"]
-			description: [
-				"{atm9.quest.enchant.desc.crystalline}"
-				"{image:atm:textures/questpics/apotheosis/enchant_seadeep.png width:200 height:150 align:1}"
-			]
 			icon: "apotheosis:crystal_seashelf"
 			id: "751189465F91B353"
 			rewards: [
@@ -388,13 +443,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.enchant.crystalline}"
+			title: "Crystalline Seashelf"
 			x: 5.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["218803812A9C332B"]
-			description: ["{atm9.quest.enchant.desc.blazing}"]
+			description: [""]
 			id: "6C76AB8A6110C0C7"
 			rewards: [{
 				id: "46322209C889C939"
@@ -407,16 +462,13 @@
 				item: "apotheosis:blazing_hellshelf"
 				type: "item"
 			}]
-			title: "{atm9.quest.enchant.blazing}"
+			title: "Blazing Hellshelf"
 			x: 4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["218803812A9C332B"]
-			description: [
-				"{atm9.quest.enchant.desc.glowing}"
-				"{image:atm:textures/questpics/apotheosis/enchant_helldeep.png width:150 height:100 align:1}"
-			]
+			description: [""]
 			id: "0F77A9AD1F422537"
 			rewards: [
 				{
@@ -437,7 +489,7 @@
 				item: "apotheosis:glowing_hellshelf"
 				type: "item"
 			}]
-			title: "{atm9.quest.enchant.glowing}"
+			title: "Glowing Hellshelf"
 			x: 5.5d
 			y: 2.5d
 		}
@@ -447,7 +499,7 @@
 				"751189465F91B353"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{atm9.quest.enchant.desc.deepshelf}"]
+			description: [""]
 			id: "62B2C1A24AE245EA"
 			rewards: [
 				{
@@ -477,13 +529,13 @@
 				item: "apotheosis:deepshelf"
 				type: "item"
 			}]
-			title: "{atm9.quest.enchant.deepshelf}"
-			x: 6.5d
+			title: "Deepshelf"
+			x: 7.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["0C596CB7C7C24615"]
-			description: ["{atm9.quest.enchant.desc.Soul_sculk}"]
+			description: [""]
 			id: "10C527C66EE4E95A"
 			rewards: [
 				{
@@ -503,13 +555,12 @@
 				item: "apotheosis:soul_touched_sculkshelf"
 				type: "item"
 			}]
-			title: "{atm9.quest.enchant.Soul_sculk}"
-			x: 8.0d
+			title: "Soul-Touched Sculkshelf"
+			x: 9.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["405369118613F935"]
-			description: ["{atm9.quest.enchant.desc.echo_sculk}"]
 			id: "606780E5B8CF83BE"
 			rewards: [
 				{
@@ -529,13 +580,13 @@
 				item: "apotheosis:echoing_sculkshelf"
 				type: "item"
 			}]
-			title: "{atm9.quest.enchant.echo_sculk}"
-			x: 8.0d
+			title: "Echoing Sculkshelf"
+			x: 9.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["62B2C1A24AE245EA"]
-			description: ["{atm9.quest.enchant.desc.Soul_deep}"]
+			description: [""]
 			id: "0C596CB7C7C24615"
 			rewards: [
 				{
@@ -556,13 +607,13 @@
 				item: "apotheosis:soul_touched_deepshelf"
 				type: "item"
 			}]
-			title: "{atm9.quest.enchant.Soul_deep}"
-			x: 8.0d
+			title: "Soul-Touched Deepshelf"
+			x: 8.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["62B2C1A24AE245EA"]
-			description: ["{atm9.quest.enchant.desc.echo_deep}"]
+			description: [""]
 			id: "405369118613F935"
 			rewards: [
 				{
@@ -583,8 +634,8 @@
 				item: "apotheosis:echoing_deepshelf"
 				type: "item"
 			}]
-			title: "{atm9.quest.enchant.echo_deep}"
-			x: 8.0d
+			title: "Echoing Deepshelf"
+			x: 8.5d
 			y: 5.0d
 		}
 		{
@@ -592,10 +643,7 @@
 				"606780E5B8CF83BE"
 				"10C527C66EE4E95A"
 			]
-			description: [
-				"{atm9.quest.enchant.desc.endshelf}"
-				"{image:atm:textures/questpics/apotheosis/enchant_end.png width:100 height:100 align:1}"
-			]
+			description: [""]
 			icon: "apotheosis:infused_breath"
 			id: "21EE522DDBF0BF72"
 			rewards: [{
@@ -616,8 +664,8 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.enchant.endshelf}"
-			x: 9.5d
+			title: "Endshelf"
+			x: 11.0d
 			y: 3.5d
 		}
 		{
@@ -626,7 +674,6 @@
 				"4F4B2A6997F25A5A"
 				"353C7440B32F0A5E"
 			]
-			description: ["{atm9.quest.enchant.desc.negative}"]
 			id: "5C56452BE7879D0A"
 			rewards: [
 				{
@@ -658,37 +705,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.enchant.negative}"
+			title: "Negative bookshelves"
 			x: 0.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["1D06097B6206BA60"]
-			description: ["{atm9.quest.enchant.desc.other}"]
-			id: "44D1B410550B6C28"
-			rewards: [{
-				count: 9
-				id: "0E193F344F6CFC60"
-				item: "minecraft:lapis_lazuli"
-				type: "item"
-			}]
-			shape: "rsquare"
-			tasks: [{
-				count: 3L
-				id: "1ACDB5822E2F5713"
-				item: { Count: 3, id: "minecraft:lapis_lazuli" }
-				type: "item"
-			}]
-			title: "{atm9.quest.enchant.other}"
-			x: 1.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["44D1B410550B6C28"]
-			description: [
-				"{atm9.quest.enchant.desc.charms}"
-				"{image:atm:textures/questpics/apotheosis/enchant_charm.png width:100 height:100 align:1}"
-			]
+			description: [""]
 			icon: {
 				Count: 1
 				id: "apotheosis:potion_charm"
@@ -698,12 +721,19 @@
 				}
 			}
 			id: "12282CBB658F1132"
-			rewards: [{
-				count: 12
-				id: "076A8F095CFA80BC"
-				item: "minecraft:blaze_powder"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 12
+					id: "076A8F095CFA80BC"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "5C0038D8F799BAA2"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "5A01C349DB7F396C"
 				item: {
@@ -716,13 +746,13 @@
 				title: "Any #curios:charm"
 				type: "item"
 			}]
-			title: "{atm9.quest.enchant.charms}"
-			x: 0.0d
-			y: 1.5d
+			title: "Charms"
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["21EE522DDBF0BF72"]
-			description: ["{atm9.quest.enchant.desc.pearlescent}"]
+			description: [""]
 			id: "4A59DF02128DA9F3"
 			rewards: [{
 				id: "6DC65D64AFC9FB86"
@@ -735,13 +765,13 @@
 				item: "apotheosis:pearl_endshelf"
 				type: "item"
 			}]
-			title: "{atm9.quest.enchant.pearlescent}"
-			x: 11.0d
+			title: "Pearlescent Endshelf"
+			x: 12.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["21EE522DDBF0BF72"]
-			description: ["{atm9.quest.enchant.desc.draconic}"]
+			description: [""]
 			id: "6244032FE2E5F1E1"
 			rewards: [{
 				id: "361E51B63206BF0A"
@@ -754,16 +784,13 @@
 				item: "apotheosis:draconic_endshelf"
 				type: "item"
 			}]
-			title: "{atm9.quest.enchant.draconic}"
-			x: 11.0d
+			title: "Draconic Endshelf"
+			x: 12.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["6244032FE2E5F1E1"]
-			description: [
-				"{atm9.quest.enchant.desc.perfect}"
-				"{image:atm:textures/questpics/apotheosis/enchant_perfect.png width:200 height:100 align:1}"
-			]
+			description: [""]
 			icon: "apotheosis:treasure_shelf"
 			id: "4C446F22771E2B53"
 			rewards: [{
@@ -803,19 +830,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.enchant.perfect}"
-			x: 12.5d
+			title: "Perfect enchanter"
+			x: 15.0d
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"44D1B410550B6C28"
-				"314E41B84C8DD464"
-			]
-			description: [
-				"{atm9.quest.enchant.desc.alexandria}"
-				"{image:atm:textures/questpics/apotheosis/enchant_library.png width:150 height:100 align:1}"
-			]
+			dependencies: ["314E41B84C8DD464"]
+			description: [""]
 			id: "5FD4F40CEC37D9FD"
 			rewards: [{
 				id: "2651F1CE1044AC2B"
@@ -837,43 +858,13 @@
 				item: "apotheosis:ender_library"
 				type: "item"
 			}]
-			title: "{atm9.quest.enchant.alexandria}"
-			x: 0.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["44D1B410550B6C28"]
-			description: [
-				"{atm9.quest.enchant.desc.trident}"
-				"{image:atm:textures/questpics/apotheosis/enchant_trident.png width:100 height:100 align:1}"
-			]
-			id: "24526FFBA093805A"
-			rewards: [{
-				id: "60BFDFEDBA2E930C"
-				item: {
-					Count: 1
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "minecraft:impaling"
-							lvl: 5s
-						}]
-					}
-				}
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "2C0F85A4868C5C20"
-				item: "apotheosis:inert_trident"
-				type: "item"
-			}]
-			title: "{atm9.quest.enchant.trident}"
+			title: "Library of Alexandria"
 			x: 1.0d
 			y: 0.5d
 		}
 		{
-			description: ["{atm9.quest.enchant.desc.library}"]
+			dependencies: ["1D06097B6206BA60"]
+			description: [""]
 			id: "314E41B84C8DD464"
 			rewards: [{
 				id: "54020DF00D36132E"
@@ -895,30 +886,9 @@
 				item: "apotheosis:library"
 				type: "item"
 			}]
-			title: "{atm9.quest.enchant.library}"
-			x: -1.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["076DFB0B39A4259F"]
-			description: ["{atm9.quest.enchant.desc.heart-forged}"]
-			icon: "apotheosis:heart_seashelf"
-			id: "5FD95ABA63C56BD5"
-			rewards: [{
-				count: 2
-				id: "354026304732BC41"
-				item: "minecraft:heart_of_the_sea"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "01254EDBBAC8A7BE"
-				item: "minecraft:heart_of_the_sea"
-				type: "item"
-			}]
-			title: "{atm9.quest.enchant.heart-forged}"
-			x: 4.5d
-			y: 5.5d
+			title: "Enchanting Library"
+			x: 1.0d
+			y: 2.0d
 		}
 	]
 	title: "Apothoesis Enchanting"
