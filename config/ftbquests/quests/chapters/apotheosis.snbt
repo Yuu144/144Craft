@@ -120,12 +120,20 @@
 			description: [""]
 			icon: "minecraft:bookshelf"
 			id: "7F042DED357DEF3C"
-			rewards: [{
-				count: 9
-				id: "02A49326EC0332F9"
-				item: "minecraft:book"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "02A49326EC0332F9"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A8155D9F36E432F"
+					table_id: 8905064056842791870L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "1CC9EA4FD2BF3DB0"
@@ -155,9 +163,15 @@
 					type: "item"
 				}
 				{
-					id: "4B4D03F018866CED"
-					type: "xp_levels"
-					xp_levels: 1
+					id: "232575B6D807BDDB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "385E4454EBB2E444"
+					table_id: 7191082874467169753L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -183,9 +197,15 @@
 					type: "item"
 				}
 				{
-					id: "2A2C64A263534254"
-					type: "xp_levels"
-					xp_levels: 1
+					id: "12066D801BC743D2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69A9975A742CCD95"
+					table_id: 7191082874467169753L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -205,14 +225,20 @@
 			id: "4F4B2A6997F25A5A"
 			rewards: [
 				{
-					id: "7557646AD28E0AD7"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					id: "6F1DF7232ED9BA44"
 					item: "minecraft:lapis_block"
 					type: "item"
+				}
+				{
+					id: "1FEE06DBC16677A7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77849E080CE08D06"
+					table_id: 8905064056842791870L
+					type: "loot"
 				}
 			]
 			shape: "rsquare"
@@ -231,14 +257,20 @@
 			id: "353C7440B32F0A5E"
 			rewards: [
 				{
-					id: "48B69C4ED2286CE3"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					id: "15C336B8F822FFB6"
 					item: "minecraft:lapis_block"
 					type: "item"
+				}
+				{
+					id: "13023E9AFAAE89C9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F31B9B5B796CC7A"
+					table_id: 8905064056842791870L
+					type: "loot"
 				}
 			]
 			shape: "rsquare"
@@ -257,14 +289,20 @@
 			id: "7234CB42AEF6C941"
 			rewards: [
 				{
-					id: "0D2CF41C05F65061"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					id: "2F3E8DDE9F2BD8E6"
 					item: "minecraft:lapis_block"
 					type: "item"
+				}
+				{
+					id: "10122417A3726E0F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "184D2E2CD0134B0C"
+					table_id: 8905064056842791870L
+					type: "loot"
 				}
 			]
 			shape: "rsquare"
@@ -289,9 +327,15 @@
 					type: "item"
 				}
 				{
-					id: "45221C96DB22ACFE"
-					type: "xp_levels"
-					xp_levels: 2
+					id: "267F32F1A3CEE15D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3ACEC236ABFFA579"
+					table_id: 7191082874467169753L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -317,9 +361,15 @@
 					type: "item"
 				}
 				{
-					id: "735A3489B5B5D2CF"
-					type: "xp_levels"
-					xp_levels: 2
+					id: "7BE95DC4DA39018E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D417C50E22741E1"
+					table_id: 7191082874467169753L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -338,11 +388,6 @@
 			description: [""]
 			icon: "minecraft:enchanting_table"
 			id: "1D06097B6206BA60"
-			rewards: [{
-				id: "62BEA9EB0C5B1D25"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
 			size: 1.5d
 			tasks: [{
 				id: "0EE3A88719BB0221"
@@ -360,11 +405,19 @@
 				"More &eRetrification&r = &5better Enchantments&r"
 			]
 			id: "001B11C3773022DE"
-			rewards: [{
-				id: "39226132585B50DF"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "22CEA23B78B4F01F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31E52CFEDD81CDE6"
+					table_id: 7191082874467169753L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -390,11 +443,19 @@
 		{
 			dependencies: ["218803812A9C332B"]
 			id: "12F4980CB3BFCE0D"
-			rewards: [{
-				id: "0F9B9AC5B4AB3949"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "061934597B27594A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5813115B6D9AAB9D"
+					table_id: 8099757763658743866L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -423,9 +484,15 @@
 					type: "item"
 				}
 				{
-					id: "3892A2FF910199A4"
-					type: "xp_levels"
-					xp_levels: 3
+					id: "6C9CE3C3FEB263F0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24859F53438A557A"
+					table_id: 7191082874467169753L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -451,11 +518,24 @@
 			dependencies: ["218803812A9C332B"]
 			description: [""]
 			id: "6C76AB8A6110C0C7"
-			rewards: [{
-				id: "46322209C889C939"
-				item: "apotheosis:blazing_hellshelf"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "46322209C889C939"
+					item: "apotheosis:blazing_hellshelf"
+					type: "item"
+				}
+				{
+					id: "64FF1A1848F134FB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2806AA68B5F41441"
+					table_id: 7191082874467169753L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "4EE21647F4434CB5"
@@ -477,9 +557,15 @@
 					type: "item"
 				}
 				{
-					id: "4EF873AFFBF02D37"
-					type: "xp_levels"
-					xp_levels: 3
+					id: "7E1417315A0D18E0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15D753BBBE7AF8FD"
+					table_id: 7191082874467169753L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -509,18 +595,15 @@
 					type: "item"
 				}
 				{
-					id: "6E2C2C8D98E2A77C"
-					item: {
-						Count: 1
-						id: "naturescompass:naturescompass"
-						tag: { }
-					}
-					type: "item"
+					id: "5FCDEB286A231781"
+					type: "xp"
+					xp: 250
 				}
 				{
-					id: "5A8355C756B5E870"
-					type: "xp_levels"
-					xp_levels: 4
+					exclude_from_claim_all: true
+					id: "002DF0F378655EDA"
+					table_id: 7191082874467169753L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -548,6 +631,12 @@
 					type: "xp_levels"
 					xp_levels: 6
 				}
+				{
+					exclude_from_claim_all: true
+					id: "05584F3C667559B4"
+					table_id: 7191082874467169753L
+					type: "loot"
+				}
 			]
 			shape: "hexagon"
 			tasks: [{
@@ -572,6 +661,12 @@
 					id: "072059C3C10C6FF7"
 					type: "xp_levels"
 					xp_levels: 6
+				}
+				{
+					exclude_from_claim_all: true
+					id: "463C1ACCBA95A666"
+					table_id: 7191082874467169753L
+					type: "loot"
 				}
 			]
 			shape: "hexagon"
@@ -646,11 +741,19 @@
 			description: [""]
 			icon: "apotheosis:infused_breath"
 			id: "21EE522DDBF0BF72"
-			rewards: [{
-				id: "366AFCAB92AF9E96"
-				item: "minecraft:dragon_breath"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "366AFCAB92AF9E96"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D87C2DFBD792A8C"
+					table_id: 7191082874467169753L
+					type: "loot"
+				}
+			]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -685,6 +788,12 @@
 					id: "7E31D14888399F7F"
 					item: "minecraft:lapis_block"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "063CB47AB63FE258"
+					table_id: 7191082874467169753L
+					type: "loot"
 				}
 			]
 			shape: "square"
@@ -754,11 +863,19 @@
 			dependencies: ["21EE522DDBF0BF72"]
 			description: [""]
 			id: "4A59DF02128DA9F3"
-			rewards: [{
-				id: "6DC65D64AFC9FB86"
-				item: "minecraft:dragon_head"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6DC65D64AFC9FB86"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01E88E602CBC8D8C"
+					table_id: 7191082874467169753L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "7AB6761EB41B1E07"
@@ -773,11 +890,19 @@
 			dependencies: ["21EE522DDBF0BF72"]
 			description: [""]
 			id: "6244032FE2E5F1E1"
-			rewards: [{
-				id: "361E51B63206BF0A"
-				item: "apotheosis:draconic_endshelf"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "361E51B63206BF0A"
+					item: "apotheosis:draconic_endshelf"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79A84B3E4E51B4C2"
+					table_id: 7191082874467169753L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "1F41FD294030AE04"
@@ -793,11 +918,19 @@
 			description: [""]
 			icon: "apotheosis:treasure_shelf"
 			id: "4C446F22771E2B53"
-			rewards: [{
-				id: "13E4A3BF1FB727B5"
-				type: "xp_levels"
-				xp_levels: 25
-			}]
+			rewards: [
+				{
+					id: "13E4A3BF1FB727B5"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57B4EB3810A524A7"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [
@@ -838,20 +971,27 @@
 			dependencies: ["314E41B84C8DD464"]
 			description: [""]
 			id: "5FD4F40CEC37D9FD"
-			rewards: [{
-				id: "2651F1CE1044AC2B"
-				item: {
-					Count: 1
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "minecraft:sharpness"
-							lvl: 5s
-						}]
+			rewards: [
+				{
+					id: "2651F1CE1044AC2B"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4DB6D4CBF4815C29"
+					type: "xp"
+					xp: 250
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "21E8F3E04CA2BA93"
@@ -866,20 +1006,27 @@
 			dependencies: ["1D06097B6206BA60"]
 			description: [""]
 			id: "314E41B84C8DD464"
-			rewards: [{
-				id: "54020DF00D36132E"
-				item: {
-					Count: 1
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "minecraft:smite"
-							lvl: 5s
-						}]
+			rewards: [
+				{
+					id: "54020DF00D36132E"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:smite"
+								lvl: 5s
+							}]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "56C659CCF22289E5"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "hexagon"
 			tasks: [{
 				id: "324CAB864D37604A"

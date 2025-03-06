@@ -90,6 +90,27 @@ ServerEvents.recipes(event => {
         C:'mekanism:ingot_refined_obsidian'
     })
 
+    //Creative Energy Cube
+    event.custom({
+        type: "create:mechanical_crafting",
+        pattern: [
+          'FEDEF',
+          'EBCBE',
+          'DCACD',
+          'EBCBE',
+          'FEDEF'
+          ],
+          key: {
+            A: Ingredient.of('kubejs:-null-').toJson(),
+            B: Ingredient.of('mekanism:ultimate_energy_cube').toJson(),
+            C: Ingredient.of('mekanism:ultimate_induction_cell').toJson(),
+            D: Ingredient.of('mekanism:ultimate_induction_provider').toJson(),
+            E: Ingredient.of('kubejs:energized_pure_element_144_ium').toJson(),
+            F: Ingredient.of('mekanism:sps_casing').toJson()
+        },
+        result: Item.of('mekanism:creative_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"18446744073709551615.9999"}],componentConfig:{config0:{side0:4,side1:4,side2:4,side3:4,side4:4,side5:4}}}}'),
+        acceptMirrored: false
+      }).id('144craft:mekanism/creative_energy_cube')
 })
 
 //Mekanism start delete

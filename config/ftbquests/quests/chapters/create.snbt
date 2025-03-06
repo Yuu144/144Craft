@@ -1299,6 +1299,18 @@
 			x: 2.5d
 			y: 5.5d
 		}
+		{
+			dependencies: ["51363CD2644743FB"]
+			description: ["There are many Create addons for trains, loot for it in JEI @create"]
+			id: "7C74B419FF217015"
+			tasks: [{
+				id: "7E33A5D0F37FC5C8"
+				title: "Create Train"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: -3.5d
+		}
 	]
 	title: "Create"
 }
