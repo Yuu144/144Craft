@@ -212,13 +212,24 @@ ServerEvents.recipes(hscraft => {
 
     //Sick Twig path ---------------------------------------------------------
     hscraft.shaped(
-      Item.of('kubejs:stick_x2', 1),
+      Item.of('kubejs:stick_x1', 1),
       [
         'AAA',
         'AAA',
         'AAA'
       ],{
         A: 'minecraft:stick'
+      }
+    )
+    
+    hscraft.shaped(
+      Item.of('kubejs:stick_x2', 1),
+      [
+        'AAA',
+        'AAA',
+        'AAA'
+      ],{
+        A: 'kubejs:stick_x1'
       }
     )
 
@@ -313,4 +324,45 @@ ServerEvents.recipes(hscraft => {
 
 ServerEvents.tags('item', event => {
   event.add('forge:elements/144-ium', 'ores144craft:element_144_ium')
+})
+
+PlayerEvents.decorateChat(event => {
+  event.setMessage(event.message.replace('nigga', '§4Ich bin eine unglaublich nervige Person die absolut kein Sinn darin sieht andere zu Respektieren'))
+  event.setMessage(event.message.replace('nigger', '§4Ich bin eine unglaublich nervige Person die absolut kein Sinn darin sieht andere zu Respektieren'))
+  event.setMessage(event.message.replace('neger', '§4Ich bin eine unglaublich nervige Person die absolut kein Sinn darin sieht andere zu Respektieren'))
+  event.setMessage(event.message.replace('n i g g a', '§4Ich bin eine unglaublich nervige Person die absolut kein Sinn darin sieht andere zu Respektieren'))
+  event.setMessage(event.message.replace('n e g e r', '§4Ich bin eine unglaublich nervige Person die absolut kein Sinn darin sieht andere zu Respektieren'))
+  event.setMessage(event.message.replace('n i g e r', '§4Ich bin eine unglaublich nervige Person die absolut kein Sinn darin sieht andere zu Respektieren'))
+  event.setMessage(event.message.replace('n e g r', '§4Ich bin eine unglaublich nervige Person die absolut kein Sinn darin sieht andere zu Respektieren'))
+  event.setMessage(event.message.replace('n i g r', '§4Ich bin eine unglaublich nervige Person die absolut kein Sinn darin sieht andere zu Respektieren'))
+  event.setMessage(event.message.replace('niger', '§4Ich bin eine unglaublich nervige Person die absolut kein Sinn darin sieht andere zu Respektieren'))
+  event.setMessage(event.message.replace('nigr', '§4Ich bin eine unglaublich nervige Person die absolut kein Sinn darin sieht andere zu Respektieren'))
+  event.setMessage(event.message.replace('negr', '§4Ich bin eine unglaublich nervige Person die absolut kein Sinn darin sieht andere zu Respektieren'))
+})
+
+ServerEvents.tick(event => {
+  let players = event.server.players; // Get all players online
+
+  for (let player of players) {
+      let inventory = player.inventory // Get player's entire inventory
+      for (let item of inventory.items){
+        if (item.id == 'kubejs:quasar') {
+          player.potionEffects.add('kubejs:gravitational_pressure', 100, 1, false, false),
+          player.potionEffects.add('minecraft:wither', 100, 0, false, false)
+          player.potionEffects.add('minecraft:slowness', 100, 4, false, false)
+        }
+      }
+
+      for (let item of inventory.items){
+        if (item.id == 'kubejs:dark_matter') {
+          player.potionEffects.add('kubejs:gravitational_pressure', 100, 1, false, false)
+        }
+      }
+
+      for (let item of inventory.items){
+        if (item.id == 'kubejs:neutron_star_shard') {
+          player.potionEffects.add('kubejs:gravitational_pressure', 100, 19, false, false)
+        }
+      }
+  }
 })
