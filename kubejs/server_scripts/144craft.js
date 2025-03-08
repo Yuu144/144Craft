@@ -23,7 +23,7 @@ ServerEvents.recipes(hscraft => {
           G: Ingredient.of('kubejs:quasar').toJson(),
           H: Ingredient.of('kubejs:sick_twig').toJson(),
           I: Ingredient.of('kubejs:ethereal_capacitor').toJson(),
-          J: Ingredient.of('cataclysm:ignitium_block').toJson(),
+          J: Ingredient.of('cataclysm:ignitium_ingot').toJson(),
           K: Ingredient.of('draconicevolution:chaos_shard').toJson(),
           L: Ingredient.of('draconicevolution:awakened_draconium_block').toJson(),
           M: Ingredient.of('kubejs:energized_pure_element_144_ium_block').toJson(),
@@ -129,7 +129,22 @@ ServerEvents.recipes(hscraft => {
       {
         A: 'forbidden_arcanus:eternal_stella',
         B: 'tiab:time_in_a_bottle',
-        C: 'ad_astra:calorite_ingot'
+        C: 'draconicevolution:chaotic_core'
+      }
+    )
+
+    //Dark matter
+    hscraft.shaped(
+      Item.of('kubejs:dark_matter', 1),
+      [
+        'ACA',
+        'CBC',
+        'ACA'
+      ],
+      {
+        A: 'mekanism:pellet_antimatter',
+        B: 'tiab:time_in_a_bottle',
+        C: 'draconicevolution:chaotic_core'
       }
     )
 
