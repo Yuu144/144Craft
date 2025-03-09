@@ -1,5 +1,5 @@
 ServerEvents.recipes(hscraft => {
-    //-null- Crafting
+    //-null-
     hscraft.custom({
       type: "create:mechanical_crafting",
       pattern: [
@@ -143,7 +143,7 @@ ServerEvents.recipes(hscraft => {
       ],
       {
         A: 'mekanism:pellet_antimatter',
-        B: 'tiab:time_in_a_bottle',
+        B: 'kubejs:energized_pure_element_144_ium',
         C: 'draconicevolution:chaotic_core'
       }
     )
@@ -180,11 +180,11 @@ ServerEvents.recipes(hscraft => {
       {
         A: 'tiab:time_in_a_bottle',
         B: 'ars_nouveau:glyph_accelerate',
-        C: 'soulsweapons:withered_demon_heart',
+        C: 'minecraft:clock',
         D: 'ars_nouveau:glyph_decelerate',
         E: 'minecraft:echo_shard',
         F: 'ars_nouveau:glyph_duration_down',
-        G: Item.of('mahoutsukai:attuned_diamond', '{MAHOUTSUKAI_GEM_STORED_MANA:10000}'),
+        G: 'mahoutsukai:attuned_diamond',
         H: 'ars_nouveau:glyph_extend_time'
       }
     )
@@ -356,10 +356,10 @@ PlayerEvents.decorateChat(event => {
 })
 
 ServerEvents.tick(event => {
-  let players = event.server.players; // Get all players online
+  let players = event.server.players;
 
   for (let player of players) {
-      let inventory = player.inventory // Get player's entire inventory
+      let inventory = player.inventory
       for (let item of inventory.items){
         if (item.id == 'kubejs:quasar') {
           player.potionEffects.add('kubejs:gravitational_pressure', 100, 1, false, false),

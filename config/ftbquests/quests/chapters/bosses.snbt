@@ -7,7 +7,7 @@
 	images: [
 		{
 			height: 5.0d
-			image: "144craft:textures/netherite_monstrosity.png"
+			image: "144craft:textures/apotheosis/netherite_monstrosity.png"
 			rotation: 0.0d
 			width: 5.0d
 			x: -2.0d
@@ -15,7 +15,7 @@
 		}
 		{
 			height: 5.0d
-			image: "144craft:textures/ender_guardian.png"
+			image: "144craft:textures/apotheosis/ender_guardian.png"
 			rotation: 0.0d
 			width: 9.0d
 			x: 2.0d
@@ -23,7 +23,7 @@
 		}
 		{
 			height: 5.0d
-			image: "144craft:textures/harbinger.png"
+			image: "144craft:textures/apotheosis/harbinger.png"
 			rotation: 0.0d
 			width: 5.35d
 			x: 5.0d
@@ -31,7 +31,7 @@
 		}
 		{
 			height: 5.0d
-			image: "144craft:textures/maledictus.png"
+			image: "144craft:textures/apotheosis/maledictus.png"
 			rotation: 0.0d
 			width: 14.8d
 			x: 10.5d
@@ -39,7 +39,7 @@
 		}
 		{
 			height: 10.0d
-			image: "144craft:textures/fire_dragon.png"
+			image: "144craft:textures/apotheosis/fire_dragon.png"
 			rotation: 0.0d
 			width: 14.7d
 			x: 17.5d
@@ -47,7 +47,7 @@
 		}
 		{
 			height: 15.0d
-			image: "144craft:textures/ancient_remnant.png"
+			image: "144craft:textures/apotheosis/ancient_remnant.png"
 			rotation: 0.0d
 			width: 15.0d
 			x: 6.5d
@@ -55,7 +55,7 @@
 		}
 		{
 			height: 10.0d
-			image: "144craft:textures/ignis.png"
+			image: "144craft:textures/apotheosis/ignis.png"
 			rotation: 0.0d
 			width: 16.0d
 			x: -5.0d

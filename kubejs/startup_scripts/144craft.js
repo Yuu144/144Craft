@@ -1,9 +1,9 @@
 StartupEvents.registry('item', event => {
   event.create('pure_element_144_ium').displayName('Pure Element 144-ium')
-  event.create('element_144_ium_block').displayName('Element 144-ium Block')
-  event.create('pure_element_144_ium_block').displayName('Pure Element 144-ium Block')
+  //event.create('element_144_ium_block').displayName('Element 144-ium Block')
+  //event.create('pure_element_144_ium_block').displayName('Pure Element 144-ium Block')
   event.create('energized_pure_element_144_ium').displayName('Energized Pure Element 144-ium')
-  event.create('energized_pure_element_144_ium_block').displayName('Energized Pure Element 144-ium Block')
+  //event.create('energized_pure_element_144_ium_block').displayName('Energized Pure Element 144-ium Block')
   event.create('-null-')
   event.create('orb_of_eternity')
   event.create('void_crystal')
@@ -22,6 +22,38 @@ StartupEvents.registry('item', event => {
   event.create('stick_x7').displayName('Stick x7')
   event.create('stick_x8').displayName('Stick x8')
   event.create('stick_x9').displayName('Stick x9')
+})
+
+StartupEvents.registry('block', event => {
+  //Pure 144 Block
+  event.create('pure_element_144_ium_block')
+  .displayName('Pure Element 144-ium Block')
+  .material('stone')
+  .hardness(1.5)
+  .resistance(1.5)
+  .requiresTool(true)
+    .tagBlock('mineable/pickaxe')
+    .tagBlock('forge:needs_netherite_tool')
+
+  //144 Block
+  event.create('element_144_ium_block')
+  .displayName('Element 144-ium Block')
+  .material('stone')
+  .hardness(1.5)
+  .resistance(1.5)
+  .requiresTool(true)
+    .tagBlock('mineable/pickaxe')
+    .tagBlock('forge:needs_netherite_tool')
+
+  //Energized Pure 144 Block
+  event.create('energized_pure_element_144_ium_block')
+  .displayName('Energized Pure Element 144-ium Block')
+  .material('stone')
+  .hardness(1.5)
+  .resistance(1.5)
+  .requiresTool(true)
+    .tagBlock('mineable/pickaxe')
+    .tagBlock('forge:needs_netherite_tool')
 })
 
 ItemEvents.modification(event => {
