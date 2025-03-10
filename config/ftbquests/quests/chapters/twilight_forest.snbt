@@ -53,17 +53,13 @@
 				id: "695EA135D2B5FDC8"
 				type: "advancement"
 			}]
-			title: "Twilight Forest"
+			title: ""
 			x: -7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4193303999597249"]
-			description: [
-				"{atm9.quest.twilightForest.desc.discoverEntities.1}"
-				""
-				"{atm9.quest.twilightForest.desc.discoverEntities.2}"
-			]
+			description: []
 			hide_until_deps_visible: true
 			id: "575E405B270BBCBC"
 			rewards: [{
@@ -76,7 +72,7 @@
 				criterion: ""
 				icon: "twilightforest:cicada"
 				id: "49C77D4CDAE03481"
-				title: "{atm9.quest.twilightForest.silenceForest}"
+				title: ""
 				type: "advancement"
 			}]
 			x: -7.5d
@@ -85,13 +81,7 @@
 		{
 			dependencies: ["2951B1D7080C5EF9"]
 			dependency_requirement: "all_started"
-			description: [
-				"{atm9.quest.twilightForest.desc.notImplemented.1}"
-				""
-				"{atm9.quest.twilightForest.desc.notImplemented.2}"
-				""
-				"{atm9.quest.twilightForest.desc.notImplemented.3}"
-			]
+			description: []
 			icon: "twilightforest:castle_brick"
 			id: "420158B1736A1354"
 			rewards: [{
@@ -105,7 +95,7 @@
 					biome: "twilightforest:final_plateau"
 					icon: "twilightforest:castle_brick"
 					id: "086AAFD8D9F5EDFA"
-					title: "{atm9.quest.twilightForest.enterFinalPlateau}"
+					title: ""
 					type: "biome"
 				}
 				{
@@ -133,17 +123,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.twilightForest.finalBoss}"
+			title: ""
 			x: 9.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["4193303999597249"]
-			description: [
-				"{atm9.quest.twilightForest.desc.differentFoods.1}"
-				""
-				"{atm9.quest.twilightForest.desc.differentFoods.2}"
-			]
+			description: []
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: "minecraft:bowl"
@@ -207,18 +193,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.twilightForest.fancyNoms}"
+			title: ""
 			x: 6.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["575E405B270BBCBC"]
 			dependency_requirement: "one_completed"
-			description: [
-				"{atm9.quest.twilightForest.desc.getLost.1}"
-				""
-				"{atm9.quest.twilightForest.desc.getLost.2}"
-			]
+			description: []
 			icon: "twilightforest:raven_feather"
 			id: "57940981E8DE55D4"
 			rewards: [{
@@ -231,17 +213,13 @@
 				item: "twilightforest:raven_feather"
 				type: "item"
 			}]
-			title: "{atm9.quest.twilightForest.ravenFeathers}"
+			title: ""
 			x: -6.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["420158B1736A1354"]
-			description: [
-				"{atm9.quest.twilightForest.desc.lootChests.1}"
-				""
-				"{atm9.quest.twilightForest.desc.lootChests.2}"
-			]
+			description: []
 			icon: "twilightforest:time_sapling"
 			id: "0ED7B25DC1AA767B"
 			rewards: [
@@ -262,7 +240,7 @@
 			]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "{atm9.quest.twilightForest.subt.growingTrees}"
+			subtitle: ""
 			tasks: [
 				{
 					id: "51F100B03CBC2ACF"
@@ -285,17 +263,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.twilightForest.realFinalBoss}"
+			title: ""
 			x: 6.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["4193303999597249"]
-			description: [
-				"{atm9.quest.twilightForest.desc.firstBoss.1}"
-				""
-				"{atm9.quest.twilightForest.desc.firstBoss.2}"
-			]
+			description: []
 			hide_until_deps_visible: true
 			id: "3531B28F14CF72A2"
 			rewards: [
@@ -317,23 +291,13 @@
 				item: "twilightforest:naga_trophy"
 				type: "item"
 			}]
-			title: "{atm9.quest.twilightForest.timeEvenScales}"
+			title: ""
 			x: -6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3531B28F14CF72A2"]
-			description: [
-				"{atm9.quest.twilightForest.desc.lichFight.1}"
-				""
-				"{atm9.quest.twilightForest.desc.lichFight.2}"
-				""
-				"{atm9.quest.twilightForest.desc.lichFight.3}"
-				""
-				"{atm9.quest.twilightForest.desc.lichFight.4}"
-				""
-				"{atm9.quest.twilightForest.desc.lichFight.5}"
-			]
+			description: []
 			id: "0107D516E038E0DB"
 			rewards: [
 				{
@@ -357,17 +321,13 @@
 				item: "twilightforest:lich_trophy"
 				type: "item"
 			}]
-			title: "{atm9.quest.twilightForest.bringOutYourDead}"
+			title: ""
 			x: -4.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4B95D48D7525FFAD"]
-			description: [
-				"{atm9.quest.twilightForest.desc.minoshroom.1}"
-				""
-				"{atm9.quest.twilightForest.desc.minoshroom.2}"
-			]
+			description: []
 			icon: "twilightforest:minoshroom_trophy"
 			id: "04440BB2EFFD6DD9"
 			rewards: [
@@ -393,19 +353,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.twilightForest.mightyStroganoff}"
+			title: ""
 			x: 1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["04440BB2EFFD6DD9"]
-			description: [
-				"{atm9.quest.twilightForest.desc.hydra.1}"
-				""
-				"{atm9.quest.twilightForest.desc.hydra.2}"
-				""
-				"{atm9.quest.twilightForest.desc.hydra.3}"
-			]
+			description: []
 			id: "7026E46FD8B3A81D"
 			rewards: [
 				{
@@ -418,25 +372,19 @@
 					type: "random"
 				}
 			]
-			subtitle: "{atm9.quest.twilightForest.subt.fireySwamp}"
+			subtitle: ""
 			tasks: [{
 				id: "6D9D134621F8FA36"
 				item: "twilightforest:hydra_trophy"
 				type: "item"
 			}]
-			title: "{atm9.quest.twilightForest.hydraSlayer}"
+			title: ""
 			x: 2.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["7026E46FD8B3A81D"]
-			description: [
-				"{atm9.quest.twilightForest.desc.darkForestEntry.1}"
-				""
-				"{atm9.quest.twilightForest.desc.darkForestEntry.2}"
-				""
-				"{atm9.quest.twilightForest.desc.darkForestEntry.3}"
-			]
+			description: []
 			id: "3DCF26B53AE1EBF6"
 			rewards: [
 				{
@@ -449,27 +397,19 @@
 					type: "random"
 				}
 			]
-			subtitle: "{atm9.quest.twilightForest.subt.darkestForests}"
+			subtitle: ""
 			tasks: [{
 				id: "4E03E4FCB1B4DE05"
 				item: "twilightforest:knight_phantom_trophy"
 				type: "item"
 			}]
-			title: "{atm9.quest.twilightForest.enteringDarkForest}"
+			title: ""
 			x: 4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3DCF26B53AE1EBF6"]
-			description: [
-				"{atm9.quest.twilightForest.desc.urGhastFight.1}"
-				""
-				"{atm9.quest.twilightForest.desc.urGhastFight.2}"
-				""
-				"{atm9.quest.twilightForest.desc.urGhastFight.3}"
-				""
-				"{atm9.quest.twilightForest.desc.urGhastFight.4}"
-			]
+			description: []
 			id: "688C911ECFB2F134"
 			rewards: [
 				{
@@ -489,26 +429,19 @@
 					type: "random"
 				}
 			]
-			subtitle: "{atm9.quest.twilightForest.subt.darkCarmoniteTower}"
+			subtitle: ""
 			tasks: [{
 				id: "64B931AE43EA1E92"
 				item: "twilightforest:ur_ghast_trophy"
 				type: "item"
 			}]
-			title: "{atm9.quest.twilightForest.tearsOfFire}"
+			title: ""
 			x: 6.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["688C911ECFB2F134"]
-			description: [
-				"{atm9.quest.twilightForest.desc.snowyForestBiomes.1}"
-				""
-				"{atm9.quest.twilightForest.desc.snowyForestBiomes.2}"
-				""
-				"{atm9.quest.twilightForest.desc.snowyForestBiomes.3}"
-				""
-			]
+			description: []
 			id: "31BB7EB95CE73C1A"
 			rewards: [
 				{
@@ -533,23 +466,13 @@
 				item: "twilightforest:alpha_yeti_fur"
 				type: "item"
 			}]
-			title: "{atm9.quest.twilightForest.toTheSnowBiomes}"
+			title: ""
 			x: 9.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["31BB7EB95CE73C1A"]
-			description: [
-				"{atm9.quest.twilightForest.desc.glacierBiome.1}"
-				""
-				"{atm9.quest.twilightForest.desc.glacierBiome.2}"
-				""
-				"{atm9.quest.twilightForest.desc.glacierBiome.3}"
-				""
-				"{atm9.quest.twilightForest.desc.glacierBiome.4}"
-				""
-				"{atm9.quest.twilightForest.desc.glacierBiome.5}"
-			]
+			description: []
 			id: "6FD41DF7704466A4"
 			rewards: [
 				{
@@ -567,19 +490,13 @@
 				item: "twilightforest:snow_queen_trophy"
 				type: "item"
 			}]
-			title: "{atm9.quest.twilightForest.clearSkies}"
+			title: ""
 			x: 10.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["20436AFCC7E6855D"]
-			description: [
-				"{atm9.quest.twilightForest.desc.giantPickaxe.1}"
-				""
-				"{atm9.quest.twilightForest.desc.giantPickaxe.2}"
-				""
-				""
-			]
+			description: []
 			icon: {
 				Count: 1
 				id: "twilightforest:lamp_of_cinders"
@@ -623,13 +540,7 @@
 		}
 		{
 			dependencies: ["58BD1063A19777DC"]
-			description: [
-				"{atm9.quest.twilightForest.desc.magicBeans.1}"
-				""
-				"{atm9.quest.twilightForest.desc.magicBeans.2}"
-				""
-				"{atm9.quest.twilightForest.desc.magicBeans.3}"
-			]
+			description: []
 			icon: {
 				Count: 1
 				id: "twilightforest:giant_pickaxe"
@@ -650,7 +561,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{atm9.quest.twilightForest.subt.giants}"
+			subtitle: ""
 			tasks: [{
 				id: "671EEE3BD0D051FD"
 				item: {
@@ -667,7 +578,7 @@
 		}
 		{
 			dependencies: ["3531B28F14CF72A2"]
-			description: ["{atm9.quest.twilightForest.desc.nagaScaleArmor}"]
+			description: []
 			id: "4D4AB60B3B1CD437"
 			rewards: [
 				{
@@ -712,17 +623,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.twilightForest.nagaScaleArmor}"
+			title: ""
 			x: -6.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["0107D516E038E0DB"]
-			description: [
-				"{atm9.quest.twilightForest.desc.lichScepter.1}"
-				""
-				"{atm9.quest.twilightForest.desc.lichScepter.2}"
-			]
+			description: []
 			id: "212EC1F41227184D"
 			rewards: [
 				{
@@ -755,11 +662,7 @@
 		}
 		{
 			dependencies: ["0107D516E038E0DB"]
-			description: [
-				"{atm9.quest.twilightForest.desc.lifeDrainScepter.1}"
-				""
-				"{atm9.quest.twilightForest.desc.lifeDrainScepter.2}"
-			]
+			description: []
 			id: "6CB1BFBA10DF24E4"
 			rewards: [
 				{
@@ -792,11 +695,7 @@
 		}
 		{
 			dependencies: ["0107D516E038E0DB"]
-			description: [
-				"{atm9.quest.twilightForest.desc.zombieScepter.1}"
-				""
-				"{atm9.quest.twilightForest.desc.zombieScepter.2}"
-			]
+			description: []
 			id: "3908F7C80154D9CA"
 			rewards: [
 				{
@@ -829,11 +728,7 @@
 		}
 		{
 			dependencies: ["0107D516E038E0DB"]
-			description: [
-				"{atm9.quest.twilightForest.desc.shieldScepter.1}"
-				""
-				"{atm9.quest.twilightForest.desc.shieldScepter.2}"
-			]
+			description: []
 			id: "3371570F189DF994"
 			rewards: [
 				{
@@ -866,15 +761,7 @@
 		}
 		{
 			dependencies: ["0107D516E038E0DB"]
-			description: [
-				"{atm9.quest.twilightForest.desc.minoshroomLabyrinth.1}"
-				""
-				"{atm9.quest.twilightForest.desc.minoshroomLabyrinth.2}"
-				""
-				"{atm9.quest.twilightForest.desc.minoshroomLabyrinth.3}"
-				""
-				"{atm9.quest.twilightForest.desc.minoshroomLabyrinth.4}"
-			]
+			description: []
 			icon: "twilightforest:maze_map"
 			id: "4B95D48D7525FFAD"
 			rewards: [{
@@ -882,7 +769,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "{atm9.quest.twilightForest.subt.shrek}"
+			subtitle: ""
 			tasks: [
 				{
 					id: "7AA9D1C39C51F20F"
@@ -896,18 +783,14 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.twilightForest.toTheSwamps}"
+			title: ""
 			x: -1.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4F66DF6B494BEFF3"]
 			dependency_requirement: "one_completed"
-			description: [
-				"{atm9.quest.twilightForest.desc.twilightForestMap.1}"
-				""
-				"{atm9.quest.twilightForest.desc.twilightForestMap.2}"
-			]
+			description: []
 			id: "0990D6CEE042F44E"
 			optional: true
 			rewards: [{
@@ -925,11 +808,7 @@
 		}
 		{
 			dependencies: ["4193303999597249"]
-			description: [
-				"{atm9.quest.twilightForest.desc.steeleafArmor.1}"
-				""
-				"{atm9.quest.twilightForest.desc.steeleafArmor.2}"
-			]
+			description: []
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "2BEBF66D7EA594FA"
@@ -1010,17 +889,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.twilightForest.steeleafArmor}"
+			title: ""
 			x: 8.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4193303999597249"]
-			description: [
-				"{atm9.quest.twilightForest.desc.ironwoodArmor.1}"
-				""
-				"{atm9.quest.twilightForest.desc.ironwoodArmor.2}"
-			]
+			description: []
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "40258842B0359A2D"
@@ -1101,17 +976,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.twilightForest.ironwoodArmor}"
+			title: ""
 			x: 5.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["7026E46FD8B3A81D"]
-			description: [
-				"{atm9.quest.twilightForest.desc.fieryArmor.1}"
-				""
-				"{atm9.quest.twilightForest.desc.fieryArmor.2}"
-			]
+			description: []
 			id: "1FF5906DF721D091"
 			rewards: [
 				{
@@ -1177,13 +1048,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.twilightForest.fieryArmor}"
+			title: ""
 			x: 1.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["3DCF26B53AE1EBF6"]
-			description: ["{atm9.quest.twilightForest.desc.phantomKnightChests}"]
+			description: []
 			id: "0A207A437AF153AA"
 			rewards: [
 				{
@@ -1226,7 +1097,7 @@
 		}
 		{
 			dependencies: ["3DCF26B53AE1EBF6"]
-			description: ["{atm9.quest.twilightForest.desc.phantomKnightChest.1}"]
+			description: []
 			id: "25906B43A198B72F"
 			rewards: [
 				{
@@ -1286,17 +1157,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.twilightForest.knightmetalArmor}"
+			title: ""
 			x: 3.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4193303999597249"]
-			description: [
-				"{atm9.quest.twilightForest.desc.questingRam.1}"
-				""
-				"{atm9.quest.twilightForest.desc.questingRam.2}"
-			]
+			description: []
 			hide_until_deps_visible: true
 			id: "4DA0725E089D7C91"
 			optional: true
@@ -1310,17 +1177,13 @@
 				item: "twilightforest:quest_ram_trophy"
 				type: "item"
 			}]
-			title: "{atm9.quest.twilightForest.ramification}"
+			title: ""
 			x: -7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4193303999597249"]
-			description: [
-				"{atm9.quest.twilightForest.desc.charmOfLife.1}"
-				""
-				"{atm9.quest.twilightForest.desc.charmOfLife.2}"
-			]
+			description: []
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "6F67079A453DAABE"
@@ -1347,7 +1210,7 @@
 		}
 		{
 			dependencies: ["6F67079A453DAABE"]
-			description: ["{atm9.quest.twilightForest.desc.charmOfLifeII.1}"]
+			description: []
 			hide_until_deps_visible: true
 			id: "15006CF73F8CAB7C"
 			rewards: [
@@ -1375,7 +1238,7 @@
 		}
 		{
 			dependencies: ["4B95D48D7525FFAD"]
-			description: ["{atm9.quest.twilightForest.desc.deathProtection.1}"]
+			description: []
 			id: "610F9E9D0B5131C7"
 			rewards: [{
 				id: "4CA93BA5E85DAA73"
@@ -1393,7 +1256,7 @@
 		}
 		{
 			dependencies: ["610F9E9D0B5131C7"]
-			description: ["{atm9.quest.twilightForest.desc.deathProtection.2}"]
+			description: []
 			id: "4665E6FD0AAED164"
 			rewards: [{
 				id: "5BAC92C56DB3B58E"
@@ -1411,7 +1274,7 @@
 		}
 		{
 			dependencies: ["4665E6FD0AAED164"]
-			description: ["{atm9.quest.twilightForest.desc.deathProtection.3}"]
+			description: []
 			id: "3A3ED88027331A6C"
 			rewards: [
 				{
@@ -1445,7 +1308,7 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "{atm9.quest.twilightForest.subt.glorifiedLeafblower}"
+			subtitle: ""
 			tasks: [{
 				id: "13C31B864EC1DE9B"
 				item: {
@@ -1462,7 +1325,7 @@
 		}
 		{
 			dependencies: ["31BB7EB95CE73C1A"]
-			description: ["{atm9.quest.twilightForest.desc.alphaYetiFur.1}"]
+			description: []
 			id: "3C8724C3A9459507"
 			rewards: [
 				{
@@ -1550,13 +1413,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.twilightForest.yetiArmor}"
+			title: ""
 			x: 9.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["31BB7EB95CE73C1A"]
-			description: ["{atm9.quest.twilightForest.desc.yetiArmor.1}"]
+			description: []
 			id: "2A0B3C91D72E8B75"
 			rewards: [
 				{
@@ -1569,7 +1432,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{atm9.quest.twilightForest.subt.dyable}"
+			subtitle: ""
 			tasks: [
 				{
 					id: "74DE768958A1DF0E"
@@ -1616,17 +1479,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.twilightForest.arcticArmor}"
+			title: ""
 			x: 8.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4B95D48D7525FFAD"]
-			description: [
-				"{atm9.quest.twilightForest.desc.specialPickaxe.1}"
-				""
-				"{atm9.quest.twilightForest.desc.specialPickaxe.2}"
-			]
+			description: []
 			id: "51BC981AB4CFAD95"
 			rewards: [{
 				id: "43613B9B3AED5AEC"
@@ -1634,7 +1493,7 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			subtitle: "{atm9.quest.twilightForest.subt.trappedChamber}"
+			subtitle: ""
 			tasks: [{
 				id: "37FB4455E15C55FF"
 				item: {
@@ -1665,7 +1524,7 @@
 		}
 		{
 			dependencies: ["6FD41DF7704466A4"]
-			description: ["{atm9.quest.twilightForest.desc.tripleShotBow.1}"]
+			description: []
 			id: "53A79338994088FD"
 			rewards: [{
 				id: "4998E36C6161772B"
@@ -1688,7 +1547,7 @@
 		}
 		{
 			dependencies: ["6FD41DF7704466A4"]
-			description: ["{atm9.quest.twilightForest.desc.homingBow.1}"]
+			description: []
 			id: "7509E4093010EA4C"
 			rewards: [{
 				id: "61308BB9F304D0E4"
@@ -1711,7 +1570,7 @@
 		}
 		{
 			dependencies: ["4193303999597249"]
-			description: ["{atm9.quest.twilightForest.desc.slownessBow.1}"]
+			description: []
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "49EE6D2A3684A510"
@@ -1737,11 +1596,7 @@
 		}
 		{
 			dependencies: ["4193303999597249"]
-			description: [
-				"{atm9.quest.twilightForest.desc.swapBow.1}"
-				""
-				"{atm9.quest.twilightForest.desc.swapBow.2}"
-			]
+			description: []
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "3D29EF7F150F5334"
@@ -1767,11 +1622,7 @@
 		}
 		{
 			dependencies: ["4193303999597249"]
-			description: [
-				"{atm9.quest.twilightForest.desc.magnet.1}"
-				""
-				"{atm9.quest.twilightForest.desc.magnet.2}"
-			]
+			description: []
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "5FE4DAE8F41B1437"
@@ -1797,13 +1648,7 @@
 		}
 		{
 			dependencies: ["4193303999597249"]
-			description: [
-				"{atm9.quest.twilightForest.desc.oneHitSword.1}"
-				""
-				"{atm9.quest.twilightForest.desc.oneHitSword.2}"
-				""
-				"{atm9.quest.twilightForest.desc.oneHitSword.3}"
-			]
+			description: []
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "38ADDF7FF4E4892D"
@@ -1829,7 +1674,7 @@
 		}
 		{
 			dependencies: ["4193303999597249"]
-			description: ["{atm9.quest.twilightForest.desc.frostedSword.1}"]
+			description: []
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "78CE2ECEF0B651DA"
@@ -1855,11 +1700,7 @@
 		}
 		{
 			dependencies: ["4193303999597249"]
-			description: [
-				"{atm9.quest.twilightForest.desc.moonwormLauncher.1}"
-				""
-				"{atm9.quest.twilightForest.desc.moonwormLauncher.2}"
-			]
+			description: []
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "60FC2DAEA954A849"
@@ -1885,13 +1726,7 @@
 		}
 		{
 			dependencies: ["4193303999597249"]
-			description: [
-				"{atm9.quest.twilightForest.desc.overworldPowder.1}"
-				""
-				"{atm9.quest.twilightForest.desc.overworldPowder.2}"
-				""
-				"{atm9.quest.twilightForest.desc.overworldPowder.3}"
-			]
+			description: []
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "0E9DE6293DF611E1"
@@ -1924,7 +1759,7 @@
 		}
 		{
 			dependencies: ["57940981E8DE55D4"]
-			description: ["{atm9.quest.twilightForest.desc.magicMapFocus.1}"]
+			description: []
 			icon: "twilightforest:magic_map_focus"
 			id: "4F66DF6B494BEFF3"
 			rewards: [
@@ -1950,13 +1785,7 @@
 		}
 		{
 			dependencies: ["7026E46FD8B3A81D"]
-			description: [
-				"{atm9.quest.twilightForest.desc.fieryTools.1}"
-				""
-				"{atm9.quest.twilightForest.desc.fieryTools.2}"
-				""
-				"{atm9.quest.twilightForest.desc.fieryTools.3}"
-			]
+			description: []
 			id: "111F2EE85FB0A455"
 			rewards: [
 				{
@@ -2005,7 +1834,7 @@
 		}
 		{
 			dependencies: ["04440BB2EFFD6DD9"]
-			description: ["{atm9.quest.twilightForest.desc.minoshroomAxe.1}"]
+			description: []
 			id: "730AF9210F00018E"
 			rewards: [{
 				id: "5D4F5E0EFB90BB72"
@@ -2105,17 +1934,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.twilightForest.knightmetalTools}"
+			title: ""
 			x: 4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["688C911ECFB2F134"]
-			description: [
-				"{atm9.quest.twilightForest.desc.reappearingBlocks.1}"
-				""
-				"{atm9.quest.twilightForest.desc.vanishingBlocks.1}"
-			]
+			description: []
 			id: "01748C2CD9C97523"
 			rewards: [
 				{
@@ -2154,11 +1979,7 @@
 		}
 		{
 			dependencies: ["688C911ECFB2F134"]
-			description: [
-				"{atm9.quest.twilightForest.desc.carminiteBuilder.1}"
-				""
-				"{atm9.quest.twilightForest.desc.carminiteReactor.1}"
-			]
+			description: []
 			id: "7B4A687EB505C2FF"
 			rewards: [
 				{
@@ -2192,11 +2013,7 @@
 		}
 		{
 			dependencies: ["6FD41DF7704466A4"]
-			description: [
-				"{atm9.quest.twilightForest.desc.highlandBiome.1}"
-				""
-				"{atm9.quest.twilightForest.desc.highlandBiome.2}"
-			]
+			description: []
 			id: "58BD1063A19777DC"
 			rewards: [
 				{
@@ -2223,17 +2040,13 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.twilightForest.visitingGiants}"
+			title: ""
 			x: 12.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5CBA8C89FE717B9C"]
-			description: [
-				"{atm9.quest.twilightForest.desc.thornlandBiome.1}"
-				""
-				"{atm9.quest.twilightForest.desc.thornlandBiome.2}"
-			]
+			description: []
 			id: "2951B1D7080C5EF9"
 			rewards: [
 				{
@@ -2258,10 +2071,10 @@
 				item: "twilightforest:thorn_rose"
 				type: "item"
 			}]
-			title: "{atm9.quest.twilightForest.everyThornHasItsRose}"
+			title: ""
 			x: 10.5d
 			y: 5.5d
 		}
 	]
-	title: "Twilight Forest"
+	title: ""
 }
