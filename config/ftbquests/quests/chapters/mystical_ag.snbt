@@ -21,8 +21,6 @@
 	quests: [
 		{
 			dependencies: ["54D6F7F8FE859729"]
-			description: ["{atm9.quest.ma.desc.altar}"]
-			id: "6D750A38944E9B68"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -49,7 +47,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.ma.altar}"
+			title: "Infusion Pedestal"
 			x: -18.799999999999997d
 			y: 0.7999999999999998d
 		}
@@ -74,14 +72,12 @@
 				item: "mysticalagriculture:air_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.air}"
+			title: "Air Seeds"
 			x: -20.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: ["{atm9.quest.ma.desc.InfFarm}"]
-			hide_until_deps_visible: true
 			id: "7DFF18CFEB0B8DBE"
 			rewards: [
 				{
@@ -109,7 +105,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.ma.InfFarm}"
+			title: "Inferium Seeds"
 			x: -19.5d
 			y: -3.0d
 		}
@@ -134,7 +130,7 @@
 				item: "mysticalagriculture:water_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.water}"
+			title: "Water Seeds"
 			x: -19.0d
 			y: -5.0d
 		}
@@ -159,7 +155,7 @@
 				item: "mysticalagriculture:ice_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.ice}"
+			title: "Ice Seeds"
 			x: -19.5d
 			y: -5.5d
 		}
@@ -184,7 +180,7 @@
 				item: "mysticalagriculture:wood_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.wood}"
+			title: "Wood Seeds"
 			x: -20.0d
 			y: -4.0d
 		}
@@ -209,7 +205,7 @@
 				item: "mysticalagriculture:stone_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.stone}"
+			title: "Stone Seeds"
 			x: -19.0d
 			y: -4.0d
 		}
@@ -234,7 +230,7 @@
 				item: "mysticalagriculture:dirt_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.dirt}"
+			title: "Dirt Seeds"
 			x: -19.5d
 			y: -4.5d
 		}
@@ -259,7 +255,7 @@
 				item: "mysticalagriculture:earth_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.earth}"
+			title: "Earth Seeds"
 			x: -20.0d
 			y: -6.0d
 		}
@@ -284,14 +280,12 @@
 				item: "mysticalagriculture:fire_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.fire}"
+			title: "Fire Seeds"
 			x: -19.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["54D6F7F8FE859729"]
-			description: ["{atm9.quest.ma.desc.souls}"]
-			id: "75560045ED084900"
 			rewards: [
 				{
 					id: "1EADD864A3D552F0"
@@ -329,7 +323,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.ma.souls}"
+			title: "Soul Extractor"
 			x: -18.799999999999997d
 			y: 2.3d
 		}
@@ -347,7 +341,7 @@
 				item: "mysticalagriculture:prudentium_farmland"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.PruFarm}"
+			title: "Prudentium Farmland"
 			x: -14.5d
 			y: -3.0d
 		}
@@ -372,7 +366,7 @@
 				item: "mysticalagriculture:coral_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.coral}"
+			title: "Coral Seeds"
 			x: -14.0d
 			y: -4.0d
 		}
@@ -397,7 +391,7 @@
 				item: "mysticalagriculture:saltpeter_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.saltpeter}"
+			title: "Saltpeter Seeds"
 			x: -14.5d
 			y: -5.5d
 		}
@@ -422,7 +416,7 @@
 				item: "mysticalagriculture:coal_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.coal}"
+			title: "Coal Seeds"
 			x: -15.0d
 			y: -4.0d
 		}
@@ -447,7 +441,7 @@
 				item: "mysticalagriculture:dye_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.dye}"
+			title: "Dye Seeds"
 			x: -14.5d
 			y: -4.5d
 		}
@@ -472,7 +466,7 @@
 				item: "mysticalagriculture:aluminum_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.aluminum}"
+			title: "Aluminum Seeds"
 			x: -14.0d
 			y: -6.0d
 		}
@@ -497,7 +491,7 @@
 				item: "mysticalagriculture:honey_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.honey}"
+			title: "Honey Seeds"
 			x: -14.0d
 			y: -5.0d
 		}
@@ -522,7 +516,7 @@
 				item: "mysticalagriculture:copper_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.copper}"
+			title: "Copper Seeds"
 			x: -9.5d
 			y: -5.5d
 		}
@@ -547,7 +541,7 @@
 				item: "mysticalagriculture:nature_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.nature}"
+			title: "Nature Seeds"
 			x: -15.0d
 			y: -5.0d
 		}
@@ -572,7 +566,7 @@
 				item: "mysticalagriculture:nether_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.nether}"
+			title: "Nether Seeds"
 			x: -15.0d
 			y: -6.0d
 		}
@@ -597,7 +591,7 @@
 				item: "mysticalagriculture:chicken_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.chicken}"
+			title: "Chicken Seeds"
 			x: -14.0d
 			y: 0.5d
 		}
@@ -622,7 +616,7 @@
 				item: "mysticalagriculture:squid_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.squid}"
+			title: "Squid Seeds"
 			x: -15.0d
 			y: 2.5d
 		}
@@ -647,7 +641,7 @@
 				item: "mysticalagriculture:cow_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.cow}"
+			title: "Cow Seeds"
 			x: -14.0d
 			y: 1.5d
 		}
@@ -672,7 +666,7 @@
 				item: "mysticalagriculture:pig_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.pig}"
+			title: "Pig Seeds"
 			x: -15.0d
 			y: 0.5d
 		}
@@ -697,7 +691,7 @@
 				item: "mysticalagriculture:sheep_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.sheep}"
+			title: "Sheep Seeds"
 			x: -15.0d
 			y: 1.5d
 		}
@@ -722,7 +716,7 @@
 				item: "mysticalagriculture:fish_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.fish}"
+			title: "Fish Seeds"
 			x: -14.0d
 			y: 2.5d
 		}
@@ -747,7 +741,7 @@
 				item: "mysticalagriculture:turtle_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.turtle}"
+			title: "Turtle Seeds"
 			x: -15.0d
 			y: 3.5d
 		}
@@ -772,7 +766,7 @@
 				item: "mysticalagriculture:slime_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.slime}"
+			title: "Slime Seeds"
 			x: -14.0d
 			y: 3.5d
 		}
@@ -790,7 +784,7 @@
 				item: "mysticalagriculture:tertium_farmland"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.TerFarm}"
+			title: "Tertium Farmland"
 			x: -9.5d
 			y: -3.0d
 		}
@@ -815,7 +809,7 @@
 				item: "mysticalagriculture:rabbit_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.rabbit}"
+			title: "Rabbit Seeds"
 			x: -9.0d
 			y: 1.5d
 		}
@@ -840,7 +834,7 @@
 				item: "mysticalagriculture:spider_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.spider}"
+			title: "Spider Seeds"
 			x: -9.5d
 			y: 2.5d
 		}
@@ -865,7 +859,7 @@
 				item: "mysticalagriculture:skeleton_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.skeleton}"
+			title: "Skeleton Seeds"
 			x: -10.0d
 			y: 1.5d
 		}
@@ -890,7 +884,7 @@
 				item: "mysticalagriculture:zombie_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.zombie}"
+			title: "Zombie Seeds"
 			x: -10.0d
 			y: 0.5d
 		}
@@ -915,7 +909,7 @@
 				item: "mysticalagriculture:creeper_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.creeper}"
+			title: "Creeper Seeds"
 			x: -9.0d
 			y: 0.5d
 		}
@@ -940,7 +934,7 @@
 				item: "mysticalagriculture:iron_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.iron}"
+			title: "Iron Seeds"
 			x: -9.0d
 			y: -4.0d
 		}
@@ -965,7 +959,7 @@
 				item: "mysticalagriculture:tin_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.tin}"
+			title: "Tin Seeds"
 			x: -10.0d
 			y: -4.0d
 		}
@@ -990,7 +984,7 @@
 				item: "mysticalagriculture:silver_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.silver}"
+			title: "Silver Seeds"
 			x: -9.5d
 			y: -4.5d
 		}
@@ -1015,7 +1009,7 @@
 				item: "mysticalagriculture:lead_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.lead}"
+			title: "Lead Seeds"
 			x: -10.0d
 			y: -5.0d
 		}
@@ -1040,7 +1034,7 @@
 				item: "mysticalagriculture:zinc_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.zinc}"
+			title: "Zinc Seeds"
 			x: -9.0d
 			y: -5.0d
 		}
@@ -1065,7 +1059,7 @@
 				item: "mysticalagriculture:redstone_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.redstone}"
+			title: "Redstone Seeds"
 			x: -10.0d
 			y: -6.0d
 		}
@@ -1090,7 +1084,7 @@
 				item: "mysticalagriculture:glowstone_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.glowstone}"
+			title: "Glowstone Seeds"
 			x: -9.0d
 			y: -6.0d
 		}
@@ -1115,7 +1109,7 @@
 				item: "mysticalagriculture:nether_quartz_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.quartz}"
+			title: "Nether Quartz Seeds"
 			x: -9.5d
 			y: -6.5d
 		}
@@ -1140,7 +1134,7 @@
 				item: "mysticalagriculture:certus_quartz_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.certus}"
+			title: "Certus Quartz Seeds"
 			x: -9.0d
 			y: -7.0d
 		}
@@ -1165,7 +1159,7 @@
 				item: "mysticalagriculture:obsidian_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.obsidian}"
+			title: "Obsidian Seeds"
 			x: -10.0d
 			y: -7.0d
 		}
@@ -1190,7 +1184,7 @@
 				item: "mysticalagriculture:fluorite_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.fluorite}"
+			title: "Fluorite Seeds"
 			x: -4.0d
 			y: -4.0d
 		}
@@ -1215,7 +1209,7 @@
 				item: "mysticalagriculture:prismarine_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.prismarine}"
+			title: "Prismarine Seeds"
 			x: -9.5d
 			y: -7.5d
 		}
@@ -1233,7 +1227,7 @@
 				item: "mysticalagriculture:imperium_farmland"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.ImpFarm}"
+			title: "Imperium Farmland"
 			x: -4.5d
 			y: -3.0d
 		}
@@ -1258,7 +1252,7 @@
 				item: "mysticalagriculture:blaze_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.blaze}"
+			title: "Blaze Seeds"
 			x: -5.0d
 			y: 0.5d
 		}
@@ -1283,7 +1277,7 @@
 				item: "mysticalagriculture:ghast_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.ghast}"
+			title: "Ghast Seeds"
 			x: -4.0d
 			y: 0.5d
 		}
@@ -1308,7 +1302,7 @@
 				item: "mysticalagriculture:enderman_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.enderman}"
+			title: "Enderman Seeds"
 			x: -5.0d
 			y: 1.5d
 		}
@@ -1340,7 +1334,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.ma.exp}"
+			title: "Experience Capsule"
 			x: -4.0d
 			y: 1.5d
 		}
@@ -1365,7 +1359,7 @@
 				item: "mysticalagriculture:gold_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.gold}"
+			title: "Gold Seeds"
 			x: -5.0d
 			y: -6.0d
 		}
@@ -1390,7 +1384,7 @@
 				item: "mysticalagriculture:nickel_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.nickel}"
+			title: "Nickel Seeds"
 			x: -5.0d
 			y: -4.0d
 		}
@@ -1415,7 +1409,7 @@
 				item: "mysticalagriculture:lapis_lazuli_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.lapis}"
+			title: "Lapis Lazuli Seeds"
 			x: -4.5d
 			y: -4.5d
 		}
@@ -1440,7 +1434,7 @@
 				item: "mysticalagriculture:osmium_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.osmium}"
+			title: "Osmium Seeds"
 			x: -4.5d
 			y: -6.5d
 		}
@@ -1465,7 +1459,7 @@
 				item: "mysticalagriculture:end_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.end}"
+			title: "End Seeds"
 			x: -4.0d
 			y: -6.0d
 		}
@@ -1483,7 +1477,7 @@
 				item: "mysticalagriculture:supremium_farmland"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.SupFarm}"
+			title: "Supremium Farmland"
 			x: 0.5d
 			y: -3.0d
 		}
@@ -1508,7 +1502,7 @@
 				item: "mysticalagriculture:wither_skeleton_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.witherskele}"
+			title: "Wither Skeleton Seeds"
 			x: 0.5d
 			y: 0.5d
 		}
@@ -1533,7 +1527,7 @@
 				item: "mysticalagriculture:uraninite_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.uraninite}"
+			title: "Uraninite Seeds"
 			x: 0.5d
 			y: -4.5d
 		}
@@ -1558,7 +1552,7 @@
 				item: "mysticalagriculture:diamond_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.diamond}"
+			title: "Diamond Seeds"
 			x: 1.0d
 			y: -4.0d
 		}
@@ -1583,7 +1577,7 @@
 				item: "mysticalagriculture:emerald_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.emerald}"
+			title: "Emerald Seeds"
 			x: 0.0d
 			y: -4.0d
 		}
@@ -1608,7 +1602,7 @@
 				item: "mysticalagriculture:platinum_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.platinum}"
+			title: "Platinum Seeds"
 			x: 0.0d
 			y: -5.0d
 		}
@@ -1633,7 +1627,7 @@
 				item: "mysticalagriculture:netherite_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.netherite}"
+			title: "Netherite Seeds"
 			x: 1.0d
 			y: -5.0d
 		}
@@ -1658,7 +1652,7 @@
 				item: "mysticalagriculture:uranium_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.uranium}"
+			title: "Uranium Seeds"
 			x: -4.5d
 			y: -5.5d
 		}
@@ -1677,14 +1671,12 @@
 				item: "mysticalagradditions:insanium_farmland"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.InsFarm}"
+			title: "Insanium Farmland"
 			x: 6.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["2FA6B8A1C8713DE0"]
-			description: ["{atm9.quest.ma.desc.crux}"]
-			id: "4A96A0456680837C"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1703,14 +1695,12 @@
 				item: "mysticalagriculture:nether_star_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.star_seeds}"
+			title: "Nether Star Seeds"
 			x: 7.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["2FA6B8A1C8713DE0"]
-			description: ["{atm9.quest.ma.desc.crux}"]
-			id: "6AB1C7B6251FE9F5"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1729,14 +1719,12 @@
 				item: "mysticalagriculture:dragon_egg_seeds"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.dragon_seeds}"
+			title: "Dragon Egg Seeds"
 			x: 6.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["54D6F7F8FE859729"]
-			description: ["{atm9.quest.ma.desc.tinkering}"]
-			id: "6A4C49AE72E98727"
 			rewards: [
 				{
 					id: "733E64EEA73E388A"
@@ -1763,13 +1751,11 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.ma.tinkering}"
+			title: "Unattuned Augment"
 			x: -20.199999999999996d
 			y: 2.3d
 		}
 		{
-			description: ["{atm9.quest.ma.desc.InEssence}"]
-			id: "1CC4F8570A7A99EB"
 			rewards: [
 				{
 					id: "3D25E7ADCE8DD795"
@@ -1802,14 +1788,12 @@
 				item: "mysticalagriculture:inferium_essence"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.InEssence}"
+			title: "Inferium Essence"
 			x: -19.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: ["{atm9.quest.ma.desc.InfGrowth}"]
-			hide_until_deps_visible: true
 			id: "4821419D44F8083F"
 			rewards: [
 				{
@@ -1829,7 +1813,7 @@
 				item: "mysticalagriculture:inferium_growth_accelerator"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.InfGrowth}"
+			title: "Inferium Growth Accelerator"
 			x: -20.5d
 			y: -0.5d
 		}
@@ -1846,7 +1830,7 @@
 				item: "mysticalagriculture:prudentium_growth_accelerator"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.PruGrowth}"
+			title: "Prudentium Growth Accelerator"
 			x: -15.5d
 			y: -0.5d
 		}
@@ -1863,7 +1847,7 @@
 				item: "mysticalagriculture:tertium_growth_accelerator"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.TerGrowth}"
+			title: "Tertium Growth Accelerator"
 			x: -10.5d
 			y: -0.5d
 		}
@@ -1880,7 +1864,7 @@
 				item: "mysticalagriculture:imperium_growth_accelerator"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.ImpGrowth}"
+			title: "Imperium Growth Accelerator"
 			x: -5.5d
 			y: -0.5d
 		}
@@ -1897,14 +1881,12 @@
 				item: "mysticalagriculture:supremium_growth_accelerator"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.SupGrowth}"
+			title: "Supremium Growth Accelerator"
 			x: -0.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: ["{atm9.quest.ma.desc.InfWater}"]
-			hide_until_deps_visible: true
 			id: "62D04566426DD979"
 			rewards: [
 				{
@@ -2065,8 +2047,6 @@
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: ["{atm9.quest.ma.desc.InfApple}"]
-			hide_until_deps_visible: true
 			id: "1F88C697817A7680"
 			rewards: [
 				{
@@ -2086,7 +2066,7 @@
 				item: "mysticalagradditions:inferium_apple"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.InfApple}"
+			title: "Inferium Apple"
 			x: -18.5d
 			y: -2.5d
 		}
@@ -2103,7 +2083,7 @@
 				item: "mysticalagradditions:prudentium_apple"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.PruApple}"
+			title: "Prudentium Apple"
 			x: -13.5d
 			y: -2.5d
 		}
@@ -2120,7 +2100,7 @@
 				item: "mysticalagradditions:tertium_apple"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.TerApple}"
+			title: "Tertium Apple"
 			x: -8.5d
 			y: -2.5d
 		}
@@ -2137,7 +2117,7 @@
 				item: "mysticalagradditions:imperium_apple"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.ImpApple}"
+			title: "Imperium Apple"
 			x: -3.5d
 			y: -2.5d
 		}
@@ -2154,7 +2134,7 @@
 				item: "mysticalagradditions:supremium_apple"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.SupApple}"
+			title: "Supremium Apple"
 			x: 1.5d
 			y: -2.5d
 		}
@@ -2171,14 +2151,12 @@
 				item: "mysticalagradditions:insanium_apple"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.InsApple}"
+			title: "Insanium Apple"
 			x: 4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: ["{atm9.quest.ma.desc.InfGear}"]
-			hide_dependency_lines: false
 			hide_until_deps_visible: true
 			id: "2A7E3F2CD335EAD0"
 			rewards: [
@@ -2534,8 +2512,6 @@
 		}
 		{
 			dependencies: ["4A96A0456680837C"]
-			description: ["{atm9.quest.ma.desc.star_crux}"]
-			id: "7BBCE618001884B1"
 			rewards: [{
 				id: "433A4B914A5FA642"
 				type: "xp"
@@ -2547,14 +2523,12 @@
 				item: "mysticalagradditions:nether_star_crux"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.star_crux}"
+			title: "Nether Star Crux"
 			x: 7.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["6AB1C7B6251FE9F5"]
-			description: ["{atm9.quest.ma.desc.dragon_crux}"]
-			id: "7B7504F386DABBDD"
 			rewards: [{
 				id: "7A9B43198D240FCA"
 				type: "xp"
@@ -2566,14 +2540,12 @@
 				item: "mysticalagradditions:dragon_egg_crux"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.dragon_crux}"
+			title: "Dragon Egg Crux"
 			x: 6.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: ["{atm9.quest.ma.desc.PruEssence}"]
-			hide_dependency_lines: true
 			id: "73350AD668200E99"
 			rewards: [
 				{
@@ -2590,13 +2562,13 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: "{atm9.quest.ma.subt.PruEssence}"
+			subtitle: "Prudentium Essence"
 			tasks: [{
 				id: "4B2621F8D8FA7CA7"
 				item: "mysticalagriculture:prudentium_essence"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.PruEssence}"
+			title: "Prudentium Essence"
 			x: -14.5d
 			y: -1.5d
 		}
@@ -2624,7 +2596,7 @@
 				item: "mysticalagriculture:tertium_essence"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.TerEssence}"
+			title: "Tertium Essence"
 			x: -9.5d
 			y: -1.5d
 		}
@@ -2652,7 +2624,7 @@
 				item: "mysticalagriculture:imperium_essence"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.ImpEssence}"
+			title: "Imperium Essence"
 			x: -4.5d
 			y: -1.5d
 		}
@@ -2681,7 +2653,7 @@
 				item: "mysticalagriculture:supremium_essence"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.SupEssence}"
+			title: "Supremium Essence"
 			x: 0.5d
 			y: -1.5d
 		}
@@ -2709,7 +2681,7 @@
 				item: "mysticalagradditions:insanium_essence"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.InsEssence}"
+			title: "Insanium Essence"
 			x: 6.5d
 			y: -1.5d
 		}
@@ -2816,8 +2788,6 @@
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: ["{atm9.quest.ma.desc.InfTools}"]
-			hide_until_deps_visible: true
 			id: "4EF5DE3FBA2A7AE3"
 			rewards: [
 				{
@@ -3480,14 +3450,12 @@
 				item: "mysticalagriculture:awakened_supremium_block"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.ASE}"
+			title: "Awakened Supremium Block"
 			x: 0.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["202B1F54D3F06DAB"]
-			description: ["{atm9.quest.ma.desc.creative}"]
-			id: "7AD83A26A52C0983"
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -3511,14 +3479,12 @@
 				item: "mysticalagradditions:creative_essence"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.creative}"
+			title: "Creative Essence"
 			x: 8.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["67DBE6C59C0D9D1B"]
-			description: ["{atm9.quest.ma.desc.awakening}"]
-			hide_dependency_lines: false
 			id: "33D23C65E7274A8F"
 			rewards: [{
 				id: "611CFC9E45F875FA"
@@ -3545,14 +3511,12 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.ma.awakening}"
+			title: "Essence Vessel"
 			x: -0.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["67DBE6C59C0D9D1B"]
-			description: ["{atm9.quest.ma.desc.dust}"]
-			hide_dependency_lines: false
 			id: "1CF8263756EE8F2A"
 			rewards: [
 				{
@@ -3572,14 +3536,12 @@
 				item: "mysticalagriculture:cognizant_dust"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.dust}"
+			title: "Cognizant Dust"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1CC4F8570A7A99EB"]
-			description: ["{atm9.quest.ma.desc.properity}"]
-			id: "54D6F7F8FE859729"
 			rewards: [{
 				id: "6C00F85D73FBE858"
 				type: "xp"
@@ -3591,7 +3553,7 @@
 				item: "mysticalagriculture:prosperity_shard"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.properity}"
+			title: "Prosperity Shard"
 			x: -19.5d
 			y: 1.5d
 		}
@@ -3608,7 +3570,7 @@
 				item: "mysticalagradditions:insanium_block"
 				type: "item"
 			}]
-			title: "{atm9.quest.ma.InsBlock}"
+			title: "Insanium Gemstone"
 			x: 6.5d
 			y: 0.5d
 		}
