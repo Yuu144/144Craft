@@ -47,7 +47,6 @@
 					type: "item"
 				}
 			]
-			title: ""
 			x: -18.799999999999997d
 			y: 0.7999999999999998d
 		}
@@ -72,7 +71,6 @@
 				item: "mysticalagriculture:air_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -20.0d
 			y: -5.0d
 		}
@@ -104,7 +102,6 @@
 					type: "item"
 				}
 			]
-			title: ""
 			x: -19.5d
 			y: -3.0d
 		}
@@ -129,7 +126,6 @@
 				item: "mysticalagriculture:water_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -19.0d
 			y: -5.0d
 		}
@@ -154,7 +150,6 @@
 				item: "mysticalagriculture:ice_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -19.5d
 			y: -5.5d
 		}
@@ -179,7 +174,6 @@
 				item: "mysticalagriculture:wood_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -20.0d
 			y: -4.0d
 		}
@@ -204,7 +198,6 @@
 				item: "mysticalagriculture:stone_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -19.0d
 			y: -4.0d
 		}
@@ -229,7 +222,6 @@
 				item: "mysticalagriculture:dirt_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -19.5d
 			y: -4.5d
 		}
@@ -254,7 +246,6 @@
 				item: "mysticalagriculture:earth_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -20.0d
 			y: -6.0d
 		}
@@ -279,7 +270,6 @@
 				item: "mysticalagriculture:fire_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -19.0d
 			y: -6.0d
 		}
@@ -322,7 +312,6 @@
 					type: "item"
 				}
 			]
-			title: ""
 			x: -18.799999999999997d
 			y: 2.3d
 		}
@@ -340,7 +329,6 @@
 				item: "mysticalagriculture:prudentium_farmland"
 				type: "item"
 			}]
-			title: ""
 			x: -14.5d
 			y: -3.0d
 		}
@@ -365,7 +353,6 @@
 				item: "mysticalagriculture:coral_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -14.0d
 			y: -4.0d
 		}
@@ -390,7 +377,6 @@
 				item: "mysticalagriculture:saltpeter_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -14.5d
 			y: -5.5d
 		}
@@ -415,7 +401,6 @@
 				item: "mysticalagriculture:coal_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -15.0d
 			y: -4.0d
 		}
@@ -440,7 +425,6 @@
 				item: "mysticalagriculture:dye_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -14.5d
 			y: -4.5d
 		}
@@ -465,7 +449,6 @@
 				item: "mysticalagriculture:aluminum_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -14.0d
 			y: -6.0d
 		}
@@ -490,7 +473,6 @@
 				item: "mysticalagriculture:honey_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -14.0d
 			y: -5.0d
 		}
@@ -515,7 +497,6 @@
 				item: "mysticalagriculture:copper_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -9.5d
 			y: -5.5d
 		}
@@ -540,7 +521,6 @@
 				item: "mysticalagriculture:nature_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -15.0d
 			y: -5.0d
 		}
@@ -565,7 +545,6 @@
 				item: "mysticalagriculture:nether_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -15.0d
 			y: -6.0d
 		}
@@ -590,7 +569,6 @@
 				item: "mysticalagriculture:chicken_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -14.0d
 			y: 0.5d
 		}
@@ -615,7 +593,6 @@
 				item: "mysticalagriculture:squid_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -15.0d
 			y: 2.5d
 		}
@@ -640,7 +617,6 @@
 				item: "mysticalagriculture:cow_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -14.0d
 			y: 1.5d
 		}
@@ -665,7 +641,6 @@
 				item: "mysticalagriculture:pig_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -15.0d
 			y: 0.5d
 		}
@@ -690,7 +665,6 @@
 				item: "mysticalagriculture:sheep_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -15.0d
 			y: 1.5d
 		}
@@ -715,7 +689,6 @@
 				item: "mysticalagriculture:fish_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -14.0d
 			y: 2.5d
 		}
@@ -740,7 +713,6 @@
 				item: "mysticalagriculture:turtle_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -15.0d
 			y: 3.5d
 		}
@@ -765,7 +737,6 @@
 				item: "mysticalagriculture:slime_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -14.0d
 			y: 3.5d
 		}
@@ -783,7 +754,6 @@
 				item: "mysticalagriculture:tertium_farmland"
 				type: "item"
 			}]
-			title: ""
 			x: -9.5d
 			y: -3.0d
 		}
@@ -808,7 +778,6 @@
 				item: "mysticalagriculture:rabbit_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -9.0d
 			y: 1.5d
 		}
@@ -833,7 +802,6 @@
 				item: "mysticalagriculture:spider_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -9.5d
 			y: 2.5d
 		}
@@ -858,7 +826,6 @@
 				item: "mysticalagriculture:skeleton_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -10.0d
 			y: 1.5d
 		}
@@ -883,7 +850,6 @@
 				item: "mysticalagriculture:zombie_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -10.0d
 			y: 0.5d
 		}
@@ -908,7 +874,6 @@
 				item: "mysticalagriculture:creeper_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -9.0d
 			y: 0.5d
 		}
@@ -933,7 +898,6 @@
 				item: "mysticalagriculture:iron_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -9.0d
 			y: -4.0d
 		}
@@ -958,7 +922,6 @@
 				item: "mysticalagriculture:tin_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -10.0d
 			y: -4.0d
 		}
@@ -983,7 +946,6 @@
 				item: "mysticalagriculture:silver_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -9.5d
 			y: -4.5d
 		}
@@ -1008,7 +970,6 @@
 				item: "mysticalagriculture:lead_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -10.0d
 			y: -5.0d
 		}
@@ -1033,7 +994,6 @@
 				item: "mysticalagriculture:zinc_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -9.0d
 			y: -5.0d
 		}
@@ -1058,7 +1018,6 @@
 				item: "mysticalagriculture:redstone_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -10.0d
 			y: -6.0d
 		}
@@ -1083,7 +1042,6 @@
 				item: "mysticalagriculture:glowstone_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -9.0d
 			y: -6.0d
 		}
@@ -1108,7 +1066,6 @@
 				item: "mysticalagriculture:nether_quartz_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -9.5d
 			y: -6.5d
 		}
@@ -1133,7 +1090,6 @@
 				item: "mysticalagriculture:certus_quartz_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -9.0d
 			y: -7.0d
 		}
@@ -1158,7 +1114,6 @@
 				item: "mysticalagriculture:obsidian_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -10.0d
 			y: -7.0d
 		}
@@ -1183,7 +1138,6 @@
 				item: "mysticalagriculture:fluorite_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -4.0d
 			y: -4.0d
 		}
@@ -1208,7 +1162,6 @@
 				item: "mysticalagriculture:prismarine_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -9.5d
 			y: -7.5d
 		}
@@ -1226,7 +1179,6 @@
 				item: "mysticalagriculture:imperium_farmland"
 				type: "item"
 			}]
-			title: ""
 			x: -4.5d
 			y: -3.0d
 		}
@@ -1251,7 +1203,6 @@
 				item: "mysticalagriculture:blaze_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -5.0d
 			y: 0.5d
 		}
@@ -1276,7 +1227,6 @@
 				item: "mysticalagriculture:ghast_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -4.0d
 			y: 0.5d
 		}
@@ -1301,7 +1251,6 @@
 				item: "mysticalagriculture:enderman_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -5.0d
 			y: 1.5d
 		}
@@ -1333,7 +1282,6 @@
 					type: "item"
 				}
 			]
-			title: ""
 			x: -4.0d
 			y: 1.5d
 		}
@@ -1358,7 +1306,6 @@
 				item: "mysticalagriculture:gold_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -5.0d
 			y: -6.0d
 		}
@@ -1383,7 +1330,6 @@
 				item: "mysticalagriculture:nickel_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -5.0d
 			y: -4.0d
 		}
@@ -1408,7 +1354,6 @@
 				item: "mysticalagriculture:lapis_lazuli_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -4.5d
 			y: -4.5d
 		}
@@ -1433,7 +1378,6 @@
 				item: "mysticalagriculture:osmium_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -4.5d
 			y: -6.5d
 		}
@@ -1458,7 +1402,6 @@
 				item: "mysticalagriculture:end_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -4.0d
 			y: -6.0d
 		}
@@ -1476,7 +1419,6 @@
 				item: "mysticalagriculture:supremium_farmland"
 				type: "item"
 			}]
-			title: ""
 			x: 0.5d
 			y: -3.0d
 		}
@@ -1526,7 +1468,6 @@
 				item: "mysticalagriculture:uraninite_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: 0.5d
 			y: -4.5d
 		}
@@ -1551,7 +1492,6 @@
 				item: "mysticalagriculture:diamond_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: 1.0d
 			y: -4.0d
 		}
@@ -1576,7 +1516,6 @@
 				item: "mysticalagriculture:emerald_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: 0.0d
 			y: -4.0d
 		}
@@ -1601,7 +1540,6 @@
 				item: "mysticalagriculture:platinum_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: 0.0d
 			y: -5.0d
 		}
@@ -1626,7 +1564,6 @@
 				item: "mysticalagriculture:netherite_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: 1.0d
 			y: -5.0d
 		}
@@ -1651,7 +1588,6 @@
 				item: "mysticalagriculture:uranium_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: -4.5d
 			y: -5.5d
 		}
@@ -1670,7 +1606,6 @@
 				item: "mysticalagradditions:insanium_farmland"
 				type: "item"
 			}]
-			title: ""
 			x: 6.5d
 			y: -3.5d
 		}
@@ -1695,7 +1630,6 @@
 				item: "mysticalagriculture:nether_star_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: 7.0d
 			y: -4.5d
 		}
@@ -1720,7 +1654,6 @@
 				item: "mysticalagriculture:dragon_egg_seeds"
 				type: "item"
 			}]
-			title: ""
 			x: 6.0d
 			y: -4.5d
 		}
@@ -1752,7 +1685,6 @@
 					type: "item"
 				}
 			]
-			title: ""
 			x: -20.199999999999996d
 			y: 2.3d
 		}
@@ -1784,13 +1716,11 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: ""
 			tasks: [{
 				id: "667004CD0469493D"
 				item: "mysticalagriculture:inferium_essence"
 				type: "item"
 			}]
-			title: ""
 			x: -19.5d
 			y: -1.5d
 		}
@@ -1814,7 +1744,6 @@
 				item: "mysticalagriculture:inferium_growth_accelerator"
 				type: "item"
 			}]
-			title: ""
 			x: -20.5d
 			y: -0.5d
 		}
@@ -1831,7 +1760,6 @@
 				item: "mysticalagriculture:prudentium_growth_accelerator"
 				type: "item"
 			}]
-			title: ""
 			x: -15.5d
 			y: -0.5d
 		}
@@ -1848,7 +1776,6 @@
 				item: "mysticalagriculture:tertium_growth_accelerator"
 				type: "item"
 			}]
-			title: ""
 			x: -10.5d
 			y: -0.5d
 		}
@@ -1865,7 +1792,6 @@
 				item: "mysticalagriculture:imperium_growth_accelerator"
 				type: "item"
 			}]
-			title: ""
 			x: -5.5d
 			y: -0.5d
 		}
@@ -1882,7 +1808,6 @@
 				item: "mysticalagriculture:supremium_growth_accelerator"
 				type: "item"
 			}]
-			title: ""
 			x: -0.5d
 			y: -0.5d
 		}
@@ -1912,7 +1837,6 @@
 				}
 				type: "item"
 			}]
-			title: ""
 			x: -20.5d
 			y: -2.5d
 		}
@@ -1943,7 +1867,6 @@
 				}
 				type: "item"
 			}]
-			title: ""
 			x: -15.5d
 			y: -2.5d
 		}
@@ -1974,7 +1897,6 @@
 				}
 				type: "item"
 			}]
-			title: ""
 			x: -10.5d
 			y: -2.5d
 		}
@@ -2010,7 +1932,6 @@
 				}
 				type: "item"
 			}]
-			title: ""
 			x: -5.5d
 			y: -2.5d
 		}
@@ -2041,7 +1962,6 @@
 				}
 				type: "item"
 			}]
-			title: ""
 			x: -0.5d
 			y: -2.5d
 		}
@@ -2065,7 +1985,6 @@
 				item: "mysticalagradditions:inferium_apple"
 				type: "item"
 			}]
-			title: ""
 			x: -18.5d
 			y: -2.5d
 		}
@@ -2082,7 +2001,6 @@
 				item: "mysticalagradditions:prudentium_apple"
 				type: "item"
 			}]
-			title: ""
 			x: -13.5d
 			y: -2.5d
 		}
@@ -2099,7 +2017,6 @@
 				item: "mysticalagradditions:tertium_apple"
 				type: "item"
 			}]
-			title: ""
 			x: -8.5d
 			y: -2.5d
 		}
@@ -2116,7 +2033,6 @@
 				item: "mysticalagradditions:imperium_apple"
 				type: "item"
 			}]
-			title: ""
 			x: -3.5d
 			y: -2.5d
 		}
@@ -2133,7 +2049,6 @@
 				item: "mysticalagradditions:supremium_apple"
 				type: "item"
 			}]
-			title: ""
 			x: 1.5d
 			y: -2.5d
 		}
@@ -2150,7 +2065,6 @@
 				item: "mysticalagradditions:insanium_apple"
 				type: "item"
 			}]
-			title: ""
 			x: 4.5d
 			y: -1.5d
 		}
@@ -2220,7 +2134,6 @@
 					type: "item"
 				}
 			]
-			title: ""
 			x: -18.0d
 			y: -1.5d
 		}
@@ -2291,7 +2204,6 @@
 					type: "item"
 				}
 			]
-			title: ""
 			x: -13.0d
 			y: -1.5d
 		}
@@ -2362,7 +2274,6 @@
 					type: "item"
 				}
 			]
-			title: ""
 			x: -8.0d
 			y: -1.5d
 		}
@@ -2433,7 +2344,6 @@
 					type: "item"
 				}
 			]
-			title: ""
 			x: -3.0d
 			y: -1.5d
 		}
@@ -2504,7 +2414,6 @@
 					type: "item"
 				}
 			]
-			title: ""
 			x: 2.0d
 			y: -1.5d
 		}
@@ -2521,7 +2430,6 @@
 				item: "mysticalagradditions:nether_star_crux"
 				type: "item"
 			}]
-			title: ""
 			x: 7.0d
 			y: -5.5d
 		}
@@ -2538,7 +2446,6 @@
 				item: "mysticalagradditions:dragon_egg_crux"
 				type: "item"
 			}]
-			title: ""
 			x: 6.0d
 			y: -5.5d
 		}
@@ -2559,13 +2466,11 @@
 			]
 			shape: "hexagon"
 			size: 1.25d
-			subtitle: ""
 			tasks: [{
 				id: "4B2621F8D8FA7CA7"
 				item: "mysticalagriculture:prudentium_essence"
 				type: "item"
 			}]
-			title: ""
 			x: -14.5d
 			y: -1.5d
 		}
@@ -2587,13 +2492,11 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: ""
 			tasks: [{
 				id: "6A85B770B8EA032B"
 				item: "mysticalagriculture:tertium_essence"
 				type: "item"
 			}]
-			title: ""
 			x: -9.5d
 			y: -1.5d
 		}
@@ -2615,13 +2518,11 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: ""
 			tasks: [{
 				id: "4BEC4730588463FE"
 				item: "mysticalagriculture:imperium_essence"
 				type: "item"
 			}]
-			title: ""
 			x: -4.5d
 			y: -1.5d
 		}
@@ -2644,13 +2545,11 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: ""
 			tasks: [{
 				id: "247349D4951C789F"
 				item: "mysticalagriculture:supremium_essence"
 				type: "item"
 			}]
-			title: ""
 			x: 0.5d
 			y: -1.5d
 		}
@@ -2672,13 +2571,11 @@
 			]
 			shape: "hexagon"
 			size: 2.5d
-			subtitle: ""
 			tasks: [{
 				id: "179DC208291D3C90"
 				item: "mysticalagradditions:insanium_essence"
 				type: "item"
 			}]
-			title: ""
 			x: 6.5d
 			y: -1.5d
 		}
@@ -2709,7 +2606,6 @@
 				}
 				type: "item"
 			}]
-			title: ""
 			x: 2.0d
 			y: 5.0d
 		}
@@ -2779,7 +2675,6 @@
 					type: "item"
 				}
 			]
-			title: ""
 			x: -1.0d
 			y: 5.0d
 		}
@@ -2891,10 +2786,8 @@
 						]
 					}
 				}
-				title: ""
 				type: "item"
 			}]
-			title: ""
 			x: -21.0d
 			y: -1.5d
 		}
@@ -3007,10 +2900,8 @@
 						]
 					}
 				}
-				title: ""
 				type: "item"
 			}]
-			title: ""
 			x: -16.0d
 			y: -1.5d
 		}
@@ -3123,10 +3014,8 @@
 						]
 					}
 				}
-				title: ""
 				type: "item"
 			}]
-			title: ""
 			x: -11.0d
 			y: -1.5d
 		}
@@ -3244,10 +3133,8 @@
 						]
 					}
 				}
-				title: ""
 				type: "item"
 			}]
-			title: ""
 			x: -6.0d
 			y: -1.5d
 		}
@@ -3324,10 +3211,8 @@
 						]
 					}
 				}
-				title: ""
 				type: "item"
 			}]
-			title: ""
 			x: -1.0d
 			y: -1.5d
 		}
@@ -3407,7 +3292,6 @@
 				title: "Awakened "
 				type: "item"
 			}]
-			title: ""
 			x: 0.5d
 			y: 5.5d
 		}
@@ -3440,13 +3324,11 @@
 			]
 			shape: "octagon"
 			size: 2.5d
-			subtitle: ""
 			tasks: [{
 				id: "3DB6441F3AE36AAB"
 				item: "mysticalagriculture:awakened_supremium_block"
 				type: "item"
 			}]
-			title: ""
 			x: 0.5d
 			y: 3.5d
 		}
@@ -3476,7 +3358,6 @@
 				item: "mysticalagradditions:creative_essence"
 				type: "item"
 			}]
-			title: ""
 			x: 8.5d
 			y: -1.5d
 		}
@@ -3508,7 +3389,6 @@
 					type: "item"
 				}
 			]
-			title: ""
 			x: -0.5d
 			y: 1.5d
 		}
@@ -3533,7 +3413,6 @@
 				item: "mysticalagriculture:cognizant_dust"
 				type: "item"
 			}]
-			title: ""
 			x: 1.5d
 			y: 1.5d
 		}
@@ -3550,7 +3429,6 @@
 				item: "mysticalagriculture:prosperity_shard"
 				type: "item"
 			}]
-			title: ""
 			x: -19.5d
 			y: 1.5d
 		}
@@ -3567,10 +3445,8 @@
 				item: "mysticalagradditions:insanium_block"
 				type: "item"
 			}]
-			title: ""
 			x: 6.5d
 			y: 0.5d
 		}
 	]
-	title: ""
 }

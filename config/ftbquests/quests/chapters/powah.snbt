@@ -244,7 +244,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: []
 			icon: "powah:book"
 			id: "6B2027DA7AA6FF34"
 			rewards: [
@@ -272,13 +271,11 @@
 				item: "powah:uraninite_raw"
 				type: "item"
 			}]
-			title: ""
 			x: -0.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["6B2027DA7AA6FF34"]
-			description: []
 			hide_dependency_lines: false
 			icon: "powah:dielectric_casing"
 			id: "7E92ED270C67FDE5"
@@ -308,13 +305,11 @@
 					type: "item"
 				}
 			]
-			title: ""
 			x: -0.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["7E92ED270C67FDE5"]
-			description: []
 			hide_dependency_lines: false
 			icon: "powah:energizing_orb"
 			id: "3DDF87A1E5F5D009"
@@ -357,7 +352,6 @@
 							]
 						}
 					}
-					title: ""
 					type: "item"
 				}
 				{
@@ -399,11 +393,9 @@
 							]
 						}
 					}
-					title: ""
 					type: "item"
 				}
 			]
-			title: ""
 			x: -0.5d
 			y: 8.0d
 		}
@@ -412,7 +404,6 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: []
 			id: "52E59FCB39D66BCF"
 			rewards: [
 				{
@@ -439,7 +430,6 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: []
 			id: "3D5F87F8E6B89C1B"
 			rewards: [
 				{
@@ -466,7 +456,6 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: []
 			id: "7678B5DD1339833E"
 			rewards: [
 				{
@@ -493,7 +482,6 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: []
 			id: "0FD62827710F0AC6"
 			rewards: [
 				{
@@ -520,7 +508,6 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: []
 			id: "1B0087400B0B8B49"
 			min_width: 300
 			rewards: [
@@ -546,7 +533,6 @@
 				item: "powah:reactor_starter"
 				type: "item"
 			}]
-			title: ""
 			x: 6.5d
 			y: 11.5d
 		}
@@ -555,7 +541,6 @@
 				"7D52DD751DDADA1B"
 				"6D88C19F47D0D469"
 			]
-			description: []
 			id: "3CB6DC5B09C62CFE"
 			rewards: [
 				{
@@ -582,7 +567,6 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: []
 			id: "7D52DD751DDADA1B"
 			rewards: [
 				{
@@ -609,7 +593,6 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: []
 			icon: "powah:player_transmitter_starter"
 			id: "677365A816994C8B"
 			rewards: [
@@ -648,7 +631,6 @@
 							]
 						}
 					}
-					title: ""
 					type: "item"
 				}
 			]
@@ -660,7 +642,6 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: []
 			id: "5BCA3F716348ECCD"
 			optional: true
 			rewards: [
@@ -688,7 +669,6 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: []
 			id: "33816AF0E699F19F"
 			optional: true
 			rewards: [
@@ -716,7 +696,6 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: []
 			id: "78202A1CF5D86B94"
 			rewards: [
 				{
@@ -745,7 +724,6 @@
 				"6D88C19F47D0D469"
 			]
 			dependency_requirement: "one_completed"
-			description: []
 			hide_dependency_lines: true
 			id: "700F3FF7C23D0C0F"
 			rewards: [
@@ -790,7 +768,6 @@
 				item: "powah:steel_energized"
 				type: "item"
 			}]
-			title: ""
 			x: -0.5d
 			y: 13.5d
 		}
@@ -816,7 +793,6 @@
 				item: "powah:crystal_blazing"
 				type: "item"
 			}]
-			title: ""
 			x: -0.5d
 			y: 14.5d
 		}
@@ -842,7 +818,6 @@
 				item: "powah:crystal_niotic"
 				type: "item"
 			}]
-			title: ""
 			x: -0.5d
 			y: 15.5d
 		}
@@ -868,7 +843,6 @@
 				item: "powah:crystal_spirited"
 				type: "item"
 			}]
-			title: ""
 			x: -0.5d
 			y: 16.5d
 		}
@@ -894,7 +868,6 @@
 				item: "powah:crystal_nitro"
 				type: "item"
 			}]
-			title: ""
 			x: -0.5d
 			y: 17.5d
 		}
@@ -903,7 +876,6 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: []
 			id: "61A8FAEC4FF18449"
 			rewards: [
 				{
@@ -1249,7 +1221,6 @@
 				item: "powah:reactor_basic"
 				type: "item"
 			}]
-			title: ""
 			x: 6.5d
 			y: 12.5d
 		}
@@ -1593,7 +1564,6 @@
 				item: "powah:reactor_hardened"
 				type: "item"
 			}]
-			title: ""
 			x: 6.5d
 			y: 13.5d
 		}
@@ -1937,7 +1907,6 @@
 				item: "powah:reactor_blazing"
 				type: "item"
 			}]
-			title: ""
 			x: 6.5d
 			y: 14.5d
 		}
@@ -2254,7 +2223,6 @@
 				item: "powah:reactor_niotic"
 				type: "item"
 			}]
-			title: ""
 			x: 6.5d
 			y: 15.5d
 		}
@@ -2303,7 +2271,6 @@
 				item: "powah:capacitor_basic_tiny"
 				type: "item"
 			}]
-			title: ""
 			x: -0.5d
 			y: 11.5d
 		}
@@ -2329,7 +2296,6 @@
 				item: "powah:capacitor_basic"
 				type: "item"
 			}]
-			title: ""
 			x: -0.5d
 			y: 12.5d
 		}
@@ -2620,7 +2586,6 @@
 				item: "powah:reactor_spirited"
 				type: "item"
 			}]
-			title: ""
 			x: 6.5d
 			y: 16.5d
 		}
@@ -2960,7 +2925,6 @@
 				item: "powah:reactor_nitro"
 				type: "item"
 			}]
-			title: ""
 			x: 6.5d
 			y: 17.5d
 		}
@@ -2995,7 +2959,6 @@
 				"7E92ED270C67FDE5"
 				"6D88C19F47D0D469"
 			]
-			description: []
 			hide_dependency_lines: true
 			id: "1C273D9E046FD18A"
 			rewards: [
@@ -3176,5 +3139,4 @@
 			y: 17.5d
 		}
 	]
-	title: ""
 }

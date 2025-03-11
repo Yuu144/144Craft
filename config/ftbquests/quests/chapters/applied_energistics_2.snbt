@@ -5,26 +5,6 @@
 	group: "758D7AC855C595EA"
 	icon: "ae2:controller"
 	id: "07210DDF872160BA"
-	images: [
-		{
-			height: 0.5d
-			hover: ["{atm9.quest.ae2.img.star}"]
-			image: "allthetweaks:item/atm_star"
-			rotation: 0.0d
-			width: 0.5d
-			x: 3.0d
-			y: 4.25d
-		}
-		{
-			height: 0.5d
-			hover: ["{atm9.quest.ae2.img.star}"]
-			image: "allthetweaks:item/atm_star"
-			rotation: 0.0d
-			width: 0.5d
-			x: 5.0d
-			y: 5.5d
-		}
-	]
 	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -2165,46 +2145,6 @@
 			title: "{atm9.quest.ae2.more_items}"
 			x: 17.5d
 			y: 0.5d
-		}
-		{
-			can_repeat: false
-			description: [
-				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
-				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
-				""
-				""
-				""
-				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
-			]
-			disable_toast: true
-			hide_details_until_startable: true
-			hide_until_deps_visible: true
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "minecraft:item/barrier"
-				}
-			}
-			id: "0F0FAD595155DF17"
-			invisible: true
-			optional: true
-			shape: "octagon"
-			tasks: [
-				{
-					disable_toast: true
-					id: "613F2A6A0026C685"
-					title: "Quests By AllTheMods"
-					type: "checkmark"
-				}
-				{
-					id: "26D2701D55A6733B"
-					title: "Quests By AllTheMods"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: -1.0d
 		}
 	]
 	title: "Applied Energistics"

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "apotheosis_gear"
-	group: ""
+	group: "7A6F9B79FDAFF501"
 	icon: "apotheosis:mythic_material"
 	id: "6693050B0EE71CEB"
 	images: [
