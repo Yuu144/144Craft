@@ -384,6 +384,18 @@
 			x: -4.5d
 			y: -10.5d
 		}
+		{
+			id: "370C700A4F4E5D43"
+			tasks: [{
+				entity: "draconicevolution:draconic_guardian"
+				id: "6F0DCE5E0C9829DE"
+				title: "Kill the CG"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
 	]
 	title: "Bosses"
 }
