@@ -119,19 +119,25 @@ ServerEvents.recipes(hscraft => {
     )
 
     //Orb of eternity
-    hscraft.shaped(
-      Item.of('kubejs:orb_of_eternity', 1),
-      [
-        'ACA',
-        'CBC',
-        'ACA'
-      ],
-      {
-        A: 'forbidden_arcanus:eternal_stella',
-        B: 'tiab:time_in_a_bottle',
-        C: 'draconicevolution:chaotic_core'
-      }
-    )
+    hscraft.custom({
+      type: "create:mechanical_crafting",
+      pattern: [
+        '  HBCBH  ',
+        ' FBCACBE ',
+        '  GBCBG  '
+        ],
+        key: {
+          A: Ingredient.of('tiab:time_in_a_bottle').toJson(),
+          B: Ingredient.of('forbidden_arcanus:eternal_stella').toJson(),
+          C: Ingredient.of('draconicevolution:chaotic_core').toJson(),
+          E: Ingredient.of('cataclysm:flame_eye').toJson(),
+          F: Ingredient.of('cataclysm:abyss_eye').toJson(),
+          G: Ingredient.of('cataclysm:witherite_block').toJson(),
+          H: Ingredient.of('reliquary:fertile_lily_pad').toJson()
+      },
+      result: Ingredient.of('kubejs:orb_of_eternity').toJson(),
+      acceptMirrored: false
+    }).id('144craft:kubejs/orb_of_eternity')
 
     //Dark matter
     hscraft.shaped(
@@ -160,7 +166,7 @@ ServerEvents.recipes(hscraft => {
         A: 'cataclysm:void_eye',
         B: 'minecraft:dragon_egg',
         C: 'cataclysm:void_core',
-        D: 'bigreactors:insanite_ingot',
+        D: 'bigreactors:insanite_block',
         E: 'mekanismexplosives:explosive_polonium',
         F: 'mekanism:pellet_antimatter',
         G: 'cyclic:charm_void',
