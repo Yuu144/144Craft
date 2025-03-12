@@ -543,6 +543,36 @@
 			x: -2.0d
 			y: -11.5d
 		}
+		{
+			id: "7776CE24CEC398DD"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "091B1BE148452C02"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					auto: "disabled"
+					command: "/kill @p"
+					elevate_perms: true
+					id: "45F276DF55A97314"
+					team_reward: false
+					title: "Loooser"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "63D6E8172CD6B52A"
+				secret: true
+				stat: "minecraft:deaths"
+				title: "Loser"
+				type: "stat"
+				value: 30
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
 	]
-	title: "Mob Kills"
+	title: "Stats"
 }
