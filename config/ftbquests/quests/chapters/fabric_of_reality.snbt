@@ -70,16 +70,6 @@
 			y: -2.0d
 		}
 		{
-			id: "5178340F673F34EE"
-			tasks: [{
-				id: "0D58F598D8930413"
-				title: "Quasar"
-				type: "checkmark"
-			}]
-			x: -2.0d
-			y: -2.0d
-		}
-		{
 			id: "44811B87295B3DB2"
 			tasks: [{
 				id: "6D52E1A6073DB38C"
@@ -109,6 +99,16 @@
 			}]
 			x: 3.5d
 			y: -3.0d
+		}
+		{
+			id: "2CB03B6601D12F31"
+			tasks: [{
+				id: "4FB2770F16CE5149"
+				item: "kubejs:quasar"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
 		}
 	]
 	title: "-null-"
