@@ -2134,6 +2134,7 @@
 					type: "item"
 				}
 			]
+			title: "Inferium Gear"
 			x: -18.0d
 			y: -1.5d
 		}
@@ -2204,6 +2205,7 @@
 					type: "item"
 				}
 			]
+			title: "Prudentium Gear"
 			x: -13.0d
 			y: -1.5d
 		}
@@ -2274,6 +2276,7 @@
 					type: "item"
 				}
 			]
+			title: "Tertium Gear"
 			x: -8.0d
 			y: -1.5d
 		}
@@ -2344,6 +2347,7 @@
 					type: "item"
 				}
 			]
+			title: "Imperium Gear"
 			x: -3.0d
 			y: -1.5d
 		}
@@ -2414,6 +2418,7 @@
 					type: "item"
 				}
 			]
+			title: "Supremium Gear"
 			x: 2.0d
 			y: -1.5d
 		}
@@ -3018,6 +3023,7 @@
 				}
 				type: "item"
 			}]
+			title: "Tertium Gear"
 			x: -11.0d
 			y: -1.5d
 		}
@@ -3137,6 +3143,7 @@
 				}
 				type: "item"
 			}]
+			title: "Imperium Gear"
 			x: -6.0d
 			y: -1.5d
 		}
@@ -3215,6 +3222,7 @@
 				}
 				type: "item"
 			}]
+			title: "Supremium Gear"
 			x: -1.0d
 			y: -1.5d
 		}
