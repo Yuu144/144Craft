@@ -205,11 +205,14 @@ ServerEvents.recipes(hscraft => {
         E: 'bigreactors:inanite_ingot'
       }
     )
-
+    
     //Neutron star shard
     hscraft.custom({
       type: 'pneumaticcraft:pressure_chamber',
       inputs: [
+        { 'type': 'pneumaticcraft:stacked_item', 'item': 'ae2:quantum_ring', 'count': 1 },
+        { 'type': 'pneumaticcraft:stacked_item', 'item': 'mekanism:module_gravitational_modulating_unit', 'count': 1 },
+        { 'type': 'pneumaticcraft:stacked_item', 'item': 'megacells:cell_component_256m', 'count': 1 },
         { 'type': 'pneumaticcraft:stacked_item', 'item': 'allthecompressed:steel_block_7x', 'count': 1 },
         { 'type': 'pneumaticcraft:stacked_item', 'item': 'allthecompressed:enderium_block_7x', 'count': 1 },
         { 'type': 'pneumaticcraft:stacked_item', 'item': 'allthecompressed:signalum_block_7x', 'count': 1 },
