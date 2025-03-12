@@ -24,7 +24,7 @@ ServerEvents.recipes(hscraft => {
           H: Ingredient.of('kubejs:sick_twig').toJson(),
           I: Ingredient.of('kubejs:ethereal_capacitor').toJson(),
           J: Ingredient.of('cataclysm:ignitium_ingot').toJson(),
-          K: Ingredient.of('draconicevolution:chaos_shard').toJson(),
+          K: Ingredient.of('draconicevolution:large_chaos_frag').toJson(),
           L: Ingredient.of('draconicevolution:awakened_draconium_block').toJson(),
           M: Ingredient.of('kubejs:energized_pure_element_144_ium_block').toJson(),
           N: Ingredient.of('draconicevolution:reactor_core').toJson()
@@ -140,19 +140,24 @@ ServerEvents.recipes(hscraft => {
     }).id('144craft:kubejs/orb_of_eternity')
 
     //Dark matter
-    hscraft.shaped(
-      Item.of('kubejs:dark_matter', 1),
-      [
-        'ACA',
-        'CBC',
-        'ACA'
-      ],
-      {
-        A: 'mekanism:pellet_antimatter',
-        B: 'kubejs:energized_pure_element_144_ium',
-        C: 'draconicevolution:chaotic_core'
-      }
-    )
+    hscraft.custom({
+      type: "create:mechanical_crafting",
+      pattern: [
+        ' BBB ',
+        'FBABE',
+        ' CDC '
+        ],
+        key: {
+          A: Ingredient.of('kubejs:energized_pure_element_144_ium').toJson(),
+          B: Ingredient.of('mekanism:pellet_antimatter').toJson(),
+          C: Ingredient.of('industrialforegoing:supreme_black_hole_tank').toJson(),
+          D: Ingredient.of('mekanism:module_gravitational_modulating_unit').toJson(),
+          E: Ingredient.of('create_things_and_misc:vibration_mechanism').toJson(),
+          F: Ingredient.of('powah:crystal_nitro').toJson()
+      },
+      result: Ingredient.of('kubejs:dark_matter').toJson(),
+      acceptMirrored: false
+    }).id('144craft:kubejs/dark_matter')
 
     //Void crystal
     hscraft.shaped(
