@@ -5,7 +5,7 @@
 	group: "758D7AC855C595EA"
 	icon: "refinedstorage:controller"
 	id: "7A868743C40CF05D"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [ ]
 	title: "Refined Storage"
