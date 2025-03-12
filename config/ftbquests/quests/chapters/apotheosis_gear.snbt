@@ -53,12 +53,19 @@
 	quests: [
 		{
 			id: "0B110F582852B2B6"
-			rewards: [{
-				count: 5
-				id: "2579209BE96C413A"
-				item: "apotheosis:gem_dust"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "2579209BE96C413A"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					id: "78C1DFCA98BC99F9"
+					type: "xp"
+					xp: 100
+				}
+			]
 			size: 1.2d
 			tasks: [{
 				id: "2610766334068246"
@@ -88,18 +95,11 @@
 		}
 		{
 			id: "6FDC3E64E956909E"
-			rewards: [
-				{
-					id: "3CED5BFC09C57FF8"
-					item: "minecraft:name_tag"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1871D86A08955E88"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "3CED5BFC09C57FF8"
+				item: "minecraft:name_tag"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [{
@@ -112,18 +112,11 @@
 		}
 		{
 			id: "4B5C2374AC6DD45D"
-			rewards: [
-				{
-					id: "22A4AC549D2F3233"
-					item: "apotheosis:sigil_of_socketing"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5EDD470D877929D5"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "22A4AC549D2F3233"
+				item: "apotheosis:sigil_of_socketing"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [{
@@ -258,12 +251,19 @@
 		{
 			dependencies: ["0A70CC1A0F4F1CD1"]
 			id: "4BFD34221965A351"
-			rewards: [{
-				count: 3
-				id: "79DD1566F31F63C9"
-				item: "apotheosis:uncommon_material"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "79DD1566F31F63C9"
+					item: "apotheosis:uncommon_material"
+					type: "item"
+				}
+				{
+					id: "524B809230A11478"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "hexagon"
 			size: 1.2d
 			tasks: [{
@@ -277,12 +277,19 @@
 		{
 			dependencies: ["061244C38F05CBFE"]
 			id: "383B49EEF6045A0B"
-			rewards: [{
-				count: 3
-				id: "705ACD5F9E420F18"
-				item: "apotheosis:epic_material"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "705ACD5F9E420F18"
+					item: "apotheosis:epic_material"
+					type: "item"
+				}
+				{
+					id: "2BCA851D50211D63"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			shape: "hexagon"
 			size: 1.2d
 			tasks: [{
@@ -381,19 +388,12 @@
 		}
 		{
 			id: "37863E72207F9B58"
-			rewards: [
-				{
-					count: 2
-					id: "2789B8FBD22C9082"
-					item: "apotheosis:sigil_of_withdrawal"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "551FE961FD39CF5F"
-					type: "random"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "2789B8FBD22C9082"
+				item: "apotheosis:sigil_of_withdrawal"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [{
@@ -406,19 +406,12 @@
 		}
 		{
 			id: "293E6C4C873B4CCA"
-			rewards: [
-				{
-					count: 2
-					id: "5FEBD2D3E6625E4B"
-					item: "apotheosis:sigil_of_enhancement"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4650D669519E96EC"
-					type: "random"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "5FEBD2D3E6625E4B"
+				item: "apotheosis:sigil_of_enhancement"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [{
@@ -431,19 +424,12 @@
 		}
 		{
 			id: "40E81C1B14B1FDCB"
-			rewards: [
-				{
-					count: 3
-					id: "7994B6940E0C4A3C"
-					item: "apotheosis:sigil_of_rebirth"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "606B38EFAEC31B8A"
-					type: "random"
-				}
-			]
+			rewards: [{
+				count: 3
+				id: "7994B6940E0C4A3C"
+				item: "apotheosis:sigil_of_rebirth"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 0.9d
 			tasks: [{
@@ -457,18 +443,11 @@
 		{
 			dependencies: ["738FB4AC92679507"]
 			id: "1511765BD875FCB6"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "22F37D1A686C3E75"
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2156F3BDE42FAB49"
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "2BE6E563E259F5B8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "hexagon"
 			size: 1.2d
 			tasks: [{

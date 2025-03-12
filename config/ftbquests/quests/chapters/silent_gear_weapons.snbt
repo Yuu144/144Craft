@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "silent_gear_weapons"
 	group: "7A6F9B79FDAFF501"
+	icon: "silentgear:sword_template"
 	id: "523F4B28C11BCDF2"
 	order_index: 0
 	quest_links: [ ]
