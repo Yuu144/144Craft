@@ -2788,6 +2788,7 @@
 				}
 				type: "item"
 			}]
+			title: "Inferium Gear"
 			x: -21.0d
 			y: -1.5d
 		}
@@ -2902,6 +2903,7 @@
 				}
 				type: "item"
 			}]
+			title: "Prudentium Gear"
 			x: -16.0d
 			y: -1.5d
 		}
