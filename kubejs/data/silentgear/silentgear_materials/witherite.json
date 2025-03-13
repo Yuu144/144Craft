@@ -19,8 +19,8 @@
   },
   "stats": {
     "main": {
-      "durability": 750.0,
-      "melee_damage": 6.0,
+      "durability": 1500.0,
+      "melee_damage": 11.0,
       "attack_speed": 0.2
     },
     "tip": {
