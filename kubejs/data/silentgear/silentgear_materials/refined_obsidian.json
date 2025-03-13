@@ -11,7 +11,7 @@
   },
   "crafting_items": {
     "main": {
-      "item": "mekanism:refined_obsidian_ingot"
+      "item": "mekanism:ingot_refined_obsidian"
     }
   },
   "name": {
