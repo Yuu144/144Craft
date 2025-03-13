@@ -139,9 +139,13 @@ ServerEvents.recipes(hscraft => {
     hscraft.custom({
       type: "create:mechanical_crafting",
       pattern: [
+        '    I    ',
+        '   HGH   ',
         '  HBCBH  ',
         ' FBCACBE ',
-        '  GBCBG  '
+        '  HBCBH  ',
+        '   HGH   ',
+        '    J    '
         ],
         key: {
           A: Ingredient.of('tiab:time_in_a_bottle').toJson(),
@@ -150,7 +154,9 @@ ServerEvents.recipes(hscraft => {
           E: Ingredient.of('cataclysm:flame_eye').toJson(),
           F: Ingredient.of('cataclysm:abyss_eye').toJson(),
           G: Ingredient.of('cataclysm:witherite_block').toJson(),
-          H: Ingredient.of('reliquary:fertile_lily_pad').toJson()
+          H: Ingredient.of('reliquary:fertile_lily_pad').toJson(),
+          I: Ingredient.of('soulsweapons:chaos_orb').toJson(),
+          J: Ingredient.of('soulsweapons:lord_soul_rose').toJson()
       },
       result: Ingredient.of('kubejs:orb_of_eternity').toJson(),
       acceptMirrored: false
@@ -189,7 +195,7 @@ ServerEvents.recipes(hscraft => {
         B: 'minecraft:dragon_egg',
         C: 'cataclysm:void_core',
         D: 'bigreactors:insanite_block',
-        E: 'mekanismexplosives:explosive_polonium',
+        E: 'soulsweapons:lord_soul_void',
         F: 'mekanism:pellet_antimatter',
         G: 'cyclic:charm_void',
         H: 'cataclysm:void_forge',
