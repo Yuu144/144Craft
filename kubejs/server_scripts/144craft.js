@@ -4,13 +4,13 @@ ServerEvents.recipes(hscraft => {
       type: "create:mechanical_crafting",
       pattern: [
         '    M    ',
-        '   MLM   ',
+        '   MQM   ',
         '   EJE   ',
         ' MKABCKM ',
-        'MLJDNFJLM',
+        'MOJDNFJLM',
         ' MKGHIKM ',
         '   EJE   ',
-        '   MLM   ',
+        '   MPM   ',
         '    M    '
         ],
         key: {
@@ -25,10 +25,12 @@ ServerEvents.recipes(hscraft => {
           I: Ingredient.of('kubejs:ethereal_capacitor').toJson(),
           J: Ingredient.of('cataclysm:ignitium_ingot').toJson(),
           K: Ingredient.of('draconicevolution:large_chaos_frag').toJson(),
-          L: Ingredient.of('draconicevolution:awakened_draconium_block').toJson(),
+          L: Ingredient.of('productivebees:upgrade_productivity_4').toJson(),
           M: Ingredient.of('kubejs:energized_pure_element_144_ium_block').toJson(),
-          N: Ingredient.of('draconicevolution:reactor_core').toJson()
-
+          N: Ingredient.of('draconicevolution:reactor_core').toJson(),
+          O: Ingredient.of('twilightforest:snow_queen_trophy').toJson(),
+          P: Ingredient.of('mysticalagradditions:creative_essence').toJson(),
+          Q: Ingredient.of('mysticalagriculture:awakened_supremium_ingot_block').toJson()
       },
       result: Ingredient.of('kubejs:-null-').toJson(),
       acceptMirrored: false
@@ -76,6 +78,21 @@ ServerEvents.recipes(hscraft => {
 
     //Time in a bottle
     hscraft.remove({ output: 'tiab:time_in_a_bottle' })
+
+  // Creative Essence
+    hscraft.shaped(
+      Item.of('mysticalagradditions:creative_essence', 1), 
+      [
+        'CAC', 
+        'ABA', 
+        'CAC'
+      ], 
+      {
+        A: 'mysticalagradditions:insanium_block',
+        C: 'mysticalagradditions:insanium_gemstone_block',
+        B: 'mysticalagriculture:master_infusion_crystal'
+      }
+    )
 
     //Element 144 Ium Blocks
     hscraft.shaped(
