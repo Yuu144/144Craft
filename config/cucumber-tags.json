@@ -1,0 +1,11 @@
+{
+  "__comment": "Instructions: https://blakesmods.com/docs/cucumber/tags-config",
+  "forge:ingots/graphite": "null",
+  "forge:rubber": "null",
+  "forge:ingots/platinum": "null",
+  "forge:ingots/chrome": "null",
+  "forge:ingots/mithril": "null",
+  "forge:dusts/saltpeter": "null",
+  "forge:ingots/aluminum": "null",
+  "forge:silicon": "null"
+}
