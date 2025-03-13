@@ -134,7 +134,7 @@
 	EnderGuardianHealthMultiplier = 1.5
 	#EnderGuardian's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianDamageMultiplier = 1.5
+	EnderGuardianDamageMultiplier = 1.2
 	#EnderGuardian's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	EnderGuardianDamageCap = 40.0
@@ -186,7 +186,7 @@
 	MonstrosityHealthMultiplier = 1.5
 	#Monstrosity's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityDamageMultiplier = 1.5
+	MonstrosityDamageMultiplier = 1.2
 	#Monstrosity's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MonstrosityHealingMultiplier = 1.0
@@ -265,7 +265,7 @@
 	HarbingerHealthMultiplier = 1.5
 	#Harbinger's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerDamageMultiplier = 1.5
+	HarbingerDamageMultiplier = 1.35
 	#Harbinger's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
 	HarbingerHealingMultiplier = 1.0
@@ -293,7 +293,7 @@
 	LeviathanHealthMultiplier = 1.0
 	#Leviathan's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanDamageMultiplier = 1.5
+	LeviathanDamageMultiplier = 1.2
 	#Leviathan's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	LeviathanNatureHealing = 10.0
@@ -353,7 +353,7 @@
 	AncientRemnantHealthMultiplier = 1.5
 	#Ancient Remnant's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AncientRemnantDamageMultiplier = 1.5
+	AncientRemnantDamageMultiplier = 1.25
 	#AncientRemnant's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	AncientRemnantNatureHealing = 10.0
@@ -418,7 +418,7 @@
 	MaledictusHealthMultiplier = 1.5
 	#Maledictus's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MaledictusDamageMultiplier = 1.5
+	MaledictusDamageMultiplier = 1.25
 	#Maledictus's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Maledictus's prevent attacks from far away Range" = 12.0
