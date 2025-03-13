@@ -2,7 +2,7 @@
   "type": "silentgear:standard",
   "simple": true,
   "availability": {
-    "tier": 4,
+    "tier": 3,
     "categories": [
       "metal"
     ],
@@ -11,7 +11,7 @@
   },
   "crafting_items": {
     "main": {
-      "item": "cataclysm:witherite_ingot"
+      "item": "mekanism:refined_obsidian_ingot"
     }
   },
   "name": {
@@ -20,15 +20,14 @@
   "stats": {
     "main": {
       "durability": 1500.0,
-      "melee_damage": 10.0,
-      "attack_speed": 0.2
+      "melee_damage": 6.0
     }
   },
   "model": {
     "main/all": [
       {
         "texture": "silentgear:main_generic_hc",
-        "color": "#554945"
+        "color": "#65527F"
       },
       {
         "texture": "silentgear:_highlight"
