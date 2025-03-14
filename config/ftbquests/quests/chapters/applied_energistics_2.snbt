@@ -1882,11 +1882,11 @@
 			id: "601E4F076E5DAAD7"
 			tasks: [{
 				id: "2E518009E0D04D28"
-				title: "Freundlich aus Faulheit von ATM geklaut :3"
+				title: "ATM als Template genutzt hihi :3"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: -2.5d
+			x: -1.0d
+			y: -5.5d
 		}
 	]
 	title: "Applied Energistics 2"

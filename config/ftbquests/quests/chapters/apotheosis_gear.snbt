@@ -462,11 +462,11 @@
 			id: "0FAA44216804E47F"
 			tasks: [{
 				id: "4246D916795F0094"
-				title: "Freundlich aus Faulheit von ATM geklaut :3"
+				title: "ATM als Template genutzt hihi :3"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: -8.0d
+			y: -3.0d
 		}
 	]
 	title: "Apotheosis"

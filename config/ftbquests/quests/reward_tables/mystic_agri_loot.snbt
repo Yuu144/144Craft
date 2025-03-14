@@ -1,0 +1,13 @@
+{
+	id: "2008D8BAF2E28D34"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ count: 64, item: "mysticalagriculture:inferium_essence", weight: 4.0f }
+		{ count: 32, item: "mysticalagriculture:prudentium_essence", weight: 4.0f }
+		{ count: 24, item: "mysticalagriculture:tertium_essence", weight: 3.0f }
+		{ count: 16, item: "mysticalagriculture:imperium_essence", weight: 2.0f }
+		{ count: 4, item: "mysticalagriculture:supremium_essence" }
+	]
+	title: "Mystic. Agri Loot"
+}

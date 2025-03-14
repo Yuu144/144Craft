@@ -9,7 +9,56 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"027FE3667BB210C8"
+				"21FDAF5B368B60C6"
+				"42273DEB37880E54"
+				"4925DBDCD2E023AE"
+				"44811B87295B3DB2"
+				"62F13FB0C02B74DA"
+				"5DD155E332E8AA35"
+				"7AEC6E96F6F71028"
+			]
+			description: [
+				"So wie es in ATM den Allthemods Star gibt haben wir -Null- gleiches prinzip anderes Item. Sieh es als ein letztes Ziel. Um dieses Item zu machen musst du jede wichtige Mod benutzt haben."
+				""
+				"Was macht man mit -null-? Creative Items natürlich. Oder stolz sein das man so viel MC gespielt hat idk..."
+			]
 			id: "49F180AD73C1C52F"
+			rewards: [
+				{
+					id: "6F39E4CAD7FABC75"
+					type: "xp_levels"
+					xp_levels: 144
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E719D599E2A459A"
+					table_id: 2085677160488851975L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "369B48CDAF83C3F1"
+					table_id: 2085677160488851975L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45703F0444B5294D"
+					table_id: 2085677160488851975L
+					type: "loot"
+				}
+				{
+					auto: "enabled"
+					command: "/say @p has archieved perfection. "
+					elevate_perms: true
+					id: "12599254B57BDC79"
+					team_reward: false
+					title: "Shoutout"
+					type: "command"
+				}
+			]
 			size: 3.0d
 			tasks: [{
 				id: "43687FC736011C7D"
@@ -21,6 +70,19 @@
 		}
 		{
 			id: "42273DEB37880E54"
+			rewards: [
+				{
+					id: "1666E687B5F4BE16"
+					type: "xp_levels"
+					xp_levels: 13
+				}
+				{
+					exclude_from_claim_all: true
+					id: "043C289727401624"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "420D811376BA2B2E"
 				item: "kubejs:orb_of_eternity"
@@ -31,6 +93,19 @@
 		}
 		{
 			id: "62F13FB0C02B74DA"
+			rewards: [
+				{
+					id: "3984BBC7249AE415"
+					type: "xp_levels"
+					xp_levels: 13
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DC72C30E642A6C0"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "5E07D7E9C3CC0ECC"
 				item: "kubejs:void_crystal"
@@ -41,6 +116,19 @@
 		}
 		{
 			id: "21FDAF5B368B60C6"
+			rewards: [
+				{
+					id: "6D17367404042248"
+					type: "xp_levels"
+					xp_levels: 13
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0115BAAE467C4C3F"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "2D423D5609A5FD8C"
 				item: "kubejs:ethereal_capacitor"
@@ -51,6 +139,19 @@
 		}
 		{
 			id: "7AEC6E96F6F71028"
+			rewards: [
+				{
+					id: "5F5C0E1656FD64FE"
+					type: "xp_levels"
+					xp_levels: 13
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C30CCAA1DE771FF"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "75906256045A3D72"
 				item: "kubejs:time_manipulator"
@@ -61,6 +162,19 @@
 		}
 		{
 			id: "5DD155E332E8AA35"
+			rewards: [
+				{
+					id: "3987AC78ABC265AC"
+					type: "xp_levels"
+					xp_levels: 13
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FAAAAA272B93289"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "50CE204BD99C7748"
 				item: "kubejs:neutron_star_shard"
@@ -70,17 +184,20 @@
 			y: -2.0d
 		}
 		{
-			id: "5178340F673F34EE"
-			tasks: [{
-				id: "0D58F598D8930413"
-				title: "Quasar"
-				type: "checkmark"
-			}]
-			x: -2.0d
-			y: -2.0d
-		}
-		{
 			id: "44811B87295B3DB2"
+			rewards: [
+				{
+					id: "55FD09559B4EA48E"
+					type: "xp_levels"
+					xp_levels: 13
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17F888DD84A7C848"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "6D52E1A6073DB38C"
 				item: "kubejs:dark_matter"
@@ -91,6 +208,19 @@
 		}
 		{
 			id: "4925DBDCD2E023AE"
+			rewards: [
+				{
+					id: "3D719214B32FBF83"
+					type: "xp_levels"
+					xp_levels: 13
+				}
+				{
+					exclude_from_claim_all: true
+					id: "047ACE3E448B146C"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+			]
 			tasks: [{
 				id: "07FB91F64E26AFAC"
 				item: "kubejs:sick_twig"
@@ -100,15 +230,38 @@
 			y: 2.0d
 		}
 		{
-			description: ["The fuck are u doin"]
+			description: ["Cooming soon (144Craft 1.0.3 maybe)"]
 			id: "7ADC40F17FD20C76"
 			tasks: [{
 				id: "54C722516B27CCF2"
 				title: "Neutron Star Sandwich"
 				type: "checkmark"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: -3.0d
+		}
+		{
+			id: "027FE3667BB210C8"
+			rewards: [
+				{
+					id: "5C26CFEB9EB1B8CB"
+					type: "xp_levels"
+					xp_levels: 13
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C3E4CC97D816080"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "368D0389A7C90EDF"
+				item: "kubejs:quasar"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
 		}
 	]
 	title: "-null-"

@@ -864,11 +864,11 @@
 			id: "7C23B08675D1E98D"
 			tasks: [{
 				id: "0CCD627B1E08E7FE"
-				title: "Freundlich aus Faulheit von ATM geklaut :3"
+				title: "ATM als Template genutzt hihi :3"
 				type: "checkmark"
 			}]
-			x: 4.5d
-			y: -8.0d
+			x: -5.5d
+			y: -11.0d
 		}
 	]
 	title: "Artifacts"
