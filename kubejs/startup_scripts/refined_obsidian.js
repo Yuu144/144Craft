@@ -9,7 +9,7 @@ ItemEvents.modification(event => {
         item.armorToughness = 4
     })
 
-      event.modify('mekanismtools:refined_obsidian_leggings', item => {
+    event.modify('mekanismtools:refined_obsidian_leggings', item => {
         item.armorProtection = 6
         item.armorToughness = 3
     })
@@ -18,4 +18,4 @@ ItemEvents.modification(event => {
         item.armorProtection = 3
         item.armorToughness = 3
     })
-  })
+})
