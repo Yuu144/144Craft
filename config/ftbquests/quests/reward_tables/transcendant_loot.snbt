@@ -3,9 +3,13 @@
 	id: "1CF1D053BB155A07"
 	loot_size: 1
 	order_index: 5
-	rewards: [{
-		type: "xp_levels"
-		xp_levels: 25
-	}]
+	rewards: [
+		{
+			type: "xp_levels"
+			xp_levels: 25
+		}
+		{ item: "draconicevolution:chaos_shard" }
+		{ count: 100000, item: "minecraft:stick" }
+	]
 	title: "Transcendant Loot"
 }
