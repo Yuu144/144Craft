@@ -372,6 +372,133 @@ ServerEvents.recipes(hscraft => {
     result: Item.of('kubejs:sick_twig').toJson()
     }).id('144craft:energizing/sick_twig')
     //--------------------------------------------------------------------------
+
+    //Croissant (Quasar)
+
+    hscraft.custom(
+      {
+        type: "create:sequenced_assembly",
+        ingredient: {
+          item: "ae2:singularity"
+        },
+        transitionalItem: {
+          item: "ae2:singularity"
+        },
+        sequence: [
+          {
+            type: "create:deploying",
+            ingredients: [
+              {
+                item: "ae2:singularity"
+              },
+              {
+                item: "allthecompressed:osmium_block_8x"
+              }
+            ],
+            results: [
+              {
+                item: "ae2:singularity"
+              }
+            ]
+          },
+          {
+            type: "create:pressing",
+            ingredients: [
+              {
+                item: "ae2:singularity"
+              }
+            ],
+            results: [
+              {
+                item: "ae2:singularity"
+              }
+            ]
+          },
+          {
+            type: "create:deploying",
+            ingredients: [
+              {
+                item: "ae2:singularity"
+              },
+              {
+                item: "allthecompressed:enderium_block_8x"
+              }
+            ],
+            results: [
+              {
+                item: "ae2:singularity"
+              }
+            ],
+          },
+          {
+            type: "create:pressing",
+            ingredients: [
+              {
+                item: "ae2:singularity"
+              }
+            ],
+            results: [
+              {
+                item: "ae2:singularity"
+              }
+            ]
+          },
+          {
+            type: "create:deploying",
+            ingredients: [
+              {
+                item: "ae2:singularity"
+              },
+              {
+                item: "draconicevolution:large_chaos_frag"
+              }
+            ],
+            results: [
+              {
+                item: "ae2:singularity"
+              }
+            ],
+          },
+          {
+            type: "create:pressing",
+            ingredients: [
+              {
+                item: "ae2:singularity"
+              }
+            ],
+            results: [
+              {
+                item: "ae2:singularity"
+              }
+            ]
+          },
+          {
+            type: "create:pressing",
+            ingredients: [
+              {
+                item: "ae2:singularity"
+              }
+            ],
+            results: [
+              {
+                item: "ae2:singularity"
+              }
+            ]
+          }
+        ],
+        results: [
+          {
+            item: "kubejs:quasar",
+            chance: 99.0
+          },
+          {
+            item: "supplementaries:ash",
+            chance: 1.0
+          }
+        ],
+        loops: 1
+      }
+    )
 })
 
 ServerEvents.tags('item', event => {

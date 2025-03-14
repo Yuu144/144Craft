@@ -421,7 +421,7 @@
 		{
 			dependencies: ["7602CC68040BCC45"]
 			description: [
-				"The only optional Boss that isn't actually optional. It's fucking Mordekaiser soooo... you'll need his loot for &9-null-&r"
+				"It's fucking Mordekaiser soooo... you'll need his loot for &9-null-&r"
 				""
 				"To summon the Boss craft an &bOld Moon Altar&r and right click it with a &bLost Soul&r"
 			]
