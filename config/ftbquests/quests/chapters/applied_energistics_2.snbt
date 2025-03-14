@@ -5,7 +5,7 @@
 	group: "758D7AC855C595EA"
 	icon: "ae2:controller"
 	id: "07210DDF872160BA"
-	order_index: 1
+	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -172,6 +172,7 @@
 							value: "ae2:glass_cable"
 						}
 					}
+					title: "ME Glass Cable"
 					type: "item"
 				}
 				{
@@ -198,6 +199,7 @@
 					type: "item"
 				}
 			]
+			title: "Cables"
 			x: 5.0d
 			y: 1.5d
 		}
@@ -230,23 +232,18 @@
 					type: "item"
 				}
 			]
+			title: "Smart Cables"
 			x: 5.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["15564C11744D6AA0"]
 			id: "22C4318523A43B49"
-			rewards: [
-				{
-					id: "6D1EBB1DBB711A5A"
-					type: "random"
-				}
-				{
-					id: "7B32D21CD627FB4A"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "7B32D21CD627FB4A"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [
 				{
 					id: "6C7282A058006A21"
@@ -302,6 +299,7 @@
 				}
 				type: "item"
 			}]
+			title: "ME Interface"
 			x: 24.0d
 			y: 1.5d
 		}
@@ -329,6 +327,7 @@
 					type: "item"
 				}
 			]
+			title: "ME Pattern Provider"
 			x: 13.0d
 			y: -2.5d
 		}
@@ -348,6 +347,7 @@
 		}
 		{
 			dependencies: ["2893F483C10293E6"]
+			hide_dependent_lines: true
 			id: "1B686954D34A0F23"
 			shape: "circle"
 			tasks: [{
@@ -361,6 +361,7 @@
 				}
 				type: "item"
 			}]
+			title: "Wrench"
 			x: 1.0d
 			y: 1.5d
 		}
@@ -900,6 +901,7 @@
 						value: "(.*)crafting_storage"
 					}
 				}
+				title: "Crafting Storage"
 				type: "item"
 			}]
 			x: 14.0d
@@ -918,8 +920,10 @@
 						value: "(.*)crafting_accelerator"
 					}
 				}
+				title: "Co-Processing Unit"
 				type: "item"
 			}]
+			title: "Co-Processing Unit"
 			x: 16.0d
 			y: -1.5d
 		}
@@ -936,6 +940,7 @@
 						value: "(ae2|mega)(.*)crafting_monitor"
 					}
 				}
+				title: "Crafting Monitor"
 				type: "item"
 			}]
 			x: 18.0d
@@ -974,6 +979,7 @@
 					type: "item"
 				}
 			]
+			title: "Useful Items"
 			x: 4.5d
 			y: 2.5d
 		}
@@ -994,6 +1000,7 @@
 				}
 				type: "item"
 			}]
+			title: "Color Aplicator"
 			x: 5.5d
 			y: 2.5d
 		}
@@ -1122,11 +1129,6 @@
 					item: "ae2:ender_dust"
 					type: "item"
 				}
-				{
-					id: "3A45E1C2AE35002B"
-					item: "ae2:tiny_tnt"
-					type: "item"
-				}
 			]
 			x: 5.0d
 			y: 4.5d
@@ -1202,6 +1204,16 @@
 			}]
 			x: 17.5d
 			y: 0.5d
+		}
+		{
+			id: "601E4F076E5DAAD7"
+			tasks: [{
+				id: "2E518009E0D04D28"
+				title: "Freundlich aus Faulheit von ATM geklaut :3"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.5d
 		}
 	]
 	title: "Applied Energistics 2"

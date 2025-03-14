@@ -4,81 +4,26 @@
 	filename: "bosses"
 	group: "4B39A5C93699FF2E"
 	id: "24E011DE840B8D71"
-	images: [
-		{
-			height: 5.0d
-			image: "144craft:textures/apotheosis/netherite_monstrosity.png"
-			rotation: 0.0d
-			width: 5.0d
-			x: -2.0d
-			y: 2.0d
-		}
-		{
-			height: 5.0d
-			image: "144craft:textures/apotheosis/ender_guardian.png"
-			rotation: 0.0d
-			width: 9.0d
-			x: 2.0d
-			y: -1.0d
-		}
-		{
-			height: 5.0d
-			image: "144craft:textures/apotheosis/harbinger.png"
-			rotation: 0.0d
-			width: 5.35d
-			x: 5.0d
-			y: 5.5d
-		}
-		{
-			height: 5.0d
-			image: "144craft:textures/apotheosis/maledictus.png"
-			rotation: 0.0d
-			width: 14.8d
-			x: 10.5d
-			y: 2.0d
-		}
-		{
-			height: 10.0d
-			image: "144craft:textures/apotheosis/fire_dragon.png"
-			rotation: 0.0d
-			width: 14.7d
-			x: 17.5d
-			y: -3.5d
-		}
-		{
-			height: 15.0d
-			image: "144craft:textures/apotheosis/ancient_remnant.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 6.5d
-			y: -16.0d
-		}
-		{
-			height: 10.0d
-			image: "144craft:textures/apotheosis/ignis.png"
-			rotation: 0.0d
-			width: 16.0d
-			x: -5.0d
-			y: -10.5d
-		}
-	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["3776A226AAA9A2BA"]
 			description: ["To progress in this kichtensink type modpack you'll need to defeat some special bosses bozo"]
 			id: "14AE159D6934BAB5"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "72D35E4D3C3038B6"
 				title: "The big ones"
 				type: "checkmark"
 			}]
+			title: "The Main Bosses"
 			x: -6.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["14AE159D6934BAB5"]
+			description: ["As it's name suggests...go to the nether and find the &4Soul Blacksmith&r. "]
 			icon: {
 				Count: 1
 				id: "cataclysm:infernal_forge"
@@ -110,11 +55,12 @@
 				value: 1L
 			}]
 			title: "&dKill the&r &c&kT&r&cNetherite Monstrosity&kT&r"
-			x: -2.0d
-			y: 1.0d
+			x: -2.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7999A3177A478208"]
+			description: ["Go to the End. Search for the &5Ruined Citadel&r. The rest is on you"]
 			icon: "cataclysm:gauntlet_of_guard"
 			id: "035E78540BFBF37B"
 			rewards: [
@@ -139,11 +85,12 @@
 				value: 1L
 			}]
 			title: "&dKill the&r &5&kT&r&5Ender Guardian&kT&r"
-			x: 2.0d
-			y: 0.0d
+			x: 1.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["035E78540BFBF37B"]
+			description: ["For this one, search for the &4Ancient Factory&r. And bring a Nether Star with you."]
 			icon: "cataclysm:witherite_ingot"
 			id: "46DDCCEF4F693126"
 			rewards: [
@@ -168,8 +115,8 @@
 				value: 1L
 			}]
 			title: "&dKill&r &6&kT&r&6The Harbinger&kT&r"
-			x: 5.0d
-			y: 4.5d
+			x: 5.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["46DDCCEF4F693126"]
@@ -197,11 +144,16 @@
 				value: 1L
 			}]
 			title: "&dKill&r &2&kT&r&2Maledictus&kT&r"
-			x: 10.5d
-			y: 4.5d
+			x: 8.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["754A30E41D7D1C87"]
+			description: [
+				"These fn are found &7undergound&r. There is no good way to search for them...pls be violent when slaughtering them."
+				""
+				"The Dragon Seeker is you best bet."
+			]
 			icon: "iceandfire:dragon_skull_lightning"
 			id: "59BA9579A4FB1DAF"
 			rewards: [
@@ -281,11 +233,12 @@
 				type: "item"
 			}]
 			title: "&dKill a&r &f&kT&r&fTier 5 Dragon&kT&r"
-			x: 17.5d
-			y: -2.0d
+			x: 11.25d
+			y: -1.5d
 		}
 		{
 			dependencies: ["59BA9579A4FB1DAF"]
+			description: ["The &1Sunken City&r is where this fight must happen. You will need a &1Abyssal Sacrifice&r to fight this one. Potions of Water breathing are kind of mandatory..."]
 			icon: "cataclysm:tidal_claws"
 			id: "2675E72CE566F34C"
 			rewards: [
@@ -310,11 +263,12 @@
 				value: 1L
 			}]
 			title: "&dKill the&r &1&kT&r&1Leviathan&kT&r"
-			x: 15.75d
-			y: -12.0d
+			x: 15.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["2675E72CE566F34C"]
+			description: ["To find this Boss you'll need to search for the &6Cursed Pyramid&r *Curse of Rah noises*."]
 			icon: "cataclysm:ancient_metal_ingot"
 			id: "196B286D10D5DCF6"
 			rewards: [
@@ -345,11 +299,12 @@
 				value: 1L
 			}]
 			title: "&dKill the&r &e&kT&r&eAncient Remnant&kT&r"
-			x: 5.25d
-			y: -14.25d
+			x: 18.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["196B286D10D5DCF6"]
+			description: ["Ignis...probably the hardest in Cataclysm, In the Netherlands, seek out the &4Burning Arena&r. There you'll need to kill the &6Ignited Revenants&r. After defeating them you'll get &6Burning Ashes&r which are required to Summon Ignis at the top of the Arena."]
 			icon: "cataclysm:ignitium_ingot"
 			id: "289477253DF732AC"
 			rewards: [
@@ -380,12 +335,51 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "&dKill the&r &4&kT&r&4Ignis&kT&r"
-			x: -4.5d
-			y: -10.5d
+			title: "&dKill&r &4&kT&r&4Ignis&kT&r"
+			x: 22.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["289477253DF732AC"]
+			description: [
+				"The hardest Boss of this Modpack. Found in the End at the &dcoordinates 10.000 - 10.000&r and from then on every 10.000 blocks further (20.000 - 20.000/ 30.000 - 30.000 an so on)"
+				""
+				"Make sure to be prepared"
+			]
+			icon: "draconicevolution:chaos_shard"
 			id: "370C700A4F4E5D43"
+			rewards: [
+				{
+					id: "0AFE89702B316961"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05D6FDA017F2FF36"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25B54D61DB0740B7"
+					table_id: 2085677160488851975L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A7ACEF126CB8710"
+					table_id: 2085677160488851975L
+					type: "loot"
+				}
+				{
+					id: "68A2E8E46F9A242A"
+					item: "draconicevolution:large_chaos_frag"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				entity: "draconicevolution:draconic_guardian"
 				id: "6F0DCE5E0C9829DE"
@@ -393,8 +387,228 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 6.0d
-			y: -6.5d
+			title: "&dKill the&r &5&kT&r&5Chaos Guardian&kT&r"
+			x: 26.5d
+			y: 0.0d
+		}
+		{
+			id: "3776A226AAA9A2BA"
+			rewards: [{
+				id: "42D7BA8A13EC3766"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "18FF4C880096D7F5"
+				item: "structurecompass:structure_compass"
+				type: "item"
+			}]
+			title: "A way to find them"
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3776A226AAA9A2BA"]
+			id: "7602CC68040BCC45"
+			tasks: [{
+				id: "257B3A2CD1067C6A"
+				title: "The other Bosses"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7602CC68040BCC45"]
+			description: [
+				"The only optional Boss that isn't actually optional. It's fucking Mordekaiser soooo... you'll need his loot for &9-null-&r"
+				""
+				"To summon the Boss craft an &bOld Moon Altar&r and right click it with a &bLost Soul&r"
+			]
+			icon: {
+				Count: 1
+				id: "soulsweapons:nightfall"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "17D00BA73BDAE6E0"
+			rewards: [
+				{
+					id: "6F8034CE10778B12"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2567ECA31BB69622"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "soulsweapons:returning_knight"
+				id: "08044BF406A3D982"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&dKill the&r &b&kT&r&bReturning Knight&kT&r"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["17D00BA73BDAE6E0"]
+			description: ["To summon the Boss craft an &bOld Moon Altar&r and right click it with the &bEssence of Eventide&r"]
+			icon: {
+				Count: 1
+				id: "soulsweapons:nightfall"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "66986E27DC868A92"
+			rewards: [
+				{
+					id: "2169FDCEB828BA4C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E1B85C38FFE1174"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "soulsweapons:moonknight"
+				id: "6750E5A76603C9E8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&dKill the&r &b&kT&r&bFallen Icon&kT&r"
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["17D00BA73BDAE6E0"]
+			description: ["Summoned by right clicking a &8Blackstone Pedestal&r with a &0Shard of Uncertainty&r"]
+			icon: {
+				Count: 1
+				id: "soulsweapons:withered_wabbajack"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7FA29C89EEFA018C"
+			rewards: [
+				{
+					id: "17D4A54CF83F14A5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "068B7AA0D00733AF"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "soulsweapons:chaos_monarch"
+				id: "4FE7EA3D05257D5B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&dKill the&r &4&kT&r&4Monarch of Chaos&kT&r"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["17D00BA73BDAE6E0"]
+			description: ["Found in the &4Nether&r using a &3Moonstone Compass&r"]
+			icon: {
+				Count: 1
+				id: "soulsweapons:darkin_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4B23F1EEE3338D9F"
+			rewards: [
+				{
+					id: "1CB233532335FBCF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "742FCAC14F0A9958"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "soulsweapons:accursed_lord_boss"
+				id: "1146D36683A8F82F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&dKill the&r &4&kT&r&4Decaying King&kT&r"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4B23F1EEE3338D9F"
+				"66986E27DC868A92"
+				"7FA29C89EEFA018C"
+			]
+			description: ["To summon them Craft a &9Chaos Orb&r and right click anywhere"]
+			icon: {
+				Count: 1
+				id: "soulsweapons:forlorn_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4540725BEA7CDBAA"
+			rewards: [
+				{
+					id: "72F5C7AE30E7D080"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B08DF659048170D"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06656A2329AFE631"
+					table_id: 2085677160488851975L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					entity: "soulsweapons:night_prowler"
+					id: "026D02E493141D83"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "soulsweapons:day_stalker"
+					id: "28CCD909DCEEF010"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&dKill the&r &8&kT&r&8Night Prowler&kT&r &dand the&r &7&kT&r&7Day Stalker&r&kT&r"
+			x: -0.5d
+			y: 4.5d
 		}
 	]
 	title: "Bosses"

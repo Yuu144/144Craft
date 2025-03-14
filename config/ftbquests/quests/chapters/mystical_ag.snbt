@@ -3458,6 +3458,16 @@
 			x: 6.5d
 			y: 0.5d
 		}
+		{
+			id: "172D1A7361F6000C"
+			tasks: [{
+				id: "69055C0B0B02BEC4"
+				title: "Freundlich aus Faulheit von ATM geklaut :3"
+				type: "checkmark"
+			}]
+			x: -23.0d
+			y: -1.5d
+		}
 	]
 	title: "Mystical Agriculture"
 }

@@ -2185,6 +2185,16 @@
 			x: 10.0d
 			y: 10.0d
 		}
+		{
+			id: "4852C3238CED651D"
+			tasks: [{
+				id: "1C5FDED2444C50D1"
+				title: "Freundlich aus Faulheit von ATM geklaut :3"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
 	]
 	title: "Irons' Spells and Spellbook"
 }

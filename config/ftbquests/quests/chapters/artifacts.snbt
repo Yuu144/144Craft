@@ -5,7 +5,7 @@
 	group: "4B39A5C93699FF2E"
 	icon: "artifacts:umbrella"
 	id: "7AF827D2D101D343"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -859,6 +859,16 @@
 			title: "Kill Mimics"
 			x: 2.5d
 			y: -7.75d
+		}
+		{
+			id: "7C23B08675D1E98D"
+			tasks: [{
+				id: "0CCD627B1E08E7FE"
+				title: "Freundlich aus Faulheit von ATM geklaut :3"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -8.0d
 		}
 	]
 	title: "Artifacts"
