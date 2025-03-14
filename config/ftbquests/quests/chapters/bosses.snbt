@@ -2,9 +2,22 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "bosses"
-	group: "4B39A5C93699FF2E"
+	group: "1C14EC978C050AC9"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: {
+				MAHOUTSUKAI_ATTACK_CAP: 10000.0d
+				MAHOUTSUKAI_ATTACK_DAMAGE: 3.0f
+			}
+		}
+		id: "mahoutsukai:morgan"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "24E011DE840B8D71"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
