@@ -34,13 +34,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"{atm9.quest.productiveBees.desc.welcome.1}"
-				""
-				"{atm9.quest.productiveBees.desc.welcome.2}"
-				""
-				"{atm9.quest.productiveBees.desc.welcome.3}"
-			]
+			description: [""]
 			id: "13AA91D39A2CABF2"
 			rewards: [
 				{
@@ -170,11 +164,19 @@
 			description: [""]
 			hide_until_deps_visible: false
 			id: "00A17728A387B426"
-			rewards: [{
-				id: "13A6FF7C32F2A33F"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "13A6FF7C32F2A33F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CEB7C90F12EBA58"
+					table_id: 8905064056842791870L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "1F2A2E5E1319BBAA"
@@ -207,7 +209,7 @@
 					type: "item"
 				}
 			]
-			title: "{atm9.quest.productiveBees.woodNest}"
+			title: "Wooden Nests"
 			x: -4.0d
 			y: 5.0d
 		}
@@ -458,15 +460,7 @@
 		}
 		{
 			dependencies: ["7C169A4A39F37FAC"]
-			description: [
-				"{atm9.quest.productiveBees.desc.productiveBees.1}"
-				""
-				"{atm9.quest.productiveBees.desc.productiveBees.2}"
-				""
-				"{atm9.quest.productiveBees.desc.productiveBees.3}"
-				""
-				"{atm9.quest.productiveBees.desc.productiveBees.4}"
-			]
+			description: [""]
 			id: "131EC039435B8878"
 			rewards: [
 				{
@@ -538,8 +532,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "26D057A4EDC423A9"
-					type: "random"
+					id: "7492300F9FF5356F"
+					table_id: 7191082874467169753L
+					type: "loot"
 				}
 			]
 			size: 1.5d
@@ -1541,8 +1536,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "2560F92C8A497C16"
-					type: "random"
+					id: "5C3DA18A504A8CCF"
+					table_id: 7191082874467169753L
+					type: "loot"
 				}
 			]
 			tasks: [{
@@ -1659,8 +1655,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "53466516293198D5"
-					type: "random"
+					id: "53A8E1A76ACF8918"
+					table_id: 7191082874467169753L
+					type: "loot"
 				}
 			]
 			tasks: [{
@@ -1685,6 +1682,12 @@
 					id: "7DFAC9BC1DF0F99D"
 					type: "loot"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "7D330C6809D0941D"
+					table_id: 8099757763658743866L
+					type: "loot"
+				}
 			]
 			tasks: [{
 				id: "0F962A0E762836D4"
@@ -1706,6 +1709,12 @@
 				{
 					exclude_from_claim_all: true
 					id: "7C1C2FCB825216F2"
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77547E22B5F93C12"
+					table_id: 3731120930481486107L
 					type: "loot"
 				}
 			]
