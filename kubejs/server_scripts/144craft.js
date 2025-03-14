@@ -252,7 +252,7 @@ ServerEvents.recipes(hscraft => {
         { 'type': 'pneumaticcraft:stacked_item', 'item': 'allthecompressed:signalum_block_7x', 'count': 1 },
         { 'type': 'pneumaticcraft:stacked_item', 'item': 'allthecompressed:nether_star_block_7x', 'count': 1 },
         { 'type': 'pneumaticcraft:stacked_item', 'item': 'occultism:stable_wormhole', 'count': 1 },
-        { 'type': 'pneumaticcraft:stacked_item', 'item': 'allthecompressed:cobblestone_8x', 'count': 1 }
+        { 'type': 'pneumaticcraft:stacked_item', 'item': 'allthecompressed:netherite_block_7x', 'count': 1 }
       ],
       pressure: 4.9,
       results: [
