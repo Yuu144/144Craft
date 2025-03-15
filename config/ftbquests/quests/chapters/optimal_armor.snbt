@@ -1,0 +1,959 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "optimal_armor"
+	group: "7A6F9B79FDAFF501"
+	id: "390D4CA34B03C337"
+	images: [
+		{
+			height: 1.0d
+			image: "brandonscore:textures/gui/dark/arrow_right.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "brandonscore:textures/gui/dark/arrow_right.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "brandonscore:textures/gui/dark/arrow_right.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: -3.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3DEF6D3E9BD077A7"
+			rewards: [{
+				id: "78B11FCF11344F30"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1FBFE0C3A202FF6D"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "127CCDA89A9302BF"
+			rewards: [{
+				id: "0F5798A4AE8215E5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6BE0204E78683F27"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "3F1C1E41885F1F8C"
+			rewards: [{
+				id: "4DC5245407F2DA49"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4ABBB40065AAAE3A"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "3F663CB57D4E55EF"
+			rewards: [{
+				id: "4205F4BC50E9339C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "53F613C31F0F4A3B"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "777C9DD4761BB33E"
+			rewards: [{
+				id: "6E6F1793B2F5C6B5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "270A2B01D9A6DE94"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "2E32E136B1E7982B"
+			rewards: [{
+				id: "6BEDCA86D33AFA8C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "462BC8815F8F1847"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "2DFADDCF8A2CFADC"
+			rewards: [{
+				id: "4B6C01C85783D421"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "24A3AAA4534DA71A"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "121C9EF0BDC999BD"
+			rewards: [{
+				id: "671BDA9798D94753"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3BE7BE50973871DE"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "71C2C4FCB673836F"
+			rewards: [{
+				id: "61AB78D32D501756"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "30B9998429EC249F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:armor/dragon_scale_helmet"
+					}
+				}
+				title: "D-Scale Helmet"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "0C125E45A00A5C7F"
+			rewards: [{
+				id: "27C26C96CB79D53F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "522A8CA4EA0A064C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:armor/dragon_scale_boots"
+					}
+				}
+				title: "D-Scale Boots"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "3A190BE410981F82"
+			rewards: [{
+				id: "525F1491B22D1829"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2D10050CE5765F84"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:armor/dragon_scale_leggings"
+					}
+				}
+				title: "D-Scale Legs"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "3623DDFF9AC5AF72"
+			rewards: [{
+				id: "59D08186984A329F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2F10BF1FCEC4281A"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "36B8067A9FE004D7"
+			rewards: [{
+				id: "758D78C278AD2F1C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "509A98343A7461F6"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "7146F728831114DE"
+			rewards: [{
+				id: "30564A72B41F06CE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2582D74C5FEFA4B0"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "423804CC9B743C7C"
+			rewards: [{
+				id: "1AB55CC0E1D1F987"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4E0CEC60A24BED7C"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "66A343E41EBC4344"
+			rewards: [{
+				id: "36CAD7CABC6FACFC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "54C6430A39134FA4"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "7650C9DB26B384F6"
+			rewards: [{
+				id: "1758C3BE71F4D303"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1056D4608064BE4B"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "4ACE12A661E1173C"
+			rewards: [{
+				id: "580A571863A1717F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5368860420103EBA"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "0BFD21700A583FA0"
+			rewards: [{
+				id: "0C265E53180425B6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5AEDA09B4070B74B"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "3A4B1F1B7A2C8615"
+			rewards: [{
+				id: "55EBA69634F10920"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "65608F85ABDFAFDD"
+				item: {
+					Count: 1
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "3907DF2E2D72BD88"
+			rewards: [{
+				id: "06446860543CD19E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7759F9BEBC942802"
+				item: {
+					Count: 1
+					id: "cataclysm:cursium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "6EDD7225DEE706E1"
+			rewards: [{
+				id: "218BE297D7BE13A2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A017D4CCAE8E728"
+				item: {
+					Count: 1
+					id: "cataclysm:cursium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			id: "27861ED56367B600"
+			rewards: [{
+				id: "0275B7D6E3D40301"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6F09E07491D3B19D"
+				item: {
+					Count: 1
+					id: "cataclysm:cursium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			id: "0F0A0933EC616D98"
+			rewards: [{
+				id: "2722FAA275F72C37"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4A3069D89FA37961"
+				item: {
+					Count: 1
+					id: "cataclysm:cursium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "4B4E5DDCE822227B"
+			rewards: [{
+				id: "12B6B4F5184DB61E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "71F44B7341D9305E"
+				item: {
+					Count: 1
+					id: "cataclysm:cursium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			id: "5E0405DACB83F5E7"
+			rewards: [{
+				id: "250F1F79C2F9C6E1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3DFB7F836DF60223"
+				item: {
+					Count: 1
+					id: "cataclysm:cursium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "798262A312D4A360"
+			rewards: [{
+				id: "79BCD853BB69E9ED"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6E6575784E914E67"
+				item: {
+					Count: 1
+					id: "cataclysm:bone_reptile_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			id: "27C3DA5FC07D6D8F"
+			rewards: [{
+				id: "0EE3D267B38BE41E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "39D668ECF330C384"
+				item: {
+					Count: 1
+					id: "cataclysm:bone_reptile_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			id: "57F9C9F681253CB7"
+			rewards: [{
+				id: "5DBC7907AD630487"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "71E392CD41851198"
+				item: {
+					Count: 1
+					id: "mekanismtools:refined_obsidian_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			id: "31C8E9D230FDF0FC"
+			rewards: [{
+				id: "4279F2F067B0544C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "09494C7301DF8405"
+				item: {
+					Count: 1
+					id: "mekanismtools:refined_obsidian_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			id: "462C6FF41FD08986"
+			rewards: [{
+				id: "6F77E358673E56B9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "743EB33A5FB9D54B"
+				item: {
+					Count: 1
+					id: "mekanismtools:refined_obsidian_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			id: "5979565DB90803DE"
+			rewards: [{
+				id: "02360F3B412C4B7C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1E05F659868DDA51"
+				item: {
+					Count: 1
+					id: "mekanismtools:refined_obsidian_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			id: "3CEF93CD2919DC98"
+			rewards: [{
+				id: "4D9DC013B08AB86A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "45CCA4BFAF4B3F91"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:armor/dragonsteel_helmet"
+					}
+				}
+				title: "D-Steel Helmet"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			id: "0CE2D7C9318F942B"
+			rewards: [{
+				id: "5C8BB0D487B705ED"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0562E61911FBB532"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:armor/dragonsteel_chestplate"
+					}
+				}
+				title: "D-Steel Chestplate"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			id: "754A7D00B903B4B6"
+			rewards: [{
+				id: "635D7ACD1AA7205E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "01182240A52BBF2C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:armor/dragonsteel_leggings"
+					}
+				}
+				title: "D-Steel Legs"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			id: "492B2B8FB99500EB"
+			rewards: [{
+				id: "605D43A20B826C3C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3BCF8BE235007B03"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:armor/dragonsteel_boots"
+					}
+				}
+				title: "D-Steel Boots"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			id: "4381DB8152E91E4B"
+			rewards: [{
+				id: "27D76FE70BC16EB0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7B0A8CE6B231707A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:armor/dragonsteel_helmet"
+					}
+				}
+				title: "D-Steel Helmet"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			id: "2882046A998CD16D"
+			rewards: [{
+				id: "0850855CC4A998D9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "19F7926818EFCAF3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:armor/dragonsteel_leggings"
+					}
+				}
+				title: "D-Steel Legs"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			id: "5E70C04377060C76"
+			rewards: [{
+				id: "15C4DA1A1677F88B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "00DBC5FBA68B47AD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:armor/dragonsteel_boots"
+					}
+				}
+				title: "D-Steel Boots"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			id: "63B3DEFEE1011F8B"
+			rewards: [{
+				id: "7189D9796DFB0616"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1EDBFB10F5D92FDC"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			id: "1A2A39BF11E1FB88"
+			rewards: [{
+				id: "6BCB7397009CADAD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5D82900356875081"
+				item: "mekanism:mekasuit_helmet"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			id: "3FDEC146340BC150"
+			rewards: [{
+				id: "587424879029C7F7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0E41E5C9678D2674"
+				item: "mekanism:mekasuit_bodyarmor"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			id: "75820072107C638A"
+			rewards: [{
+				id: "4AEE29F8C189D917"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7662E2897C224A04"
+				item: "mekanism:mekasuit_pants"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			id: "5652B60BB8AE862D"
+			rewards: [{
+				id: "6D90AF9C65BB4298"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3EFF8423A0175F8C"
+				item: "mekanism:mekasuit_boots"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			description: ["Most efficient Armor sets (Armor points/Toughness) not including Set bonuses, individual Armor effects or knockback resistance."]
+			id: "2A4E335E21A4FAB4"
+			tasks: [{
+				id: "7B975AEABFBC0EEF"
+				title: "The most efficient Armorsets"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+	]
+	title: "Optimal Armor"
+}
