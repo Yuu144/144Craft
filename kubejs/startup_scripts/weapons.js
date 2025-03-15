@@ -11,7 +11,7 @@ ItemEvents.modification(event => {
         item.attackDamage = 21
     })
 
-    event.modify('soulsweapons:shadow_assasin_scythe', item => {
+    event.modify('soulsweapons:shadow_assassin_scythe', item => {
         item.attackDamage = 21
     })
 
