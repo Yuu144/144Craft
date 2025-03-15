@@ -200,7 +200,7 @@
 			}]
 			tasks: [{
 				id: "54647900FA3E0C22"
-				item: "mekanism:ingot_refined_obsidian"
+				item: "cataclysm:witherite_ingot"
 				type: "item"
 			}]
 			title: "+10 Attack Damage"

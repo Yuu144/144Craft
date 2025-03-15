@@ -32,6 +32,7 @@
 			}
 		}
 		{ count: 36, item: "powah:reactor_nitro" }
+		{ count: 24, item: "apotheosis:mythic_material" }
 	]
 	title: "Transcendant Loot"
 	use_title: true
