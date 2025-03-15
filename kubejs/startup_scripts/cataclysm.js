@@ -13,4 +13,14 @@ ItemEvents.modification(event => {
     item.armorProtection = 4
     item.armorToughness = 4
   })
+
+  event.modify('cataclysm:bone_reptile_helmet', item => {
+    item.armorProtection = 6
+    item.armorToughness = 4
+  })
+
+  event.modify('cataclysm:bone_reptile_chestplate', item => {
+    item.armorProtection = 11
+    item.armorToughness = 4
+  })
 })
