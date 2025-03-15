@@ -663,6 +663,13 @@
 				"60C775D1E7010829"
 			]
 			dependency_requirement: "one_completed"
+			icon: {
+				Count: 1
+				id: "iceandfire:dragonsteel_fire_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3C0868EB4086F70F"
 			rewards: [
 				{
@@ -677,11 +684,14 @@
 					type: "loot"
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "13FF27B5D9D19E2D"
 				title: "Killed any Tier 5 Dragon"
 				type: "checkmark"
 			}]
+			title: "&5Killed any Tier 5 Dragon"
 			x: 9.5d
 			y: -1.5d
 		}
