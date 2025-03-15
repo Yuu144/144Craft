@@ -35,7 +35,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["14AE159D6934BAB5"]
+			dependencies: ["361DC1930967F09A"]
 			description: ["As it's name suggests...go to the nether and find the &4Soul Blacksmith&r. "]
 			icon: {
 				Count: 1
@@ -68,8 +68,8 @@
 				value: 1L
 			}]
 			title: "&dKill the&r &c&kT&r&cNetherite Monstrosity&kT&r"
-			x: -2.25d
-			y: 0.0d
+			x: -1.5d
+			y: 0.75d
 		}
 		{
 			dependencies: ["7999A3177A478208"]
@@ -98,7 +98,7 @@
 				value: 1L
 			}]
 			title: "&dKill the&r &5&kT&r&5Ender Guardian&kT&r"
-			x: 1.5d
+			x: 0.75d
 			y: -0.75d
 		}
 		{
@@ -128,7 +128,7 @@
 				value: 1L
 			}]
 			title: "&dKill&r &6&kT&r&6The Harbinger&kT&r"
-			x: 5.25d
+			x: 3.0d
 			y: 0.75d
 		}
 		{
@@ -157,7 +157,7 @@
 				value: 1L
 			}]
 			title: "&dKill&r &2&kT&r&2Maledictus&kT&r"
-			x: 8.25d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -165,92 +165,31 @@
 			description: [
 				"These fn are found &7undergound&r. There is no good way to search for them...pls be violent when slaughtering them."
 				""
-				"The Dragon Seeker is you best bet."
+				"The Dragon Seeker is your best bet."
 			]
 			icon: "iceandfire:dragon_skull_lightning"
 			id: "59BA9579A4FB1DAF"
-			rewards: [
-				{
-					id: "6F7180BB9A82FF39"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "12CA2056702A3F27"
-					table_id: 3731120930481486107L
-					type: "loot"
-				}
-			]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
-				id: "1DDF577BAB129509"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "iceandfire:dragonegg_red"
-							}
-							{
-								Count: 1b
-								id: "iceandfire:dragonegg_green"
-							}
-							{
-								Count: 1b
-								id: "iceandfire:dragonegg_bronze"
-							}
-							{
-								Count: 1b
-								id: "iceandfire:dragonegg_gray"
-							}
-							{
-								Count: 1b
-								id: "iceandfire:dragonegg_blue"
-							}
-							{
-								Count: 1b
-								id: "iceandfire:dragonegg_white"
-							}
-							{
-								Count: 1b
-								id: "iceandfire:dragonegg_sapphire"
-							}
-							{
-								Count: 1b
-								id: "iceandfire:dragonegg_silver"
-							}
-							{
-								Count: 1b
-								id: "iceandfire:dragonegg_electric"
-							}
-							{
-								Count: 1b
-								id: "iceandfire:dragonegg_amythest"
-							}
-							{
-								Count: 1b
-								id: "iceandfire:dragonegg_copper"
-							}
-							{
-								Count: 1b
-								id: "iceandfire:dragonegg_black"
-							}
-						]
-					}
+				checkItem: false
+				entity: "iceandfire:lightning_dragon"
+				id: "58BA0179FF8234D1"
+				nbt: {
+					Attributes: [{
+						Base: 447.0d
+						Name: "minecraft:generic.max_health"
+					}]
 				}
-				title: "Obtain any Dragon egg"
-				type: "item"
+				type: "questsadditions:killnbt"
+				value: 1L
 			}]
-			title: "&dKill a&r &f&kT&r&fTier 5 Dragon&kT&r"
-			x: 11.25d
+			title: "&dKill a&r &5&kT&r&5T5 Lightning Dragon&kT&r"
+			x: 6.75d
 			y: -1.5d
 		}
 		{
-			dependencies: ["59BA9579A4FB1DAF"]
+			dependencies: ["3C0868EB4086F70F"]
 			description: ["The &1Sunken City&r is where this fight must happen. You will need a &1Abyssal Sacrifice&r to fight this one. Potions of Water breathing are kind of mandatory..."]
 			icon: "cataclysm:tidal_claws"
 			id: "2675E72CE566F34C"
@@ -276,7 +215,7 @@
 				value: 1L
 			}]
 			title: "&dKill the&r &1&kT&r&1Leviathan&kT&r"
-			x: 15.0d
+			x: 12.0d
 			y: -0.75d
 		}
 		{
@@ -312,7 +251,7 @@
 				value: 1L
 			}]
 			title: "&dKill the&r &e&kT&r&eAncient Remnant&kT&r"
-			x: 18.75d
+			x: 14.25d
 			y: 0.0d
 		}
 		{
@@ -349,7 +288,7 @@
 				value: 1L
 			}]
 			title: "&dKill&r &4&kT&r&4Ignis&kT&r"
-			x: 22.5d
+			x: 16.5d
 			y: 0.0d
 		}
 		{
@@ -401,7 +340,7 @@
 				value: 1L
 			}]
 			title: "&dKill the&r &5&kT&r&5Chaos Guardian&kT&r"
-			x: 26.5d
+			x: 19.0d
 			y: 0.0d
 		}
 		{
@@ -622,6 +561,195 @@
 			title: "&dKill the&r &8&kT&r&8Night Prowler&kT&r &dand the&r &7&kT&r&7Day Stalker&r&kT&r"
 			x: -0.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["14AE159D6934BAB5"]
+			id: "361DC1930967F09A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0020560FA9482777"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+				{
+					id: "2FE78CE208C39C6F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					Count: 1
+					id: "deeperdarker:warden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5138D55906F32C0B"
+				title: "Kill the Warden"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&dKill the&r &9&kT&r&9Warden&kT&r"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["14AE159D6934BAB5"]
+			id: "21C1F85DDDB08615"
+			rewards: [
+				{
+					id: "38C9BE8E54F626EA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0854142667CCC5A1"
+					table_id: 8099757763658743866L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "76C0980E4CCC41D7"
+				title: "Kill the Wither"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&8Kill the Wither"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["14AE159D6934BAB5"]
+			id: "5720D644AEECA3DF"
+			rewards: [
+				{
+					id: "0F0765873B65C595"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D8773573F724194"
+					table_id: 8099757763658743866L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "7F6C8757882B1A84"
+				title: "Kill the Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&dKill the Ender Dragon"
+			x: -5.25d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"59BA9579A4FB1DAF"
+				"06C23DEFCC8C3B0C"
+				"60C775D1E7010829"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				Count: 1
+				id: "iceandfire:dragonsteel_fire_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3C0868EB4086F70F"
+			rewards: [
+				{
+					id: "6C092E8849885AF9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F80176FCFBF8477"
+					table_id: 3731120930481486107L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "13FF27B5D9D19E2D"
+				title: "Killed any Tier 5 Dragon"
+				type: "checkmark"
+			}]
+			title: "&5Killed any Tier 5 Dragon"
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["754A30E41D7D1C87"]
+			description: [
+				"These fn are found &7undergound&r. There is no good way to search for them...pls be violent when slaughtering them."
+				""
+				"The Dragon Seeker is your best bet."
+			]
+			icon: "iceandfire:dragon_skull_ice"
+			id: "60C775D1E7010829"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				checkItem: false
+				entity: "iceandfire:ice_dragon"
+				id: "77DCBBF88F651D96"
+				nbt: {
+					Attributes: [{
+						Base: 447.0d
+						Name: "minecraft:generic.max_health"
+					}]
+				}
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "&dKill a&r &f&kT&r&fT5 Ice Dragon&kT&r"
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["754A30E41D7D1C87"]
+			description: [
+				"These fn are found &7undergound&r. There is no good way to search for them...pls be violent when slaughtering them."
+				""
+				"The Dragon Seeker is your best bet."
+			]
+			icon: "iceandfire:dragon_skull_fire"
+			id: "06C23DEFCC8C3B0C"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				checkItem: false
+				entity: "iceandfire:fire_dragon"
+				id: "3F0C7783E01701CF"
+				nbt: {
+					Attributes: [{
+						Base: 447.0d
+						Name: "minecraft:generic.max_health"
+					}]
+				}
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "&dKill a&r &c&kT&r&cT5 Fire Dragon&kT&r"
+			x: 7.5d
+			y: 0.5d
 		}
 	]
 	title: "Bosses"
