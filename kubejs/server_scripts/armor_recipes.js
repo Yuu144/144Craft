@@ -43,7 +43,7 @@ ServerEvents.tags('item', event => {
     event.add('forge:armor/dragon_scale_helmet', 'iceandfire:armor_electric_helmet')
     event.add('forge:armor/dragon_scale_chestplate', 'iceandfire:armor_electric_chestplate')
     event.add('forge:armor/dragon_scale_leggings', 'iceandfire:armor_electric_leggings')
-    event.add('forge:armor/dragon_scdragon_scale_bootsale', 'iceandfire:armor_electric_boots')
+    event.add('forge:armor/dragon_scale_boots', 'iceandfire:armor_electric_boots')
 
     event.add('forge:armor/dragon_scale_helmet', 'iceandfire:armor_amythest_helmet')
     event.add('forge:armor/dragon_scale_chestplate', 'iceandfire:armor_amythest_chestplate')
