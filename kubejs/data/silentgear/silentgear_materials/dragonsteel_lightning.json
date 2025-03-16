@@ -22,7 +22,8 @@
       "durability": 2500.0,
       "melee_damage": 16.0,
       "attack_speed": -0.1,
-      "rarity": 90.0
+      "rarity": 90.0,
+      "enchantment_value": 40.0
     },
     "tip": {
       "melee_damage": {

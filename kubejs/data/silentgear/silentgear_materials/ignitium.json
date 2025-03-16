@@ -20,7 +20,9 @@
   "stats": {
     "main": {
       "durability": 2500.0,
-      "melee_damage": 20.0
+      "melee_damage": 20.0,
+      "enchantment_value": 50.0,
+      "rarity": 120.0
     }
   },
   "traits": {

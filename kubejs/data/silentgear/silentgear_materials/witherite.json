@@ -21,7 +21,9 @@
     "main": {
       "durability": 1500.0,
       "melee_damage": 10.0,
-      "attack_speed": 0.2
+      "attack_speed": 0.2,
+      "enchantment_value": 30.0,
+      "rarity": 70
     }
   },
   "model": {
