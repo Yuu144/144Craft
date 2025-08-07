@@ -1,3 +1,5 @@
 {
-    "replace" : ["config","mods","defaultconfigs","kubejs"]
+    "replace" : ["config","mods","defaultconfigs","kubejs"],
+    "forge" : "47.5.0"
 }
+
