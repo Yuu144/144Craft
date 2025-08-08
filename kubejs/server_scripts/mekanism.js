@@ -91,7 +91,7 @@ ServerEvents.recipes(event => {
 //Mekanism start delete
 ServerEvents.recipes(event => {
     [
-        'mekanismgenerators:generator/gas_burning',
+        'mekanismgenerators:generator/gas_burning'
     ]
     .forEach((recipeID) => event.remove({id: recipeID}));
 })
@@ -107,4 +107,8 @@ ServerEvents.recipes(event => {
         'mekaweapons:mekatana'
     ]
     .forEach((recipeID) => event.remove({id: recipeID}));
+})
+
+ServerEvents.tags('item', event => {
+      event.add('forge:sandstone/venus_sandstone', 'ad_astra:venus_sandstone')
 })

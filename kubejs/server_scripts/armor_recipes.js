@@ -393,7 +393,7 @@ ServerEvents.recipes(event => {
         B: 'mekanism:pellet_polonium',
         C: 'mekanism:basic_induction_cell',
         D: 'mekanism:ultimate_control_circuit',
-        E: '#forge:armor/dragonsteel_chestplate'
+        E: 'cataclysm:ignitium_chestplate'
     })
 
     event.shaped('mekanism:mekasuit_pants', [
