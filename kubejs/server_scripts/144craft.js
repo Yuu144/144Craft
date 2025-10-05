@@ -166,19 +166,20 @@ ServerEvents.recipes(hscraft => {
     hscraft.custom({
       type: "create:mechanical_crafting",
       pattern: [
-        ' BBB ',
+        ' BGB ',
         'FBABE',
         ' CDC '
         ],
         key: {
-          A: Ingredient.of('kubejs:energized_pure_element_144_ium').toJson(),
-          B: Ingredient.of('mekanism:pellet_antimatter').toJson(),
-          C: Ingredient.of('industrialforegoing:supreme_black_hole_tank').toJson(),
-          D: Ingredient.of('mekanism:module_gravitational_modulating_unit').toJson(),
-          E: Ingredient.of('create_things_and_misc:vibration_mechanism').toJson(),
-          F: Ingredient.of('powah:crystal_nitro').toJson()
+          A: Item.of('kubejs:energized_pure_element_144_ium').toJson(),
+          B: Item.of('mekanism:pellet_antimatter').toJson(),
+          C: Item.of('industrialforegoing:supreme_black_hole_tank').toJson(),
+          D: Item.of('mekanism:module_gravitational_modulating_unit').toJson(),
+          E: Item.of('create_things_and_misc:vibration_mechanism').toJson(),
+          F: Item.of('extradisks:infinite_storage_part').toJson(),
+          G: Item.of('industrialforegoing:infinity_nuke').toJson()
       },
-      result: Ingredient.of('kubejs:dark_matter').toJson(),
+      result: Item.of('kubejs:dark_matter').toJson(),
       acceptMirrored: false
     }).id('144craft:kubejs/dark_matter')
 
