@@ -13,6 +13,23 @@ ServerEvents.recipes(event => {
         C:'mekanismgenerators:bio_generator',
         D:'mekanism:electrolytic_core'
     })
+
+
+    //Digital miner
+    event.remove({ output: 'mekanism:digital_miner' })
+
+    event.shaped('mekanism:digital_miner', [
+        'BAB',
+        'CDC',
+        'EFE'
+    ],{
+        A:'deeperdarker:heart_of_the_deep',
+        B:'mekanism:alloy_atomic',
+        C:'mekanism:logistical_sorter',
+        D:'mekanism:robit',
+        E:'mekanism:teleportation_core',
+        F:'mekanism:steel_casing'
+    })
 })
 
 //Mekanism ADVANCED create
@@ -91,7 +108,8 @@ ServerEvents.recipes(event => {
 //Mekanism start delete
 ServerEvents.recipes(event => {
     [
-        'mekanismgenerators:generator/gas_burning'
+        'mekanismgenerators:generator/gas_burning',
+        ''
     ]
     .forEach((recipeID) => event.remove({id: recipeID}));
 })
