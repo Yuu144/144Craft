@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
         'CDC',
         'EFE'
     ],{
-        A:'deeperdarker:heart_of_the_deep',
+        A:'ores144craft:element_13_ium',
         B:'mekanism:alloy_atomic',
         C:'mekanism:logistical_sorter',
         D:'mekanism:robit',

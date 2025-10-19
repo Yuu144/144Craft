@@ -207,7 +207,7 @@
 	MonstrosityHealthMultiplier = 1.0
 	#Monstrosity's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityDamageMultiplier = 0.8
+	MonstrosityDamageMultiplier = 1.0
 	#Monstrosity's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MonstrosityHealingMultiplier = 1.0
@@ -253,27 +253,27 @@
 [Ignis]
 	#Ignis's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealthMultiplier = 0.32
+	IgnisHealthMultiplier = 2.23
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisDamageMultiplier = 1.0
+	IgnisDamageMultiplier = 1.5
 	#Ignis's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	IgnisNatureHealing = 10.0
 	#Ignis's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealingMultiplier = 1.0
+	IgnisHealingMultiplier = 0.7
 	#Ignis's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Ignis's prevent attacks from far away Range" = 5.0
 	#Ignis's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	IgnisDamageCap = 7.2
+	IgnisDamageCap = 40.0
 	#Ignis's cracked block breaking ignore the MobGriefing
 	IgnisBlockBreaking = true
 	#Ignis's DamageTime
 	#Range: 0 ~ 100
-	IgnisDamageTime = 15
+	IgnisDamageTime = 100
 
 [revenant]
 	#Revenant's Health Multiplier

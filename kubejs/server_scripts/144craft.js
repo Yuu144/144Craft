@@ -374,6 +374,34 @@ ServerEvents.recipes(hscraft => {
     }).id('144craft:energizing/sick_twig')
     //--------------------------------------------------------------------------
 
+    // Element 13 shard
+    hscraft.custom({
+    "type": "mekanism:reaction",
+    "duration": 100,
+    "fluidInput": {
+      "amount": 10,
+      "tag": "forge:heavy_water"
+    },
+    "gasInput": {
+      "amount": 100,
+      "gas": "mekanism:hydrogen"
+    },
+    "itemInput": {
+      "amount": 1,
+      "ingredient": {
+        "item": "ores144craft:element_13_ore"
+      }
+    },
+    "itemOutput": {
+      "count": 2,
+      "item": "ores144craft:element_13_ium"
+    },
+    "gasOutput": {
+      "amount": 100,
+      "gas": "mekanism:ethene"
+    }
+  }).id('144craft:reaction/13_ore/heavywater_hydrogen')
+
     //Croissant (Quasar)
 
     hscraft.custom(
