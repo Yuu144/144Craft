@@ -22,6 +22,7 @@ StartupEvents.registry('item', event => {
   event.create('stick_x7').displayName('Stick x7')
   event.create('stick_x8').displayName('Stick x8')
   event.create('stick_x9').displayName('Stick x9')
+  event.create('144_smith_template').displayName('144-ium Smithing Template')
 })
 
 StartupEvents.registry('block', event => {
@@ -116,6 +117,10 @@ ItemEvents.modification(event => {
   event.modify('kubejs:energized_pure_element_144_ium_block', item => {
     item.rarity = 'EPIC'
   })
+
+  event.modify('kubejs:144_smith_template', item => {
+    item.rarity = 'EPIC'
+  })
 })
 
 StartupEvents.modifyCreativeTab('ores144craft:ores144craft_tab', event => {
@@ -142,4 +147,13 @@ StartupEvents.modifyCreativeTab('ores144craft:ores144craft_tab', event => {
   event.addAfter('', 'kubejs:stick_x7')
   event.addAfter('', 'kubejs:stick_x8')
   event.addAfter('', 'kubejs:stick_x9')
+  event.addAfter('', 'kubejs:144_smith_template')
+  event.addAfter('', 'allthewizardgear:allthemodium_mage_helmet')
+  event.addAfter('', 'allthewizardgear:allthemodium_mage_chestplate')
+  event.addAfter('', 'allthewizardgear:allthemodium_mage_leggings')
+  event.addAfter('', 'allthewizardgear:allthemodium_mage_boots')
+  event.addAfter('', 'allthewizardgear:unobtainium_mage_helmet')
+  event.addAfter('', 'allthewizardgear:unobtainium_mage_chestplate')
+  event.addAfter('', 'allthewizardgear:unobtainium_mage_leggings')
+  event.addAfter('', 'allthewizardgear:unobtainium_mage_boots')
 })

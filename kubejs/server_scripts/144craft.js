@@ -402,6 +402,105 @@ ServerEvents.recipes(hscraft => {
     }
   }).id('144craft:reaction/13_ore/heavywater_hydrogen')
 
+    //13 Armor Set
+    hscraft.remove({ output: 'allthewizardgear:allthemodium_mage_helmet' })
+    hscraft.remove({ output: 'allthewizardgear:allthemodium_mage_chestplate' })
+    hscraft.remove({ output: 'allthewizardgear:allthemodium_mage_leggings' })
+    hscraft.remove({ output: 'allthewizardgear:allthemodium_mage_boots' })
+
+    hscraft.shaped('allthewizardgear:allthemodium_mage_helmet', [
+        'CBC',
+        'BAB',
+        '   '
+    ],{
+        A: 'deeperdarker:warden_helmet',
+        B: 'ores144craft:element_13_ium',
+        C: 'irons_spellbooks:magic_cloth'
+    })
+
+    hscraft.shaped('allthewizardgear:allthemodium_mage_chestplate', [
+        'BAB',
+        'CBC',
+        'BCB'
+    ],{
+        A: 'deeperdarker:warden_chestplate',
+        B: 'ores144craft:element_13_ium',
+        C: 'irons_spellbooks:magic_cloth'
+    })
+
+    hscraft.shaped('allthewizardgear:allthemodium_mage_leggings', [
+        'BCB',
+        'CAC',
+        'B B'
+    ],{
+        A: 'deeperdarker:warden_leggings',
+        B: 'ores144craft:element_13_ium',
+        C: 'irons_spellbooks:magic_cloth'
+    })
+
+    hscraft.shaped('allthewizardgear:allthemodium_mage_boots', [
+        '   ',
+        'BAB',
+        'CBC'
+    ],{
+        A: 'deeperdarker:warden_boots',
+        B: 'ores144craft:element_13_ium',
+        C: 'irons_spellbooks:magic_cloth'
+    })
+
+    //144 Armor set
+    hscraft.remove({ output: 'allthewizardgear:unobtainium_mage_helmet' })
+    hscraft.remove({ output: 'allthewizardgear:unobtainium_mage_chestplate' })
+    hscraft.remove({ output: 'allthewizardgear:unobtainium_mage_leggings' })
+    hscraft.remove({ output: 'allthewizardgear:unobtainium_mage_boots' })
+
+    hscraft.smithing(
+        'allthewizardgear:unobtainium_mage_helmet',                    
+        'kubejs:144_smith_template', 
+        'allthewizardgear:allthemodium_mage_helmet',               
+        'kubejs:element_144_ium_block'             
+    )
+
+    hscraft.smithing(
+        'allthewizardgear:unobtainium_mage_chestplate',                    
+        'kubejs:144_smith_template', 
+        'allthewizardgear:allthemodium_mage_chestplate',               
+        'kubejs:element_144_ium_block'             
+    )
+
+    hscraft.smithing(
+        'allthewizardgear:unobtainium_mage_leggings',                    
+        'kubejs:144_smith_template', 
+        'allthewizardgear:allthemodium_mage_leggings',               
+        'kubejs:element_144_ium_block'             
+    )
+
+    hscraft.smithing(
+        'allthewizardgear:unobtainium_mage_boots',                    
+        'kubejs:144_smith_template', 
+        'allthewizardgear:allthemodium_mage_boots',               
+        'kubejs:element_144_ium_block'             
+    )
+
+    hscraft.remove({ output: 'allthewizardgear:vibranium_mage_helmet' })
+    hscraft.remove({ output: 'allthewizardgear:vibranium_mage_chestplate' })
+    hscraft.remove({ output: 'allthewizardgear:vibranium_mage_leggings' })
+    hscraft.remove({ output: 'allthewizardgear:vibranium_mage_boots' })
+
+    //144 Smith Template
+    hscraft.shaped(
+      Item.of('kubejs:144_smith_template', 2),
+      [
+        'BAB',
+        'BCB',
+        'BBB'
+      ],{
+        A: 'kubejs:144_smith_template',
+        B: 'ores144craft:element_144_ium',
+        C: 'ores144craft:element_13_ium'
+      }
+    )
+
     //Croissant (Quasar)
 
     hscraft.custom(
