@@ -1,0 +1,44 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 5,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": []
+  },
+  "crafting_items": {
+    "main": {
+      "item": "cataclysm:ignitium_ingot"
+    }
+  },
+  "name": {
+    "translate": "Ignitium"
+  },
+  "stats": {
+    "main": {
+      "durability": 2500.0,
+      "melee_damage": 20.0,
+      "enchantment_value": 50.0,
+      "rarity": 120.0
+    }
+  },
+  "traits": {
+    "tip": [
+      
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#ffbd40"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ]
+  }
+}

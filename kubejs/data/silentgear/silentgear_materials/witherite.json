@@ -1,0 +1,40 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": []
+  },
+  "crafting_items": {
+    "main": {
+      "item": "cataclysm:witherite_ingot"
+    }
+  },
+  "name": {
+    "translate": "Witherite"
+  },
+  "stats": {
+    "main": {
+      "durability": 1500.0,
+      "melee_damage": 10.0,
+      "attack_speed": 0.2,
+      "enchantment_value": 30.0,
+      "rarity": 70
+    }
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#554945"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ]
+  }
+}

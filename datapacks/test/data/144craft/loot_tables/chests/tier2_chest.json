@@ -3,48 +3,20 @@
     {
       "name": "tier2_chest",
       "rolls": {
-        "min": 4,
-        "max": 10
+        "min": 6,
+        "max": 12
       },
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "silentgear:crimson_steel_ingot",
-          "weight": 7,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 5,
-                "max": 10
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "silentgear:crimson_iron_ingot",
-          "weight": 7,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 8,
-                "max": 14
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:bone",
-          "weight": 7,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 8,
-                "max": 14
+                "min": 14,
+                "max": 26
               }
             }
           ]
@@ -187,6 +159,20 @@
         },
         {
           "type": "minecraft:item",
+          "name": "mysticalagriculture:inferium_essence",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 32,
+                "max": 48
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "mysticalagriculture:prudentium_essence",
           "weight": 9,
           "functions": [
@@ -230,7 +216,7 @@
         {
           "type": "minecraft:item",
           "name": "sophisticatedbackpacks:stack_upgrade_tier_1",
-          "weight": 8
+          "weight": 10
         },
         {
           "type": "minecraft:item",

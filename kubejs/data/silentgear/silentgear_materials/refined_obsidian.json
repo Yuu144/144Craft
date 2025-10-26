@@ -1,0 +1,39 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": []
+  },
+  "crafting_items": {
+    "main": {
+      "item": "mekanism:ingot_refined_obsidian"
+    }
+  },
+  "name": {
+    "translate": "Refined Obsidian"
+  },
+  "stats": {
+    "main": {
+      "durability": 1500.0,
+      "melee_damage": 6.0,
+      "enchantment_value": 25.0,
+      "rarity": 50
+    }
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#65527F"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 5,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": []
+  },
+  "crafting_items": {
+    "main": {
+      "item": "cataclysm:ancient_metal_ingot"
+    }
+  },
+  "name": {
+    "translate": "Ancient Metal"
+  },
+  "stats": {
+    "tip": {
+      "melee_damage": {
+        "add": 6.0
+      }
+    }
+  },
+  "traits": {
+    "tip": [
+      
+    ]
+  },
+  "model": {
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_sharp",
+        "color": "#c1a217"
+      }
+    ],
+
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#c1a217"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ]
+  }
+}

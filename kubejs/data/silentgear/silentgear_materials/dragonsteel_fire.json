@@ -1,0 +1,97 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 5,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": []
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/dragonsteel_fire"
+    }
+  },
+  "name": {
+    "translate": "Dragonsteel Fire"
+  },
+  "stats": {
+    "main": {
+      "durability": 2500.0,
+      "melee_damage": 14.0,
+      "rarity": 90.0,
+      "enchantment_value": 40.0
+    },
+    "rod": {
+    },
+    "tip": {
+      "melee_damage": {
+        "add": 5.0
+      },
+      "durability": {
+        "add": 400
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:fiery",
+        "level": 3
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:fiery",
+        "level": 2
+      }
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#ff5733"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_hc",
+        "color": "#ff5733"
+      }
+    ],
+
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#ff5733"
+      }
+    ],
+
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_sharp",
+        "color": "#ff5733"
+      }
+    ],
+
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#ff5733"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ]
+  }
+}

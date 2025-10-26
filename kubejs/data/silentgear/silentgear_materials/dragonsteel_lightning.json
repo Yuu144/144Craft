@@ -1,0 +1,90 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "availability": {
+    "tier": 5,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": []
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/dragonsteel_lightning"
+    }
+  },
+  "name": {
+    "translate": "Dragonsteel Lightning"
+  },
+  "stats": {
+    "main": {
+      "durability": 2500.0,
+      "melee_damage": 16.0,
+      "attack_speed": -0.1,
+      "rarity": 90.0,
+      "enchantment_value": 40.0
+    },
+    "tip": {
+      "melee_damage": {
+        "add": 5.0
+      }
+    }
+  },
+  "traits": {
+    "main": [
+
+    ],
+    "rod": [
+
+    ],
+    "tip": [
+
+    ]
+  },
+  "model": {
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_hc",
+        "color": "#342c42"
+      },
+      {
+        "texture": "silentgear:_highlight"
+      }
+    ],
+
+    "rod/all": [
+      {
+        "texture": "silentgear:rod_generic_hc",
+        "color": "#342c42"
+      }
+    ],
+
+    "rod/part": [
+      {
+        "texture": "silentgear:rod",
+        "color": "#342c42"
+      }
+    ],
+
+    "tip/all": [
+      {
+        "texture": "silentgear:tip_sharp",
+        "color": "#342c42"
+      }
+    ],
+
+    "tip/part": [
+      {
+        "texture": "silentgear:tip_base"
+      },
+      {
+        "texture": "silentgear:tip",
+        "color": "#342c42"
+      },
+      {
+        "texture": "silentgear:tip_shine"
+      }
+    ]
+  }
+}

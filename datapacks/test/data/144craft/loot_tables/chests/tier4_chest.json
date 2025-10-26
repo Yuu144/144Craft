@@ -3,8 +3,8 @@
     {
       "name": "tier4_chest",
       "rolls": {
-        "min": 4,
-        "max": 10
+        "min": 12,
+        "max": 16
       },
       "entries": [
         {
@@ -28,7 +28,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_helmet",
-          "weight": 15,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -39,7 +39,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_chestplate",
-          "weight": 15,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -50,7 +50,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_leggings",
-          "weight": 15,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -61,7 +61,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_boots",
-          "weight": 15,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -76,7 +76,18 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 40
+              "levels": 30
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nenufars_weapons:primal_anchor",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30
             }
           ]
         },
@@ -127,13 +138,129 @@
         {
           "type": "minecraft:item",
           "name": "iceandfire:dragonscales_red",
-          "weight": 7,
+          "weight": 12,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 5,
-                "max": 10
+                "min": 15,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:armor_bronze_helmet",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:armor_bronze_chestplate",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:armor_bronze_leggings",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:armor_bronze_boots",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:dragonscales_bronze",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 15,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:armor_black_helmet",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:armor_black_chestplate",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:armor_black_leggings",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:armor_black_boots",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iceandfire:dragonscales_black",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 15,
+                "max": 20
               }
             }
           ]
@@ -141,21 +268,7 @@
         {
           "type": "minecraft:item",
           "name": "iceandfire:fire_dragon_blood",
-          "weight": 7,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 5,
-                "max": 10
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "silentgear:azure_electrum_ingot",
-          "weight": 7,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -169,13 +282,13 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_block",
-          "weight": 6,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
-                "max": 5
+                "min": 2,
+                "max": 7
               }
             }
           ]
@@ -183,7 +296,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_block",
-          "weight": 9,
+          "weight": 16,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -197,7 +310,7 @@
         {
           "type": "minecraft:item",
           "name": "mekanism:alloy_infused",
-          "weight": 9,
+          "weight": 12,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -225,7 +338,7 @@
         {
           "type": "minecraft:item",
           "name": "mekanism:alloy_atomic",
-          "weight": 9,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -239,13 +352,27 @@
         {
           "type": "minecraft:item",
           "name": "mysticalagriculture:imperium_essence",
-          "weight": 9,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 6,
-                "max": 14
+                "min": 24,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mysticalagriculture:supremium_essence",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 10
               }
             }
           ]
@@ -258,8 +385,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 10,
-                "max": 22
+                "min": 32,
+                "max": 48
               }
             }
           ]
@@ -279,10 +406,94 @@
           ]
         },
         {
+          "type": "minecraft:item",
+          "name": "minecraft:crying_obsidian",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "weight": 14,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 10,
+                "max": 18
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone_block",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2:cell_component_16k",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2:cell_component_64k",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "draconicevolution:draconium_dust",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
           "type": "minecraft:tag",
           "name": "artifacts:artifacts",
           "expand": true,
-          "weight": 8
+          "weight": 1
         },
         {
           "type": "minecraft:tag",
