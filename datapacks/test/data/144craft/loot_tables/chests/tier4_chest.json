@@ -82,17 +82,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "nenufars_weapons:primal_anchor",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 30
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "iceandfire:armor_red_helmet",
           "weight": 5,
           "functions": [
