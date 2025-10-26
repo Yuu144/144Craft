@@ -1,0 +1,1 @@
+/summon cataclysm:ender_guardian ~ ~ ~ {Attributes:[{Name:"generic.maxHealth",Base:1.0f}],Health:1.0f}
