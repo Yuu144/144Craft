@@ -25,8 +25,6 @@ StartupEvents.registry('item', event => {
   event.create('stick_x8').displayName('Stick x8')
   event.create('stick_x9').displayName('Stick x9')
   event.create('144_smith_template').displayName('144-ium Smithing Template')
-  event.create('test_twig', 'sword').tier('netherite').attackDamageBaseline(20).attackDamageBonus(15)
-  
 })
 
 
@@ -165,5 +163,4 @@ StartupEvents.modifyCreativeTab('ores144craft:ores144craft_tab', event => {
   event.addAfter('', 'allthewizardgear:unobtainium_mage_chestplate')
   event.addAfter('', 'allthewizardgear:unobtainium_mage_leggings')
   event.addAfter('', 'allthewizardgear:unobtainium_mage_boots')
-  event.addAfter('', 'kubejs:test_twig')
 })
