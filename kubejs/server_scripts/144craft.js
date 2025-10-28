@@ -243,17 +243,17 @@ ServerEvents.recipes(hscraft => {
     hscraft.custom({
       type: 'pneumaticcraft:pressure_chamber',
       inputs: [
-        { 'type': 'pneumaticcraft:stacked_item', 'item': 'ae2:quantum_ring', 'count': 1 },
-        { 'type': 'pneumaticcraft:stacked_item', 'item': 'mekanism:module_gravitational_modulating_unit', 'count': 1 },
-        { 'type': 'pneumaticcraft:stacked_item', 'item': 'megacells:cell_component_256m', 'count': 1 },
-        { 'type': 'pneumaticcraft:stacked_item', 'item': 'allthecompressed:steel_block_7x', 'count': 1 },
-        { 'type': 'pneumaticcraft:stacked_item', 'item': 'allthecompressed:enderium_block_7x', 'count': 1 },
+        { 'type': 'pneumaticcraft:stacked_item', 'item': 'allthecompressed:osmium_block_9x', 'count': 1 },
+        { 'type': 'pneumaticcraft:stacked_item', 'item': 'allthecompressed:uraninite_block_7x', 'count': 1 },
         { 'type': 'pneumaticcraft:stacked_item', 'item': 'allthecompressed:signalum_block_7x', 'count': 1 },
-        { 'type': 'pneumaticcraft:stacked_item', 'item': 'allthecompressed:nether_star_block_7x', 'count': 1 },
+        { 'type': 'pneumaticcraft:stacked_item', 'item': 'allthecompressed:nether_star_block_9x', 'count': 1 },
         { 'type': 'pneumaticcraft:stacked_item', 'item': 'occultism:stable_wormhole', 'count': 1 },
-        { 'type': 'pneumaticcraft:stacked_item', 'item': 'allthecompressed:netherite_block_7x', 'count': 1 }
+        { 'type': 'pneumaticcraft:stacked_item', 'item': 'allthecompressed:netherite_block_7x', 'count': 1 },
+        { 'type': 'pneumaticcraft:stacked_item', 'item': 'ars_nouveau:source_gem_block', 'count': 64 },
+        { 'type': 'pneumaticcraft:stacked_item', 'item': 'draconicevolution:awakened_draconium_block', 'count': 13 },
+        { 'type': 'pneumaticcraft:stacked_item', 'item': 'kubejs:energized_pure_element_144_ium_block', 'count': 1 }
       ],
-      pressure: 4.9,
+      pressure: 5.0,
       results: [
         {
           'item': 'kubejs:neutron_star_shard'
