@@ -168,16 +168,15 @@ ServerEvents.recipes(hscraft => {
       pattern: [
         ' BGB ',
         'FBABE',
-        ' CDC '
+        ' BDB '
         ],
         key: {
           A: Item.of('kubejs:energized_pure_element_144_ium').toJson(),
           B: Item.of('mekanism:pellet_antimatter').toJson(),
-          C: Item.of('industrialforegoing:supreme_black_hole_tank').toJson(),
-          D: Item.of('mekanism:module_gravitational_modulating_unit').toJson(),
-          E: Item.of('create_things_and_misc:vibration_mechanism').toJson(),
-          F: Item.of('extradisks:infinite_storage_part').toJson(),
-          G: Item.of('industrialforegoing:infinity_nuke').toJson()
+          D: Item.of('cataclysm:cursium_block').toJson(),
+          E: Item.of('draconicevolution:large_chaos_frag').toJson(),
+          F: Item.of('draconicevolution:large_chaos_frag').toJson(),
+          G: Item.of('cataclysm:ignitium_ingot').toJson()
       },
       result: Item.of('kubejs:dark_matter').toJson(),
       acceptMirrored: false
@@ -217,7 +216,7 @@ ServerEvents.recipes(hscraft => {
         B: 'ars_nouveau:glyph_accelerate',
         C: 'minecraft:clock',
         D: 'ars_nouveau:glyph_decelerate',
-        E: 'minecraft:echo_shard',
+        E: 'cataclysm:witherite_ingot',
         F: 'ars_nouveau:glyph_duration_down',
         G: 'mahoutsukai:attuned_diamond',
         H: 'ars_nouveau:glyph_extend_time'
@@ -230,11 +229,10 @@ ServerEvents.recipes(hscraft => {
       [
         'ECE',
         'DAD',
-        'EBE'
+        'E E'
       ],
       {
-        A: 'enderio:sentient_ender',
-        B: 'enderio:frank_n_zombie',
+        A: 'kubejs:energized_pure_element_144_ium_block',
         C: 'enderio:octadic_capacitor',
         D: 'draconicevolution:chaotic_capacitor',
         E: 'bigreactors:inanite_ingot'
@@ -367,7 +365,8 @@ ServerEvents.recipes(hscraft => {
       type: 'powah:energizing',
       ingredients: [
         Ingredient.of('kubejs:stick_x9').toJson(),
-        Ingredient.of('kubejs:pure_element_144_ium_block').toJson()
+        Ingredient.of('kubejs:pure_element_144_ium_block').toJson(),
+        Ingredient.of('cataclysm:ignitium_ingot').toJson()
       ],
       energy: '1000000000000',
     result: Item.of('kubejs:sick_twig').toJson()
@@ -520,7 +519,7 @@ ServerEvents.recipes(hscraft => {
                 item: "ae2:singularity"
               },
               {
-                item: "allthecompressed:osmium_block_8x"
+                item: "cataclysm:ancient_metal_block"
               }
             ],
             results: [
@@ -549,36 +548,7 @@ ServerEvents.recipes(hscraft => {
                 item: "ae2:singularity"
               },
               {
-                item: "allthecompressed:enderium_block_8x"
-              }
-            ],
-            results: [
-              {
-                item: "ae2:singularity"
-              }
-            ],
-          },
-          {
-            type: "create:pressing",
-            ingredients: [
-              {
-                item: "ae2:singularity"
-              }
-            ],
-            results: [
-              {
-                item: "ae2:singularity"
-              }
-            ]
-          },
-          {
-            type: "create:deploying",
-            ingredients: [
-              {
-                item: "ae2:singularity"
-              },
-              {
-                item: "draconicevolution:large_chaos_frag"
+                item: "allthecompressed:nitro_crystal_block_8x"
               }
             ],
             results: [
@@ -617,14 +587,14 @@ ServerEvents.recipes(hscraft => {
         results: [
           {
             item: "kubejs:quasar",
-            chance: 99.0
+            chance: 90.0
           },
           {
             item: "supplementaries:ash",
-            chance: 1.0
+            chance: 10.0
           }
         ],
-        loops: 1
+        loops: 3
       }
     )
 })
@@ -652,6 +622,7 @@ ServerEvents.tick(event => {
 
   for (let player of players) {
       let inventory = player.inventory
+      let main = player.mainHandItem
       for (let item of inventory.items){
         if (item.id == 'kubejs:quasar') {
           player.potionEffects.add('kubejs:gravitational_pressure', 100, 1, false, false),
@@ -670,6 +641,10 @@ ServerEvents.tick(event => {
         if (item.id == 'kubejs:neutron_star_shard') {
           player.potionEffects.add('kubejs:gravitational_pressure', 100, 19, false, false)
         }
+      }
+      
+      if (main.id == 'kubejs:sick_twig') {
+        player.potionEffects.add('minecraft:strength', 100, 0, false, false)
       }
   }
 })
