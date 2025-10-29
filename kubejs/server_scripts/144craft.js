@@ -615,36 +615,35 @@ PlayerEvents.decorateChat(event => {
   event.setMessage(event.message.replace('niger', '§4Ich bin eine unglaublich nervige Person die absolut kein Sinn darin sieht andere zu Respektieren'))
   event.setMessage(event.message.replace('nigr', '§4Ich bin eine unglaublich nervige Person die absolut kein Sinn darin sieht andere zu Respektieren'))
   event.setMessage(event.message.replace('negr', '§4Ich bin eine unglaublich nervige Person die absolut kein Sinn darin sieht andere zu Respektieren'))
+  event.setMessage(event.message.replace('Radiance', '§6Radiance'))
 })
 
 ServerEvents.tick(event => {
+  const { server } = event 
+  if (server.tickCount % 2) return
   let players = event.server.players;
 
   for (let player of players) {
-      let inventory = player.inventory
-      let main = player.mainHandItem
-      for (let item of inventory.items){
-        if (item.id == 'kubejs:quasar') {
-          player.potionEffects.add('kubejs:gravitational_pressure', 100, 1, false, false),
-          player.potionEffects.add('minecraft:wither', 100, 0, false, false)
-          player.potionEffects.add('minecraft:slowness', 100, 4, false, false)
-        }
+    let inventory = player.inventory
+    let main = player.mainHandItem
+    for (let item of inventory.items){
+      if (item.id == 'kubejs:quasar') {
+        player.potionEffects.add('kubejs:gravitational_pressure', 100, 1, false, false),
+        player.potionEffects.add('minecraft:wither', 100, 0, false, false)
+        player.potionEffects.add('minecraft:slowness', 100, 4, false, false)
       }
 
-      for (let item of inventory.items){
-        if (item.id == 'kubejs:dark_matter') {
-          player.potionEffects.add('kubejs:gravitational_pressure', 100, 1, false, false)
-        }
+      if (item.id == 'kubejs:dark_matter') {
+        player.potionEffects.add('kubejs:gravitational_pressure', 100, 1, false, false)
       }
 
-      for (let item of inventory.items){
-        if (item.id == 'kubejs:neutron_star_shard') {
-          player.potionEffects.add('kubejs:gravitational_pressure', 100, 19, false, false)
-        }
+      if (item.id == 'kubejs:neutron_star_shard') {
+        player.potionEffects.add('kubejs:gravitational_pressure', 100, 19, false, false)
       }
-      
-      if (main.id == 'kubejs:sick_twig') {
-        player.potionEffects.add('minecraft:strength', 100, 0, false, false)
-      }
+    }
+    
+    if (main.id == 'kubejs:sick_twig') {
+      player.potionEffects.add('minecraft:strength', 100, 0, false, false)
+    }
   }
 })
