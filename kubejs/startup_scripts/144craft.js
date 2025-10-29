@@ -1,3 +1,5 @@
+
+
 StartupEvents.registry('item', event => {
   event.create('pure_element_144_ium').displayName('Pure Element 144-ium')
   //event.create('element_144_ium_block').displayName('Element 144-ium Block')
@@ -12,7 +14,7 @@ StartupEvents.registry('item', event => {
   event.create('ethereal_capacitor')
   event.create('dark_matter')
   event.create('quasar')
-  event.create('sick_twig')
+  event.create('sick_twig', 'sword').tier('Diamond').attackDamageBaseline(20)
   event.create('stick_x1').displayName('Stick x1')
   event.create('stick_x2').displayName('Stick x2')
   event.create('stick_x3').displayName('Stick x3')
@@ -24,6 +26,7 @@ StartupEvents.registry('item', event => {
   event.create('stick_x9').displayName('Stick x9')
   event.create('144_smith_template').displayName('144-ium Smithing Template')
 })
+
 
 StartupEvents.registry('block', event => {
   //Pure 144 Block
@@ -92,6 +95,10 @@ ItemEvents.modification(event => {
 
   event.modify('kubejs:sick_twig', item => {
     item.rarity = 'EPIC'
+    item.fireResistant = true
+    item.attackDamage = 39
+    item.attackSpeed = -3
+    item.maxDamage = 0
   })
 
   event.modify('kubejs:quasar', item => {
