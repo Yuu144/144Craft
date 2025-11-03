@@ -183,25 +183,26 @@ ServerEvents.recipes(hscraft => {
     }).id('144craft:kubejs/dark_matter')
 
     //Void crystal
-    hscraft.shaped(
-      Item.of('kubejs:void_crystal', 1),
-      [
-        'GBH',
-        'DCE',
-        'AFI'
-      ],
-      {
-        A: 'cataclysm:void_eye',
-        B: 'minecraft:dragon_egg',
-        C: 'cataclysm:void_core',
-        D: 'bigreactors:insanite_block',
-        E: 'soulsweapons:lord_soul_void',
-        F: 'mekanism:pellet_antimatter',
-        G: 'cyclic:charm_void',
-        H: 'cataclysm:void_forge',
-        I: 'alexsmobs:void_worm_eye'
-      }
-    )
+    hscraft.custom({
+      type: "create:mechanical_crafting",
+      pattern: [
+        ' AAA ',
+        'AABAA',
+        'ACDEA',
+        'AAFAA',
+        ' AAA '
+        ],
+        key: {
+          A: Ingredient.of('allthecompressed:nitro_crystal_block_6x').toJson(),
+          B: Ingredient.of('enderio:weather_crystal').toJson(),
+          C: Ingredient.of('dungeonnowloading:chaotic_hexahedron').toJson(),
+          D: Ingredient.of('industrialforegoing:laser_lens10').toJson(),
+          E: Ingredient.of('bhc:soul_heart_crystal').toJson(),
+          F: Ingredient.of('mysticalagradditions:insanium_essence').toJson()
+      },
+      result: Ingredient.of('kubejs:void_crystal').toJson(),
+      acceptMirrored: false
+    }).id('144craft:kubejs/void_crystal')
 
     //Time Manipulator
     hscraft.shaped(
