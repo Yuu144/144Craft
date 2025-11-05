@@ -136,31 +136,21 @@ ServerEvents.recipes(hscraft => {
     )
 
     //Orb of eternity
-    hscraft.custom({
-      type: "create:mechanical_crafting",
-      pattern: [
-        '    I    ',
-        '   HGH   ',
-        '  HBCBH  ',
-        ' FBCACBE ',
-        '  HBCBH  ',
-        '   HGH   ',
-        '    J    '
-        ],
-        key: {
-          A: Ingredient.of('tiab:time_in_a_bottle').toJson(),
-          B: Ingredient.of('forbidden_arcanus:eternal_stella').toJson(),
-          C: Ingredient.of('draconicevolution:chaotic_core').toJson(),
-          E: Ingredient.of('cataclysm:flame_eye').toJson(),
-          F: Ingredient.of('cataclysm:abyss_eye').toJson(),
-          G: Ingredient.of('cataclysm:witherite_block').toJson(),
-          H: Ingredient.of('reliquary:fertile_lily_pad').toJson(),
-          I: Ingredient.of('soulsweapons:chaos_orb').toJson(),
-          J: Ingredient.of('soulsweapons:lord_soul_rose').toJson()
-      },
-      result: Ingredient.of('kubejs:orb_of_eternity').toJson(),
-      acceptMirrored: false
-    }).id('144craft:kubejs/orb_of_eternity')
+    hscraft.shaped(
+      Item.of('kubejs:orb_of_eternity', 1),
+      [
+        'ABA',
+        'CDC',
+        'AEA'
+      ],
+      {
+        A: 'industrialforegoing:machine_frame_supreme',
+        B: 'advanced_ae:quantum_core',
+        C: 'kubejs:energized_pure_element_144_ium',
+        D: 'forbidden_arcanus:eternal_stella',
+        E: '#forge:eggs/dragon_egg'
+      }
+    )
 
     //Dark matter
     hscraft.custom({
