@@ -210,21 +210,6 @@
               }
             }
           ]
-        },
-        {
-          "type": "minecraft:tag",
-          "name": "apotheosis:gem",
-          "expand": true,
-          "weight": 14,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 4
-              }
-            }
-          ]
         }
       ]
     }
