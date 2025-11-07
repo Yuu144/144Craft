@@ -661,7 +661,7 @@
 		refined_obsidianEnchantability = 18
 		#Base armor toughness value of Refined Obsidian armor.
 		#Range: 0.0 ~ 3.4028234663852886E38
-		refined_obsidianToughness = 5.0
+		refined_obsidianToughness = 3.5
 		#Base armor knockback resistance value of Refined Obsidian armor.
 		#Range: 0.0 ~ 3.4028234663852886E38
 		refined_obsidianKnockbackResistance = 0.20000000298023224
@@ -679,16 +679,16 @@
 		refined_obsidianHelmetDurability = 825
 		#Protection value of Refined Obsidian boots.
 		#Range: > 0
-		refined_obsidianBootArmor = 5
+		refined_obsidianBootArmor = 4
 		#Protection value of Refined Obsidian leggings.
 		#Range: > 0
-		refined_obsidianLeggingArmor = 8
+		refined_obsidianLeggingArmor = 7
 		#Protection value of Refined Obsidian chestplates.
 		#Range: > 0
-		refined_obsidianChestplateArmor = 12
+		refined_obsidianChestplateArmor = 9
 		#Protection value of Refined Obsidian helmets.
 		#Range: > 0
-		refined_obsidianHelmetArmor = 6
+		refined_obsidianHelmetArmor = 4
 
 	#Material Settings for Steel
 	[tools.steel]
