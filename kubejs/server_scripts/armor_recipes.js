@@ -189,43 +189,43 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'mekanismtools:refined_obsidian_boots' })
 
     event.shaped('mekanismtools:refined_obsidian_helmet', [
-        '   ',
-        'AAA',
-        'ABA'
+        ' A ',
+        'ABA',
+        ' A '
     ], 
     {
         A: 'mekanism:ingot_refined_obsidian',
-        B: 'cataclysm:bone_reptile_helmet'
+        B: 'minecraft:netherite_helmet'
     })
 
     event.shaped('mekanismtools:refined_obsidian_chestplate', [
-        'A A',
+        ' A ',
         'ABA',
-        'AAA'
+        ' A '
     ], 
     {
         A: 'mekanism:ingot_refined_obsidian',
-        B: 'cataclysm:bone_reptile_chestplate'
+        B: 'minecraft:netherite_chestplate'
     })
 
     event.shaped('mekanismtools:refined_obsidian_leggings', [
-        'AAA',
+        ' A ',
         'ABA',
-        'A A'
+        ' A '
     ], 
     {
         A: 'mekanism:ingot_refined_obsidian',
-        B: 'cataclysm:cursium_leggings'
+        B: 'minecraft:netherite_leggings'
     })
 
     event.shaped('mekanismtools:refined_obsidian_boots', [
-        '   ',
-        'A A',
-        'ABA'
+        ' A ',
+        'ABA',
+        ' A '
     ], 
     {
         A: 'mekanism:ingot_refined_obsidian',
-        B: 'cataclysm:cursium_boots'
+        B: 'minecraft:netherite_boots'
     })
 
     //Dragonsteel Armor
@@ -380,7 +380,7 @@ ServerEvents.recipes(event => {
         B: 'mekanism:pellet_polonium',
         C: 'mekanism:basic_induction_cell',
         D: 'mekanism:ultimate_control_circuit',
-        E: '#forge:armor/dragonsteel_helmet'
+        E: 'cataclysm:ignitium_helmet'
     })
 
     event.shaped('mekanism:mekasuit_bodyarmor', [
@@ -406,7 +406,7 @@ ServerEvents.recipes(event => {
         B: 'mekanism:pellet_polonium',
         C: 'mekanism:basic_induction_cell',
         D: 'mekanism:ultimate_control_circuit',
-        E: '#forge:armor/dragonsteel_leggings'
+        E: 'cataclysm:ignitium_leggings'
     })
 
     event.shaped('mekanism:mekasuit_boots', [
@@ -419,6 +419,6 @@ ServerEvents.recipes(event => {
         B: 'mekanism:pellet_polonium',
         C: 'mekanism:basic_induction_cell',
         D: 'mekanism:ultimate_control_circuit',
-        E: '#forge:armor/dragonsteel_boots'
+        E: 'cataclysm:ignitium_boots'
     })
 })
