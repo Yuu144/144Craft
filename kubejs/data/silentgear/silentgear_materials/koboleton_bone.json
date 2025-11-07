@@ -39,14 +39,14 @@
     "rod/all": [
       {
         "texture": "silentgear:rod_generic_hc",
-        "color": "#ECE5D2"
+        "color": "#59523E"
       }
     ],
 
     "rod/part": [
       {
         "texture": "silentgear:rod",
-        "color": "#ECE5D2"
+        "color": "#59523E"
       }
     ]
   }

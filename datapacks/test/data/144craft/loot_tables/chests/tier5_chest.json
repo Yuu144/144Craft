@@ -327,7 +327,7 @@
         {
           "type": "minecraft:item",
           "name": "mekanism:alloy_atomic",
-          "weight": 8,
+          "weight": 14,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -341,7 +341,7 @@
         {
           "type": "minecraft:item",
           "name": "mysticalagriculture:imperium_essence",
-          "weight": 16,
+          "weight": 12,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -355,7 +355,7 @@
         {
           "type": "minecraft:item",
           "name": "mysticalagriculture:supremium_essence",
-          "weight": 12,
+          "weight": 16,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -369,7 +369,7 @@
         {
           "type": "minecraft:item",
           "name": "mysticalagriculture:tertium_essence",
-          "weight": 14,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -438,7 +438,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "ae2:cell_component_16k",
+          "name": "ae2:cell_component_64k",
           "weight": 8,
           "functions": [
             {
@@ -452,7 +452,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "ae2:cell_component_64k",
+          "name": "ae2:cell_component_256k",
           "weight": 6,
           "functions": [
             {
@@ -501,7 +501,7 @@
         {
           "type": "minecraft:item",
           "name": "apotheosis:mythic_material",
-          "weight": 8,
+          "weight": 14,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -585,7 +585,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 12,
+          "weight": 24,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -610,7 +610,7 @@
         {
           "type": "minecraft:item",
           "name": "mekanism:ingot_steel",
-          "weight": 6,
+          "weight": 12,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -624,7 +624,7 @@
         {
           "type": "minecraft:item",
           "name": "irons_spellbooks:epic_ink",
-          "weight": 12,
+          "weight": 8,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -638,7 +638,7 @@
         {
           "type": "minecraft:item",
           "name": "irons_spellbooks:legendary_ink",
-          "weight": 12,
+          "weight": 16,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -670,7 +670,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 40
+              "levels": 55
             }
           ]
         },
@@ -681,7 +681,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 40
+              "levels": 55
             }
           ]
         },
@@ -692,7 +692,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 40
+              "levels": 55
             }
           ]
         },
@@ -703,7 +703,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 40
+              "levels": 55
             }
           ]
         },
@@ -714,7 +714,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 40
+              "levels": 55
             }
           ]
         },
@@ -725,7 +725,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 40
+              "levels": 55
             }
           ]
         },
@@ -736,7 +736,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 40
+              "levels": 55
             }
           ]
         }
