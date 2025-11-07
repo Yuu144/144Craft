@@ -79,21 +79,6 @@
           ]
         },
         {
-          "type": "minecraft:tag",
-          "name": "apotheosis:gem",
-          "expand": true,
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 4,
-                "max": 6
-              }
-            }
-          ]
-        },
-        {
           "type": "minecraft:item",
           "name": "deeperdarker:warden_helmet",
           "weight": 4,
