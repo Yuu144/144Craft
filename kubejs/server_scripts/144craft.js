@@ -593,6 +593,10 @@ ServerEvents.recipes(hscraft => {
 ServerEvents.tags('item', event => {
   event.add('forge:elements/144-ium', 'ores144craft:element_144_ium')
 })
+ServerEvents.tags('block', event => {
+  event.add('mekanism:miner_blacklist', 'ores144craft:element_144_ore')
+  event.add('minecraft:features_cannot_replace', 'ores144craft:element_144_ore')
+})
 
 PlayerEvents.decorateChat(event => {
   event.setMessage(event.message.replace('nigga', '§4Ich bin eine unglaublich nervige Person die absolut kein Sinn darin sieht andere zu Respektieren'))
