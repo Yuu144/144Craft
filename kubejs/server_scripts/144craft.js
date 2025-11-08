@@ -633,7 +633,7 @@ ServerEvents.tick(event => {
       }
 
       if (item.id == 'kubejs:neutron_star_shard') {
-        player.potionEffects.add('kubejs:gravitational_pressure', 100, 19, false, false)
+        player.potionEffects.add('kubejs:gravitational_pressure', 100, 1, false, false)
       }
     }
     
