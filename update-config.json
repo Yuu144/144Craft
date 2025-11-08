@@ -1,0 +1,4 @@
+{
+    "replace": ["config", "mods", "kubejs", "defaultconfigs"],
+    "forge": "47.4.5"
+}
