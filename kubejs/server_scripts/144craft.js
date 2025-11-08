@@ -377,20 +377,48 @@ ServerEvents.recipes(hscraft => {
       "gas": "mekanism:hydrogen"
     },
     "itemInput": {
-      "amount": 1,
-      "ingredient": {
-        "item": "ores144craft:element_13_ore"
-      }
+       "amount": 1,
+       "ingredient": {
+         "item": "ores144craft:element_13_ore"
+       }
+     },
+     "itemOutput": {
+       "count": 2,
+       "item": "ores144craft:element_13_ium"
     },
-    "itemOutput": {
-      "count": 2,
-      "item": "ores144craft:element_13_ium"
-    },
-    "gasOutput": {
-      "amount": 100,
-      "gas": "mekanism:ethene"
-    }
+     "gasOutput": {
+       "amount": 100,
+       "gas": "mekanism:ethene"
+     }
   }).id('144craft:reaction/13_ore/heavywater_hydrogen')
+
+    //144ium
+    hscraft.custom({
+    "type": "mekanism:reaction",
+    "duration": 100,
+    "fluidInput": {
+      "amount": 100,
+      "fluid": "industrialforegoing:ether_gas"
+    },
+    "gasInput": {
+      "amount": 200,
+      "gas": "mekanism:uranium_hexafluoride"
+    },
+    "itemInput": {
+       "amount": 1,
+       "ingredient": {
+         "item": "ores144craft:element_144_ore"
+       }
+     },
+     "itemOutput": {
+       "count": 3,
+       "item": "ores144craft:element_144_ium"
+    },
+     "gasOutput": {
+       "amount": 200,
+       "gas": "mekanism:spent_nuclear_waste"
+     }
+  }).id('144craft:reaction/14_ore/uranhexa_ethergas')
 
     //13 Armor Set
     hscraft.remove({ output: 'allthewizardgear:allthemodium_mage_helmet' })
@@ -399,42 +427,42 @@ ServerEvents.recipes(hscraft => {
     hscraft.remove({ output: 'allthewizardgear:allthemodium_mage_boots' })
 
     hscraft.shaped('allthewizardgear:allthemodium_mage_helmet', [
+        'CCC',
         'CBC',
-        'BAB',
-        '   '
+        ' A '
     ],{
         A: 'deeperdarker:warden_helmet',
-        B: 'ores144craft:element_13_ium',
+        B: 'kubejs:13_ium_rune',
         C: 'irons_spellbooks:magic_cloth'
     })
 
     hscraft.shaped('allthewizardgear:allthemodium_mage_chestplate', [
-        'BAB',
         'CBC',
-        'BCB'
+        'CAC',
+        'CCC'
     ],{
         A: 'deeperdarker:warden_chestplate',
-        B: 'ores144craft:element_13_ium',
+        B: 'kubejs:13_ium_rune',
         C: 'irons_spellbooks:magic_cloth'
     })
 
     hscraft.shaped('allthewizardgear:allthemodium_mage_leggings', [
-        'BCB',
         'CAC',
-        'B B'
+        'CBC',
+        'C C'
     ],{
         A: 'deeperdarker:warden_leggings',
-        B: 'ores144craft:element_13_ium',
+        B: 'kubejs:13_ium_rune',
         C: 'irons_spellbooks:magic_cloth'
     })
 
     hscraft.shaped('allthewizardgear:allthemodium_mage_boots', [
         '   ',
-        'BAB',
+        'CAC',
         'CBC'
     ],{
         A: 'deeperdarker:warden_boots',
-        B: 'ores144craft:element_13_ium',
+        B: 'kubejs:13_ium_rune',
         C: 'irons_spellbooks:magic_cloth'
     })
 
@@ -476,6 +504,19 @@ ServerEvents.recipes(hscraft => {
     hscraft.remove({ output: 'allthewizardgear:vibranium_mage_chestplate' })
     hscraft.remove({ output: 'allthewizardgear:vibranium_mage_leggings' })
     hscraft.remove({ output: 'allthewizardgear:vibranium_mage_boots' })
+
+    //13 Rune
+    hscraft.shaped(
+      Item.of('kubejs:13_ium_rune', 1),
+      [
+        'BBB',
+        'BAB',
+        'BBB'
+      ],{
+        A: 'irons_spellbooks:blank_rune',
+        B: 'ores144craft:element_13_ium'
+      }
+    )
 
     //144 Smith Template
     hscraft.shaped(
