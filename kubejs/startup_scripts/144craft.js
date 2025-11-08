@@ -25,6 +25,7 @@ StartupEvents.registry('item', event => {
   event.create('stick_x8').displayName('Stick x8')
   event.create('stick_x9').displayName('Stick x9')
   event.create('144_smith_template').displayName('144-ium Smithing Template')
+  event.create('13_ium_rune').displayName('13-ium Rune')
 })
 
 
@@ -126,6 +127,10 @@ ItemEvents.modification(event => {
   })
 
   event.modify('kubejs:144_smith_template', item => {
+    item.rarity = 'EPIC'
+  })
+
+  event.modify('kubejs:13_ium_rune', item => {
     item.rarity = 'EPIC'
   })
 })
