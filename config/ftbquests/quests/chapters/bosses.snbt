@@ -21,8 +21,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3776A226AAA9A2BA"]
-			description: ["To progress in this kichtensink type modpack you'll need to defeat some special bosses bozo"]
+			description: [
+				"To progress in this kichtensink type modpack you'll need to defeat some special bosses bozo."
+				""
+				"The Modded Cataclysm Bosse have Eyes you'll need to craft to find their structures. (Same as for the Stronghold)"
+			]
 			id: "14AE159D6934BAB5"
 			size: 1.0d
 			tasks: [{
@@ -36,7 +39,11 @@
 		}
 		{
 			dependencies: ["361DC1930967F09A"]
-			description: ["As it's name suggests...go to the nether and find the &4Soul Blacksmith&r. "]
+			description: [
+				"As it's name suggests...go to the nether and find the &4Soul Blacksmith&r. "
+				""
+				"The &4Eye of Montrous&r may Aid you"
+			]
 			icon: {
 				Count: 1
 				id: "cataclysm:infernal_forge"
@@ -73,7 +80,11 @@
 		}
 		{
 			dependencies: ["7999A3177A478208"]
-			description: ["Go to the End. Search for the &5Ruined Citadel&r. The rest is on you"]
+			description: [
+				"Go to the End. Search for the &5Ruined Citadel&r. The rest is on you"
+				""
+				"The &5Eye of Void&r may Aid you"
+			]
 			icon: "cataclysm:gauntlet_of_guard"
 			id: "035E78540BFBF37B"
 			rewards: [
@@ -102,7 +113,10 @@
 			y: -0.75d
 		}
 		{
-			dependencies: ["035E78540BFBF37B"]
+			dependencies: [
+				"75486C23842D0F31"
+				"21C1F85DDDB08615"
+			]
 			description: ["For this one, search for the &4Ancient Factory&r. And bring a Nether Star with you."]
 			icon: "cataclysm:witherite_ingot"
 			id: "46DDCCEF4F693126"
@@ -128,11 +142,12 @@
 				value: 1L
 			}]
 			title: "&dKill&r &6&kT&r&6The Harbinger&kT&r"
-			x: 3.0d
-			y: 0.75d
+			x: 6.75d
+			y: 1.5d
 		}
 		{
 			dependencies: ["46DDCCEF4F693126"]
+			description: ["In the &2Frosted Prison&r you'll encounter the Cursed one. Find it using the &2Eye of Curse&r"]
 			icon: "cataclysm:cursium_ingot"
 			id: "754A30E41D7D1C87"
 			rewards: [
@@ -157,40 +172,16 @@
 				value: 1L
 			}]
 			title: "&dKill&r &2&kT&r&2Maledictus&kT&r"
-			x: 4.5d
-			y: 0.0d
+			x: 9.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["754A30E41D7D1C87"]
 			description: [
-				"These fn are found &7undergound&r. There is no good way to search for them...pls be violent when slaughtering them."
+				"The &1Sunken City&r is where this fight must happen. You will need a &1Abyssal Sacrifice&r to fight this one. Potions of Water breathing are kind of mandatory..."
 				""
-				"The Dragon Seeker is your best bet."
+				"With the &1Eye of Abyss&r it may be easier to spot"
 			]
-			icon: "iceandfire:dragon_skull_lightning"
-			id: "59BA9579A4FB1DAF"
-			shape: "octagon"
-			size: 1.5d
-			tasks: [{
-				checkItem: false
-				entity: "iceandfire:lightning_dragon"
-				id: "58BA0179FF8234D1"
-				nbt: {
-					Attributes: [{
-						Base: 447.0d
-						Name: "minecraft:generic.max_health"
-					}]
-				}
-				type: "questsadditions:killnbt"
-				value: 1L
-			}]
-			title: "&dKill a&r &5&kT&r&5T5 Lightning Dragon&kT&r"
-			x: 6.75d
-			y: -1.5d
-		}
-		{
-			dependencies: ["3C0868EB4086F70F"]
-			description: ["The &1Sunken City&r is where this fight must happen. You will need a &1Abyssal Sacrifice&r to fight this one. Potions of Water breathing are kind of mandatory..."]
 			icon: "cataclysm:tidal_claws"
 			id: "2675E72CE566F34C"
 			rewards: [
@@ -215,12 +206,16 @@
 				value: 1L
 			}]
 			title: "&dKill the&r &1&kT&r&1Leviathan&kT&r"
-			x: 12.0d
-			y: -0.75d
+			x: 11.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["2675E72CE566F34C"]
-			description: ["To find this Boss you'll need to search for the &6Cursed Pyramid&r *Curse of Rah noises*."]
+			description: [
+				"To find this Boss you'll need to search for the &6Cursed Pyramid&r *Curse of Rah noises*."
+				""
+				"Gonna get some dirt in your Eye...with the &6Eye of Desert&r"
+			]
 			icon: "cataclysm:ancient_metal_ingot"
 			id: "196B286D10D5DCF6"
 			rewards: [
@@ -252,11 +247,15 @@
 			}]
 			title: "&dKill the&r &e&kT&r&eAncient Remnant&kT&r"
 			x: 14.25d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["196B286D10D5DCF6"]
-			description: ["Ignis...probably the hardest in Cataclysm, In the Netherlands, seek out the &4Burning Arena&r. There you'll need to kill the &6Ignited Revenants&r. After defeating them you'll get &6Burning Ashes&r which are required to Summon Ignis at the top of the Arena."]
+			description: [
+				"Ignis...probably the hardest in Cataclysm, In the Netherlands, seek out the &4Burning Arena&r. There you'll need to kill the &6Ignited Revenants&r. After defeating them you'll get &6Burning Ashes&r which are required to Summon Ignis at the top of the Arena."
+				""
+				"With the &4Eye of Flame&r it will be yours to decide if Ignis is you next Target. Tho...Ignis isn't a guy who respects...clothing..."
+			]
 			icon: "cataclysm:ignitium_ingot"
 			id: "289477253DF732AC"
 			rewards: [
@@ -344,23 +343,8 @@
 			y: 0.0d
 		}
 		{
-			id: "3776A226AAA9A2BA"
-			rewards: [{
-				id: "42D7BA8A13EC3766"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "18FF4C880096D7F5"
-				item: "structurecompass:structure_compass"
-				type: "item"
-			}]
-			title: "A way to find them"
-			x: -9.0d
-			y: 1.5d
-		}
-		{
 			dependencies: ["14AE159D6934BAB5"]
+			description: ["You know the deal. Ancient City. Be a hooligan."]
 			id: "361DC1930967F09A"
 			rewards: [
 				{
@@ -397,6 +381,7 @@
 		}
 		{
 			dependencies: ["14AE159D6934BAB5"]
+			description: ["You know the deal. Wither Skeleton Skull. Soul Sand."]
 			id: "21C1F85DDDB08615"
 			rewards: [
 				{
@@ -421,11 +406,12 @@
 				value: 1L
 			}]
 			title: "&8Kill the Wither"
-			x: -4.5d
-			y: 1.5d
+			x: -3.75d
+			y: 2.25d
 		}
 		{
 			dependencies: ["14AE159D6934BAB5"]
+			description: ["You know the deal. Stronghold. Eye of Ender"]
 			id: "5720D644AEECA3DF"
 			rewards: [
 				{
@@ -454,99 +440,21 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"59BA9579A4FB1DAF"
-				"06C23DEFCC8C3B0C"
-				"60C775D1E7010829"
-			]
-			dependency_requirement: "one_completed"
-			icon: {
-				Count: 1
-				id: "iceandfire:dragonsteel_fire_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "3C0868EB4086F70F"
-			rewards: [
-				{
-					id: "6C092E8849885AF9"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6F80176FCFBF8477"
-					table_id: 3731120930481486107L
-					type: "loot"
-				}
-			]
-			shape: "hexagon"
+			dependencies: ["035E78540BFBF37B"]
+			description: ["&bAcropolis...&r not the Extreme Demon tho. Find it with the &bEye of Storm&r"]
+			id: "75486C23842D0F31"
+			shape: "octagon"
 			size: 1.5d
 			tasks: [{
-				id: "13FF27B5D9D19E2D"
-				title: "Killed any Tier 5 Dragon"
-				type: "checkmark"
+				entity: "cataclysm:scylla"
+				icon: "cataclysm:ceraunus"
+				id: "73EF29E243EB160C"
+				type: "kill"
+				value: 1L
 			}]
-			title: "&5Killed any Tier 5 Dragon"
-			x: 9.5d
+			title: "&dKill&r &b&kT&r&bScylla&kT&r"
+			x: 3.75d
 			y: -1.5d
-		}
-		{
-			dependencies: ["754A30E41D7D1C87"]
-			description: [
-				"These fn are found &7undergound&r. There is no good way to search for them...pls be violent when slaughtering them."
-				""
-				"The Dragon Seeker is your best bet."
-			]
-			icon: "iceandfire:dragon_skull_ice"
-			id: "60C775D1E7010829"
-			shape: "octagon"
-			size: 1.5d
-			tasks: [{
-				checkItem: false
-				entity: "iceandfire:ice_dragon"
-				id: "77DCBBF88F651D96"
-				nbt: {
-					Attributes: [{
-						Base: 447.0d
-						Name: "minecraft:generic.max_health"
-					}]
-				}
-				type: "questsadditions:killnbt"
-				value: 1L
-			}]
-			title: "&dKill a&r &f&kT&r&fT5 Ice Dragon&kT&r"
-			x: 6.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["754A30E41D7D1C87"]
-			description: [
-				"These fn are found &7undergound&r. There is no good way to search for them...pls be violent when slaughtering them."
-				""
-				"The Dragon Seeker is your best bet."
-			]
-			icon: "iceandfire:dragon_skull_fire"
-			id: "06C23DEFCC8C3B0C"
-			shape: "octagon"
-			size: 1.5d
-			tasks: [{
-				checkItem: false
-				entity: "iceandfire:fire_dragon"
-				id: "3F0C7783E01701CF"
-				nbt: {
-					Attributes: [{
-						Base: 447.0d
-						Name: "minecraft:generic.max_health"
-					}]
-				}
-				type: "questsadditions:killnbt"
-				value: 1L
-			}]
-			title: "&dKill a&r &c&kT&r&cT5 Fire Dragon&kT&r"
-			x: 7.5d
-			y: 0.5d
 		}
 	]
 	title: "Bosses"
