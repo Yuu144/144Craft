@@ -3,38 +3,44 @@ ServerEvents.recipes(hscraft => {
     hscraft.custom({
       type: "create:mechanical_crafting",
       pattern: [
-        '    M    ',
-        '   MQM   ',
-        '   EJE   ',
-        ' MKABCKM ',
-        'MOJDNFJLM',
-        ' MKGHIKM ',
-        '   EJE   ',
-        '   MPM   ',
-        '    M    '
+        '   AAA   ',
+        ' AAABAAA ',
+        ' ACDEDFA ',
+        'GGH123HGG',
+        'GIJ4K5JIG',
+        'GGH678HGG',
+        ' AODLDMA ',
+        ' AAANAAA ',
+        '   AAA   '
         ],
         key: {
-          A: Ingredient.of('kubejs:orb_of_eternity').toJson(),
-          B: Ingredient.of('kubejs:void_crystal').toJson(),
-          C: Ingredient.of('kubejs:dark_matter').toJson(),
-          D: Ingredient.of('kubejs:time_manipulator').toJson(),
-          E: Ingredient.of('mekanism:pellet_antimatter').toJson(),
-          F: Ingredient.of('kubejs:neutron_star_shard').toJson(),
-          G: Ingredient.of('kubejs:quasar').toJson(),
-          H: Ingredient.of('kubejs:sick_twig').toJson(),
-          I: Ingredient.of('kubejs:ethereal_capacitor').toJson(),
-          J: Ingredient.of('cataclysm:ignitium_ingot').toJson(),
-          K: Ingredient.of('draconicevolution:large_chaos_frag').toJson(),
-          L: Ingredient.of('productivebees:upgrade_productivity_4').toJson(),
-          M: Ingredient.of('kubejs:energized_pure_element_144_ium_block').toJson(),
-          N: Ingredient.of('draconicevolution:reactor_core').toJson(),
-          O: Ingredient.of('twilightforest:snow_queen_trophy').toJson(),
-          P: Ingredient.of('mysticalagradditions:creative_essence').toJson(),
-          Q: Ingredient.of('mysticalagriculture:awakened_supremium_ingot_block').toJson()
+          A: Ingredient.of('kubejs:pure_element_144_ium_block').toJson(),
+          B: Ingredient.of('allthecompressed:osmium_block_8x').toJson(),
+          C: Ingredient.of('#forge:eggs/dragon_egg').toJson(),
+          D: Ingredient.of('bigreactors:insanite_block').toJson(),
+          E: Item.of('mekanism:ultimate_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:144000,FluidName:"industrialforegoing:ether_gas"}}]}}').strongNBT().toJson(),
+          F: Ingredient.of('ad_astra:cheese_block').toJson(),
+          G: Ingredient.of('kubejs:energized_pure_element_144_ium_block').toJson(),
+          H: Ingredient.of('draconicevolution:large_chaos_frag').toJson(),
+          1: Ingredient.of('kubejs:orb_of_eternity').toJson(),
+          2: Ingredient.of('kubejs:void_crystal').toJson(),
+          3: Ingredient.of('kubejs:neutron_star_shard').toJson(),
+          I: Ingredient.of('cataclysm:ignitium_ingot').toJson(),
+          J: Ingredient.of('mysticalagradditions:creative_essence').toJson(),
+          4: Ingredient.of('kubejs:quasar').toJson(),
+          K: Ingredient.of('draconicevolution:reactor_core').toJson(),
+          5: Ingredient.of('kubejs:time_manipulator').toJson(),
+          6: Ingredient.of('kubejs:dark_matter').toJson(),
+          7: Ingredient.of('kubejs:sick_twig').toJson(),
+          8: Ingredient.of('kubejs:ethereal_capacitor').toJson(),
+          L: Item.of('mekanism:ultimate_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:144000,FluidName:"industrialforegoing:essence"}}]}}').strongNBT().toJson(),
+          M: Ingredient.of('apotheosis:ender_library').toJson(),
+          N: Ingredient.of('allthecompressed:nether_star_block_8x').toJson(),
+          O: Ingredient.of('twilightforest:snow_queen_trophy').toJson()
       },
       result: Ingredient.of('kubejs:-null-').toJson(),
       acceptMirrored: false
-    }).id('144craft:kubejs/-null-')
+    }).id('144craft:kubejs/-null-2')
 
     //Pure Element 144-Ium
     hscraft.custom({
