@@ -1,10 +1,10 @@
 
 
 StartupEvents.registry('item', event => {
-  event.create('pure_element_144_ium').displayName('Pure Element 144-ium')
+  event.create('pure_element_144_ium').displayName('Purified Element 144 Crystal')
   //event.create('element_144_ium_block').displayName('Element 144-ium Block')
   //event.create('pure_element_144_ium_block').displayName('Pure Element 144-ium Block')
-  event.create('energized_pure_element_144_ium').displayName('Energized Pure Element 144-ium')
+  event.create('energized_pure_element_144_ium').displayName('Energized Pure Element 144 Crystal')
   //event.create('energized_pure_element_144_ium_block').displayName('Energized Pure Element 144-ium Block')
   event.create('-null-')
   event.create('orb_of_eternity')
@@ -168,4 +168,5 @@ StartupEvents.modifyCreativeTab('ores144craft:ores144craft_tab', event => {
   event.addAfter('', 'allthewizardgear:unobtainium_mage_chestplate')
   event.addAfter('', 'allthewizardgear:unobtainium_mage_leggings')
   event.addAfter('', 'allthewizardgear:unobtainium_mage_boots')
+  event.addAfter('', 'kubejs:13_ium_rune')
 })
