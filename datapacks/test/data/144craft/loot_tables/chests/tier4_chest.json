@@ -341,7 +341,7 @@
         {
           "type": "minecraft:item",
           "name": "mekanism:alloy_atomic",
-          "weight": 8,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -403,7 +403,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 4,
-                "max": 10
+                "max": 8
               }
             }
           ]
