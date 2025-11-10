@@ -14,16 +14,15 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30
-            },
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
             }
           ],
-          "weight": 4
+          "weight": 4,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -33,6 +32,12 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
             }
           ]
         },
@@ -45,6 +50,12 @@
               "function": "minecraft:enchant_with_levels",
               "levels": 30
             }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
           ]
         },
         {
@@ -55,6 +66,12 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
             }
           ]
         },
@@ -67,6 +84,12 @@
               "function": "minecraft:enchant_with_levels",
               "levels": 30
             }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
           ]
         },
         {
@@ -77,6 +100,12 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
             }
           ]
         },
@@ -89,6 +118,12 @@
               "function": "minecraft:enchant_with_levels",
               "levels": 30
             }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
           ]
         },
         {
@@ -99,6 +134,12 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
             }
           ]
         },
@@ -111,6 +152,12 @@
               "function": "minecraft:enchant_with_levels",
               "levels": 30
             }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
           ]
         },
         {
@@ -121,6 +168,12 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
             }
           ]
         },
@@ -147,6 +200,12 @@
               "function": "minecraft:enchant_with_levels",
               "levels": 30
             }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
           ]
         },
         {
@@ -157,6 +216,12 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
             }
           ]
         },
@@ -169,6 +234,12 @@
               "function": "minecraft:enchant_with_levels",
               "levels": 30
             }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
           ]
         },
         {
@@ -179,6 +250,12 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
             }
           ]
         },
@@ -205,6 +282,12 @@
               "function": "minecraft:enchant_with_levels",
               "levels": 30
             }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
           ]
         },
         {
@@ -215,6 +298,12 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
             }
           ]
         },
@@ -227,6 +316,12 @@
               "function": "minecraft:enchant_with_levels",
               "levels": 30
             }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
           ]
         },
         {
@@ -237,6 +332,12 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
             }
           ]
         },
@@ -500,7 +601,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.75
             }
           ]
         },
@@ -696,7 +797,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.75
             }
           ]
         },
@@ -713,7 +814,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.75
             }
           ]
         },
@@ -730,7 +831,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.75
             }
           ]
         },
@@ -747,7 +848,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.75
             }
           ]
         },
@@ -764,7 +865,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.75
             }
           ]
         },
@@ -781,7 +882,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.75
             }
           ]
         },
@@ -798,7 +899,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.75
             }
           ]
         },
@@ -809,7 +910,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.75
             }
           ]
         },
@@ -820,7 +921,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.75
             }
           ]
         },
@@ -831,7 +932,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.75
             }
           ]
         },
