@@ -384,7 +384,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "144craft:chests/tier4_chest",
+          "name": "144craft:chests/tier5_chest",
           "weight": 70
         },
         {
