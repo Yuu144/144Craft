@@ -411,7 +411,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:redstone",
-          "weight": 20,
+          "weight": 24,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -467,7 +467,7 @@
         {
           "type": "minecraft:item",
           "name": "draconicevolution:draconium_dust",
-          "weight": 8,
+          "weight": 12,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -543,7 +543,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:blaze_rod",
-          "weight": 12,
+          "weight": 16,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -557,7 +557,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:ender_pearl",
-          "weight": 12,
+          "weight": 18,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -571,7 +571,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:ender_eye",
-          "weight": 12,
+          "weight": 16,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -585,7 +585,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 12,
+          "weight": 22,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -596,7 +596,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:experience_bottle",
-          "weight": 12,
+          "weight": 22,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -610,7 +610,7 @@
         {
           "type": "minecraft:item",
           "name": "mekanism:ingot_steel",
-          "weight": 6,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -652,7 +652,7 @@
         {
           "type": "minecraft:item",
           "name": "irons_spellbooks:arcane_essence",
-          "weight": 14,
+          "weight": 18,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -737,6 +737,206 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 40
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:gold_backpack",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:diamond_backpack",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:stack_upgrade_tier_3",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_crystal",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 35
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:ingot_osmium",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanting_table",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:upgrade_speed",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:upgrade_energy",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bookshelf",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tesseract:tesseract",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ancient_debris",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:baked_potato",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
             }
           ]
         }
