@@ -1,4 +1,4 @@
 {
-    "replace": ["config", "mods", "kubejs", "defaultconfigs"],
+    "replace": ["config", "mods", "kubejs", "defaultconfigs", "minecraftinstance.json"],
     "forge": "47.4.5"
 }
