@@ -692,6 +692,12 @@
               "function": "minecraft:enchant_with_levels",
               "levels": 40
             }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
           ]
         },
         {
@@ -702,6 +708,12 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 40
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
             }
           ]
         },
@@ -714,6 +726,12 @@
               "function": "minecraft:enchant_with_levels",
               "levels": 40
             }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
           ]
         },
         {
@@ -724,6 +742,12 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 40
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
             }
           ]
         },
@@ -736,6 +760,12 @@
               "function": "minecraft:enchant_with_levels",
               "levels": 40
             }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
           ]
         },
         {
@@ -746,6 +776,12 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 40
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
             }
           ]
         },
@@ -758,22 +794,46 @@
               "function": "minecraft:enchant_with_levels",
               "levels": 40
             }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "sophisticatedbackpacks:gold_backpack",
-          "weight": 16
+          "weight": 16,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "name": "sophisticatedbackpacks:diamond_backpack",
-          "weight": 12
+          "weight": 12,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "name": "sophisticatedbackpacks:stack_upgrade_tier_3",
-          "weight": 10
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -1012,6 +1072,20 @@
               "count": {
                 "min": 4,
                 "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal_block",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
               }
             }
           ]
