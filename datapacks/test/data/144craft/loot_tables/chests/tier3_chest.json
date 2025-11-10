@@ -80,7 +80,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bread",
-          "weight": 40,
+          "weight": 32,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -104,7 +104,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_block",
-          "weight": 18,
+          "weight": 12,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -118,7 +118,7 @@
         {
           "type": "minecraft:item",
           "name": "mekanism:alloy_infused",
-          "weight": 20,
+          "weight": 26,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -132,7 +132,7 @@
         {
           "type": "minecraft:item",
           "name": "mekanism:alloy_reinforced",
-          "weight": 18,
+          "weight": 22,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -160,13 +160,13 @@
         {
           "type": "minecraft:item",
           "name": "mysticalagriculture:inferium_essence",
-          "weight": 26,
+          "weight": 28,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 32,
-                "max": 48
+                "min": 16,
+                "max": 32
               }
             }
           ]
@@ -174,7 +174,7 @@
         {
           "type": "minecraft:item",
           "name": "mysticalagriculture:prudentium_essence",
-          "weight": 24,
+          "weight": 26,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -188,7 +188,7 @@
         {
           "type": "minecraft:item",
           "name": "mysticalagriculture:tertium_essence",
-          "weight": 22,
+          "weight": 24,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -216,12 +216,12 @@
         {
           "type": "minecraft:item",
           "name": "sophisticatedbackpacks:stack_upgrade_tier_1",
-          "weight": 14
+          "weight": 8
         },
         {
           "type": "minecraft:item",
           "name": "ae2:cell_component_1k",
-          "weight": 10,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -235,7 +235,7 @@
         {
           "type": "minecraft:item",
           "name": "ae2:cell_component_4k",
-          "weight": 10,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -249,7 +249,7 @@
         {
           "type": "minecraft:item",
           "name": "refinedstorage:1k_storage_part",
-          "weight": 10,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -263,7 +263,7 @@
         {
           "type": "minecraft:item",
           "name": "refinedstorage:4k_storage_part",
-          "weight": 10,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -277,7 +277,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_pickaxe",
-          "weight": 10,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -288,7 +288,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_pickaxe",
-          "weight": 16,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -299,12 +299,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_sword",
-          "weight": 16,
+          "weight": 2,
           "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 25
-            },
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 25
@@ -320,7 +316,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_chestplate",
-          "weight": 4,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -331,7 +327,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_helmet",
-          "weight": 4,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -342,7 +338,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_chestplate",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -353,7 +349,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_leggings",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -364,7 +360,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_helmet",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -375,7 +371,7 @@
         {
           "type": "minecraft:item",
           "name": "spartanweaponry:diamond_greatsword",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -386,7 +382,7 @@
         {
           "type": "minecraft:item",
           "name": "spartanweaponry:diamond_katana",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -397,7 +393,7 @@
         {
           "type": "minecraft:item",
           "name": "spartanweaponry:diamond_saber",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -408,7 +404,7 @@
         {
           "type": "minecraft:item",
           "name": "spartanweaponry:diamond_longsword",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -419,7 +415,7 @@
         {
           "type": "minecraft:item",
           "name": "spartanweaponry:diamond_battleaxe",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -430,7 +426,7 @@
         {
           "type": "minecraft:item",
           "name": "spartanweaponry:diamond_halberd",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -441,7 +437,7 @@
         {
           "type": "minecraft:item",
           "name": "spartanweaponry:diamond_scythe",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -452,7 +448,7 @@
         {
           "type": "minecraft:item",
           "name": "spartanweaponry:iron_greatsword",
-          "weight": 4,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -463,7 +459,7 @@
         {
           "type": "minecraft:item",
           "name": "spartanweaponry:iron_katana",
-          "weight": 4,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -474,7 +470,7 @@
         {
           "type": "minecraft:item",
           "name": "spartanweaponry:iron_saber",
-          "weight": 4,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -485,7 +481,7 @@
         {
           "type": "minecraft:item",
           "name": "spartanweaponry:iron_longsword",
-          "weight": 4,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -496,7 +492,7 @@
         {
           "type": "minecraft:item",
           "name": "spartanweaponry:iron_battleaxe",
-          "weight": 4,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -507,7 +503,7 @@
         {
           "type": "minecraft:item",
           "name": "spartanweaponry:iron_halberd",
-          "weight": 4,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -518,7 +514,7 @@
         {
           "type": "minecraft:item",
           "name": "spartanweaponry:iron_scythe",
-          "weight": 4,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -536,6 +532,193 @@
               "count": {
                 "min": 10,
                 "max": 22
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:iron_backpack",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:gold_backpack",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:diamond_backpack",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:stack_upgrade_tier_2",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 22,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 25
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "weight": 24,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 24,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:ingot_osmium",
+          "weight": 18,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanting_table",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bookshelf",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ancient_debris",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:baked_potato",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
               }
             }
           ]

@@ -467,7 +467,7 @@
         {
           "type": "minecraft:item",
           "name": "draconicevolution:draconium_dust",
-          "weight": 8,
+          "weight": 12,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -487,7 +487,7 @@
         {
           "type": "minecraft:item",
           "name": "apotheosis:gem_fused_slate",
-          "weight": 12,
+          "weight": 18,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -501,7 +501,7 @@
         {
           "type": "minecraft:item",
           "name": "apotheosis:mythic_material",
-          "weight": 14,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -543,7 +543,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:blaze_rod",
-          "weight": 12,
+          "weight": 18,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -557,7 +557,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:ender_pearl",
-          "weight": 12,
+          "weight": 18,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -571,7 +571,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:ender_eye",
-          "weight": 12,
+          "weight": 16,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -585,7 +585,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 24,
+          "weight": 28,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -596,7 +596,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:experience_bottle",
-          "weight": 12,
+          "weight": 28,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -610,7 +610,7 @@
         {
           "type": "minecraft:item",
           "name": "mekanism:ingot_steel",
-          "weight": 12,
+          "weight": 22,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -624,7 +624,7 @@
         {
           "type": "minecraft:item",
           "name": "irons_spellbooks:epic_ink",
-          "weight": 8,
+          "weight": 12,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -652,7 +652,7 @@
         {
           "type": "minecraft:item",
           "name": "irons_spellbooks:arcane_essence",
-          "weight": 14,
+          "weight": 18,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -737,6 +737,98 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 55
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:netherite_backpack",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:diamond_backpack",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:stack_upgrade_tier_4",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_crystal",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 40
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:upgrade_speed",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:upgrade_energy",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ancient_debris",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
             }
           ]
         }
