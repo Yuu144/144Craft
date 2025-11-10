@@ -678,6 +678,12 @@
               "function": "minecraft:enchant_with_levels",
               "levels": 55
             }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
           ]
         },
         {
@@ -688,6 +694,12 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 55
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
             }
           ]
         },
@@ -700,6 +712,12 @@
               "function": "minecraft:enchant_with_levels",
               "levels": 55
             }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
           ]
         },
         {
@@ -710,6 +728,12 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 55
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
             }
           ]
         },
@@ -722,6 +746,12 @@
               "function": "minecraft:enchant_with_levels",
               "levels": 55
             }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
           ]
         },
         {
@@ -732,6 +762,12 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 55
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
             }
           ]
         },
@@ -744,22 +780,46 @@
               "function": "minecraft:enchant_with_levels",
               "levels": 55
             }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "sophisticatedbackpacks:netherite_backpack",
-          "weight": 8
+          "weight": 8,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "name": "sophisticatedbackpacks:diamond_backpack",
-          "weight": 12
+          "weight": 12,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "name": "sophisticatedbackpacks:stack_upgrade_tier_4",
-          "weight": 10
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
         },
         {
           "type": "minecraft:item",

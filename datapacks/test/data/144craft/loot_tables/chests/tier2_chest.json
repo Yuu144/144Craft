@@ -202,7 +202,13 @@
         {
           "type": "minecraft:item",
           "name": "sophisticatedbackpacks:stack_upgrade_tier_1",
-          "weight": 8
+          "weight": 8,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -295,7 +301,13 @@
         {
           "type": "minecraft:item",
           "name": "sophisticatedbackpacks:backpack",
-          "weight": 4
+          "weight": 4,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -377,6 +389,34 @@
               "count": {
                 "min": 4,
                 "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_rod",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
               }
             }
           ]
