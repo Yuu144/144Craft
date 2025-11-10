@@ -25,7 +25,7 @@ color_override_by_tag = [  ]
 color_override_by_modid = [  ]
 
 [lightEffectFilter]
-all_item = true
+all_item = false
 only_rare = false
 only_equipment = false
 whitelist_by_name = [
