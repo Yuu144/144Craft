@@ -482,7 +482,13 @@
           "type": "minecraft:tag",
           "name": "artifacts:artifacts",
           "expand": true,
-          "weight": 1
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.65
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -828,6 +834,20 @@
               "count": {
                 "min": 4,
                 "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
               }
             }
           ]
