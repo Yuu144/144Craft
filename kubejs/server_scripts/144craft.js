@@ -639,6 +639,9 @@ ServerEvents.recipes(hscraft => {
 
 ServerEvents.tags('item', event => {
   event.add('forge:elements/144-ium', 'ores144craft:element_144_ium')
+  event.add('forge:elements/13-ium', 'ores144craft:element_13_ium')
+  event.add('forge:elements/144-ore', 'ores144craft:element_144_ore')
+  event.add('forge:elements/13-ore', 'ores144craft:element_13_ore')
 })
 ServerEvents.tags('block', event => {
   event.add('mekanism:miner_blacklist', 'ores144craft:element_144_ore')

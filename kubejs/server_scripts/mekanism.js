@@ -66,7 +66,7 @@ ServerEvents.recipes(event => {
     ],{
         A:'#forge:ingots/lead',
         B:'#forge:ingots/steel',
-        C:'draconicevolution:draconium_block'
+        C:'bigreactors:blutonium_block'
     })
 
     //Supercharged Coil

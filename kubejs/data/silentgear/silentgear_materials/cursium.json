@@ -21,6 +21,7 @@
     "main": {
       "durability": 950.0,
       "melee_damage": 12.0,
+      "harvest_speed": 35,
       "enchantment_value": 30.0,
       "rarity": 80
     }

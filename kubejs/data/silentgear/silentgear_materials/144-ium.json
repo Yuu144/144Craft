@@ -22,6 +22,9 @@
       "melee_damage": {
         "add": 8
       },
+      "harvest_speed": {
+        "add": 10
+      },
       "attack_speed": {
         "add": -0.2
       }
@@ -35,7 +38,10 @@
 
     ],
     "tip": [
-
+      {
+        "name": "silentgear:indestructible",
+        "level": 3
+      }
     ]
   },
   "model": {
