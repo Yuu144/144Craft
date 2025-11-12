@@ -86,28 +86,28 @@ ServerEvents.recipes(event => {
     event.smithing(
         'deeperdarker:warden_helmet',                    // arg 1: output
         'deeperdarker:warden_upgrade_smithing_template', // arg 2: the smithing template
-        '#forge:armor/dragon_scale_helmet',              // arg 3: the item to be upgraded
+        'minecraft:netherite_helmet',              // arg 3: the item to be upgraded
         'deeperdarker:reinforced_echo_shard'             // arg 4: the upgrade item
     )
 
     event.smithing(
         'deeperdarker:warden_chestplate',                    
         'deeperdarker:warden_upgrade_smithing_template', 
-        '#forge:armor/dragon_scale_chestplate',          
+        'minecraft:netherite_chestplate',          
         'deeperdarker:reinforced_echo_shard'             
     )
 
     event.smithing(
         'deeperdarker:warden_leggings',                    
         'deeperdarker:warden_upgrade_smithing_template', 
-        '#forge:armor/dragon_scale_leggings',            
+        'minecraft:netherite_leggings',            
         'deeperdarker:reinforced_echo_shard'             
     )
 
     event.smithing(
         'deeperdarker:warden_boots',                    
         'deeperdarker:warden_upgrade_smithing_template', 
-        '#forge:armor/dragon_scale_boots',               
+        'minecraft:netherite_boots',               
         'deeperdarker:reinforced_echo_shard'             
     )
 

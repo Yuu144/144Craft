@@ -103,6 +103,20 @@ ServerEvents.recipes(event => {
         result: Item.of('mekanism:creative_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"18446744073709551615.9999"}],componentConfig:{config0:{side0:4,side1:4,side2:4,side3:4,side4:4,side5:4}}}}'),
         acceptMirrored: false
       }).id('144craft:mekanism/creative_energy_cube')
+
+    event.custom({
+      "type": "mekanism:crushing",
+      "input": {
+        "amount": 1,
+        "ingredient": {
+          "item": "minecraft:sand"
+        }
+      },
+      "output": {
+        "count": 1,
+        "item": "ae2:silicon"
+      },
+    }).id('144craft:crushing/silicon')
 })
 
 //Mekanism start delete
