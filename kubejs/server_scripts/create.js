@@ -48,21 +48,4 @@ ServerEvents.recipes(hscraft => {
         result: Item.of('6x create:creative_blaze_cake').toJson(),
         acceptMirrored: false
       }).id('144craft:create/creative_blaze_cake')
-
-      //Creative Spellbook
-      hscraft.custom({
-        type: "create:mechanical_crafting",
-        pattern: [
-          'CADAC',
-          'ADBDA',
-          'CADAC'
-          ],
-          key: {
-            A: Ingredient.of('ars_nouveau:archmage_spell_book').toJson(),
-            B: Ingredient.of('kubejs:-null-').toJson(),
-            C: Ingredient.of('').toJson()
-        },
-        result: Ingredient.of('ars_nouveau:creative_spell_book').toJson(),
-        acceptMirrored: false
-      }).id('144craft:ars_nouveau/creative_spell_book')
 })

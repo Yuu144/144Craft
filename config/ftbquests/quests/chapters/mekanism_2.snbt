@@ -688,7 +688,13 @@
 			tasks: [{
 				count: 8L
 				id: "746ABB462D605A64"
-				item: "mekanism:ingot_steel"
+				item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/steel"
+						}
+					}
 				type: "item"
 			}]
 			title: "Steel Ingot"

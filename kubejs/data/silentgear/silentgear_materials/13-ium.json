@@ -4,37 +4,39 @@
   "availability": {
     "tier": 4,
     "categories": [
-      "organic"
+      "metal"
     ],
     "visible": true,
     "gear_blacklist": []
   },
   "crafting_items": {
     "main": {
-      "item": "cataclysm:koboleton_bone"
+      "tag": "forge:elements/13-ium"
     }
   },
   "name": {
-    "translate": "Koboleton Bone"
+    "translate": "13-ium"
   },
   "stats": {
     "rod": {
-      "melee_damage": {
-        "mul2": 0.30
-      },
+      "melee_damage": [
+        {
+          "mul2": 0.2
+        },
+        {
+          "add": 2.0
+        }
+      ],
       "attack_speed": {
         "add": 0.2
       }
     }
   },
   "traits": {
-    "main": [
-
-    ],
     "rod": [
       {
-        "name": "silentgear:reach",
-        "level": 2
+        "name": "silentgear:malleable",
+        "level": 4
       }
     ]
   },
@@ -42,14 +44,13 @@
     "rod/all": [
       {
         "texture": "silentgear:rod_generic_hc",
-        "color": "#59523E"
+        "color": "#3c3640"
       }
     ],
-
     "rod/part": [
       {
         "texture": "silentgear:rod",
-        "color": "#59523E"
+        "color": "#3c3640"
       }
     ]
   }
