@@ -98,16 +98,14 @@ ServerEvents.recipes(hscraft => {
   let items = Ingredient.of('#forge:silicon').itemIds
 
   items.forEach(item => {
-    hscraft.shaped(
-      Item.of(item, 8),
-      [
-        '',
-        'AAA',
-        ''
-      ],
-      {
-        A: 'mysticalagriculture:silicon_essence'
-      }
-    )
+    hscraft.shaped(Item.of(item, 8),
+    [
+      '   ',
+      'AAA',
+      '   '
+    ],
+    {
+      A: 'mysticalagriculture:silicon_essence'
+    })
   })
 })
