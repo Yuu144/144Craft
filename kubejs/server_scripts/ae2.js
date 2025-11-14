@@ -29,7 +29,11 @@ ServerEvents.recipes(event => {
 //remove
 ServerEvents.recipes(event => {
     [
-        'ae2:network/blocks/inscribers'
+        'ae2:network/blocks/inscribers',
+        'advanced_ae:quantum_helmet',
+        'advanced_ae:quantum_chest',
+        'advanced_ae:quantum_leggings',
+        'advanced_ae:quantum_boots'
     ]
     .forEach((recipeID) => event.remove({id: recipeID}));
 })

@@ -430,7 +430,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "144craft:chests/tier2_chest",
+          "name": "144craft:chests/tier4_chest",
           "weight": 100
         }
       ]

@@ -93,4 +93,21 @@ ServerEvents.recipes(hscraft => {
     hscraft.remove({id:`mysticalagriculture:seed/infusion/${entry.crop}`})
     seedCrafting(`mysticalagriculture:${entry.crop}_seeds`, 'mysticalagriculture:prosperity_seed_base', ess, block, ess, block, ess, block, ess, block)
   })
+
+  // idk silicon fix
+  let items = Ingredient.of('#forge:silicon').itemIds
+
+  items.forEach(item => {
+    hscraft.shaped(
+      Item.of(item, 8),
+      [
+        '',
+        'AAA',
+        ''
+      ],
+      {
+        A: 'mysticalagriculture:silicon_essence'
+      }
+    )
+  })
 })
