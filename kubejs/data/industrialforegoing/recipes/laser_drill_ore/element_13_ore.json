@@ -1,24 +1,24 @@
 {
     "output": {
-      "tag": "forge:elements/144-ore"
+      "tag": "forge:elements/13-ore"
     },
     "rarity": [
       {
         "whitelist": {
           "type": "minecraft:worldgen/biome",
           "values": [
-            "ad_astra:martian_wastelands"
+            "ad_astra:lunar_wastelands"
           ]
         },
         "blacklist": {},
-        "depth_min": 4,
+        "depth_min": 0,
         "depth_max": 32,
         "weight": 1
       }
     ],
     "pointer": 0,
     "catalyst": {
-      "item": "industrialforegoing:laser_lens10"
+      "item": "industrialforegoing:laser_lens7"
     },
     "type": "industrialforegoing:laser_drill_ore"
   }
