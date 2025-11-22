@@ -7,8 +7,9 @@
 	#The name of the modpack
 	modpackName = "144Craft"
 	#The version of the modpack
-	modpackVersion = "2.0.6"
+	modpackVersion = "2.0.7"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false
+
 
