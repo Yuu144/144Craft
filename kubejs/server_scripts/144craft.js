@@ -432,45 +432,33 @@ ServerEvents.recipes(hscraft => {
     hscraft.remove({ output: 'allthewizardgear:allthemodium_mage_leggings' })
     hscraft.remove({ output: 'allthewizardgear:allthemodium_mage_boots' })
 
-    hscraft.shaped('allthewizardgear:allthemodium_mage_helmet', [
-        'CCC',
-        'CBC',
-        ' A '
-    ],{
-        A: 'deeperdarker:warden_helmet',
-        B: 'kubejs:13_ium_rune',
-        C: 'irons_spellbooks:magic_cloth'
-    })
+    hscraft.smithing(
+        'allthewizardgear:allthemodium_mage_helmet',                    
+        'kubejs:13_ium_rune', 
+        'deeperdarker:warden_helmet',               
+        'irons_spellbooks:magic_cloth'
+    )
 
-    hscraft.shaped('allthewizardgear:allthemodium_mage_chestplate', [
-        'CBC',
-        'CAC',
-        'CCC'
-    ],{
-        A: 'deeperdarker:warden_chestplate',
-        B: 'kubejs:13_ium_rune',
-        C: 'irons_spellbooks:magic_cloth'
-    })
+    hscraft.smithing(
+        'allthewizardgear:allthemodium_mage_chestplate',                    
+        'kubejs:13_ium_rune', 
+        'deeperdarker:warden_chestplate',               
+        'irons_spellbooks:magic_cloth'             
+    )
 
-    hscraft.shaped('allthewizardgear:allthemodium_mage_leggings', [
-        'CAC',
-        'CBC',
-        'C C'
-    ],{
-        A: 'deeperdarker:warden_leggings',
-        B: 'kubejs:13_ium_rune',
-        C: 'irons_spellbooks:magic_cloth'
-    })
+    hscraft.smithing(
+        'allthewizardgear:allthemodium_mage_leggings',                    
+        'kubejs:13_ium_rune', 
+        'deeperdarker:warden_leggings',               
+        'irons_spellbooks:magic_cloth'             
+    )
 
-    hscraft.shaped('allthewizardgear:allthemodium_mage_boots', [
-        '   ',
-        'CAC',
-        'CBC'
-    ],{
-        A: 'deeperdarker:warden_boots',
-        B: 'kubejs:13_ium_rune',
-        C: 'irons_spellbooks:magic_cloth'
-    })
+    hscraft.smithing(
+        'allthewizardgear:allthemodium_mage_boots',                    
+        'kubejs:13_ium_rune', 
+        'deeperdarker:warden_boots',               
+        'irons_spellbooks:magic_cloth'             
+    )
 
     //144 Armor set
     hscraft.remove({ output: 'allthewizardgear:unobtainium_mage_helmet' })
