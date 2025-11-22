@@ -253,7 +253,7 @@
 [Ignis]
 	#Ignis's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealthMultiplier = 2.23
+	IgnisHealthMultiplier = 2.5422
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	IgnisDamageMultiplier = 1.5
@@ -297,7 +297,7 @@
 ["The Harbinger"]
 	#Harbinger's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerHealthMultiplier = 1.54
+	HarbingerHealthMultiplier = 1.79487
 	#Harbinger's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	HarbingerDamageMultiplier = 1.35
@@ -328,7 +328,7 @@
 ["The Leviathan"]
 	#Leviathan's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanHealthMultiplier = 1.0
+	LeviathanHealthMultiplier = 1.5
 	#Leviathan's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	LeviathanDamageMultiplier = 1.3
@@ -391,7 +391,7 @@
 ["Ancient Remnant"]
 	#Ancient Remnant's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AncientRemnantHealthMultiplier = 1.49
+	AncientRemnantHealthMultiplier = 2.2222
 	#Ancient Remnant's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	AncientRemnantDamageMultiplier = 1.25
@@ -459,7 +459,7 @@
 [Maledictus]
 	#Maledictus's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MaledictusHealthMultiplier = 1.5
+	MaledictusHealthMultiplier = 1.90476
 	#Maledictus's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MaledictusDamageMultiplier = 1.4
@@ -591,10 +591,10 @@
 [Scylla]
 	#Scylla's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ScyllaHealthMultiplier = 1.0
+	ScyllaHealthMultiplier = 1.6667
 	#Scylla's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ScyllaDamageMultiplier = 1.0
+	ScyllaDamageMultiplier = 1.4
 	#Scylla's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Scylla's prevent attacks from far away Range" = 10.0
