@@ -137,21 +137,21 @@ ServerEvents.recipes(event => {
     event.smithing(
         'cataclysm:cursium_chestplate',                    
         'cataclysm:cursium_upgrade_smithing_template', 
-        'deeperdarker:warden_chestplate',               
+        'mekanismtools:refined_obsidian_chestplate',               
         'cataclysm:cursium_ingot'             
     )
 
     event.smithing(
         'cataclysm:cursium_leggings',                    
         'cataclysm:cursium_upgrade_smithing_template', 
-        'deeperdarker:warden_leggings',               
+        'mekanismtools:refined_obsidian_leggings',               
         'cataclysm:cursium_ingot'             
     )
 
     event.smithing(
         'cataclysm:cursium_boots',                    
         'cataclysm:cursium_upgrade_smithing_template', 
-        'deeperdarker:warden_boots',               
+        'mekanismtools:refined_obsidian_boots',               
         'cataclysm:cursium_ingot'             
     )
 
@@ -159,28 +159,19 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'cataclysm:bone_reptile_helmet' })
     event.remove({ output: 'cataclysm:bone_reptile_chestplate' })
 
-    event.shaped('cataclysm:bone_reptile_helmet', [
-        '   ',
-        'ABA',
-        'CDC'
-    ], 
-    {
-        A: 'cataclysm:ancient_metal_ingot',
-        B: 'cataclysm:cursium_helmet',
-        C: 'cataclysm:koboleton_bone',
-        D: 'cataclysm:kobolediator_skull'
-    })
+    event.smithing(
+        'cataclysm:bone_reptile_helmet',                    
+        'cataclysm:cursium_upgrade_smithing_template', 
+        'cataclysm:cursium_helmet',               
+        'cataclysm:ancient_metal_ingot'             
+    )
 
-    event.shaped('cataclysm:bone_reptile_chestplate', [
-        'A A',
-        'CBC',
-        'ACA'
-    ], 
-    {
-        A: 'cataclysm:ancient_metal_ingot',
-        B: 'cataclysm:cursium_chestplate',
-        C: 'cataclysm:koboleton_bone'
-    })
+    event.smithing(
+        'cataclysm:bone_reptile_chestplate',                    
+        'cataclysm:cursium_upgrade_smithing_template', 
+        'cataclysm:cursium_chestplate',               
+        'cataclysm:ancient_metal_ingot'             
+    )
 
     //Refined Obsidian Armor
     event.remove({ output: 'mekanismtools:refined_obsidian_helmet' })
@@ -188,45 +179,33 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'mekanismtools:refined_obsidian_leggings' })
     event.remove({ output: 'mekanismtools:refined_obsidian_boots' })
 
-    event.shaped('mekanismtools:refined_obsidian_helmet', [
-        ' A ',
-        'ABA',
-        ' A '
-    ], 
-    {
-        A: 'mekanism:ingot_refined_obsidian',
-        B: 'minecraft:netherite_helmet'
-    })
+    event.smithing(
+        'mekanismtools:refined_obsidian_helmet',                    
+        'minecraft:netherite_upgrade_smithing_template', 
+        'minecraft:netherite_helmet',               
+        'mekanism:ingot_refined_obsidian'             
+    )
 
-    event.shaped('mekanismtools:refined_obsidian_chestplate', [
-        ' A ',
-        'ABA',
-        ' A '
-    ], 
-    {
-        A: 'mekanism:ingot_refined_obsidian',
-        B: 'minecraft:netherite_chestplate'
-    })
+    event.smithing(
+        'mekanismtools:refined_obsidian_chestplate',                    
+        'minecraft:netherite_upgrade_smithing_template', 
+        'minecraft:netherite_chestplate',               
+        'mekanism:ingot_refined_obsidian'             
+    )
 
-    event.shaped('mekanismtools:refined_obsidian_leggings', [
-        ' A ',
-        'ABA',
-        ' A '
-    ], 
-    {
-        A: 'mekanism:ingot_refined_obsidian',
-        B: 'minecraft:netherite_leggings'
-    })
+    event.smithing(
+        'mekanismtools:refined_obsidian_leggings',                    
+        'minecraft:netherite_upgrade_smithing_template', 
+        'minecraft:netherite_leggings',               
+        'mekanism:ingot_refined_obsidian'             
+    )
 
-    event.shaped('mekanismtools:refined_obsidian_boots', [
-        ' A ',
-        'ABA',
-        ' A '
-    ], 
-    {
-        A: 'mekanism:ingot_refined_obsidian',
-        B: 'minecraft:netherite_boots'
-    })
+    event.smithing(
+        'mekanismtools:refined_obsidian_boots',                    
+        'minecraft:netherite_upgrade_smithing_template', 
+        'minecraft:netherite_boots',               
+        'mekanism:ingot_refined_obsidian'             
+    )
 
     //Dragonsteel Armor
     event.remove({ output: '#forge:armor/dragonsteel_helmet' })
@@ -234,133 +213,124 @@ ServerEvents.recipes(event => {
     event.remove({ output: '#forge:armor/dragonsteel_leggings' })
     event.remove({ output: '#forge:armor/dragonsteel_boots' })
 
-    event.shaped('iceandfire:dragonsteel_fire_helmet', [
-        '   ',
-        'AAA',
-        'ABA'
-    ], 
-    {
-        A: 'iceandfire:dragonsteel_fire_ingot',
-        B: 'mekanismtools:refined_obsidian_helmet'
-    })
+    //Fire
+    event.smithing(
+        'iceandfire:dragonsteel_fire_helmet',                    
+        'kubejs:144_smith_template', 
+        'cataclysm:cursium_helmet',               
+        'iceandfire:dragonsteel_fire_ingot'             
+    )
 
-    event.shaped('iceandfire:dragonsteel_fire_chestplate', [
-        'A A',
-        'ABA',
-        'AAA'
-    ], 
-    {
-        A: 'iceandfire:dragonsteel_fire_ingot',
-        B: 'mekanismtools:refined_obsidian_chestplate'
-    })
+    event.smithing(
+        'iceandfire:dragonsteel_fire_chestplate',                    
+        'kubejs:144_smith_template', 
+        'cataclysm:cursium_chestplate',               
+        'iceandfire:dragonsteel_fire_ingot'             
+    )
 
-    event.shaped('iceandfire:dragonsteel_fire_leggings', [
-        'AAA',
-        'ABA',
-        'A A'
-    ], 
-    {
-        A: 'iceandfire:dragonsteel_fire_ingot',
-        B: 'mekanismtools:refined_obsidian_leggings'
-    })
+    event.smithing(
+        'iceandfire:dragonsteel_fire_leggings',                    
+        'kubejs:144_smith_template', 
+        'cataclysm:cursium_leggings',               
+        'iceandfire:dragonsteel_fire_ingot'             
+    )
 
-    event.shaped('iceandfire:dragonsteel_fire_boots', [
-        '   ',
-        'A A',
-        'ABA'
-    ], 
-    {
-        A: 'iceandfire:dragonsteel_fire_ingot',
-        B: 'mekanismtools:refined_obsidian_boots'
-    })
+    event.smithing(
+        'iceandfire:dragonsteel_fire_boots',                    
+        'kubejs:144_smith_template', 
+        'cataclysm:cursium_boots',               
+        'iceandfire:dragonsteel_fire_ingot'             
+    )
 
-    event.shaped('iceandfire:dragonsteel_ice_helmet', [
-        '   ',
-        'AAA',
-        'ABA'
-    ], 
-    {
-        A: 'iceandfire:dragonsteel_ice_ingot',
-        B: 'mekanismtools:refined_obsidian_helmet'
-    })
+    //Ice
+    event.smithing(
+        'iceandfire:dragonsteel_ice_helmet',                    
+        'kubejs:144_smith_template', 
+        'cataclysm:cursium_helmet',               
+        'iceandfire:dragonsteel_ice_ingot'             
+    )
 
-    event.shaped('iceandfire:dragonsteel_ice_chestplate', [
-        'A A',
-        'ABA',
-        'AAA'
-    ], 
-    {
-        A: 'iceandfire:dragonsteel_ice_ingot',
-        B: 'mekanismtools:refined_obsidian_chestplate'
-    })
+    event.smithing(
+        'iceandfire:dragonsteel_ice_chestplate',                    
+        'kubejs:144_smith_template', 
+        'cataclysm:cursium_chestplate',               
+        'iceandfire:dragonsteel_ice_ingot'             
+    )
 
-    event.shaped('iceandfire:dragonsteel_ice_leggings', [
-        'AAA',
-        'ABA',
-        'A A'
-    ], 
-    {
-        A: 'iceandfire:dragonsteel_ice_ingot',
-        B: 'mekanismtools:refined_obsidian_leggings'
-    })
+    event.smithing(
+        'iceandfire:dragonsteel_ice_leggings',                    
+        'kubejs:144_smith_template', 
+        'cataclysm:cursium_leggings',               
+        'iceandfire:dragonsteel_ice_ingot'             
+    )
 
-    event.shaped('iceandfire:dragonsteel_ice_boots', [
-        '   ',
-        'A A',
-        'ABA'
-    ], 
-    {
-        A: 'iceandfire:dragonsteel_ice_ingot',
-        B: 'mekanismtools:refined_obsidian_boots'
-    })
+    event.smithing(
+        'iceandfire:dragonsteel_ice_boots',                    
+        'kubejs:144_smith_template', 
+        'cataclysm:cursium_boots',               
+        'iceandfire:dragonsteel_ice_ingot'             
+    )
 
-    event.shaped('iceandfire:dragonsteel_lightning_helmet', [
-        '   ',
-        'AAA',
-        'ABA'
-    ], 
-    {
-        A: 'iceandfire:dragonsteel_lightning_ingot',
-        B: 'mekanismtools:refined_obsidian_helmet'
-    })
+    //Lightning
+    event.smithing(
+        'iceandfire:dragonsteel_lightning_helmet',                    
+        'kubejs:144_smith_template', 
+        'cataclysm:cursium_helmet',               
+        'iceandfire:dragonsteel_lightning_ingot'             
+    )
 
-    event.shaped('iceandfire:dragonsteel_lightning_chestplate', [
-        'A A',
-        'ABA',
-        'AAA'
-    ], 
-    {
-        A: 'iceandfire:dragonsteel_lightning_ingot',
-        B: 'mekanismtools:refined_obsidian_chestplate'
-    })
+    event.smithing(
+        'iceandfire:dragonsteel_lightning_chestplate',                    
+        'kubejs:144_smith_template', 
+        'cataclysm:cursium_chestplate',               
+        'iceandfire:dragonsteel_lightning_ingot'             
+    )
 
-    event.shaped('iceandfire:dragonsteel_lightning_leggings', [
-        'AAA',
-        'ABA',
-        'A A'
-    ], 
-    {
-        A: 'iceandfire:dragonsteel_lightning_ingot',
-        B: 'mekanismtools:refined_obsidian_leggings'
-    })
+    event.smithing(
+        'iceandfire:dragonsteel_lightning_leggings',                    
+        'kubejs:144_smith_template', 
+        'cataclysm:cursium_leggings',               
+        'iceandfire:dragonsteel_lightning_ingot'             
+    )
 
-    event.shaped('iceandfire:dragonsteel_lightning_boots', [
-        '   ',
-        'A A',
-        'ABA'
-    ], 
-    {
-        A: 'iceandfire:dragonsteel_lightning_ingot',
-        B: 'mekanismtools:refined_obsidian_boots'
-    })
+    event.smithing(
+        'iceandfire:dragonsteel_lightning_boots',                    
+        'kubejs:144_smith_template', 
+        'cataclysm:cursium_boots',               
+        'iceandfire:dragonsteel_lightning_ingot'             
+    )
 
-    //Ignitium Chestplate
+    //Ignitium
+    event.remove({ output: 'cataclysm:ignitium_helmet' })
     event.remove({ output: 'cataclysm:ignitium_chestplate' })
+    event.remove({ output: 'cataclysm:ignitium_leggings' })
+    event.remove({ output: 'cataclysm:ignitium_boots' })
+
+    event.smithing(
+        'cataclysm:ignitium_helmet',                    
+        'cataclysm:ignitium_upgrade_smithing_template', 
+        '#forge:armor/dragonsteel_helmet',               
+        'cataclysm:ignitium_ingot'             
+    )
 
     event.smithing(
         'cataclysm:ignitium_chestplate',                    
         'cataclysm:ignitium_upgrade_smithing_template', 
         '#forge:armor/dragonsteel_chestplate',               
+        'cataclysm:ignitium_ingot'             
+    )
+
+    event.smithing(
+        'cataclysm:ignitium_leggings',                    
+        'cataclysm:ignitium_upgrade_smithing_template', 
+        '#forge:armor/dragonsteel_leggings',               
+        'cataclysm:ignitium_ingot'             
+    )
+
+    event.smithing(
+        'cataclysm:ignitium_boots',                    
+        'cataclysm:ignitium_upgrade_smithing_template', 
+        '#forge:armor/dragonsteel_boots',               
         'cataclysm:ignitium_ingot'             
     )
 
